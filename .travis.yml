@@ -1,0 +1,15 @@
+language: bash
+script:
+    - bash scripts/ubd-all.sh
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -y serdi raptor2-utils
+deploy:
+  edge: true
+  provider: releases
+  api-key:
+    - secure: "CnieMSNp54GqAsRUbkKrEGEBh17eXAfnPO5eq4MtAsHFsIbSkNLMW7u+rPxWf6M9FpzAw3tK1v1B83hlpBzojQSklBsg5SVHwTGRH24ZlbhjOoOihgL3PBc/FkXt3yT9K3+tTnlGI0Q2H4zk9UCOfOsh8WTSccG6ogWnbK3iDyyCRUbzJ2XXOpTc04xZ5klaSTWw99GkW8vjva3lYJTB2iEMMds9QUy48lOHV14k21n8hdH31qAaZC8BqVqipwiwHPedU2keGwuns7aSMCmwKpmxErI8Altmp0rHePBRGje37RLYGX1P71HfjjEFqqz/fxTqyFiae2Kqujhap5vCypi7Tkkk/eN9YtZPXZsLwthshvg12/05i1KZ6c2vUQGQYMp8cWZEQJmMHzoXuXYl7PEwjPvbzZ+2ET95xebO8bpwIeJjEK5si9Z9NAAnkkOP798CghKNpErTfcUdG/dzd8CI9ms2DXknnOmrNfMtXFVyf24tQK0P1oyJnkt5wFlHUMf7WenJ7GIsuELEsP336SFbFeHEPZfvJGGmHZaVIBLw358lH/0w0ItzAG84klWJtvD17l8/vtZW7GqKp9jMgaO0CVEUEV0HQUFbs3nXc9S85z15Mcym3BWuIFQb20vYwdIrXSb4sLXfg2KA/FsK8TPE1iNS2/TLxjDNJqQXtK0=" 
+  file: target/ubd-all.nt
+  on:
+    tags: true
+    all_branches: true
