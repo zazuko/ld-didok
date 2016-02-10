@@ -1,6 +1,6 @@
 language: bash
 script:
-    - bash scripts/build.sh
+    - bash script/build.sh
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -y serdi raptor2-utils
