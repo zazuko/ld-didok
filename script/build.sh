@@ -6,7 +6,7 @@ then
 fi
 
 mkdir target
-java -jar "lib/RML-Mapper.jar" -m config/didok.ttl -o target/didok.nt -f ntriple
+java -jar "lib/RML-Mapper.jar" -m config/didok.ttl -o target/didok.nt -f ntriple 2>&1 | grep -v DEBUG
 perl -pi.back -e 's/didok\/(\d{4})>/didok\/0$1>/' target/didok.nt
 perl -pi.back -e 's/didok\/(\d{5})>/didok\/85$1>/' target/didok.nt
 perl -pi.back -e 's/id> "(\d{4})"/id> "0$1"/' target/didok.nt
