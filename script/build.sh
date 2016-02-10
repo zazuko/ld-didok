@@ -5,6 +5,7 @@ then
   wget -O "lib/RML-Mapper.jar" $(curl -s https://api.github.com/repos/zazukoians/RML-Mapper/releases | grep browser_download_url | head -n 1 | cut -d '"' -f 4)
 fi
 
+mkdir target
 java -jar "lib/RML-Mapper.jar" -m config/didok.ttl -o target/didok.nt -f ntriple
 perl -pi.back -e 's/didok\/(\d{4})>/didok\/0$1>/' target/didok.nt
 perl -pi.back -e 's/didok\/(\d{5})>/didok\/85$1>/' target/didok.nt
