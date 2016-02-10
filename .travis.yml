@@ -1,6 +1,6 @@
 language: bash
 script:
-    - bash scripts/ubd-all.sh
+    - bash scripts/build.sh
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -y serdi raptor2-utils
@@ -8,8 +8,8 @@ deploy:
   edge: true
   provider: releases
   api-key:
-    - secure: "CnieMSNp54GqAsRUbkKrEGEBh17eXAfnPO5eq4MtAsHFsIbSkNLMW7u+rPxWf6M9FpzAw3tK1v1B83hlpBzojQSklBsg5SVHwTGRH24ZlbhjOoOihgL3PBc/FkXt3yT9K3+tTnlGI0Q2H4zk9UCOfOsh8WTSccG6ogWnbK3iDyyCRUbzJ2XXOpTc04xZ5klaSTWw99GkW8vjva3lYJTB2iEMMds9QUy48lOHV14k21n8hdH31qAaZC8BqVqipwiwHPedU2keGwuns7aSMCmwKpmxErI8Altmp0rHePBRGje37RLYGX1P71HfjjEFqqz/fxTqyFiae2Kqujhap5vCypi7Tkkk/eN9YtZPXZsLwthshvg12/05i1KZ6c2vUQGQYMp8cWZEQJmMHzoXuXYl7PEwjPvbzZ+2ET95xebO8bpwIeJjEK5si9Z9NAAnkkOP798CghKNpErTfcUdG/dzd8CI9ms2DXknnOmrNfMtXFVyf24tQK0P1oyJnkt5wFlHUMf7WenJ7GIsuELEsP336SFbFeHEPZfvJGGmHZaVIBLw358lH/0w0ItzAG84klWJtvD17l8/vtZW7GqKp9jMgaO0CVEUEV0HQUFbs3nXc9S85z15Mcym3BWuIFQb20vYwdIrXSb4sLXfg2KA/FsK8TPE1iNS2/TLxjDNJqQXtK0=" 
-  file: target/ubd-all.nt
+    - secure: "CT8UIGX/hpCvEwgaPcZHQ7ljSZt7NCRl3kWHIzYQ03R+i5IoZbfebYfF4AZIaZUEsdF24dKf8qX3PsEUlKxaqObpZL1oEDf9bZHGmXWtjMVf7EnDKcNryyeN2bMZP8tFD0EVduc0DPdIWgDongC2csRy9OBP5rNCur4UGzh1tLslxcBPQS6o+bHNBoXlLWQnIvh6KmuHqNzwBdIrChLaiyKIBX3dIOLZ19ID2V5buYiliQQ3TO93oDgbi6tV3j+2DixfpVu1UXU8X1plJ+W7DV7Or+FiCn/wuzfqoUyKvsvta5o/bjmoDcVHOMB7EPhvpwfkElNRlXe91DX6CyFKYjaQIbs/g9zojPV9aDV4kdNV2Qjw/5xnEX7Ku2cqJcbBqyLY+Opjy0THgycpioWvIbF3vLNiOKFn1RfeZXST7Acuz5hwAnykEVWmvhdOwlHVpQLZpBLJttK+VkQUP4Py0VF62HugqhiPd3krmzCHqh0mmhD6lSI3elLC4R3zkb9kdZnucyNV1rwJmxlmr5dBTnXgxFMuzCWCD62O+aGzv1udbmUzIxNu/h6U0nIPrlz5lNDGHFokQMGtPjiMfYAkQEzSfDDTWSORZUm6oCVCRHjCp8tUprUGxqY9TXMEmgm0R6+b8TZSNz4sOleb3+yDpMOu19Qjkzxtswq30+8yYdM="
+  file: target/didok.nt
   on:
     tags: true
     all_branches: true

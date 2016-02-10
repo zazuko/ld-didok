@@ -1,4 +1,4 @@
-# Linked Data DIDOK README
+# Linked Data DIDOK README [![Build Status](https://travis-ci.org/zazuko/ld-didok.svg?branch=master)](https://travis-ci.org/zazuko/ld-didok)
 
 This DIDOK Linked Data export is based on the Excel file found in `input`.
 
