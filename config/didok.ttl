@@ -36,6 +36,13 @@
   ] ;
 
     rr:predicateObjectMap [
+    rr:predicate schema:alternateName;
+    rr:objectMap [
+      rml:reference "Dst-Abk.";
+    ]
+  ] ;
+
+    rr:predicateObjectMap [
     rr:predicate gont:id;
     rr:objectMap [
       rml:reference "Dst-Nr.";
