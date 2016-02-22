@@ -38,7 +38,7 @@
     rr:predicateObjectMap [
     rr:predicate schema:alternateName;
     rr:objectMap [
-      rml:reference "Dst-Abk.";
+      rml:reference "Dst-Abk";
     ]
   ] ;
 
