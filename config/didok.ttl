@@ -19,7 +19,7 @@
 
 <#Pollutant>
   rml:logicalSource [
-    rml:source "input/160128_BAV0116.csv";
+    rml:source "input/didok.csv";
     rml:referenceFormulation ql:CSV
   ]; 
 

@@ -1,0 +1,236 @@
+@prefix rr:     <http://www.w3.org/ns/r2rml#>.
+@prefix rml:    <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql:     <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix oslo:   <http://purl.org/oslo/ns/localgov#>.
+@prefix adms:   <http://www.w3.org/ns/adms#>.
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard:  <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix adms:    <http://www.w3.org/ns/adms#>.
+@prefix locn:    <http://www.w3.org/ns/locn#>.
+@prefix schema: <http://schema.org/>.
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>.
+@prefix gont: <https://gont.ch/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix bafu: <http://example.org/> .
+
+
+<#Pollutant>
+	rml:logicalSource [
+    	rml:source "input/perronkante.csv";
+    	rml:referenceFormulation ql:CSV;
+  	]; 
+
+	rr:subjectMap [
+    	rr:template "http://linked.transport.swiss/perronkante/{FID}";
+		rr:class schema:CivicStructure ;
+	];
+
+	rr:predicateObjectMap [
+    	rr:predicate gont:lv03_y;
+    	rr:objectMap [
+      		rml:reference "y" ;
+      		rr:datatype xsd:float 
+    	]
+  	];
+
+    rr:predicateObjectMap [
+    	rr:predicate gont:lv03_x;
+    	rr:objectMap [
+      		rml:reference "x" ;
+      		rr:datatype xsd:float 
+    	]
+  	];
+  
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Linie";
+			rr:datatype xsd:int
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Km";
+			rr:datatype xsd:float
+		]
+	];
+
+	rr:predicateObjectMap [
+	    rr:predicate rdfs:label;
+	    rr:objectMap [
+			rml:reference "BPS";
+			rr:datatype xsd:string
+	    ]
+	];
+
+	rr:predicateObjectMap [
+	    rr:predicate rdfs:label;
+	    rr:objectMap [
+			rml:reference "BPS Name";
+			rr:datatype xsd:string
+	    ]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "PerronTyp";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "P-Nr";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Kanten-L=";
+			rr:datatype xsd:float
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "PK-H=";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Bem Hohe";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Hilfstritt";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "H-Verl";
+			rr:datatype xsd:string
+		]
+	];
+
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Bem H-Verlauf";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Material";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Bem Material";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Kantenkrone";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Bem Kantenkrone";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Auftritt";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Bem Auftritt";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Fotos";
+			rr:datatype xsd:int
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate gont:id;
+		rr:objectMap [
+			rml:reference "FID";
+			rr:datatype xsd:int
+		]
+	];
+
+	rr:predicateObjectMap [
+    	rr:predicate gont:lv03_y;
+    	rr:objectMap [
+      		rml:reference "y2" ;
+      		rr:datatype xsd:float 
+    	]
+  	];
+
+    rr:predicateObjectMap [
+    	rr:predicate gont:lv03_x;
+    	rr:objectMap [
+      		rml:reference "x2" ;
+      		rr:datatype xsd:float 
+    	]
+  	];
+
+  	rr:predicateObjectMap [
+		rr:predicate schema:geo;
+		rr:objectMap [
+			rml:reference "1_koord";
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate schema:geo;
+		rr:objectMap [
+			rml:reference "2_koord";
+		]
+	].

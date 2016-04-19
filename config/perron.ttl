@@ -18,12 +18,259 @@
 
 
 <#Pollutant>
-  rml:logicalSource [
-    rml:source "input/perron.csv";
-    rml:referenceFormulation ql:CSV
-  ]; 
+	rml:logicalSource [
+    	rml:source "input/perron.csv";
+    	rml:referenceFormulation ql:CSV;
+  	]; 
 
-  rr:subjectMap [
-    rr:template "http://linked.transport.swiss/platform/{Bahnhof}";
-    rr:class schema:CivicStructure ;
-  ] .
+	rr:subjectMap [
+    	rr:template "http://linked.transport.swiss/perron/{FID}";
+		rr:class schema:CivicStructure ;
+	];
+
+	rr:predicateObjectMap [
+    	rr:predicate gont:lv03_y;
+    	rr:objectMap [
+      		rml:reference "y" ;
+      		rr:datatype xsd:float 
+    	]
+  	];
+
+    rr:predicateObjectMap [
+    	rr:predicate gont:lv03_x;
+    	rr:objectMap [
+      		rml:reference "x" ;
+      		rr:datatype xsd:float 
+    	]
+  	];
+  
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Linie";
+			rr:datatype xsd:int
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Km";
+			rr:datatype xsd:float
+		]
+	];
+
+	rr:predicateObjectMap [
+	    rr:predicate rdfs:label;
+	    rr:objectMap [
+			rml:reference "BPS";
+			rr:datatype xsd:string
+	    ]
+	];
+
+	rr:predicateObjectMap [
+	    rr:predicate rdfs:label;
+	    rr:objectMap [
+			rml:reference "BPS-Name";
+			rr:datatype xsd:string
+	    ]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "PerronTyp";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "P-Nr";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "P-Lange";
+			rr:datatype xsd:int
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Z-Schienenfrei";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "P-Besonderheit";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Bem Typ";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Fotos";
+			rr:datatype xsd:int
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "1 Erf Dtm";
+			rr:datatype xsd:dateTime
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Mut Dtm";
+			rr:datatype xsd:dateTime
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "AT-PA-Region";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "PJ-Produktionsstandort";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "IH-Region";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "IH-Niederlassng";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "B-Region";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Kst";
+			rr:datatype xsd:int
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Kst-Beschreibung";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "UEW-Region";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "UEW-Niederlassung-FB";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Abk. Str. Verwaltung";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "ErfMandat";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate gont:id;
+		rr:objectMap [
+			rml:reference "FID";
+			rr:datatype xsd:int
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "IPID";
+			rr:datatype xsd:int
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "FNO";
+			rr:datatype xsd:int
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference "Status";
+			rr:datatype xsd:string
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate schema:geo;
+		rr:objectMap [
+			rml:reference "geopos";
+		]
+	].
