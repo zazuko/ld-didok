@@ -25,13 +25,13 @@
 
 	rr:subjectMap [
     	rr:template "http://linked.transport.swiss/service/{ID}";
-		rr:class schema:LocalBusiness ;
+		rr:class schema:Service ;
 	];
 
 	rr:predicateObjectMap [
     	rr:predicate gont:didok;
     	rr:objectMap [
-      		rr:template "http://classifications.data.admin.ch/didok/{didok}"
+      		rr:template "http://linked.transport.swiss/didok/{didok}"
     	]
   	];
 
@@ -44,7 +44,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate schema:serviceType;
 		rr:objectMap [
 			rml:reference "service";
 			rr:datatype xsd:string
@@ -68,7 +68,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate schema:openingHours;
 		rr:objectMap [
 			rml:reference "von1";
 			rr:datatype xsd:dateTime
@@ -76,7 +76,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate schema:openingHours;
 		rr:objectMap [
 			rml:reference "bis1";
 			rr:datatype xsd:dateTime
@@ -84,7 +84,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate schema:openingHours;
 		rr:objectMap [
 			rml:reference "von2";
 			rr:datatype xsd:dateTime
@@ -92,7 +92,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate schema:openingHours;
 		rr:objectMap [
 			rml:reference "bis2";
 			rr:datatype xsd:dateTime
@@ -100,7 +100,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate schema:openingHours;
 		rr:objectMap [
 			rml:reference "von3";
 			rr:datatype xsd:dateTime
@@ -108,7 +108,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate schema:openingHours;
 		rr:objectMap [
 			rml:reference "bis3";
 			rr:datatype xsd:dateTime
@@ -172,7 +172,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:openingHours;
+		rr:predicate rdfs:label;
 		rr:objectMap [
 			rml:reference "Oeffnungsdauer";
 			rr:datatype xsd:string
@@ -180,7 +180,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:openingHours;
+		rr:predicate rdfs:label;
 		rr:objectMap [
 			rml:reference "Dauer Mo-Fr";
 			rr:datatype xsd:string
@@ -188,7 +188,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:openingHours;
+		rr:predicate rdfs:label;
 		rr:objectMap [
 			rml:reference "Dauer Sa";
 			rr:datatype xsd:string
@@ -196,7 +196,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:openingHours;
+		rr:predicate rdfs:label;
 		rr:objectMap [
 			rml:reference "Dauer So";
 			rr:datatype xsd:string
@@ -204,7 +204,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:legalName;
+		rr:predicate schema:provider;
 		rr:objectMap [
 			rml:reference "Unternehmung";
 			rr:datatype xsd:string
@@ -212,7 +212,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:geo;
+		rr:predicate schema:areaServed;
 		rr:objectMap [
 			rml:reference "geopos";
 		]
