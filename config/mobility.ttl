@@ -88,7 +88,7 @@
 	rr:predicateObjectMap [
 		rr:predicate rdfs:label;
 		rr:objectMap [
-			rml:reference "parkrail_pflichtig_zeit2";
+			rml:reference "parkrail_pflichtig_zeit3";
 			rr:datatype xsd:string;
 		]
 	];

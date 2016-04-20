@@ -77,7 +77,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:legalName;
+		rr:predicate schema:name;
 		rr:objectMap [
 			rml:reference "GO-Abk";
 			rr:datatype xsd:string;
