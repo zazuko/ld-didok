@@ -31,7 +31,7 @@
 	rr:predicateObjectMap [
     	rr:predicate gont:didok;
     	rr:objectMap [
-      		rr:template "http://classifications.data.admin.ch/didok/{didok}"
+      		rr:template "http://linked.transport.swiss/didok/{didok}"
     	]
   	];
 

@@ -1,597 +1,597 @@
-didok;stationsbezeichnung;gueltig_von;gueltig_bis;knoten;abfertigungs_info;geopos;ID
-10;Basel SBB;01.01.2013;;BS 100;Reisegepäck Express;47.5474041527, 7.58955146721;1
-21;Pratteln;01.01.2017;;BS 311;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.522657608, 7.69080243836;2
-100;Tavannes;;;BN 853;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.2198385551, 7.20163489763;3
-105;Moutier;;;BN 842;Beförderung von Fahrrädern nach dieser Station nicht möglich;47.2806661619, 7.38103944266;4
-123;Glovelier;01.01.2029;;BN 827;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3352002384, 7.20929652415;5
-202;Grenchen Süd;01.01.2029;;BN 829;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.1887666151, 7.39817426522;6
-305;Frick;;;BS 531;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.5073437467, 8.01307225263;7
-1008;Genève;01.01.2013;;GEA200;Reisegepäck Express;46.2102022669, 6.14245302875;8
-1096;Bière;01.01.2017;;LS 223;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.5374295583, 6.33691885158;9
-1173;Echallens;01.01.1931;;LS 261;Gepäckbeförderung nur vormittags;46.6395002737, 6.6325409066;10
-1370;Glion;01.01.2029;;LS 308;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4317751146, 6.92473234914;11
-1398;Saanen BE;01.01.1931;;LS 307;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4885751409, 7.26027824102;12
-1495;Villars-sur-Ollon;01.01.2020;;LS 347;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.2962535067, 7.05623802224;13
-1509;Sierre/Siders;01.01.1931;;BR 231;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.2921149792, 7.53283036255;14
-1561;Vernayaz MC;01.01.1931;;LS 384;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.1301269722, 7.04493371044;15
-1609;Brig;;;BR 100;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.3194210071, 7.98809158467;16
-1663;Ulrichen;01.01.2009;;BR 770;Allgemeine Informationen;46.505017955, 8.30881690239;17
-1683;Stalden-Saas;01.01.2019;;BR 411;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.2319774852, 7.87076552269;18
-1754;Blatten b. Naters, Belalpbahn;01.01.1931;;BR 551;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.3591668639, 7.98390664287;19
-1768;Grimentz, poste;01.01.2014;;BR 232;Allgemeine Informationen;46.1784922693, 7.57622475623;20
-1779;St-Luc, office du tourisme;01.01.2019;;BR 233;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.2235565931, 7.59305699674;21
-1780;Saas-Almagell, Tourismusbüro;01.01.2017;;BR 503;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.0941668822, 7.95749649507;22
-1781;Saas-Balen, Dorf;01.01.2017;;BR 501;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.1530118572, 7.92841417761;23
-1782;Saas-Fee, Post;01.01.2012;;BR 500;Gepäckauslieferung durch den Wagenführer bei Ankunft und Abfahrt der Kurse;46.1087928601, 7.92956975713;24
-1783;Saas-Grund, Post;01.01.2017;;BR 502;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.1235140981, 7.9368174188;25
-1954;Bettmeralp;01.01.2017;;BR 720;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.3861073639, 8.05793717863;26
-1963;Visperterminen, Tourismusbüro;01.01.1931;;BR 292;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.2580558114, 7.90268134293;27
-2021;Emmenbrücke;;;LZ 311;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.0705979582, 8.28255105833;28
-2024;Hochdorf;01.01.2023;;LZ 411;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.1669743615, 8.28868696709;29
-2169;Menziken;01.01.2013;;ZUE304;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2409214644, 8.18930957917;30
-2204;Zug;01.01.2013;;ZUE250;Fluggepäck (Check-in am Bahnhof);47.1736230527, 8.51529569481;31
-2206;Baar;01.01.2028;;ZUE254;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.1953625991, 8.52325583517;32
-2215;Muri AG;;01.01.1931;LZ 441;Allgemeine Informationen;47.2766601869, 8.3397982935;33
-2224;Affoltern am Albis;01.01.2029;;ZUE260;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.276064074, 8.44658239143;34
-2276;Berikon-Widen;01.01.2017;;LZ 432;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3621867175, 8.36679370169;35
-3006;Zürich Oerlikon;01.01.2004;;ZUE610;Allgemeine Informationen;47.4115288802, 8.54411523121;36
-3016;Zürich Flughafen;;;ZFH100;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.4503820775, 8.56238666028;37
-3107;Stäfa;01.01.2019;;ZUE728;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2405237212, 8.72163122186;38
-3110;Rapperswil;;;ZUE580;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.2248877672, 8.81673057998;39
-3128;Dübendorf;01.01.2028;;ZUE520;Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.);47.4000750283, 8.62340719058;40
-3200;Kilchberg;01.01.2005;;ZUE223;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3244274064, 8.54799908563;41
-3204;Horgen;01.01.2029;;ZUE240;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2614824887, 8.59690458831;42
-3209;Pfäffikon SZ;01.01.1931;;ZUE851;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2029974467, 8.77811068503;43
-3400;Bülach;;;ZUE400;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.5239413008, 8.53618858988;44
-3501;Döttingen;01.01.2005;;ZUE416;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.5752638935, 8.25634387912;45
-3503;Turgi;01.01.2019;;ZUE349;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4917545162, 8.25344123675;46
-3505;Wettingen;01.01.1931;;ZUE336;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4596367944, 8.3159863528;47
-3508;Dietikon;01.01.2029;;ZUE330;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.405777802, 8.40496908474;48
-3509;Schlieren;01.01.1931;;ZUE322;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3991743125, 8.44722881452;49
-4023;Romont;01.01.1931;01.01.2012;LS 471;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6935017507, 6.91181476775;50
-4100;Fribourg/Freiburg;;;BN 221;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.8032670642, 7.15102324519;51
-4184;Courtepin;01.01.2018;;BN 223;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.8677694633, 7.12250422399;52
-4200;Yverdon-les-Bains;;;LS 441;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.781876671, 6.64114576153;53
-4411;Münchenbuchsee;01.01.2029;;BN 518;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.0213694411, 7.45194288392;54
-5000;Luzern;;;LZ 100;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.0501697679, 8.31017092011;55
-5002;Küssnacht am Rigi;01.01.2005;;LZ 621;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.0835940036, 8.4334940573;56
-5006;Schwyz;01.01.2022;;LZ 641;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.0263942922, 8.63213946703;57
-5074;Rigi Kaltbad-First;01.01.2028;;LZ 633;Beförderung von Fahrrädern nach dieser Station nicht möglich;47.0440082307, 8.46669951569;58
-5074;Rigi Kaltbad-First;01.01.2017;;LZ 633;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.0440082307, 8.46669951569;59
-5091;Stoos;01.01.2028;;LZ 643;Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.);46.9839129798, 8.66469050453;60
-5112;Flüelen;;;LZ 661;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.9017256462, 8.62429304308;61
-5176;Sedrun;;;CH 361;;46.6810660346, 8.76977687553;62
-5213;Bellinzona;;;BEL100;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.195436816, 9.02950898687;63
-5300;Lugano;01.01.2013;;BEL300;Reisegepäck Express;46.0055057275, 8.94687441524;64
-6121;Romanshorn;;;SG 251;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.5655269844, 9.37936259732;65
-6131;Kreuzlingen;;;SG 400;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.6525540444, 9.16906514323;66
-6302;St. Gallen;;;SG 100;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.4231790668, 9.36987712043;67
-7063;Worb Dorf;01.01.2021;;BN 421;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.9299855627, 7.5624714622;68
-7071;Seftigen;01.01.2019;;BN 342;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.7868468574, 7.54028748019;69
-7076;Belp;01.01.2013;;BN 341;Fluggepäck (Check-in am Bahnhof);46.888883092, 7.49863601858;70
-7083;Köniz;;;BN 381;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.9248766858, 7.41515748881;71
-7100;Thun;01.01.2013;;BN 360;Reisegepäck Express;46.7548532939, 7.62959464395;72
-7192;Beatenberg;01.01.2022;;IO 723;Gepäckabfertigung im Gegenverkehr ab dieser Station nicht möglich;46.6905972895, 7.76528589056;73
-7271;Schönried;01.01.2017;;LS 309;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.5045418942, 7.29110122969;74
-7378;Grütschalp;01.01.2006;;IO 422;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.5965150723, 7.89087419075;75
-7380;Grindelwald;01.01.2013;;IO 540;Fluggepäck (Check-in am Bahnhof);46.6243684278, 8.03331025897;76
-7389;Zweilütschinen;01.01.2021;;IO 521;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6327053904, 7.89970407083;77
-7475;Kandersteg;01.01.2013;;BN 368;Fluggepäck (Check-in am Bahnhof);46.4955238841, 7.67126537052;78
-7478;Frutigen;;;BN 366;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.5887749341, 7.65159707977;79
-7483;Spiez;01.01.2013;;BN 365;Reisegepäck Express;46.6863921577, 7.68009797421;80
-7483;Spiez;01.01.1930;;BN 365;Allgemeine Informationen;46.6863921577, 7.68009797421;81
-7492;Interlaken Ost;01.01.2013;;IO 100;Reisegepäck Express;46.6905054601, 7.86900513744;82
-7493;Interlaken West;;;IO 211;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.6826271766, 7.85144043072;83
-7753;Blatten Lötschen, Hotel Edelweiss;01.01.2011;;BR 306;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4195334717, 7.81951165408;84
-8084;Kirchberg-Alchenflüh;01.01.2005;;BN 621;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.0834934517, 7.58014043614;85
-8265;Hasle-Rüegsau;01.01.2029;;BN 631;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.016021356, 7.65562739603;86
-8391;Stans;01.01.2015;;LZ 551;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.9583210245, 8.36674143144;87
-8399;Engelberg;01.01.2013;;LZ 561;Fluggepäck (Check-in am Bahnhof);46.8195231702, 8.40264298232;88
-8463;Weggis;01.01.2020;;LZ 741;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.03142122, 8.43322400814;89
-8499;Seelisberg;01.01.2017;;LZ 751;Allgemeine Informationen;46.9788077162, 8.58692988796;90
-8789;Sörenberg, Post;01.01.2020;;BN 212;Gepäck nach REKA-Zentrum: Vermerk REKA auf der Etikette anbringen;46.8217371263, 8.03451791917;91
-8795;Hasliberg Wasserwendi, Dorf;01.01.2005;;LZ 532;Gepäck nach REKA-Zentrum: Vermerk REKA auf der Etikette anbringen;46.7466665251, 8.19716932549;92
-9072;Davos Dorf;01.01.2013;;CH 550;Fluggepäck (Check-in am Bahnhof);46.8097194338, 9.84211236596;93
-9073;Davos Platz;01.01.2013;;CH 560;Fluggepäck (Check-in am Bahnhof);46.7914664266, 9.82072566153;94
-9192;Tiefencastel;01.01.1931;;CH 411;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6638787719, 9.57286526287;95
-9197;Bergün/Bravuogn;01.01.2029;;CH 431;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6310688834, 9.74675138258;96
-9252;Celerina;01.01.2018;;CH 720;Allgemeine Informationen;46.5139828859, 9.8584448359;97
-9252;Celerina;01.01.2027;;CH 720;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.5139828859, 9.8584448359;98
-9257;Madulain;01.01.2012;;CH 752;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.5870798428, 9.93835729234;99
-9258;Zuoz;01.01.1931;;CH 743;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.5999530277, 9.96146378568;100
-10;Basel SBB;;;BS 100;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.5474041527, 7.58955146721;101
-23;Liestal;;;BS 321;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.4844551308, 7.73135468775;102
-118;Dornach-Arlesheim;01.01.2005;;BS 221;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.488608339, 7.61110691339;103
-126;Porrentruy;;;BN 847;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.420909698, 7.08007451034;104
-212;Oensingen;01.01.2008;;ZUE471;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.2850232125, 7.70985469445;105
-309;Brugg AG;;;ZUE350;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.4808528316, 8.20882744791;106
-1062;St-Cergue;;;GEA322;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;46.4485976182, 6.16037053791;107
-1062;St-Cergue;01.01.2019;;GEA322;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4485976182, 6.16037053791;108
-1173;Echallens;01.01.2005;;LS 261;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6395002737, 6.6325409066;109
-1281;Blonay;01.01.2029;;LS 322;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4656900169, 6.89595111008;110
-1394;Château-d'Oex;01.01.2029;;LS 303;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4746699982, 7.13141988446;111
-1399;Gstaad;01.01.2029;;LS 311;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4748024084, 7.28441201978;112
-1399;Gstaad;01.01.2013;;LS 311;Reisegepäck Express;46.4748024084, 7.28441201978;113
-1482;Leysin-Feydey;01.01.2007;;LS 342;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.3444423351, 7.00836910886;114
-1500;Martigny;01.01.1931;;LS 380;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.1058273015, 7.07912247583;115
-1578;Orsières;;;LS 386;Allgemeine Informationen;46.027736241, 7.14380826395;116
-1578;Orsières;01.01.2017;;LS 386;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.027736241, 7.14380826395;117
-1596;Montana-Gare;01.01.2013;;BR 240;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.3129044245, 7.48922118856;118
-1601;Leuk;;;BR 251;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;46.3118851335, 7.64394777254;119
-1605;Visp;01.01.1931;;BR 291;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.2940248591, 7.88145816487;120
-1609;Brig;01.01.2013;;BR 100;Fluggepäck (Check-in am Bahnhof);46.3194210071, 7.98809158467;121
-1656;Leukerbad;01.01.2013;;BR 260;Reisegepäck Express;46.3797876392, 7.62640947824;122
-1659;Unterbäch VS;01.01.2020;;BR 272;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.2848660051, 7.80071635127;123
-1665;Münster VS;01.01.2021;;BR 761;Allgemeine Informationen;46.4853623898, 8.266538327;124
-1671;Fürgangen-Bellwald;01.01.2005;;BR 741;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4119021944, 8.15231661725;125
-1689;Zermatt;01.01.2013;;BR 400;Reisegepäck Express;46.0244720211, 7.74829647858;126
-1698;Riederalp Mitte;01.01.2017;;BR 710;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.377990382, 8.03321389312;127
-1779;St-Luc, office du tourisme;01.01.2014;;BR 233;Allgemeine Informationen;46.2235565931, 7.59305699674;128
-1791;Zinal, poste;01.01.2017;;BR 235;Allgemeine Informationen;46.1371059632, 7.62498227897;129
-71065;Bürchen, Tourismusbüro;01.01.2017;;BR 293;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.2705984737, 7.82795328088;130
-1963;Visperterminen, Tourismusbüro;01.01.2011;;BR 292;Allgemeine Informationen;46.2580558114, 7.90268134293;131
-2007;Sursee;;;LZ 321;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.1707889132, 8.09787795205;132
-2021;Emmenbrücke;01.01.2025;;LZ 311;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.0705979582, 8.28255105833;133
-2113;Aarau;01.01.2013;01.01.1931;ZUE300;Fluggepäck (Check-in am Bahnhof);47.3913553369, 8.05125354274;134
-2119;Lenzburg;01.01.2029;;ZUE380;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3911934191, 8.17037888645;135
-2273;Bremgarten;01.01.2017;;LZ 433;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3518702667, 8.34747515845;136
-3000;Zürich HB;01.01.2013;;ZUE100;Reisegepäck Express;47.3781765756, 8.54019221036;137
-3067;Zollikerberg;01.01.2021;;ZUE716;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3460550549, 8.60340013877;138
-3096;Adliswil;01.01.2003;;ZUE241;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3123035699, 8.52416439213;139
-3103;Herrliberg-Feldmeilen;01.01.2007;;ZUE724;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2818232851, 8.61271954112;140
-3122;Bubikon;01.01.2017;;ZUE554;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2708395927, 8.82270102308;141
-3123;Wetzikon;01.01.2016;;ZUE550;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.3180331432, 8.79226951209;142
-3125;Uster;;;ZUE540;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.3503664551, 8.71868854805;143
-3202;Thalwil;01.01.1931;;ZUE230;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2959747213, 8.56475556229;144
-3220;Lachen;01.01.2007;;ZUE853;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.190068574, 8.85269238166;145
-3230;Glarus;;;ZUE813;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.0399200317, 9.0715516467;146
-3261;Braunwald;01.01.2017;;ZUE820;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.9387034538, 8.99859284612;147
-3288;Wollerau;01.01.2021;;ZUE837;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.1954349225, 8.7249971721;148
-3306;Dietlikon;01.01.2005;;ZUE512;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4201947418, 8.61925589067;149
-3409;Bad Zurzach;01.01.2021;;ZUE418;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.5883101087, 8.29556465398;150
-3526;Regensdorf-Watt;01.01.1931;;ZUE410;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4365626396, 8.47206501622;151
-4062;Châtel-St-Denis;01.01.2029;;BN 222;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.5261372928, 6.89874553473;152
-4070;Montbovon;01.01.2013;;LS 302;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.485890724, 7.04264055621;153
-4134;Payerne;;;LS 461;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.8196387484, 6.93987910663;154
-4221;Neuchâtel;;;BN 930;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.9967222076, 6.93570514491;155
-4300;Biel/Bienne;01.01.2013;;BN 900;Fluggepäck (Check-in am Bahnhof);47.1328920532, 7.24290845288;156
-5000;Luzern;01.01.2013;;LZ 100;Fluggepäck (Check-in am Bahnhof);47.0501697679, 8.31017092011;157
-5004;Arth-Goldau;01.01.2017;;LZ 631;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.04915622, 8.54949116322;158
-5112;Flüelen;01.01.2025;01.01.2028;LZ 661;Allgemeine Informationen;46.9017256462, 8.62429304308;159
-5113;Altdorf;;;LZ 671;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.8757407268, 8.63156572016;160
-5400;Locarno;01.01.2013;;BEL200;Fluggepäck (Check-in am Bahnhof);46.1724273965, 8.80135894865;161
-6016;Oberwinterthur;01.01.2017;;ZUE640;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.5079184546, 8.76037093131;162
-6047;Andelfingen;01.01.2003;;ZUE461;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.5937589886, 8.67797953564;163
-6283;Urnäsch Reka Feriendorf;01.01.2019;;SG 120;Gepäck nach REKA-Zentrum: Vermerk REKA auf der Etikette anbringen;47.3183888986, 9.28598562514;164
-6299;Nesslau-Neu St. Johann;01.01.1931;;SG 283;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2266599944, 9.19779821129;165
-6350;Walzenhausen;01.01.2020;;SG 242;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.45174123, 9.60126132858;166
-6788;Unterwasser, Post;01.01.2020;;SG 287;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.1969080495, 9.30899339444;167
-7000;Bern;01.01.2013;;BN 100;Reisegepäck Express;46.948824497, 7.43911900576;168
-7076;Belp;;;BN 341;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.888883092, 7.49863601858;169
-7079;Bern Weissenbühl;;;BN 321;;46.9357720844, 7.43001838248;170
-7100;Thun;01.01.2013;;BN 360;Fluggepäck (Check-in am Bahnhof);46.7548532939, 7.62959464395;171
-7176;Gunten, Dorf;01.01.2006;;BN 361;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.7128095634, 7.70161164589;172
-7279;Lenk im Simmental;01.01.2013;;IO 312;Reisegepäck Express;46.4585813799, 7.44352282181;173
-7361;Eigergletscher;01.01.1931;;IO 433;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.5748075236, 7.97407636075;174
-7376;Grindelwald Grund;01.01.2006;;IO 531;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6226478957, 8.02332914559;175
-7379;Mürren BLM;01.01.2013;;IO 420;Fluggepäck (Check-in am Bahnhof);46.5641050247, 7.89724225608;176
-7379;Mürren BLM;;;IO 420;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.5641050247, 7.89724225608;177
-7388;Wilderswil;01.01.2021;;IO 511;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6657027223, 7.86947421285;178
-7483;Spiez;01.01.2013;;BN 365;Fluggepäck (Check-in am Bahnhof);46.6863921577, 7.68009797421;179
-8054;Worblaufen;01.01.2010;;BN 511;Allgemeine Informationen;46.9788398969, 7.45762397105;180
-8054;Worblaufen;01.01.2021;;BN 511;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.9788398969, 7.45762397105;181
-8086;Utzenstorf;01.01.1931;;BN 622;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.1294777935, 7.5536509434;182
-8089;Biberist Ost;01.01.2029;;BN 625;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.1806269395, 7.56634577241;183
-8187;Huttwil;;;BN 651;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.1145970227, 7.84272110471;184
-8261;Biglen;01.01.2029;;BN 633;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.9244739309, 7.62701728972;185
-8789;Sörenberg, Post;;;BN 212;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.8217371263, 8.03451791917;186
-8857;Hasliberg Goldern, Post;01.01.2021;;LZ 531;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.739659351, 8.19843169697;187
-9060;Schiers;01.01.1931;;CH 511;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.9679934413, 9.68835648854;188
-9068;Klosters Platz;01.01.2013;;CH 540;Reisegepäck Express;46.8692118566, 9.8809363602;189
-9072;Davos Dorf;;;CH 550;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.8097194338, 9.84211236596;190
-9073;Davos Platz;;;CH 560;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.7914664266, 9.82072566153;191
-9179;Disentis/Mustér;;;CH 300;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.7049782556, 8.85502182084;192
-9250;Bever;01.01.2027;;CH 742;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.5499061769, 9.88847669658;193
-9253;St. Moritz;01.01.2013;;CH 700;Fluggepäck (Check-in am Bahnhof);46.4979672615, 9.84639099719;194
-9260;Cinuos-chel-Brail;01.01.2027;;CH 754;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.6385312048, 10.0219237532;195
-9262;Zernez;;;CH 611;;46.6976679974, 10.0899416034;196
-9266;Ardez;01.01.2025;01.01.2012;CH 651;ausschliesslich Hauszustellung  (genaue Adressangabe nötig);46.7735451754, 10.2010487691;197
-9268;Scuol-Tarasp;01.01.2013;;CH 600;Reisegepäck Express;46.7937752597, 10.2862148815;198
-9369;Tirano;01.01.1931;;CH 735;Gepäckbeförderung unterliegt den Bestimmungen der CIV (siehe T 601, Ziffer 27.0);46.2151609961, 10.1667713566;199
-9369;Tirano;01.01.2019;;CH 735;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.2151609961, 10.1667713566;200
-20;Muttenz;01.01.2013;;BS 302;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.5335803903, 7.64787914262;201
-21;Pratteln;01.01.2020;;BS 311;Beförderung von Gruppengepäck, Voranmeldung obligatorisch;47.522657608, 7.69080243836;202
-26;Sissach;;;BS 331;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.4627456535, 7.81201832437;203
-170;Tramelan;01.01.1931;;BN 854;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2228109343, 7.1055695828;204
-191;Saignelégier;01.01.1931;;BN 849;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2546721635, 6.99450359036;205
-207;Solothurn;;;BN 950;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.2041807751, 7.54268420304;206
-301;Rheinfelden;01.01.2006;;BS 511;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.5512096146, 7.79215393064;207
-863;Montfaucon, village Reka;01.01.1931;;BN 841;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.282516149, 7.0506853286;208
-1031;Gland;01.01.2029;;GEA331;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.419975355, 6.26913801937;209
-1120;Lausanne;;;LS 100;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.5167786487, 6.62909314109;210
-1120;Lausanne;01.01.2013;;LS 100;Reisegepäck Express;46.5167786487, 6.62909314109;211
-1157;Sentier-Orient;01.01.1931;;LS 811;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6057654715, 6.23139574664;212
-1300;Montreux;;;LS 300;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.4358743527, 6.91043275261;213
-1303;Villeneuve;01.01.2020;;LS 331;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.3983659275, 6.92699984758;214
-1399;Gstaad;01.01.2013;;LS 311;Fluggepäck (Check-in am Bahnhof);46.4748024084, 7.28441201978;215
-1448;Champéry;01.01.2018;;LS 348;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.174950304, 6.87150433206;216
-1463;Monthey-Ville;01.01.2013;;LS 345;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.2540922785, 6.94751344179;217
-1463;Monthey-Ville;01.01.2010;;LS 345;Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.);46.2540922785, 6.94751344179;218
-1482;Leysin-Feydey;01.01.2010;;LS 342;Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.);46.3444423351, 7.00836910886;219
-1565;Finhaut;01.01.2005;;LS 382;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.0823239833, 6.9763778892;220
-1579;Le Châble;;;LS 387;Allgemeine Informationen;46.0787435892, 7.21503927316;221
-1609;Brig;01.01.2013;;BR 100;Reisegepäck Express;46.3194210071, 7.98809158467;222
-1656;Leukerbad;01.01.2007;;BR 260;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.3797876392, 7.62640947824;223
-1671;Fürgangen-Bellwald;;01.01.2012;BR 741;Gepäckauslieferung nur am Schalter;46.4119021944, 8.15231661725;224
-1672;Fiesch;01.01.2029;;BR 730;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4031361683, 8.13264349687;225
-1685;St. Niklaus;01.01.2019;;BR 431;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.1774799214, 7.80211502022;226
-1689;Zermatt;01.01.2013;;BR 400;Fluggepäck (Check-in am Bahnhof);46.0244720211, 7.74829647858;227
-1691;Riffelalp;01.01.1931;;BR 402;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.0048989646, 7.75435623172;228
-1694;Gornergrat;01.01.1931;;BR 401;Beförderung von Fahrrädern nach dieser Station nicht möglich;45.9833182978, 7.78220700825;229
-1754;Blatten b. Naters, Belalpbahn;01.01.2011;;BR 551;Allgemeine Informationen;46.3591668639, 7.98390664287;230
-1782;Saas-Fee, Post;01.01.2014;;BR 500;Allgemeine Informationen;46.1087928601, 7.92956975713;231
-1782;Saas-Fee, Post;01.01.2017;;BR 500;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.1087928601, 7.92956975713;232
-2024;Hochdorf;;;LZ 411;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.1669743615, 8.28868696709;233
-2113;Aarau;;;ZUE300;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.3913553369, 8.05125354274;234
-2202;Rotkreuz;01.01.2017;;LZ 611;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.1417586665, 8.43047453438;235
-2204;Zug;;;ZUE250;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.1736230527, 8.51529569481;236
-2206;Baar;01.01.2003;;ZUE254;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.1953625991, 8.52325583517;237
-3000;Zürich HB;01.01.2013;;ZUE100;Fluggepäck (Check-in am Bahnhof);47.3781765756, 8.54019221036;238
-3000;Zürich HB;;;ZUE100;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.3781765756, 8.54019221036;239
-3006;Zürich Oerlikon;;;ZUE610;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.4115288802, 8.54411523121;240
-3016;Zürich Flughafen;01.01.2002;;ZFH100;Allgemeine Informationen;47.4503820775, 8.56238666028;241
-3102;Erlenbach ZH;01.01.2005;;ZUE722;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3057853122, 8.59150489466;242
-3106;Männedorf;01.01.2012;;ZUE727;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2534223208, 8.69233239506;243
-3123;Wetzikon;;;ZUE550;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.3180331432, 8.79226951209;244
-3128;Dübendorf;01.01.2028;;ZUE520;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.4000750283, 8.62340719058;245
-3128;Dübendorf;01.01.2029;;ZUE520;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4000750283, 8.62340719058;246
-3227;Näfels-Mollis;01.01.2013;;ZUE811;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.0987196928, 9.0699449253;247
-3301;Pfäffikon ZH;01.01.1931;;ZUE625;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3670842127, 8.78477640275;248
-3310;Glattbrugg;01.01.2029;;ZUE434;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4308254769, 8.55883224276;249
-3311;Rümlang;01.01.2017;01.01.2012;ZUE435;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4540663116, 8.53274503651;250
-3506;Killwangen-Spreitenbach;01.01.2029;;ZUE335;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.433328238, 8.35419430986;251
-4300;Biel/Bienne;;;BN 900;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.1328920532, 7.24290845288;252
-4314;La Chaux-de-Fonds;01.01.2029;;BN 970;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.0986436492, 6.82601877705;253
-5000;Luzern;01.01.2013;;LZ 100;Reisegepäck Express;47.0501697679, 8.31017092011;254
-5004;Arth-Goldau;;;LZ 631;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.04915622, 8.54949116322;255
-5007;Brunnen;;;LZ 651;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.9991749288, 8.61004816648;256
-5163;Realp;01.01.1931;;BR 791;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.5986330191, 8.5034581036;257
-5165;Andermatt;;;BR 790;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.6368923078, 8.59327487979;258
-5307;Chiasso;01.01.2029;;BEL351;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;45.8321788009, 9.03144057629;259
-6002;Winterthur Seen;01.01.2021;;ZUE642;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4874349418, 8.76678904042;260
-6100;Frauenfeld;;;ZUE630;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.5581599749, 8.89653893491;261
-6109;Amriswil;01.01.2003;;SG 212;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.5504471564, 9.30221759023;262
-6139;Stein am Rhein;01.01.1931;;ZUE464;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.656108874, 8.85500693112;263
-6200;Wattwil;01.01.1931;;SG 281;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2994785543, 9.0864636527;264
-6206;Wil;;;SG 200;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.4624092373, 9.04098327921;265
-6210;Gossau SG;;;SG 222;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.4118296551, 9.25303263655;266
-6302;St. Gallen;01.01.2013;;SG 100;Reisegepäck Express;47.4231790668, 9.36987712043;267
-6313;Rheineck;01.01.2017;;SG 241;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4668881391, 9.59090422659;268
-6317;Heerbrugg;;;SG 244;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.4103853071, 9.62724352946;269
-6317;Heerbrugg;;;SG 244;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.4103853071, 9.62724352946;270
-7089;Schwarzenburg;01.01.1931;;BN 391;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.8191886776, 7.34283243216;271
-7279;Lenk im Simmental;01.01.2029;;IO 312;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4585813799, 7.44352282181;272
-7372;Wengen;01.01.2011;;IO 430;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6049014894, 7.92100343934;273
-7380;Grindelwald;;;IO 540;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.6243684278, 8.03331025897;274
-7475;Kandersteg;01.01.2013;;BN 368;Reisegepäck Express;46.4955238841, 7.67126537052;275
-7493;Interlaken West;01.01.2013;;IO 211;Reisegepäck Express;46.6826271766, 7.85144043072;276
-7851;Adelboden, Post;01.01.2013;;BN 367;Reisegepäck Express;46.4936901019, 7.56029593916;277
-8059;Jegenstorf;01.01.2005;;BN 521;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.0476153289, 7.50777274234;278
-8162;Roggwil Dorf;01.01.2003;01.01.1931;BN 573;Allgemeine Informationen;47.2392987852, 7.82253108329;279
-8262;Walkringen;01.01.1931;;BN 632;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.9476674695, 7.61899376459;280
-8267;Ramsei;01.01.1931;;BN 642;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.9967638644, 7.7102034568;281
-8399;Engelberg;01.01.2013;;LZ 561;Reisegepäck Express;46.8195231702, 8.40264298232;282
-8857;Hasliberg Goldern, Post;01.01.2006;;LZ 531;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.739659351, 8.19843169697;283
-9000;Chur;;;CH 100;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.8530797552, 9.52892561961;284
-9073;Davos Platz;01.01.2013;;CH 560;Reisegepäck Express;46.7914664266, 9.82072566153;285
-9253;St. Moritz;;01.01.1931;CH 700;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.4979672615, 9.84639099719;286
-9255;Pontresina;;;CH 710;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.4906477887, 9.89607757913;287
-9256;La Punt-Chamues-ch;01.01.2007;;CH 751;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.5786698549, 9.92333691693;288
-9256;La Punt-Chamues-ch;01.01.2026;01.01.2012;CH 751;ausschliesslich Hauszustellung  (genaue Adressangabe nötig);46.5786698549, 9.92333691693;289
-9258;Zuoz;;01.01.2018;CH 743;Gepäckbeförderung unterliegt den Bestimmungen der CIV (siehe T 601, Ziffer 27.0);46.5999530277, 9.96146378568;290
-9263;Susch;01.01.2025;01.01.2012;CH 621;ausschliesslich Hauszustellung  (genaue Adressangabe nötig);46.7520799199, 10.079326786;291
-9265;Guarda;01.01.2019;;CH 641;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.7715163582, 10.1505346597;292
-9265;Guarda;01.01.2006;;CH 641;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.7715163582, 10.1505346597;293
-9265;Guarda;01.01.2025;01.01.2012;CH 641;ausschliesslich Hauszustellung  (genaue Adressangabe nötig);46.7715163582, 10.1505346597;294
-9411;Sargans;;;CH 241;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.0453635269, 9.44539562754;295
-9452;Flumserberg Tourismusbüro;01.01.2009;;CH 262;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.0935732257, 9.28452949736;296
-9752;Andeer, posta;01.01.2003;;CH 402;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6021316819, 9.42663044381;297
-9776;Ftan, cumün;01.01.1931;;CH 604;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.7929002125, 10.2470469836;298
-9869;Sta. Maria Val Müstair, posta;01.01.2019;;CH 614;Allgemeine Informationen;46.6021401805, 10.4250184147;299
-9881;Sils/Segl Maria;01.01.2003;;CH 702;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4302299828, 9.76509251285;300
-10;Basel SBB;01.01.2013;01.01.1931;BS 100;Fluggepäck (Check-in am Bahnhof);47.5474041527, 7.58955146721;301
-105;Moutier;01.01.2013;;BN 842;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2806661619, 7.38103944266;302
-109;Delémont;;;BN 964;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.3620006555, 7.35005384248;303
-186;Alle;01.01.2029;;BN 820;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4241348211, 7.12833347606;304
-188;Bonfol;01.01.2029;;BN 822;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4739779525, 7.15539491931;305
-218;Olten;;;BS 401;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.3519295325, 7.907688105;306
-1008;Genève;;;GEA200;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.2102022669, 6.14245302875;307
-1026;Genève-Aéroport;;;GEA100;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.2325293452, 6.11198571992;308
-1030;Nyon;;;GEA321;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.3844060313, 6.23597429701;309
-1118;Renens VD;;;LS 211;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.5370287879, 6.57893884264;310
-1173;Echallens;01.01.1931;;LS 261;Gepäckbeförderung einmal täglich mit Cammionage-Dienst von Montag-Freitag;46.6395002737, 6.6325409066;311
-1200;Vevey;;;LS 321;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.4629974303, 6.84345000982;312
-1300;Montreux;01.01.2013;;LS 300;Reisegepäck Express;46.4358743527, 6.91043275261;313
-1400;Aigle;;;LS 341;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.3168441199, 6.9636800936;314
-1403;St-Maurice;;;LS 371;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.216363536, 7.00204915835;315
-1421;Monthey;01.01.1931;;LS 361;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.2556458933, 6.9552285472;316
-1448;Champéry;01.01.2010;;LS 348;Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.);46.174950304, 6.87150433206;317
-1563;Les Marécottes;01.01.2007;;LS 383;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.1123112372, 7.01169234967;318
-1576;Sembrancher;01.01.2019;;LS 388;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.0771013189, 7.14629384096;319
-1579;Le Châble;01.01.2007;;LS 387;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.0787435892, 7.21503927316;320
-1601;Leuk;01.01.1930;;BR 251;Allgemeine Informationen;46.3118851335, 7.64394777254;321
-1605;Visp;01.01.2013;01.01.1931;BR 291;Gepäckauslieferung nur am Schalter;46.2940248591, 7.88145816487;322
-1661;Oberwald;;;BR 781;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.5308495637, 8.34294024356;323
-1692;Riffelberg;01.01.1931;;BR 403;Beförderung von Fahrrädern nach dieser Station nicht möglich;45.9929508442, 7.75510046843;324
-1755;Chandolin, office du tourisme;01.01.2019;;BR 236;Gepäckabfertigung im Gegenverkehr ab dieser Station nicht möglich;46.2521302278, 7.59701486843;325
-1791;Zinal, poste;01.01.2021;;BR 235;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.1371059632, 7.62498227897;326
-2005;Nebikon;01.01.1931;;LZ 331;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.192373647, 7.97744173598;327
-2195;Muhen;01.01.2013;;ZUE305;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3395251746, 8.0536094515;328
-2199;Schöftland;01.01.2017;;ZUE311;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3058772399, 8.05000860649;329
-2203;Cham;01.01.2018;;LZ 613;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.1782423661, 8.45748408001;330
-2203;Cham;01.01.2004;;LZ 613;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.1782423661, 8.45748408001;331
-2213;Wohlen;;;LZ 431;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.3484618374, 8.26978121872;332
-2215;Muri AG;01.01.1931;;LZ 441;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2766601869, 8.3397982935;333
-3001;Zürich Altstetten;01.01.1931;;ZUE310;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3914808361, 8.4889402654;334
-3001;Zürich Altstetten;01.01.2011;;ZUE310;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.3914808361, 8.4889402654;335
-3065;Forch;01.01.2005;;ZUE718;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3253390563, 8.64796901247;336
-3104;Meilen;01.01.2012;;ZUE725;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2698122, 8.64429304135;337
-3116;Uznach;;;ZUE861;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.2242754695, 8.98067539571;338
-3121;Rüti ZH;01.01.2017;;ZUE560;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2604821005, 8.8540677825;339
-3127;Schwerzenbach ZH;01.01.2017;;ZUE530;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3843802387, 8.6586595992;340
-3127;Schwerzenbach ZH;01.01.2025;;ZUE530;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.3843802387, 8.6586595992;341
-3129;Wallisellen;01.01.1931;;ZUE510;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4127169827, 8.59191127027;342
-3130;Hinwil;01.01.2007;;ZUE552;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3000509, 8.83969785564;343
-3134;Bauma;01.01.2003;;ZUE646;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3688358029, 8.87821095251;344
-3138;Wald;01.01.1931;;ZUE648;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2726849167, 8.91398907071;345
-3221;Siebnen-Wangen;01.01.2019;;ZUE855;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.1826674891, 8.90069892838;346
-3225;Ziegelbrücke;;;ZUE801;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.1361516592, 9.06003718984;347
-3228;Netstal;01.01.2013;;ZUE812;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.0645276001, 9.05942421662;348
-3283;Einsiedeln;01.01.2020;;ZUE834;Allgemeine Informationen;47.1285821379, 8.74446828516;349
-3305;Effretikon;01.01.2005;;ZUE620;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4258103324, 8.68666226267;350
-3315;Dielsdorf;01.01.2005;;ZUE436;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4824133475, 8.45942183431;351
-3502;Siggenthal-Würenlingen;01.01.2019;;ZUE415;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.5179218559, 8.24015363326;352
-4014;Palézieux;;;LS 511;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.5427523751, 6.83787768542;353
-4077;Gruyères;01.01.2006;;BN 235;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.5826073534, 7.07325558097;354
-4086;Bulle;;;BN 232;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.618188023, 7.0550371285;355
-4100;Fribourg/Freiburg;01.01.2013;;BN 221;Fluggepäck (Check-in am Bahnhof);46.8032670642, 7.15102324519;356
-4298;Ste-Croix;01.01.1931;;LS 442;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.819667331, 6.50031077908;357
-4388;Les Ponts-de-Martel;01.01.2007;;BN 835;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.9996362786, 6.73587463416;358
-4489;Bern Bümpliz Nord;;;BN 281;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.9458272511, 7.38974518517;359
-5004;Arth-Goldau;01.01.2017;;LZ 631;Beförderung von Gruppengepäck, Voranmeldung obligatorisch;47.04915622, 8.54949116322;360
-5006;Schwyz;;;LZ 641;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.0263942922, 8.63213946703;361
-5113;Altdorf;01.01.2025;;LZ 671;Beförderung von Gruppengepäck, Voranmeldung obligatorisch;46.8757407268, 8.63156572016;362
-5300;Lugano;01.01.2022;;BEL300;Allgemeine Informationen;46.0055057275, 8.94687441524;363
-5305;Mendrisio;01.01.1931;;BEL331;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;45.8691205007, 8.97860209025;364
-5400;Locarno;01.01.2013;;BEL200;Reisegepäck Express;46.1724273965, 8.80135894865;365
-5401;Tenero;;;BEL251;Beförderung von Gruppengepäck, Voranmeldung obligatorisch;46.1774682553, 8.85022179541;366
-5955;Roveredo GR, Posta;01.01.2017;;BEL503;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.2377692654, 9.12754314721;367
-6000;Winterthur;01.01.2013;;ZUE600;Fluggepäck (Check-in am Bahnhof);47.5003335301, 8.72379907332;368
-6002;Winterthur Seen;01.01.2008;;ZUE642;Beförderung von Gruppengepäck, Voranmeldung obligatorisch;47.4874349418, 8.76678904042;369
-6013;Aadorf;01.01.2003;;ZUE226;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4881178542, 8.90328450849;370
-6206;Wil;01.01.2013;;SG 200;Fluggepäck (Check-in am Bahnhof);47.4624092373, 9.04098327921;371
-6286;Appenzell;01.01.2003;;SG 611;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.328286221, 9.40882608704;372
-6290;Herisau;;;SG 531;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.3901678809, 9.27680356449;373
-6292;Degersheim;01.01.2029;;SG 541;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3724767308, 9.20028142402;374
-6308;Arbon;01.01.2003;;SG 253;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.5105854479, 9.43333858591;375
-6311;Rorschach;;;SG 231;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.4779984016, 9.50513168035;376
-6393;Wittenbach;01.01.1931;;SG 511;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4628476165, 9.38853751225;377
-7000;Bern;;;BN 100;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.948824497, 7.43911900576;378
-7000;Bern;01.01.2013;;BN 100;Fluggepäck (Check-in am Bahnhof);46.948824497, 7.43911900576;379
-7006;Münsingen;;;BN 351;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.8733456586, 7.55942999819;380
-7100;Thun;;;BN 360;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.7548532939, 7.62959464395;381
-7177;Merligen, Beatus;01.01.2013;;BN 362;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6962491074, 7.73806037406;382
-7372;Wengen;01.01.2013;;IO 430;Reisegepäck Express;46.6049014894, 7.92100343934;383
-7372;Wengen;01.01.2013;;IO 430;Fluggepäck (Check-in am Bahnhof);46.6049014894, 7.92100343934;384
-7379;Mürren BLM;01.01.2013;;IO 420;Reisegepäck Express;46.5641050247, 7.89724225608;385
-7492;Interlaken Ost;01.01.2013;;IO 100;Fluggepäck (Check-in am Bahnhof);46.6905054601, 7.86900513744;386
-7492;Interlaken Ost;;;IO 100;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.6905054601, 7.86900513744;387
-7771;Wiler (Lötschen), Seilbahn;01.01.2010;;BR 310;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.4018355078, 7.77799838397;388
-7771;Wiler (Lötschen), Seilbahn;01.01.2021;;BR 310;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4018355078, 7.77799838397;389
-7851;Adelboden, Post;01.01.2003;;BN 367;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4936901019, 7.56029593916;390
-8005;Burgdorf;;;BN 580;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.0606957305, 7.62168894507;391
-8061;Fraubrunnen;01.01.2005;;BN 522;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.0864551802, 7.52215043262;392
-8088;Gerlafingen;01.01.2029;;BN 624;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.1697445507, 7.56518564422;393
-8100;Langenthal;;;BN 570;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.2173003777, 7.78470885276;394
-8297;Menznau;01.01.1931;;BN 656;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.0834344953, 8.04092804492;395
-8399;Engelberg;;;LZ 561;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.8195231702, 8.40264298232;396
-8499;Seelisberg;01.01.2016;;LZ 751;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.9788077162, 8.58692988796;397
-9068;Klosters Platz;;;CH 540;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.8692118566, 9.8809363602;398
-9157;Arosa;01.01.2013;01.01.1931;CH 800;Fluggepäck (Check-in am Bahnhof);46.7832957175, 9.67933313854;399
-9157;Arosa;01.01.2013;;CH 800;Reisegepäck Express;46.7832957175, 9.67933313854;400
-20;Muttenz;01.01.2006;;BS 302;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.5335803903, 7.64787914262;401
-21;Pratteln;01.01.2020;;BS 311;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.522657608, 7.69080243836;402
-101;Reconvilier;;;BN 848;;47.2352248694, 7.22741061293;403
-102;Malleray-Bévilard;01.01.2012;;BN 840;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2387040498, 7.27593219578;404
-113;Laufen;;;BS 211;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.4193383263, 7.50263030739;405
-207;Solothurn;01.01.2013;;BN 950;Fluggepäck (Check-in am Bahnhof);47.2041807751, 7.54268420304;406
-294;Balsthal;01.01.2029;;ZUE474;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3128885029, 7.69391394062;407
-1037;Morges;;;LS 220;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.5110918027, 6.49396427184;408
-1120;Lausanne;01.01.2013;;LS 100;Fluggepäck (Check-in am Bahnhof);46.5167786487, 6.62909314109;409
-1191;Orbe;;;LS 432;;46.7243888263, 6.53010963129;410
-1479;Les Diablerets;01.01.2010;;LS 344;Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.);46.3511579623, 7.15502420208;411
-1479;Les Diablerets;01.01.2007;;LS 344;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.3511579623, 7.15502420208;412
-1506;Sion;;;BR 221;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.2275453615, 7.35919185191;413
-1601;Leuk;01.01.2007;;BR 251;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.3118851335, 7.64394777254;414
-1666;Reckingen;01.01.2011;;BR 750;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4682257174, 8.24388275992;415
-1688;Täsch;01.01.2019;;BR 451;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.0674587948, 7.77451598603;416
-1689;Zermatt;;;BR 400;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.0244720211, 7.74829647858;417
-1690;Zermatt GGB;;;BR 406;;46.023949225, 7.74868091973;418
-1691;Riffelalp;01.01.2017;;BR 402;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.0048989646, 7.75435623172;419
-1692;Riffelberg;01.01.2017;;BR 403;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;45.9929508442, 7.75510046843;420
-1754;Blatten b. Naters, Belalpbahn;01.01.2017;;BR 551;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.3591668639, 7.98390664287;421
-1755;Chandolin, office du tourisme;01.01.2014;;BR 236;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.2521302278, 7.59701486843;422
-1768;Grimentz, poste;01.01.2006;;BR 232;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.1784922693, 7.57622475623;423
-1780;Saas-Almagell, Tourismusbüro;01.01.2011;;BR 503;Allgemeine Informationen;46.0941668822, 7.95749649507;424
-1783;Saas-Grund, Post;01.01.1931;;BR 502;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.1235140981, 7.9368174188;425
-71065;Bürchen, Tourismusbüro;;;BR 293;Allgemeine Informationen;46.2705984737, 7.82795328088;426
-1963;Visperterminen, Tourismusbüro;01.01.2020;;BR 292;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.2580558114, 7.90268134293;427
-2001;Zofingen;01.01.1931;;LZ 341;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2880447598, 7.94309735295;428
-2160;Gränichen;01.01.2006;;ZUE303;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3616635141, 8.09878046673;429
-2168;Reinach AG;01.01.2017;;ZUE306;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.250108124, 8.18333544082;430
-2222;Bonstetten-Wettswil;01.01.2029;;ZUE261;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3258957392, 8.46817514105;431
-3003;Zürich Stadelhofen;01.01.2025;;ZUE710;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3666105569, 8.54846647022;432
-3004;Zürich Tiefenbrunnen;01.01.2021;;ZUE720;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3501235091, 8.56137239898;433
-3010;Zürich Enge;01.01.1931;;ZUE210;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3640983597, 8.53080595476;434
-3062;Egg;01.01.2005;;ZUE714;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.301506634, 8.68961370345;435
-3066;Zumikon;01.01.2021;;ZUE717;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3316886307, 8.62380679798;436
-3097;Langnau-Gattikon;01.01.2007;;ZUE242;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2868741088, 8.54401952332;437
-3101;Küsnacht ZH;01.01.2005;;ZUE721;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3191528026, 8.58061588761;438
-3126;Nänikon-Greifensee;01.01.2013;;ZUE535;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3693584945, 8.68639971514;439
-3127;Schwerzenbach ZH;01.01.2025;;ZUE530;Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.);47.3843802387, 8.6586595992;440
-3206;Wädenswil;01.01.1931;;ZUE840;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2293011038, 8.67519275897;441
-3206;Wädenswil;01.01.2013;;ZUE840;Fluggepäck (Check-in am Bahnhof);47.2293011038, 8.67519275897;442
-3207;Richterswil;01.01.2017;;ZUE845;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2083677131, 8.70746042267;443
-3233;Schwanden;01.01.2017;;ZUE814;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.9968482066, 9.07744743355;444
-3239;Linthal Braunwaldbahn;01.01.2007;;ZUE822;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.9255699583, 8.99777825107;445
-3283;Einsiedeln;01.01.2029;;ZUE834;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.1285821379, 8.74446828516;446
-3286;Samstagern;;;ZUE831;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.1915464207, 8.68597267489;447
-3287;Burghalden;01.01.2017;;ZUE833;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2086734144, 8.6926955866;448
-3301;Pfäffikon ZH;01.01.2013;;ZUE625;Allgemeine Informationen;47.3670842127, 8.78477640275;449
-3302;Fehraltorf;01.01.2005;;ZUE622;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.3851215525, 8.75026509676;450
-3308;Kloten;01.01.2029;;ZUE451;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4486070251, 8.58379121249;451
-3400;Bülach;01.01.2029;;ZUE400;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.5239413008, 8.53618858988;452
-3424;Schaffhausen;;;ZUE460;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.6982814692, 8.6327284859;453
-3504;Baden;;;ZUE340;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.476420225, 8.3076927631;454
-4287;Fleurier;01.01.2005;;BN 826;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.904858645, 6.58157904283;455
-4414;Lyss;01.01.1931;;BN 838;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.0763151407, 7.30629081519;456
-4483;Ins;;;BN 830;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.9998261907, 7.09955576908;457
-5091;Stoos;01.01.2019;;LZ 643;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.9839129798, 8.66469050453;458
-5113;Altdorf;01.01.2025;;LZ 671;Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.);46.8757407268, 8.63156572016;459
-5209;Biasca;01.01.2029;;BEL451;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.351982918, 8.97416705214;460
-5300;Lugano;;;BEL300;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.0055057275, 8.94687441524;461
-5400;Locarno;;;BEL200;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.1724273965, 8.80135894865;462
-6000;Winterthur;;;ZUE600;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.5003335301, 8.72379907332;463
-6002;Winterthur Seen;01.01.2008;;ZUE642;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.4874349418, 8.76678904042;464
-6047;Andelfingen;01.01.2007;;ZUE461;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;47.5937589886, 8.67797953564;465
-6105;Weinfelden;;;SG 300;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.5662241626, 9.10634628137;466
-6208;Uzwil;;;SG 221;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.4364421946, 9.13097170762;467
-6302;St. Gallen;01.01.2013;;SG 100;Fluggepäck (Check-in am Bahnhof);47.4231790668, 9.36987712043;468
-6314;St. Margrethen;;;SG 243;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.4532118157, 9.63825154068;469
-6350;Walzenhausen;01.01.2009;;SG 242;Allgemeine Informationen;47.45174123, 9.60126132858;470
-6788;Unterwasser, Post;01.01.2004;;SG 287;Gepäckauslieferung durch den Wagenführer bei Ankunft und Abfahrt der Kurse;47.1969080495, 9.30899339444;471
-7192;Beatenberg;01.01.2003;;IO 723;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6905972895, 7.76528589056;472
-7361;Eigergletscher;01.01.2005;;IO 433;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.5748075236, 7.97407636075;473
-7374;Kleine Scheidegg;01.01.1931;;IO 450;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.5847945993, 7.96012305872;474
-7374;Kleine Scheidegg;01.01.2005;;IO 450;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.5847945993, 7.96012305872;475
-7380;Grindelwald;01.01.2013;;IO 540;Reisegepäck Express;46.6243684278, 8.03331025897;476
-7384;Lauterbrunnen;01.01.2013;;IO 411;Reisegepäck Express;46.5984335089, 7.90809093738;477
-7384;Lauterbrunnen;;;IO 411;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.5984335089, 7.90809093738;478
-7475;Kandersteg;;;BN 368;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.4955238841, 7.67126537052;479
-7483;Spiez;;;BN 365;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.6863921577, 7.68009797421;480
-7493;Interlaken West;01.01.2013;;IO 211;Fluggepäck (Check-in am Bahnhof);46.6826271766, 7.85144043072;481
-7753;Blatten Lötschen, Hotel Edelweiss;01.01.2011;01.01.2012;BR 306;Allgemeine Informationen;46.4195334717, 7.81951165408;482
-8008;Herzogenbuchsee;01.01.2029;;BN 590;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.1880813308, 7.70094642682;483
-8295;Willisau;;;BN 654;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.122559862, 7.99706134204;484
-8357;Melchsee-Frutt;01.01.2012;;LZ 523;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.7745443101, 8.26839856289;485
-8357;Melchsee-Frutt;01.01.1931;;LZ 523;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.7745443101, 8.26839856289;486
-8464;Vitznau;01.01.2026;;LZ 731;Allgemeine Informationen;47.0093586594, 8.48238323725;487
-8795;Hasliberg Wasserwendi, Dorf;01.01.2016;;LZ 532;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.7466665251, 8.19716932549;488
-8857;Hasliberg Goldern, Post;01.01.2021;;LZ 531;Gepäckauslieferung an Sa, So und Feiertagen durch den Wagenführer;46.739659351, 8.19843169697;489
-9000;Chur;01.01.2013;;CH 100;Fluggepäck (Check-in am Bahnhof);46.8530797552, 9.52892561961;490
-9000;Chur;01.01.2013;;CH 100;Reisegepäck Express;46.8530797552, 9.52892561961;491
-9002;Landquart;;;CH 211;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.9674389764, 9.55402859224;492
-9157;Arosa;;;CH 800;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.7832957175, 9.67933313854;493
-9250;Bever;01.01.2017;;CH 742;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.5499061769, 9.88847669658;494
-9251;Samedan;;;CH 741;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.5337641741, 9.8736354163;495
-9253;St. Moritz;01.01.2013;;CH 700;Reisegepäck Express;46.4979672615, 9.84639099719;496
-9256;La Punt-Chamues-ch;01.01.2027;;CH 751;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.5786698549, 9.92333691693;497
-9257;Madulain;01.01.2026;01.01.2012;CH 752;ausschliesslich Hauszustellung  (genaue Adressangabe nötig);46.5870798428, 9.93835729234;498
-9257;Madulain;01.01.2027;;CH 752;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.5870798428, 9.93835729234;499
-9259;S-chanf;01.01.2017;;CH 753;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.611938153, 9.98182306539;500
-9263;Susch;01.01.2019;;CH 621;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.7520799199, 10.079326786;501
-9264;Lavin;01.01.2007;;CH 631;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.7695694922, 10.1109675736;502
-9353;Morteratsch;01.01.2016;;CH 731;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4507174596, 9.94041489921;503
-9353;Morteratsch;01.01.2016;01.01.2012;CH 731;ausschliesslich Hauszustellung  (genaue Adressangabe nötig);46.4507174596, 9.94041489921;504
-9757;Breil/Brigels, posta;01.01.2014;;CH 329;Allgemeine Informationen;46.7675770008, 9.06259359906;505
-9790;Lenzerheide/Lai, Post;01.01.2007;;CH 921;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.7280447625, 9.55767229036;506
-9794;Maloja;01.01.2003;;CH 703;Allgemeine Informationen;46.4036442932, 9.69523815046;507
-9798;Müstair, posta;01.01.1931;;CH 613;Gepäckauslieferung durch den Wagenführer bei Ankunft und Abfahrt der Kurse;46.6261555005, 10.4459592429;508
-9860;Promontogno, Posta;01.01.2017;;CH 705;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.3382101262, 9.55639233375;509
-9873;Samnaun Dorf, Post;01.01.2017;;CH 601;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.945002468, 10.3620287017;510
-1767;Grächen, Post;01.01.2019;;BR 421;Allgemeine Informationen;46.1965132316, 7.83984784844;511
-8314;Sarnen;;;LZ 521;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.8945995233, 8.24748154593;512
-4126;Avenches;01.01.2003;;BN 821;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.8845963101, 7.04091658825;513
-7290;Zweisimmen;;;IO 311;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.5530890613, 7.3753203012;514
-6355;Heiden;01.01.2007;;SG 232;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4464155021, 9.53677083472;515
-81567;Val Müstair domicil;;;CH 613;ausschliesslich Hauszustellung  (genaue Adressangabe nötig);46.6294467006, 10.4498406104;516
-9404;Buchs SG;;;CH 251;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;47.1684089962, 9.47862968189;517
-9766;Avers, Hotel Bergalga;01.01.2024;;CH 404;Allgemeine Informationen;46.4730077533, 9.51189289975;518
-9776;Ftan, cumün;;;CH 604;Hauszustellung möglich (genaue Adressangabe nötig);46.7929002125, 10.2470469836;519
-9786;Laax GR, posta;01.01.2010;;CH 902;Allgemeine Informationen;46.8065308778, 9.25811381355;520
-9790;Lenzerheide/Lai, Post;01.01.2002;;CH 921;Allgemeine Informationen;46.7280447625, 9.55767229036;521
-9874;Savognin, posta;01.01.2021;;CH 412;Allgemeine Informationen;46.5955161089, 9.60088394167;522
-9881;Sils/Segl Maria;01.01.2003;;CH 702;Allgemeine Informationen;46.4302299828, 9.76509251285;523
-9882;Silvaplana;01.01.2003;;CH 701;Allgemeine Informationen;46.4621465865, 9.79672918592;524
-9952;Vals, Post;01.01.2020;;CH 327;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6189145457, 9.18053593053;525
-9952;Vals, Post;01.01.2003;;CH 327;Allgemeine Informationen;46.6189145457, 9.18053593053;526
-9986;Versam, Post;01.01.1931;;CH 331;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.7924672308, 9.33716258412;527
-9986;Versam, Post;01.01.2003;;CH 331;Allgemeine Informationen;46.7924672308, 9.33716258412;528
-1767;Grächen, Post;01.01.2029;;BR 421;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.1965132316, 7.83984784844;529
-8318;Hergiswil;;;LZ 511;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.9826127199, 8.31016575309;530
-7003;Gümligen;;;BN 372;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.9343142711, 7.50550149434;531
-7002;Ostermundigen;01.01.2017;;BN 371;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.9567955453, 7.48148743552;532
-6366;Speicher;01.01.2019;;SG 631;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.4105560572, 9.44332165804;533
-1676;Mörel ARBAG;01.01.2025;;BR 711;Allgemeine Informationen;46.3562094503, 8.04713757276;534
-83688;Scuol domicil;01.01.2013;;CH 600;Allgemeine Informationen;46.7957441903, 10.2956773361;535
-9958;Vella, posta;01.01.2008;;CH 328;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.7175213775, 9.17341089559;536
-9986;Versam, Post;01.01.2020;;CH 331;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.7924672308, 9.33716258412;537
-4400;Kerzers;;;BN 831;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.9750673748, 7.19279802852;538
-8308;Meiringen;;;IO 611;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.7273296622, 8.18423402153;539
-8202;Konolfingen;;;BN 431;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.8806940961, 7.62135468425;540
-4410;Zollikofen;01.01.2021;;BN 515;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.0018214448, 7.46290426809;541
-4128;Murten;01.01.1931;;BN 843;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.9253915414, 7.11537589102;542
-81567;Val Müstair domicil;;;CH 613;Allgemeine Informationen;46.6294467006, 10.4498406104;543
-81567;Val Müstair domicil;01.01.2029;;CH 613;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.6294467006, 10.4498406104;544
-83688;Scuol domicil;;;CH 600;ausschliesslich Hauszustellung  (genaue Adressangabe nötig);46.7957441903, 10.2956773361;545
-9171;Ilanz;;;CH 321;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.7753580075, 9.20743786951;546
-9181;Domat/Ems;01.01.2029;;CH 311;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.8331408741, 9.45316475001;547
-9189;Thusis;;;CH 401;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.6981990894, 9.44050194244;548
-9252;Celerina;01.01.2026;;CH 720;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.5139828859, 9.8584448359;549
-9253;St. Moritz;01.01.2023;01.01.1931;CH 700;Allgemeine Informationen;46.4979672615, 9.84639099719;550
-9258;Zuoz;01.01.2027;;CH 743;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.5999530277, 9.96146378568;551
-9259;S-chanf;01.01.2026;01.01.2012;CH 753;ausschliesslich Hauszustellung  (genaue Adressangabe nötig);46.611938153, 9.98182306539;552
-9259;S-chanf;01.01.2027;;CH 753;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.611938153, 9.98182306539;553
-9260;Cinuos-chel-Brail;01.01.2015;;CH 754;ausschliesslich Hauszustellung  (genaue Adressangabe nötig);46.6385312048, 10.0219237532;554
-9260;Cinuos-chel-Brail;01.01.2018;;CH 754;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6385312048, 10.0219237532;555
-9263;Susch;01.01.2019;;CH 621;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.7520799199, 10.079326786;556
-9264;Lavin;01.01.2019;;CH 631;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.7695694922, 10.1109675736;557
-9268;Scuol-Tarasp;;;CH 600;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.7937752597, 10.2862148815;558
-9361;Poschiavo;;;CH 732;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.3248027549, 10.0543340143;559
-9411;Sargans;01.01.2013;;CH 241;Fluggepäck (Check-in am Bahnhof);47.0453635269, 9.44539562754;560
-9680;Feldis/Veulden;01.01.2005;;CH 409;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.7951183526, 9.4298224416;561
-9757;Breil/Brigels, posta;01.01.1931;;CH 329;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.7675770008, 9.06259359906;562
-9757;Breil/Brigels, posta;01.01.2017;;CH 329;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.7675770008, 9.06259359906;563
-9773;Flims Dorf, Post;01.01.2029;;CH 903;Allgemeine Informationen;46.8367765039, 9.28757572679;564
-9799;Obersaxen Meierhof, Post;01.01.1931;;CH 324;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.7488271128, 9.100054452;565
-9873;Samnaun Dorf, Post;01.01.1931;;CH 601;Gepäckauslieferung durch den Wagenführer bei Ankunft und Abfahrt der Kurse;46.945002468, 10.3620287017;566
-9873;Samnaun Dorf, Post;01.01.1931;;CH 601;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.945002468, 10.3620287017;567
-9966;Wergenstein, posta;01.01.2009;;CH 750;Allgemeine Informationen;46.6266870826, 9.40807240109;568
-211;Niederbipp;01.01.2003;01.01.1931;BN 572;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.2703963923, 7.69480825358;569
-8305;Brienz;01.01.2029;;IO 617;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.7548403226, 8.03893624435;570
-4101;Düdingen;01.01.2029;;BN 241;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.8510429325, 7.1897482223;571
-8272;Sumiswald-Grünen;01.01.1931;;BN 644;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;47.025418755, 7.73706472642;572
-8211;Schüpfheim;01.01.2017;;BN 211;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.950643127, 8.01513834472;573
-1676;Mörel ARBAG;01.01.2025;;BR 711;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.3562094503, 8.04713757276;574
-83688;Scuol domicil;01.01.2029;;CH 600;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.7957441903, 10.2956773361;575
-9264;Lavin;01.01.2025;01.01.2012;CH 631;ausschliesslich Hauszustellung  (genaue Adressangabe nötig);46.7695694922, 10.1109675736;576
-9266;Ardez;01.01.2019;;CH 651;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.7735451754, 10.2010487691;577
-9266;Ardez;01.01.2003;;CH 651;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.7735451754, 10.2010487691;578
-9268;Scuol-Tarasp;;;CH 600;Hauszustellung möglich (genaue Adressangabe nötig);46.7937752597, 10.2862148815;579
-9452;Flumserberg Tourismusbüro;01.01.2009;;CH 262;Allgemeine Informationen;47.0935732257, 9.28452949736;580
-9752;Andeer, posta;01.01.2019;;CH 402;Allgemeine Informationen;46.6021316819, 9.42663044381;581
-9773;Flims Dorf, Post;01.01.2005;;CH 903;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.8367765039, 9.28757572679;582
-9776;Ftan, cumün;01.01.2005;;CH 604;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.7929002125, 10.2470469836;583
-9776;Ftan, cumün;01.01.2025;;CH 604;Allgemeine Informationen;46.7929002125, 10.2470469836;584
-9786;Laax GR, posta;01.01.2007;;CH 902;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.8065308778, 9.25811381355;585
-9798;Müstair, posta;01.01.2013;;CH 613;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6261555005, 10.4459592429;586
-9799;Obersaxen Meierhof, Post;01.01.2003;;CH 324;Allgemeine Informationen;46.7488271128, 9.100054452;587
-9799;Obersaxen Meierhof, Post;01.01.2017;;CH 324;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.7488271128, 9.100054452;588
-9869;Sta. Maria Val Müstair, posta;01.01.2019;;CH 614;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.6021401805, 10.4250184147;589
-9873;Samnaun Dorf, Post;;;CH 601;Hauszustellung möglich (genaue Adressangabe nötig);46.945002468, 10.3620287017;590
-9882;Silvaplana;01.01.2006;;CH 701;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.4621465865, 9.79672918592;591
-9952;Vals, Post;01.01.1931;;CH 327;Beförderung von Fahrrädern nach dieser Station nicht möglich;46.6189145457, 9.18053593053;592
-9958;Vella, posta;01.01.2003;;CH 328;Allgemeine Informationen;46.7175213775, 9.17341089559;593
-9958;Vella, posta;01.01.2020;;CH 328;Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich;46.7175213775, 9.17341089559;594
-8305;Brienz;01.01.2002;;IO 617;Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht;46.7548403226, 8.03893624435;595
-8207;Langnau;;;BN 441;Beförderung von Militärgepäck (Büro- und Materialkisten) möglich;46.9392386679, 7.78418250906;596
+didok,stationsbezeichnung,gueltig_von,gueltig_bis,knoten,abfertigungs_info,geopos,ID
+10,Basel SBB,01.01.2013,,BS 100,Reisegepäck Express,"47.5474041527, 7.58955146721",1
+21,Pratteln,01.01.2017,,BS 311,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.522657608, 7.69080243836",2
+100,Tavannes,,,BN 853,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.2198385551, 7.20163489763",3
+105,Moutier,,,BN 842,Beförderung von Fahrrädern nach dieser Station nicht möglich,"47.2806661619, 7.38103944266",4
+123,Glovelier,01.01.2029,,BN 827,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3352002384, 7.20929652415",5
+202,Grenchen Süd,01.01.2029,,BN 829,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.1887666151, 7.39817426522",6
+305,Frick,,,BS 531,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.5073437467, 8.01307225263",7
+1008,Genève,01.01.2013,,GEA200,Reisegepäck Express,"46.2102022669, 6.14245302875",8
+1096,Bière,01.01.2017,,LS 223,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.5374295583, 6.33691885158",9
+1173,Echallens,01.01.1931,,LS 261,Gepäckbeförderung nur vormittags,"46.6395002737, 6.6325409066",10
+1370,Glion,01.01.2029,,LS 308,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4317751146, 6.92473234914",11
+1398,Saanen BE,01.01.1931,,LS 307,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4885751409, 7.26027824102",12
+1495,Villars-sur-Ollon,01.01.2020,,LS 347,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.2962535067, 7.05623802224",13
+1509,Sierre/Siders,01.01.1931,,BR 231,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.2921149792, 7.53283036255",14
+1561,Vernayaz MC,01.01.1931,,LS 384,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.1301269722, 7.04493371044",15
+1609,Brig,,,BR 100,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.3194210071, 7.98809158467",16
+1663,Ulrichen,01.01.2009,,BR 770,Allgemeine Informationen,"46.505017955, 8.30881690239",17
+1683,Stalden-Saas,01.01.2019,,BR 411,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.2319774852, 7.87076552269",18
+1754,"Blatten b. Naters, Belalpbahn",01.01.1931,,BR 551,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.3591668639, 7.98390664287",19
+1768,"Grimentz, poste",01.01.2014,,BR 232,Allgemeine Informationen,"46.1784922693, 7.57622475623",20
+1779,"St-Luc, office du tourisme",01.01.2019,,BR 233,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.2235565931, 7.59305699674",21
+1780,"Saas-Almagell, Tourismusbüro",01.01.2017,,BR 503,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.0941668822, 7.95749649507",22
+1781,"Saas-Balen, Dorf",01.01.2017,,BR 501,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.1530118572, 7.92841417761",23
+1782,"Saas-Fee, Post",01.01.2012,,BR 500,Gepäckauslieferung durch den Wagenführer bei Ankunft und Abfahrt der Kurse,"46.1087928601, 7.92956975713",24
+1783,"Saas-Grund, Post",01.01.2017,,BR 502,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.1235140981, 7.9368174188",25
+1954,Bettmeralp,01.01.2017,,BR 720,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.3861073639, 8.05793717863",26
+1963,"Visperterminen, Tourismusbüro",01.01.1931,,BR 292,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.2580558114, 7.90268134293",27
+2021,Emmenbrücke,,,LZ 311,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.0705979582, 8.28255105833",28
+2024,Hochdorf,01.01.2023,,LZ 411,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.1669743615, 8.28868696709",29
+2169,Menziken,01.01.2013,,ZUE304,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2409214644, 8.18930957917",30
+2204,Zug,01.01.2013,,ZUE250,Fluggepäck (Check-in am Bahnhof),"47.1736230527, 8.51529569481",31
+2206,Baar,01.01.2028,,ZUE254,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.1953625991, 8.52325583517",32
+2215,Muri AG,,01.01.1931,LZ 441,Allgemeine Informationen,"47.2766601869, 8.3397982935",33
+2224,Affoltern am Albis,01.01.2029,,ZUE260,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.276064074, 8.44658239143",34
+2276,Berikon-Widen,01.01.2017,,LZ 432,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3621867175, 8.36679370169",35
+3006,Zürich Oerlikon,01.01.2004,,ZUE610,Allgemeine Informationen,"47.4115288802, 8.54411523121",36
+3016,Zürich Flughafen,,,ZFH100,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.4503820775, 8.56238666028",37
+3107,Stäfa,01.01.2019,,ZUE728,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2405237212, 8.72163122186",38
+3110,Rapperswil,,,ZUE580,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.2248877672, 8.81673057998",39
+3128,Dübendorf,01.01.2028,,ZUE520,"Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.)","47.4000750283, 8.62340719058",40
+3200,Kilchberg,01.01.2005,,ZUE223,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3244274064, 8.54799908563",41
+3204,Horgen,01.01.2029,,ZUE240,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2614824887, 8.59690458831",42
+3209,Pfäffikon SZ,01.01.1931,,ZUE851,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2029974467, 8.77811068503",43
+3400,Bülach,,,ZUE400,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.5239413008, 8.53618858988",44
+3501,Döttingen,01.01.2005,,ZUE416,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.5752638935, 8.25634387912",45
+3503,Turgi,01.01.2019,,ZUE349,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4917545162, 8.25344123675",46
+3505,Wettingen,01.01.1931,,ZUE336,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4596367944, 8.3159863528",47
+3508,Dietikon,01.01.2029,,ZUE330,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.405777802, 8.40496908474",48
+3509,Schlieren,01.01.1931,,ZUE322,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3991743125, 8.44722881452",49
+4023,Romont,01.01.1931,01.01.2012,LS 471,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6935017507, 6.91181476775",50
+4100,Fribourg/Freiburg,,,BN 221,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.8032670642, 7.15102324519",51
+4184,Courtepin,01.01.2018,,BN 223,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.8677694633, 7.12250422399",52
+4200,Yverdon-les-Bains,,,LS 441,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.781876671, 6.64114576153",53
+4411,Münchenbuchsee,01.01.2029,,BN 518,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.0213694411, 7.45194288392",54
+5000,Luzern,,,LZ 100,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.0501697679, 8.31017092011",55
+5002,Küssnacht am Rigi,01.01.2005,,LZ 621,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.0835940036, 8.4334940573",56
+5006,Schwyz,01.01.2022,,LZ 641,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.0263942922, 8.63213946703",57
+5074,Rigi Kaltbad-First,01.01.2028,,LZ 633,Beförderung von Fahrrädern nach dieser Station nicht möglich,"47.0440082307, 8.46669951569",58
+5074,Rigi Kaltbad-First,01.01.2017,,LZ 633,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.0440082307, 8.46669951569",59
+5091,Stoos,01.01.2028,,LZ 643,"Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.)","46.9839129798, 8.66469050453",60
+5112,Flüelen,,,LZ 661,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.9017256462, 8.62429304308",61
+5176,Sedrun,,,CH 361,,"46.6810660346, 8.76977687553",62
+5213,Bellinzona,,,BEL100,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.195436816, 9.02950898687",63
+5300,Lugano,01.01.2013,,BEL300,Reisegepäck Express,"46.0055057275, 8.94687441524",64
+6121,Romanshorn,,,SG 251,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.5655269844, 9.37936259732",65
+6131,Kreuzlingen,,,SG 400,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.6525540444, 9.16906514323",66
+6302,St. Gallen,,,SG 100,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.4231790668, 9.36987712043",67
+7063,Worb Dorf,01.01.2021,,BN 421,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.9299855627, 7.5624714622",68
+7071,Seftigen,01.01.2019,,BN 342,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.7868468574, 7.54028748019",69
+7076,Belp,01.01.2013,,BN 341,Fluggepäck (Check-in am Bahnhof),"46.888883092, 7.49863601858",70
+7083,Köniz,,,BN 381,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.9248766858, 7.41515748881",71
+7100,Thun,01.01.2013,,BN 360,Reisegepäck Express,"46.7548532939, 7.62959464395",72
+7192,Beatenberg,01.01.2022,,IO 723,Gepäckabfertigung im Gegenverkehr ab dieser Station nicht möglich,"46.6905972895, 7.76528589056",73
+7271,Schönried,01.01.2017,,LS 309,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.5045418942, 7.29110122969",74
+7378,Grütschalp,01.01.2006,,IO 422,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.5965150723, 7.89087419075",75
+7380,Grindelwald,01.01.2013,,IO 540,Fluggepäck (Check-in am Bahnhof),"46.6243684278, 8.03331025897",76
+7389,Zweilütschinen,01.01.2021,,IO 521,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6327053904, 7.89970407083",77
+7475,Kandersteg,01.01.2013,,BN 368,Fluggepäck (Check-in am Bahnhof),"46.4955238841, 7.67126537052",78
+7478,Frutigen,,,BN 366,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.5887749341, 7.65159707977",79
+7483,Spiez,01.01.2013,,BN 365,Reisegepäck Express,"46.6863921577, 7.68009797421",80
+7483,Spiez,01.01.1930,,BN 365,Allgemeine Informationen,"46.6863921577, 7.68009797421",81
+7492,Interlaken Ost,01.01.2013,,IO 100,Reisegepäck Express,"46.6905054601, 7.86900513744",82
+7493,Interlaken West,,,IO 211,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.6826271766, 7.85144043072",83
+7753,"Blatten Lötschen, Hotel Edelweiss",01.01.2011,,BR 306,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4195334717, 7.81951165408",84
+8084,Kirchberg-Alchenflüh,01.01.2005,,BN 621,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.0834934517, 7.58014043614",85
+8265,Hasle-Rüegsau,01.01.2029,,BN 631,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.016021356, 7.65562739603",86
+8391,Stans,01.01.2015,,LZ 551,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.9583210245, 8.36674143144",87
+8399,Engelberg,01.01.2013,,LZ 561,Fluggepäck (Check-in am Bahnhof),"46.8195231702, 8.40264298232",88
+8463,Weggis,01.01.2020,,LZ 741,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.03142122, 8.43322400814",89
+8499,Seelisberg,01.01.2017,,LZ 751,Allgemeine Informationen,"46.9788077162, 8.58692988796",90
+8789,"Sörenberg, Post",01.01.2020,,BN 212,Gepäck nach REKA-Zentrum: Vermerk REKA auf der Etikette anbringen,"46.8217371263, 8.03451791917",91
+8795,"Hasliberg Wasserwendi, Dorf",01.01.2005,,LZ 532,Gepäck nach REKA-Zentrum: Vermerk REKA auf der Etikette anbringen,"46.7466665251, 8.19716932549",92
+9072,Davos Dorf,01.01.2013,,CH 550,Fluggepäck (Check-in am Bahnhof),"46.8097194338, 9.84211236596",93
+9073,Davos Platz,01.01.2013,,CH 560,Fluggepäck (Check-in am Bahnhof),"46.7914664266, 9.82072566153",94
+9192,Tiefencastel,01.01.1931,,CH 411,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6638787719, 9.57286526287",95
+9197,Bergün/Bravuogn,01.01.2029,,CH 431,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6310688834, 9.74675138258",96
+9252,Celerina,01.01.2018,,CH 720,Allgemeine Informationen,"46.5139828859, 9.8584448359",97
+9252,Celerina,01.01.2027,,CH 720,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.5139828859, 9.8584448359",98
+9257,Madulain,01.01.2012,,CH 752,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.5870798428, 9.93835729234",99
+9258,Zuoz,01.01.1931,,CH 743,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.5999530277, 9.96146378568",100
+10,Basel SBB,,,BS 100,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.5474041527, 7.58955146721",101
+23,Liestal,,,BS 321,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.4844551308, 7.73135468775",102
+118,Dornach-Arlesheim,01.01.2005,,BS 221,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.488608339, 7.61110691339",103
+126,Porrentruy,,,BN 847,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.420909698, 7.08007451034",104
+212,Oensingen,01.01.2008,,ZUE471,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.2850232125, 7.70985469445",105
+309,Brugg AG,,,ZUE350,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.4808528316, 8.20882744791",106
+1062,St-Cergue,,,GEA322,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","46.4485976182, 6.16037053791",107
+1062,St-Cergue,01.01.2019,,GEA322,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4485976182, 6.16037053791",108
+1173,Echallens,01.01.2005,,LS 261,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6395002737, 6.6325409066",109
+1281,Blonay,01.01.2029,,LS 322,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4656900169, 6.89595111008",110
+1394,Château-d'Oex,01.01.2029,,LS 303,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4746699982, 7.13141988446",111
+1399,Gstaad,01.01.2029,,LS 311,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4748024084, 7.28441201978",112
+1399,Gstaad,01.01.2013,,LS 311,Reisegepäck Express,"46.4748024084, 7.28441201978",113
+1482,Leysin-Feydey,01.01.2007,,LS 342,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.3444423351, 7.00836910886",114
+1500,Martigny,01.01.1931,,LS 380,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.1058273015, 7.07912247583",115
+1578,Orsières,,,LS 386,Allgemeine Informationen,"46.027736241, 7.14380826395",116
+1578,Orsières,01.01.2017,,LS 386,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.027736241, 7.14380826395",117
+1596,Montana-Gare,01.01.2013,,BR 240,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.3129044245, 7.48922118856",118
+1601,Leuk,,,BR 251,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","46.3118851335, 7.64394777254",119
+1605,Visp,01.01.1931,,BR 291,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.2940248591, 7.88145816487",120
+1609,Brig,01.01.2013,,BR 100,Fluggepäck (Check-in am Bahnhof),"46.3194210071, 7.98809158467",121
+1656,Leukerbad,01.01.2013,,BR 260,Reisegepäck Express,"46.3797876392, 7.62640947824",122
+1659,Unterbäch VS,01.01.2020,,BR 272,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.2848660051, 7.80071635127",123
+1665,Münster VS,01.01.2021,,BR 761,Allgemeine Informationen,"46.4853623898, 8.266538327",124
+1671,Fürgangen-Bellwald,01.01.2005,,BR 741,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4119021944, 8.15231661725",125
+1689,Zermatt,01.01.2013,,BR 400,Reisegepäck Express,"46.0244720211, 7.74829647858",126
+1698,Riederalp Mitte,01.01.2017,,BR 710,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.377990382, 8.03321389312",127
+1779,"St-Luc, office du tourisme",01.01.2014,,BR 233,Allgemeine Informationen,"46.2235565931, 7.59305699674",128
+1791,"Zinal, poste",01.01.2017,,BR 235,Allgemeine Informationen,"46.1371059632, 7.62498227897",129
+71065,"Bürchen, Tourismusbüro",01.01.2017,,BR 293,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.2705984737, 7.82795328088",130
+1963,"Visperterminen, Tourismusbüro",01.01.2011,,BR 292,Allgemeine Informationen,"46.2580558114, 7.90268134293",131
+2007,Sursee,,,LZ 321,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.1707889132, 8.09787795205",132
+2021,Emmenbrücke,01.01.2025,,LZ 311,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.0705979582, 8.28255105833",133
+2113,Aarau,01.01.2013,01.01.1931,ZUE300,Fluggepäck (Check-in am Bahnhof),"47.3913553369, 8.05125354274",134
+2119,Lenzburg,01.01.2029,,ZUE380,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3911934191, 8.17037888645",135
+2273,Bremgarten,01.01.2017,,LZ 433,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3518702667, 8.34747515845",136
+3000,Zürich HB,01.01.2013,,ZUE100,Reisegepäck Express,"47.3781765756, 8.54019221036",137
+3067,Zollikerberg,01.01.2021,,ZUE716,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3460550549, 8.60340013877",138
+3096,Adliswil,01.01.2003,,ZUE241,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3123035699, 8.52416439213",139
+3103,Herrliberg-Feldmeilen,01.01.2007,,ZUE724,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2818232851, 8.61271954112",140
+3122,Bubikon,01.01.2017,,ZUE554,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2708395927, 8.82270102308",141
+3123,Wetzikon,01.01.2016,,ZUE550,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.3180331432, 8.79226951209",142
+3125,Uster,,,ZUE540,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.3503664551, 8.71868854805",143
+3202,Thalwil,01.01.1931,,ZUE230,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2959747213, 8.56475556229",144
+3220,Lachen,01.01.2007,,ZUE853,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.190068574, 8.85269238166",145
+3230,Glarus,,,ZUE813,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.0399200317, 9.0715516467",146
+3261,Braunwald,01.01.2017,,ZUE820,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.9387034538, 8.99859284612",147
+3288,Wollerau,01.01.2021,,ZUE837,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.1954349225, 8.7249971721",148
+3306,Dietlikon,01.01.2005,,ZUE512,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4201947418, 8.61925589067",149
+3409,Bad Zurzach,01.01.2021,,ZUE418,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.5883101087, 8.29556465398",150
+3526,Regensdorf-Watt,01.01.1931,,ZUE410,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4365626396, 8.47206501622",151
+4062,Châtel-St-Denis,01.01.2029,,BN 222,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.5261372928, 6.89874553473",152
+4070,Montbovon,01.01.2013,,LS 302,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.485890724, 7.04264055621",153
+4134,Payerne,,,LS 461,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.8196387484, 6.93987910663",154
+4221,Neuchâtel,,,BN 930,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.9967222076, 6.93570514491",155
+4300,Biel/Bienne,01.01.2013,,BN 900,Fluggepäck (Check-in am Bahnhof),"47.1328920532, 7.24290845288",156
+5000,Luzern,01.01.2013,,LZ 100,Fluggepäck (Check-in am Bahnhof),"47.0501697679, 8.31017092011",157
+5004,Arth-Goldau,01.01.2017,,LZ 631,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.04915622, 8.54949116322",158
+5112,Flüelen,01.01.2025,01.01.2028,LZ 661,Allgemeine Informationen,"46.9017256462, 8.62429304308",159
+5113,Altdorf,,,LZ 671,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.8757407268, 8.63156572016",160
+5400,Locarno,01.01.2013,,BEL200,Fluggepäck (Check-in am Bahnhof),"46.1724273965, 8.80135894865",161
+6016,Oberwinterthur,01.01.2017,,ZUE640,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.5079184546, 8.76037093131",162
+6047,Andelfingen,01.01.2003,,ZUE461,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.5937589886, 8.67797953564",163
+6283,Urnäsch Reka Feriendorf,01.01.2019,,SG 120,Gepäck nach REKA-Zentrum: Vermerk REKA auf der Etikette anbringen,"47.3183888986, 9.28598562514",164
+6299,Nesslau-Neu St. Johann,01.01.1931,,SG 283,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2266599944, 9.19779821129",165
+6350,Walzenhausen,01.01.2020,,SG 242,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.45174123, 9.60126132858",166
+6788,"Unterwasser, Post",01.01.2020,,SG 287,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.1969080495, 9.30899339444",167
+7000,Bern,01.01.2013,,BN 100,Reisegepäck Express,"46.948824497, 7.43911900576",168
+7076,Belp,,,BN 341,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.888883092, 7.49863601858",169
+7079,Bern Weissenbühl,,,BN 321,,"46.9357720844, 7.43001838248",170
+7100,Thun,01.01.2013,,BN 360,Fluggepäck (Check-in am Bahnhof),"46.7548532939, 7.62959464395",171
+7176,"Gunten, Dorf",01.01.2006,,BN 361,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.7128095634, 7.70161164589",172
+7279,Lenk im Simmental,01.01.2013,,IO 312,Reisegepäck Express,"46.4585813799, 7.44352282181",173
+7361,Eigergletscher,01.01.1931,,IO 433,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.5748075236, 7.97407636075",174
+7376,Grindelwald Grund,01.01.2006,,IO 531,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6226478957, 8.02332914559",175
+7379,Mürren BLM,01.01.2013,,IO 420,Fluggepäck (Check-in am Bahnhof),"46.5641050247, 7.89724225608",176
+7379,Mürren BLM,,,IO 420,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.5641050247, 7.89724225608",177
+7388,Wilderswil,01.01.2021,,IO 511,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6657027223, 7.86947421285",178
+7483,Spiez,01.01.2013,,BN 365,Fluggepäck (Check-in am Bahnhof),"46.6863921577, 7.68009797421",179
+8054,Worblaufen,01.01.2010,,BN 511,Allgemeine Informationen,"46.9788398969, 7.45762397105",180
+8054,Worblaufen,01.01.2021,,BN 511,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.9788398969, 7.45762397105",181
+8086,Utzenstorf,01.01.1931,,BN 622,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.1294777935, 7.5536509434",182
+8089,Biberist Ost,01.01.2029,,BN 625,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.1806269395, 7.56634577241",183
+8187,Huttwil,,,BN 651,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.1145970227, 7.84272110471",184
+8261,Biglen,01.01.2029,,BN 633,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.9244739309, 7.62701728972",185
+8789,"Sörenberg, Post",,,BN 212,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.8217371263, 8.03451791917",186
+8857,"Hasliberg Goldern, Post",01.01.2021,,LZ 531,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.739659351, 8.19843169697",187
+9060,Schiers,01.01.1931,,CH 511,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.9679934413, 9.68835648854",188
+9068,Klosters Platz,01.01.2013,,CH 540,Reisegepäck Express,"46.8692118566, 9.8809363602",189
+9072,Davos Dorf,,,CH 550,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.8097194338, 9.84211236596",190
+9073,Davos Platz,,,CH 560,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.7914664266, 9.82072566153",191
+9179,Disentis/Mustér,,,CH 300,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.7049782556, 8.85502182084",192
+9250,Bever,01.01.2027,,CH 742,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.5499061769, 9.88847669658",193
+9253,St. Moritz,01.01.2013,,CH 700,Fluggepäck (Check-in am Bahnhof),"46.4979672615, 9.84639099719",194
+9260,Cinuos-chel-Brail,01.01.2027,,CH 754,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.6385312048, 10.0219237532",195
+9262,Zernez,,,CH 611,,"46.6976679974, 10.0899416034",196
+9266,Ardez,01.01.2025,01.01.2012,CH 651,ausschliesslich Hauszustellung  (genaue Adressangabe nötig),"46.7735451754, 10.2010487691",197
+9268,Scuol-Tarasp,01.01.2013,,CH 600,Reisegepäck Express,"46.7937752597, 10.2862148815",198
+9369,Tirano,01.01.1931,,CH 735,"Gepäckbeförderung unterliegt den Bestimmungen der CIV (siehe T 601, Ziffer 27.0)","46.2151609961, 10.1667713566",199
+9369,Tirano,01.01.2019,,CH 735,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.2151609961, 10.1667713566",200
+20,Muttenz,01.01.2013,,BS 302,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.5335803903, 7.64787914262",201
+21,Pratteln,01.01.2020,,BS 311,"Beförderung von Gruppengepäck, Voranmeldung obligatorisch","47.522657608, 7.69080243836",202
+26,Sissach,,,BS 331,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.4627456535, 7.81201832437",203
+170,Tramelan,01.01.1931,,BN 854,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2228109343, 7.1055695828",204
+191,Saignelégier,01.01.1931,,BN 849,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2546721635, 6.99450359036",205
+207,Solothurn,,,BN 950,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.2041807751, 7.54268420304",206
+301,Rheinfelden,01.01.2006,,BS 511,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.5512096146, 7.79215393064",207
+863,"Montfaucon, village Reka",01.01.1931,,BN 841,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.282516149, 7.0506853286",208
+1031,Gland,01.01.2029,,GEA331,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.419975355, 6.26913801937",209
+1120,Lausanne,,,LS 100,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.5167786487, 6.62909314109",210
+1120,Lausanne,01.01.2013,,LS 100,Reisegepäck Express,"46.5167786487, 6.62909314109",211
+1157,Sentier-Orient,01.01.1931,,LS 811,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6057654715, 6.23139574664",212
+1300,Montreux,,,LS 300,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.4358743527, 6.91043275261",213
+1303,Villeneuve,01.01.2020,,LS 331,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.3983659275, 6.92699984758",214
+1399,Gstaad,01.01.2013,,LS 311,Fluggepäck (Check-in am Bahnhof),"46.4748024084, 7.28441201978",215
+1448,Champéry,01.01.2018,,LS 348,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.174950304, 6.87150433206",216
+1463,Monthey-Ville,01.01.2013,,LS 345,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.2540922785, 6.94751344179",217
+1463,Monthey-Ville,01.01.2010,,LS 345,"Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.)","46.2540922785, 6.94751344179",218
+1482,Leysin-Feydey,01.01.2010,,LS 342,"Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.)","46.3444423351, 7.00836910886",219
+1565,Finhaut,01.01.2005,,LS 382,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.0823239833, 6.9763778892",220
+1579,Le Châble,,,LS 387,Allgemeine Informationen,"46.0787435892, 7.21503927316",221
+1609,Brig,01.01.2013,,BR 100,Reisegepäck Express,"46.3194210071, 7.98809158467",222
+1656,Leukerbad,01.01.2007,,BR 260,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.3797876392, 7.62640947824",223
+1671,Fürgangen-Bellwald,,01.01.2012,BR 741,Gepäckauslieferung nur am Schalter,"46.4119021944, 8.15231661725",224
+1672,Fiesch,01.01.2029,,BR 730,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4031361683, 8.13264349687",225
+1685,St. Niklaus,01.01.2019,,BR 431,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.1774799214, 7.80211502022",226
+1689,Zermatt,01.01.2013,,BR 400,Fluggepäck (Check-in am Bahnhof),"46.0244720211, 7.74829647858",227
+1691,Riffelalp,01.01.1931,,BR 402,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.0048989646, 7.75435623172",228
+1694,Gornergrat,01.01.1931,,BR 401,Beförderung von Fahrrädern nach dieser Station nicht möglich,"45.9833182978, 7.78220700825",229
+1754,"Blatten b. Naters, Belalpbahn",01.01.2011,,BR 551,Allgemeine Informationen,"46.3591668639, 7.98390664287",230
+1782,"Saas-Fee, Post",01.01.2014,,BR 500,Allgemeine Informationen,"46.1087928601, 7.92956975713",231
+1782,"Saas-Fee, Post",01.01.2017,,BR 500,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.1087928601, 7.92956975713",232
+2024,Hochdorf,,,LZ 411,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.1669743615, 8.28868696709",233
+2113,Aarau,,,ZUE300,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.3913553369, 8.05125354274",234
+2202,Rotkreuz,01.01.2017,,LZ 611,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.1417586665, 8.43047453438",235
+2204,Zug,,,ZUE250,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.1736230527, 8.51529569481",236
+2206,Baar,01.01.2003,,ZUE254,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.1953625991, 8.52325583517",237
+3000,Zürich HB,01.01.2013,,ZUE100,Fluggepäck (Check-in am Bahnhof),"47.3781765756, 8.54019221036",238
+3000,Zürich HB,,,ZUE100,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.3781765756, 8.54019221036",239
+3006,Zürich Oerlikon,,,ZUE610,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.4115288802, 8.54411523121",240
+3016,Zürich Flughafen,01.01.2002,,ZFH100,Allgemeine Informationen,"47.4503820775, 8.56238666028",241
+3102,Erlenbach ZH,01.01.2005,,ZUE722,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3057853122, 8.59150489466",242
+3106,Männedorf,01.01.2012,,ZUE727,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2534223208, 8.69233239506",243
+3123,Wetzikon,,,ZUE550,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.3180331432, 8.79226951209",244
+3128,Dübendorf,01.01.2028,,ZUE520,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.4000750283, 8.62340719058",245
+3128,Dübendorf,01.01.2029,,ZUE520,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4000750283, 8.62340719058",246
+3227,Näfels-Mollis,01.01.2013,,ZUE811,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.0987196928, 9.0699449253",247
+3301,Pfäffikon ZH,01.01.1931,,ZUE625,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3670842127, 8.78477640275",248
+3310,Glattbrugg,01.01.2029,,ZUE434,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4308254769, 8.55883224276",249
+3311,Rümlang,01.01.2017,01.01.2012,ZUE435,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4540663116, 8.53274503651",250
+3506,Killwangen-Spreitenbach,01.01.2029,,ZUE335,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.433328238, 8.35419430986",251
+4300,Biel/Bienne,,,BN 900,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.1328920532, 7.24290845288",252
+4314,La Chaux-de-Fonds,01.01.2029,,BN 970,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.0986436492, 6.82601877705",253
+5000,Luzern,01.01.2013,,LZ 100,Reisegepäck Express,"47.0501697679, 8.31017092011",254
+5004,Arth-Goldau,,,LZ 631,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.04915622, 8.54949116322",255
+5007,Brunnen,,,LZ 651,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.9991749288, 8.61004816648",256
+5163,Realp,01.01.1931,,BR 791,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.5986330191, 8.5034581036",257
+5165,Andermatt,,,BR 790,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.6368923078, 8.59327487979",258
+5307,Chiasso,01.01.2029,,BEL351,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"45.8321788009, 9.03144057629",259
+6002,Winterthur Seen,01.01.2021,,ZUE642,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4874349418, 8.76678904042",260
+6100,Frauenfeld,,,ZUE630,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.5581599749, 8.89653893491",261
+6109,Amriswil,01.01.2003,,SG 212,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.5504471564, 9.30221759023",262
+6139,Stein am Rhein,01.01.1931,,ZUE464,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.656108874, 8.85500693112",263
+6200,Wattwil,01.01.1931,,SG 281,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2994785543, 9.0864636527",264
+6206,Wil,,,SG 200,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.4624092373, 9.04098327921",265
+6210,Gossau SG,,,SG 222,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.4118296551, 9.25303263655",266
+6302,St. Gallen,01.01.2013,,SG 100,Reisegepäck Express,"47.4231790668, 9.36987712043",267
+6313,Rheineck,01.01.2017,,SG 241,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4668881391, 9.59090422659",268
+6317,Heerbrugg,,,SG 244,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.4103853071, 9.62724352946",269
+6317,Heerbrugg,,,SG 244,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.4103853071, 9.62724352946",270
+7089,Schwarzenburg,01.01.1931,,BN 391,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.8191886776, 7.34283243216",271
+7279,Lenk im Simmental,01.01.2029,,IO 312,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4585813799, 7.44352282181",272
+7372,Wengen,01.01.2011,,IO 430,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6049014894, 7.92100343934",273
+7380,Grindelwald,,,IO 540,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.6243684278, 8.03331025897",274
+7475,Kandersteg,01.01.2013,,BN 368,Reisegepäck Express,"46.4955238841, 7.67126537052",275
+7493,Interlaken West,01.01.2013,,IO 211,Reisegepäck Express,"46.6826271766, 7.85144043072",276
+7851,"Adelboden, Post",01.01.2013,,BN 367,Reisegepäck Express,"46.4936901019, 7.56029593916",277
+8059,Jegenstorf,01.01.2005,,BN 521,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.0476153289, 7.50777274234",278
+8162,Roggwil Dorf,01.01.2003,01.01.1931,BN 573,Allgemeine Informationen,"47.2392987852, 7.82253108329",279
+8262,Walkringen,01.01.1931,,BN 632,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.9476674695, 7.61899376459",280
+8267,Ramsei,01.01.1931,,BN 642,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.9967638644, 7.7102034568",281
+8399,Engelberg,01.01.2013,,LZ 561,Reisegepäck Express,"46.8195231702, 8.40264298232",282
+8857,"Hasliberg Goldern, Post",01.01.2006,,LZ 531,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.739659351, 8.19843169697",283
+9000,Chur,,,CH 100,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.8530797552, 9.52892561961",284
+9073,Davos Platz,01.01.2013,,CH 560,Reisegepäck Express,"46.7914664266, 9.82072566153",285
+9253,St. Moritz,,01.01.1931,CH 700,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.4979672615, 9.84639099719",286
+9255,Pontresina,,,CH 710,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.4906477887, 9.89607757913",287
+9256,La Punt-Chamues-ch,01.01.2007,,CH 751,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.5786698549, 9.92333691693",288
+9256,La Punt-Chamues-ch,01.01.2026,01.01.2012,CH 751,ausschliesslich Hauszustellung  (genaue Adressangabe nötig),"46.5786698549, 9.92333691693",289
+9258,Zuoz,,01.01.2018,CH 743,"Gepäckbeförderung unterliegt den Bestimmungen der CIV (siehe T 601, Ziffer 27.0)","46.5999530277, 9.96146378568",290
+9263,Susch,01.01.2025,01.01.2012,CH 621,ausschliesslich Hauszustellung  (genaue Adressangabe nötig),"46.7520799199, 10.079326786",291
+9265,Guarda,01.01.2019,,CH 641,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.7715163582, 10.1505346597",292
+9265,Guarda,01.01.2006,,CH 641,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.7715163582, 10.1505346597",293
+9265,Guarda,01.01.2025,01.01.2012,CH 641,ausschliesslich Hauszustellung  (genaue Adressangabe nötig),"46.7715163582, 10.1505346597",294
+9411,Sargans,,,CH 241,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.0453635269, 9.44539562754",295
+9452,Flumserberg Tourismusbüro,01.01.2009,,CH 262,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.0935732257, 9.28452949736",296
+9752,"Andeer, posta",01.01.2003,,CH 402,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6021316819, 9.42663044381",297
+9776,"Ftan, cumün",01.01.1931,,CH 604,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.7929002125, 10.2470469836",298
+9869,"Sta. Maria Val Müstair, posta",01.01.2019,,CH 614,Allgemeine Informationen,"46.6021401805, 10.4250184147",299
+9881,Sils/Segl Maria,01.01.2003,,CH 702,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4302299828, 9.76509251285",300
+10,Basel SBB,01.01.2013,01.01.1931,BS 100,Fluggepäck (Check-in am Bahnhof),"47.5474041527, 7.58955146721",301
+105,Moutier,01.01.2013,,BN 842,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2806661619, 7.38103944266",302
+109,Delémont,,,BN 964,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.3620006555, 7.35005384248",303
+186,Alle,01.01.2029,,BN 820,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4241348211, 7.12833347606",304
+188,Bonfol,01.01.2029,,BN 822,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4739779525, 7.15539491931",305
+218,Olten,,,BS 401,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.3519295325, 7.907688105",306
+1008,Genève,,,GEA200,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.2102022669, 6.14245302875",307
+1026,Genève-Aéroport,,,GEA100,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.2325293452, 6.11198571992",308
+1030,Nyon,,,GEA321,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.3844060313, 6.23597429701",309
+1118,Renens VD,,,LS 211,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.5370287879, 6.57893884264",310
+1173,Echallens,01.01.1931,,LS 261,Gepäckbeförderung einmal täglich mit Cammionage-Dienst von Montag-Freitag,"46.6395002737, 6.6325409066",311
+1200,Vevey,,,LS 321,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.4629974303, 6.84345000982",312
+1300,Montreux,01.01.2013,,LS 300,Reisegepäck Express,"46.4358743527, 6.91043275261",313
+1400,Aigle,,,LS 341,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.3168441199, 6.9636800936",314
+1403,St-Maurice,,,LS 371,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.216363536, 7.00204915835",315
+1421,Monthey,01.01.1931,,LS 361,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.2556458933, 6.9552285472",316
+1448,Champéry,01.01.2010,,LS 348,"Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.)","46.174950304, 6.87150433206",317
+1563,Les Marécottes,01.01.2007,,LS 383,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.1123112372, 7.01169234967",318
+1576,Sembrancher,01.01.2019,,LS 388,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.0771013189, 7.14629384096",319
+1579,Le Châble,01.01.2007,,LS 387,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.0787435892, 7.21503927316",320
+1601,Leuk,01.01.1930,,BR 251,Allgemeine Informationen,"46.3118851335, 7.64394777254",321
+1605,Visp,01.01.2013,01.01.1931,BR 291,Gepäckauslieferung nur am Schalter,"46.2940248591, 7.88145816487",322
+1661,Oberwald,,,BR 781,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.5308495637, 8.34294024356",323
+1692,Riffelberg,01.01.1931,,BR 403,Beförderung von Fahrrädern nach dieser Station nicht möglich,"45.9929508442, 7.75510046843",324
+1755,"Chandolin, office du tourisme",01.01.2019,,BR 236,Gepäckabfertigung im Gegenverkehr ab dieser Station nicht möglich,"46.2521302278, 7.59701486843",325
+1791,"Zinal, poste",01.01.2021,,BR 235,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.1371059632, 7.62498227897",326
+2005,Nebikon,01.01.1931,,LZ 331,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.192373647, 7.97744173598",327
+2195,Muhen,01.01.2013,,ZUE305,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3395251746, 8.0536094515",328
+2199,Schöftland,01.01.2017,,ZUE311,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3058772399, 8.05000860649",329
+2203,Cham,01.01.2018,,LZ 613,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.1782423661, 8.45748408001",330
+2203,Cham,01.01.2004,,LZ 613,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.1782423661, 8.45748408001",331
+2213,Wohlen,,,LZ 431,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.3484618374, 8.26978121872",332
+2215,Muri AG,01.01.1931,,LZ 441,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2766601869, 8.3397982935",333
+3001,Zürich Altstetten,01.01.1931,,ZUE310,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3914808361, 8.4889402654",334
+3001,Zürich Altstetten,01.01.2011,,ZUE310,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.3914808361, 8.4889402654",335
+3065,Forch,01.01.2005,,ZUE718,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3253390563, 8.64796901247",336
+3104,Meilen,01.01.2012,,ZUE725,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2698122, 8.64429304135",337
+3116,Uznach,,,ZUE861,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.2242754695, 8.98067539571",338
+3121,Rüti ZH,01.01.2017,,ZUE560,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2604821005, 8.8540677825",339
+3127,Schwerzenbach ZH,01.01.2017,,ZUE530,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3843802387, 8.6586595992",340
+3127,Schwerzenbach ZH,01.01.2025,,ZUE530,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.3843802387, 8.6586595992",341
+3129,Wallisellen,01.01.1931,,ZUE510,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4127169827, 8.59191127027",342
+3130,Hinwil,01.01.2007,,ZUE552,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3000509, 8.83969785564",343
+3134,Bauma,01.01.2003,,ZUE646,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3688358029, 8.87821095251",344
+3138,Wald,01.01.1931,,ZUE648,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2726849167, 8.91398907071",345
+3221,Siebnen-Wangen,01.01.2019,,ZUE855,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.1826674891, 8.90069892838",346
+3225,Ziegelbrücke,,,ZUE801,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.1361516592, 9.06003718984",347
+3228,Netstal,01.01.2013,,ZUE812,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.0645276001, 9.05942421662",348
+3283,Einsiedeln,01.01.2020,,ZUE834,Allgemeine Informationen,"47.1285821379, 8.74446828516",349
+3305,Effretikon,01.01.2005,,ZUE620,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4258103324, 8.68666226267",350
+3315,Dielsdorf,01.01.2005,,ZUE436,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4824133475, 8.45942183431",351
+3502,Siggenthal-Würenlingen,01.01.2019,,ZUE415,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.5179218559, 8.24015363326",352
+4014,Palézieux,,,LS 511,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.5427523751, 6.83787768542",353
+4077,Gruyères,01.01.2006,,BN 235,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.5826073534, 7.07325558097",354
+4086,Bulle,,,BN 232,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.618188023, 7.0550371285",355
+4100,Fribourg/Freiburg,01.01.2013,,BN 221,Fluggepäck (Check-in am Bahnhof),"46.8032670642, 7.15102324519",356
+4298,Ste-Croix,01.01.1931,,LS 442,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.819667331, 6.50031077908",357
+4388,Les Ponts-de-Martel,01.01.2007,,BN 835,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.9996362786, 6.73587463416",358
+4489,Bern Bümpliz Nord,,,BN 281,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.9458272511, 7.38974518517",359
+5004,Arth-Goldau,01.01.2017,,LZ 631,"Beförderung von Gruppengepäck, Voranmeldung obligatorisch","47.04915622, 8.54949116322",360
+5006,Schwyz,,,LZ 641,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.0263942922, 8.63213946703",361
+5113,Altdorf,01.01.2025,,LZ 671,"Beförderung von Gruppengepäck, Voranmeldung obligatorisch","46.8757407268, 8.63156572016",362
+5300,Lugano,01.01.2022,,BEL300,Allgemeine Informationen,"46.0055057275, 8.94687441524",363
+5305,Mendrisio,01.01.1931,,BEL331,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"45.8691205007, 8.97860209025",364
+5400,Locarno,01.01.2013,,BEL200,Reisegepäck Express,"46.1724273965, 8.80135894865",365
+5401,Tenero,,,BEL251,"Beförderung von Gruppengepäck, Voranmeldung obligatorisch","46.1774682553, 8.85022179541",366
+5955,"Roveredo GR, Posta",01.01.2017,,BEL503,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.2377692654, 9.12754314721",367
+6000,Winterthur,01.01.2013,,ZUE600,Fluggepäck (Check-in am Bahnhof),"47.5003335301, 8.72379907332",368
+6002,Winterthur Seen,01.01.2008,,ZUE642,"Beförderung von Gruppengepäck, Voranmeldung obligatorisch","47.4874349418, 8.76678904042",369
+6013,Aadorf,01.01.2003,,ZUE226,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4881178542, 8.90328450849",370
+6206,Wil,01.01.2013,,SG 200,Fluggepäck (Check-in am Bahnhof),"47.4624092373, 9.04098327921",371
+6286,Appenzell,01.01.2003,,SG 611,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.328286221, 9.40882608704",372
+6290,Herisau,,,SG 531,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.3901678809, 9.27680356449",373
+6292,Degersheim,01.01.2029,,SG 541,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3724767308, 9.20028142402",374
+6308,Arbon,01.01.2003,,SG 253,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.5105854479, 9.43333858591",375
+6311,Rorschach,,,SG 231,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.4779984016, 9.50513168035",376
+6393,Wittenbach,01.01.1931,,SG 511,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4628476165, 9.38853751225",377
+7000,Bern,,,BN 100,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.948824497, 7.43911900576",378
+7000,Bern,01.01.2013,,BN 100,Fluggepäck (Check-in am Bahnhof),"46.948824497, 7.43911900576",379
+7006,Münsingen,,,BN 351,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.8733456586, 7.55942999819",380
+7100,Thun,,,BN 360,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.7548532939, 7.62959464395",381
+7177,"Merligen, Beatus",01.01.2013,,BN 362,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6962491074, 7.73806037406",382
+7372,Wengen,01.01.2013,,IO 430,Reisegepäck Express,"46.6049014894, 7.92100343934",383
+7372,Wengen,01.01.2013,,IO 430,Fluggepäck (Check-in am Bahnhof),"46.6049014894, 7.92100343934",384
+7379,Mürren BLM,01.01.2013,,IO 420,Reisegepäck Express,"46.5641050247, 7.89724225608",385
+7492,Interlaken Ost,01.01.2013,,IO 100,Fluggepäck (Check-in am Bahnhof),"46.6905054601, 7.86900513744",386
+7492,Interlaken Ost,,,IO 100,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.6905054601, 7.86900513744",387
+7771,"Wiler (Lötschen), Seilbahn",01.01.2010,,BR 310,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.4018355078, 7.77799838397",388
+7771,"Wiler (Lötschen), Seilbahn",01.01.2021,,BR 310,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4018355078, 7.77799838397",389
+7851,"Adelboden, Post",01.01.2003,,BN 367,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4936901019, 7.56029593916",390
+8005,Burgdorf,,,BN 580,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.0606957305, 7.62168894507",391
+8061,Fraubrunnen,01.01.2005,,BN 522,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.0864551802, 7.52215043262",392
+8088,Gerlafingen,01.01.2029,,BN 624,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.1697445507, 7.56518564422",393
+8100,Langenthal,,,BN 570,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.2173003777, 7.78470885276",394
+8297,Menznau,01.01.1931,,BN 656,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.0834344953, 8.04092804492",395
+8399,Engelberg,,,LZ 561,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.8195231702, 8.40264298232",396
+8499,Seelisberg,01.01.2016,,LZ 751,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.9788077162, 8.58692988796",397
+9068,Klosters Platz,,,CH 540,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.8692118566, 9.8809363602",398
+9157,Arosa,01.01.2013,01.01.1931,CH 800,Fluggepäck (Check-in am Bahnhof),"46.7832957175, 9.67933313854",399
+9157,Arosa,01.01.2013,,CH 800,Reisegepäck Express,"46.7832957175, 9.67933313854",400
+20,Muttenz,01.01.2006,,BS 302,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.5335803903, 7.64787914262",401
+21,Pratteln,01.01.2020,,BS 311,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.522657608, 7.69080243836",402
+101,Reconvilier,,,BN 848,,"47.2352248694, 7.22741061293",403
+102,Malleray-Bévilard,01.01.2012,,BN 840,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2387040498, 7.27593219578",404
+113,Laufen,,,BS 211,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.4193383263, 7.50263030739",405
+207,Solothurn,01.01.2013,,BN 950,Fluggepäck (Check-in am Bahnhof),"47.2041807751, 7.54268420304",406
+294,Balsthal,01.01.2029,,ZUE474,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3128885029, 7.69391394062",407
+1037,Morges,,,LS 220,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.5110918027, 6.49396427184",408
+1120,Lausanne,01.01.2013,,LS 100,Fluggepäck (Check-in am Bahnhof),"46.5167786487, 6.62909314109",409
+1191,Orbe,,,LS 432,,"46.7243888263, 6.53010963129",410
+1479,Les Diablerets,01.01.2010,,LS 344,"Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.)","46.3511579623, 7.15502420208",411
+1479,Les Diablerets,01.01.2007,,LS 344,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.3511579623, 7.15502420208",412
+1506,Sion,,,BR 221,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.2275453615, 7.35919185191",413
+1601,Leuk,01.01.2007,,BR 251,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.3118851335, 7.64394777254",414
+1666,Reckingen,01.01.2011,,BR 750,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4682257174, 8.24388275992",415
+1688,Täsch,01.01.2019,,BR 451,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.0674587948, 7.77451598603",416
+1689,Zermatt,,,BR 400,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.0244720211, 7.74829647858",417
+1690,Zermatt GGB,,,BR 406,,"46.023949225, 7.74868091973",418
+1691,Riffelalp,01.01.2017,,BR 402,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.0048989646, 7.75435623172",419
+1692,Riffelberg,01.01.2017,,BR 403,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"45.9929508442, 7.75510046843",420
+1754,"Blatten b. Naters, Belalpbahn",01.01.2017,,BR 551,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.3591668639, 7.98390664287",421
+1755,"Chandolin, office du tourisme",01.01.2014,,BR 236,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.2521302278, 7.59701486843",422
+1768,"Grimentz, poste",01.01.2006,,BR 232,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.1784922693, 7.57622475623",423
+1780,"Saas-Almagell, Tourismusbüro",01.01.2011,,BR 503,Allgemeine Informationen,"46.0941668822, 7.95749649507",424
+1783,"Saas-Grund, Post",01.01.1931,,BR 502,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.1235140981, 7.9368174188",425
+71065,"Bürchen, Tourismusbüro",,,BR 293,Allgemeine Informationen,"46.2705984737, 7.82795328088",426
+1963,"Visperterminen, Tourismusbüro",01.01.2020,,BR 292,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.2580558114, 7.90268134293",427
+2001,Zofingen,01.01.1931,,LZ 341,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2880447598, 7.94309735295",428
+2160,Gränichen,01.01.2006,,ZUE303,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3616635141, 8.09878046673",429
+2168,Reinach AG,01.01.2017,,ZUE306,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.250108124, 8.18333544082",430
+2222,Bonstetten-Wettswil,01.01.2029,,ZUE261,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3258957392, 8.46817514105",431
+3003,Zürich Stadelhofen,01.01.2025,,ZUE710,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3666105569, 8.54846647022",432
+3004,Zürich Tiefenbrunnen,01.01.2021,,ZUE720,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3501235091, 8.56137239898",433
+3010,Zürich Enge,01.01.1931,,ZUE210,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3640983597, 8.53080595476",434
+3062,Egg,01.01.2005,,ZUE714,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.301506634, 8.68961370345",435
+3066,Zumikon,01.01.2021,,ZUE717,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3316886307, 8.62380679798",436
+3097,Langnau-Gattikon,01.01.2007,,ZUE242,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2868741088, 8.54401952332",437
+3101,Küsnacht ZH,01.01.2005,,ZUE721,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3191528026, 8.58061588761",438
+3126,Nänikon-Greifensee,01.01.2013,,ZUE535,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3693584945, 8.68639971514",439
+3127,Schwerzenbach ZH,01.01.2025,,ZUE530,"Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.)","47.3843802387, 8.6586595992",440
+3206,Wädenswil,01.01.1931,,ZUE840,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2293011038, 8.67519275897",441
+3206,Wädenswil,01.01.2013,,ZUE840,Fluggepäck (Check-in am Bahnhof),"47.2293011038, 8.67519275897",442
+3207,Richterswil,01.01.2017,,ZUE845,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2083677131, 8.70746042267",443
+3233,Schwanden,01.01.2017,,ZUE814,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.9968482066, 9.07744743355",444
+3239,Linthal Braunwaldbahn,01.01.2007,,ZUE822,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.9255699583, 8.99777825107",445
+3283,Einsiedeln,01.01.2029,,ZUE834,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.1285821379, 8.74446828516",446
+3286,Samstagern,,,ZUE831,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.1915464207, 8.68597267489",447
+3287,Burghalden,01.01.2017,,ZUE833,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2086734144, 8.6926955866",448
+3301,Pfäffikon ZH,01.01.2013,,ZUE625,Allgemeine Informationen,"47.3670842127, 8.78477640275",449
+3302,Fehraltorf,01.01.2005,,ZUE622,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.3851215525, 8.75026509676",450
+3308,Kloten,01.01.2029,,ZUE451,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4486070251, 8.58379121249",451
+3400,Bülach,01.01.2029,,ZUE400,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.5239413008, 8.53618858988",452
+3424,Schaffhausen,,,ZUE460,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.6982814692, 8.6327284859",453
+3504,Baden,,,ZUE340,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.476420225, 8.3076927631",454
+4287,Fleurier,01.01.2005,,BN 826,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.904858645, 6.58157904283",455
+4414,Lyss,01.01.1931,,BN 838,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.0763151407, 7.30629081519",456
+4483,Ins,,,BN 830,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.9998261907, 7.09955576908",457
+5091,Stoos,01.01.2019,,LZ 643,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.9839129798, 8.66469050453",458
+5113,Altdorf,01.01.2025,,LZ 671,"Beförderung von 6 und mehr Fahrrädern, Voranmeldung obligatorisch (mind. 24 Std.)","46.8757407268, 8.63156572016",459
+5209,Biasca,01.01.2029,,BEL451,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.351982918, 8.97416705214",460
+5300,Lugano,,,BEL300,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.0055057275, 8.94687441524",461
+5400,Locarno,,,BEL200,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.1724273965, 8.80135894865",462
+6000,Winterthur,,,ZUE600,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.5003335301, 8.72379907332",463
+6002,Winterthur Seen,01.01.2008,,ZUE642,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.4874349418, 8.76678904042",464
+6047,Andelfingen,01.01.2007,,ZUE461,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","47.5937589886, 8.67797953564",465
+6105,Weinfelden,,,SG 300,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.5662241626, 9.10634628137",466
+6208,Uzwil,,,SG 221,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.4364421946, 9.13097170762",467
+6302,St. Gallen,01.01.2013,,SG 100,Fluggepäck (Check-in am Bahnhof),"47.4231790668, 9.36987712043",468
+6314,St. Margrethen,,,SG 243,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.4532118157, 9.63825154068",469
+6350,Walzenhausen,01.01.2009,,SG 242,Allgemeine Informationen,"47.45174123, 9.60126132858",470
+6788,"Unterwasser, Post",01.01.2004,,SG 287,Gepäckauslieferung durch den Wagenführer bei Ankunft und Abfahrt der Kurse,"47.1969080495, 9.30899339444",471
+7192,Beatenberg,01.01.2003,,IO 723,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6905972895, 7.76528589056",472
+7361,Eigergletscher,01.01.2005,,IO 433,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.5748075236, 7.97407636075",473
+7374,Kleine Scheidegg,01.01.1931,,IO 450,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.5847945993, 7.96012305872",474
+7374,Kleine Scheidegg,01.01.2005,,IO 450,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.5847945993, 7.96012305872",475
+7380,Grindelwald,01.01.2013,,IO 540,Reisegepäck Express,"46.6243684278, 8.03331025897",476
+7384,Lauterbrunnen,01.01.2013,,IO 411,Reisegepäck Express,"46.5984335089, 7.90809093738",477
+7384,Lauterbrunnen,,,IO 411,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.5984335089, 7.90809093738",478
+7475,Kandersteg,,,BN 368,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.4955238841, 7.67126537052",479
+7483,Spiez,,,BN 365,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.6863921577, 7.68009797421",480
+7493,Interlaken West,01.01.2013,,IO 211,Fluggepäck (Check-in am Bahnhof),"46.6826271766, 7.85144043072",481
+7753,"Blatten Lötschen, Hotel Edelweiss",01.01.2011,01.01.2012,BR 306,Allgemeine Informationen,"46.4195334717, 7.81951165408",482
+8008,Herzogenbuchsee,01.01.2029,,BN 590,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.1880813308, 7.70094642682",483
+8295,Willisau,,,BN 654,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.122559862, 7.99706134204",484
+8357,Melchsee-Frutt,01.01.2012,,LZ 523,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.7745443101, 8.26839856289",485
+8357,Melchsee-Frutt,01.01.1931,,LZ 523,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.7745443101, 8.26839856289",486
+8464,Vitznau,01.01.2026,,LZ 731,Allgemeine Informationen,"47.0093586594, 8.48238323725",487
+8795,"Hasliberg Wasserwendi, Dorf",01.01.2016,,LZ 532,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.7466665251, 8.19716932549",488
+8857,"Hasliberg Goldern, Post",01.01.2021,,LZ 531,"Gepäckauslieferung an Sa, So und Feiertagen durch den Wagenführer","46.739659351, 8.19843169697",489
+9000,Chur,01.01.2013,,CH 100,Fluggepäck (Check-in am Bahnhof),"46.8530797552, 9.52892561961",490
+9000,Chur,01.01.2013,,CH 100,Reisegepäck Express,"46.8530797552, 9.52892561961",491
+9002,Landquart,,,CH 211,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.9674389764, 9.55402859224",492
+9157,Arosa,,,CH 800,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.7832957175, 9.67933313854",493
+9250,Bever,01.01.2017,,CH 742,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.5499061769, 9.88847669658",494
+9251,Samedan,,,CH 741,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.5337641741, 9.8736354163",495
+9253,St. Moritz,01.01.2013,,CH 700,Reisegepäck Express,"46.4979672615, 9.84639099719",496
+9256,La Punt-Chamues-ch,01.01.2027,,CH 751,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.5786698549, 9.92333691693",497
+9257,Madulain,01.01.2026,01.01.2012,CH 752,ausschliesslich Hauszustellung  (genaue Adressangabe nötig),"46.5870798428, 9.93835729234",498
+9257,Madulain,01.01.2027,,CH 752,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.5870798428, 9.93835729234",499
+9259,S-chanf,01.01.2017,,CH 753,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.611938153, 9.98182306539",500
+9263,Susch,01.01.2019,,CH 621,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.7520799199, 10.079326786",501
+9264,Lavin,01.01.2007,,CH 631,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.7695694922, 10.1109675736",502
+9353,Morteratsch,01.01.2016,,CH 731,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4507174596, 9.94041489921",503
+9353,Morteratsch,01.01.2016,01.01.2012,CH 731,ausschliesslich Hauszustellung  (genaue Adressangabe nötig),"46.4507174596, 9.94041489921",504
+9757,"Breil/Brigels, posta",01.01.2014,,CH 329,Allgemeine Informationen,"46.7675770008, 9.06259359906",505
+9790,"Lenzerheide/Lai, Post",01.01.2007,,CH 921,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.7280447625, 9.55767229036",506
+9794,Maloja,01.01.2003,,CH 703,Allgemeine Informationen,"46.4036442932, 9.69523815046",507
+9798,"Müstair, posta",01.01.1931,,CH 613,Gepäckauslieferung durch den Wagenführer bei Ankunft und Abfahrt der Kurse,"46.6261555005, 10.4459592429",508
+9860,"Promontogno, Posta",01.01.2017,,CH 705,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.3382101262, 9.55639233375",509
+9873,"Samnaun Dorf, Post",01.01.2017,,CH 601,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.945002468, 10.3620287017",510
+1767,"Grächen, Post",01.01.2019,,BR 421,Allgemeine Informationen,"46.1965132316, 7.83984784844",511
+8314,Sarnen,,,LZ 521,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.8945995233, 8.24748154593",512
+4126,Avenches,01.01.2003,,BN 821,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.8845963101, 7.04091658825",513
+7290,Zweisimmen,,,IO 311,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.5530890613, 7.3753203012",514
+6355,Heiden,01.01.2007,,SG 232,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4464155021, 9.53677083472",515
+81567,Val Müstair domicil,,,CH 613,ausschliesslich Hauszustellung  (genaue Adressangabe nötig),"46.6294467006, 10.4498406104",516
+9404,Buchs SG,,,CH 251,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"47.1684089962, 9.47862968189",517
+9766,"Avers, Hotel Bergalga",01.01.2024,,CH 404,Allgemeine Informationen,"46.4730077533, 9.51189289975",518
+9776,"Ftan, cumün",,,CH 604,Hauszustellung möglich (genaue Adressangabe nötig),"46.7929002125, 10.2470469836",519
+9786,"Laax GR, posta",01.01.2010,,CH 902,Allgemeine Informationen,"46.8065308778, 9.25811381355",520
+9790,"Lenzerheide/Lai, Post",01.01.2002,,CH 921,Allgemeine Informationen,"46.7280447625, 9.55767229036",521
+9874,"Savognin, posta",01.01.2021,,CH 412,Allgemeine Informationen,"46.5955161089, 9.60088394167",522
+9881,Sils/Segl Maria,01.01.2003,,CH 702,Allgemeine Informationen,"46.4302299828, 9.76509251285",523
+9882,Silvaplana,01.01.2003,,CH 701,Allgemeine Informationen,"46.4621465865, 9.79672918592",524
+9952,"Vals, Post",01.01.2020,,CH 327,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6189145457, 9.18053593053",525
+9952,"Vals, Post",01.01.2003,,CH 327,Allgemeine Informationen,"46.6189145457, 9.18053593053",526
+9986,"Versam, Post",01.01.1931,,CH 331,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.7924672308, 9.33716258412",527
+9986,"Versam, Post",01.01.2003,,CH 331,Allgemeine Informationen,"46.7924672308, 9.33716258412",528
+1767,"Grächen, Post",01.01.2029,,BR 421,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.1965132316, 7.83984784844",529
+8318,Hergiswil,,,LZ 511,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.9826127199, 8.31016575309",530
+7003,Gümligen,,,BN 372,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.9343142711, 7.50550149434",531
+7002,Ostermundigen,01.01.2017,,BN 371,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.9567955453, 7.48148743552",532
+6366,Speicher,01.01.2019,,SG 631,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.4105560572, 9.44332165804",533
+1676,Mörel ARBAG,01.01.2025,,BR 711,Allgemeine Informationen,"46.3562094503, 8.04713757276",534
+83688,Scuol domicil,01.01.2013,,CH 600,Allgemeine Informationen,"46.7957441903, 10.2956773361",535
+9958,"Vella, posta",01.01.2008,,CH 328,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.7175213775, 9.17341089559",536
+9986,"Versam, Post",01.01.2020,,CH 331,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.7924672308, 9.33716258412",537
+4400,Kerzers,,,BN 831,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.9750673748, 7.19279802852",538
+8308,Meiringen,,,IO 611,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.7273296622, 8.18423402153",539
+8202,Konolfingen,,,BN 431,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.8806940961, 7.62135468425",540
+4410,Zollikofen,01.01.2021,,BN 515,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.0018214448, 7.46290426809",541
+4128,Murten,01.01.1931,,BN 843,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.9253915414, 7.11537589102",542
+81567,Val Müstair domicil,,,CH 613,Allgemeine Informationen,"46.6294467006, 10.4498406104",543
+81567,Val Müstair domicil,01.01.2029,,CH 613,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.6294467006, 10.4498406104",544
+83688,Scuol domicil,,,CH 600,ausschliesslich Hauszustellung  (genaue Adressangabe nötig),"46.7957441903, 10.2956773361",545
+9171,Ilanz,,,CH 321,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.7753580075, 9.20743786951",546
+9181,Domat/Ems,01.01.2029,,CH 311,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.8331408741, 9.45316475001",547
+9189,Thusis,,,CH 401,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.6981990894, 9.44050194244",548
+9252,Celerina,01.01.2026,,CH 720,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.5139828859, 9.8584448359",549
+9253,St. Moritz,01.01.2023,01.01.1931,CH 700,Allgemeine Informationen,"46.4979672615, 9.84639099719",550
+9258,Zuoz,01.01.2027,,CH 743,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.5999530277, 9.96146378568",551
+9259,S-chanf,01.01.2026,01.01.2012,CH 753,ausschliesslich Hauszustellung  (genaue Adressangabe nötig),"46.611938153, 9.98182306539",552
+9259,S-chanf,01.01.2027,,CH 753,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.611938153, 9.98182306539",553
+9260,Cinuos-chel-Brail,01.01.2015,,CH 754,ausschliesslich Hauszustellung  (genaue Adressangabe nötig),"46.6385312048, 10.0219237532",554
+9260,Cinuos-chel-Brail,01.01.2018,,CH 754,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6385312048, 10.0219237532",555
+9263,Susch,01.01.2019,,CH 621,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.7520799199, 10.079326786",556
+9264,Lavin,01.01.2019,,CH 631,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.7695694922, 10.1109675736",557
+9268,Scuol-Tarasp,,,CH 600,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.7937752597, 10.2862148815",558
+9361,Poschiavo,,,CH 732,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.3248027549, 10.0543340143",559
+9411,Sargans,01.01.2013,,CH 241,Fluggepäck (Check-in am Bahnhof),"47.0453635269, 9.44539562754",560
+9680,Feldis/Veulden,01.01.2005,,CH 409,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.7951183526, 9.4298224416",561
+9757,"Breil/Brigels, posta",01.01.1931,,CH 329,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.7675770008, 9.06259359906",562
+9757,"Breil/Brigels, posta",01.01.2017,,CH 329,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.7675770008, 9.06259359906",563
+9773,"Flims Dorf, Post",01.01.2029,,CH 903,Allgemeine Informationen,"46.8367765039, 9.28757572679",564
+9799,"Obersaxen Meierhof, Post",01.01.1931,,CH 324,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.7488271128, 9.100054452",565
+9873,"Samnaun Dorf, Post",01.01.1931,,CH 601,Gepäckauslieferung durch den Wagenführer bei Ankunft und Abfahrt der Kurse,"46.945002468, 10.3620287017",566
+9873,"Samnaun Dorf, Post",01.01.1931,,CH 601,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.945002468, 10.3620287017",567
+9966,"Wergenstein, posta",01.01.2009,,CH 750,Allgemeine Informationen,"46.6266870826, 9.40807240109",568
+211,Niederbipp,01.01.2003,01.01.1931,BN 572,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.2703963923, 7.69480825358",569
+8305,Brienz,01.01.2029,,IO 617,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.7548403226, 8.03893624435",570
+4101,Düdingen,01.01.2029,,BN 241,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.8510429325, 7.1897482223",571
+8272,Sumiswald-Grünen,01.01.1931,,BN 644,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"47.025418755, 7.73706472642",572
+8211,Schüpfheim,01.01.2017,,BN 211,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.950643127, 8.01513834472",573
+1676,Mörel ARBAG,01.01.2025,,BR 711,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.3562094503, 8.04713757276",574
+83688,Scuol domicil,01.01.2029,,CH 600,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.7957441903, 10.2956773361",575
+9264,Lavin,01.01.2025,01.01.2012,CH 631,ausschliesslich Hauszustellung  (genaue Adressangabe nötig),"46.7695694922, 10.1109675736",576
+9266,Ardez,01.01.2019,,CH 651,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.7735451754, 10.2010487691",577
+9266,Ardez,01.01.2003,,CH 651,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.7735451754, 10.2010487691",578
+9268,Scuol-Tarasp,,,CH 600,Hauszustellung möglich (genaue Adressangabe nötig),"46.7937752597, 10.2862148815",579
+9452,Flumserberg Tourismusbüro,01.01.2009,,CH 262,Allgemeine Informationen,"47.0935732257, 9.28452949736",580
+9752,"Andeer, posta",01.01.2019,,CH 402,Allgemeine Informationen,"46.6021316819, 9.42663044381",581
+9773,"Flims Dorf, Post",01.01.2005,,CH 903,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.8367765039, 9.28757572679",582
+9776,"Ftan, cumün",01.01.2005,,CH 604,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.7929002125, 10.2470469836",583
+9776,"Ftan, cumün",01.01.2025,,CH 604,Allgemeine Informationen,"46.7929002125, 10.2470469836",584
+9786,"Laax GR, posta",01.01.2007,,CH 902,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.8065308778, 9.25811381355",585
+9798,"Müstair, posta",01.01.2013,,CH 613,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6261555005, 10.4459592429",586
+9799,"Obersaxen Meierhof, Post",01.01.2003,,CH 324,Allgemeine Informationen,"46.7488271128, 9.100054452",587
+9799,"Obersaxen Meierhof, Post",01.01.2017,,CH 324,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.7488271128, 9.100054452",588
+9869,"Sta. Maria Val Müstair, posta",01.01.2019,,CH 614,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.6021401805, 10.4250184147",589
+9873,"Samnaun Dorf, Post",,,CH 601,Hauszustellung möglich (genaue Adressangabe nötig),"46.945002468, 10.3620287017",590
+9882,Silvaplana,01.01.2006,,CH 701,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.4621465865, 9.79672918592",591
+9952,"Vals, Post",01.01.1931,,CH 327,Beförderung von Fahrrädern nach dieser Station nicht möglich,"46.6189145457, 9.18053593053",592
+9958,"Vella, posta",01.01.2003,,CH 328,Allgemeine Informationen,"46.7175213775, 9.17341089559",593
+9958,"Vella, posta",01.01.2020,,CH 328,Militärgepäck: Beförderung von Büro- und Materialkisten (über 25 Kg) nicht möglich,"46.7175213775, 9.17341089559",594
+8305,Brienz,01.01.2002,,IO 617,"Beförderung von Fahrrädern beschränkt, Voranmeldung erwünscht","46.7548403226, 8.03893624435",595
+8207,Langnau,,,BN 441,Beförderung von Militärgepäck (Büro- und Materialkisten) möglich,"46.9392386679, 7.78418250906",596
