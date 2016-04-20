@@ -28,7 +28,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:name;
+		rr:predicate schema:quantity;
 		rr:objectMap [
 			rml:reference "stationsbezeichnung";
 			rr:datatype xsd:string;
@@ -94,7 +94,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate rdfs:comment;
 		rr:objectMap [
 			rml:reference "parkrail_bemerkung";
 			rr:rdfs:Datatype xsd:string;

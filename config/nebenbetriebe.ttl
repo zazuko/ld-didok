@@ -14,7 +14,7 @@
 @prefix gont: <https://gont.ch/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix qb: <http://purl.org/linked-data/cube#>.
-@prefix bafu: <http://example.org/> .
+@prefix transport: <http://linked.transport.swiss/> .
 
 <#Pollutant>
 	rml:logicalSource [
@@ -35,7 +35,6 @@
 		]
 	];
 
-	#TODO: legalName or name? (BANCOMAT/RESTAURANT vs. Coop Pronto/K Kiosk)
 	rr:predicateObjectMap [
 		rr:predicate schema:name;
 		rr:objectMap [
@@ -53,7 +52,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate rdfs:comment;
 		rr:objectMap [
 			rml:reference "bemerkungen";
 			rr:datatype xsd:string;
