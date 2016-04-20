@@ -77,9 +77,8 @@
 		]
 	];
 
-	#TODO: what the heck is this?
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate schema:legalName;
 		rr:objectMap [
 			rml:reference "GO-Abk";
 			rr:datatype xsd:string;
