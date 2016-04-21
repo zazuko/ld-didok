@@ -14,7 +14,7 @@
 @prefix gont: <https://gont.ch/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix qb: <http://purl.org/linked-data/cube#>.
-@prefix bafu: <http://example.org/> .
+@prefix transport: <http://schema.transport.swiss/> .
 
 
 <#Pollutant>

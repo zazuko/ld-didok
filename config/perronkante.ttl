@@ -29,7 +29,7 @@
 	];
 
 	rr:predicateObjectMap [
-    	rr:predicate gont:lv03_y;
+    	rr:predicate gont:lv95_y;
     	rr:objectMap [
       		rml:reference "y" ;
       		rr:datatype xsd:float 
@@ -37,7 +37,7 @@
   	];
 
     rr:predicateObjectMap [
-    	rr:predicate gont:lv03_x;
+    	rr:predicate gont:lv95_x;
     	rr:objectMap [
       		rml:reference "x" ;
       		rr:datatype xsd:float 
@@ -53,7 +53,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:Km;
 		rr:objectMap [
 			rml:reference "Km";
 			rr:datatype xsd:float
@@ -61,7 +61,7 @@
 	];
 
 	rr:predicateObjectMap [
-	    rr:predicate rdfs:label;
+	    rr:predicate transport:BPS;
 	    rr:objectMap [
 			rml:reference "BPS";
 			rr:datatype xsd:string
@@ -69,7 +69,7 @@
 	];
 
 	rr:predicateObjectMap [
-	    rr:predicate rdfs:label;
+	    rr:predicate transport:BPSName;
 	    rr:objectMap [
 			rml:reference "BPS Name";
 			rr:datatype xsd:string
@@ -77,7 +77,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:PerronTyp;
 		rr:objectMap [
 			rml:reference "PerronTyp";
 			rr:datatype xsd:string
@@ -85,7 +85,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:P-Nr;
 		rr:objectMap [
 			rml:reference "P-Nr";
 			rr:datatype xsd:string
@@ -93,7 +93,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:Kanten-L;
 		rr:objectMap [
 			rml:reference "Kanten-L=";
 			rr:datatype xsd:float
@@ -101,7 +101,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:PK-H;
 		rr:objectMap [
 			rml:reference "PK-H=";
 			rr:datatype xsd:string
@@ -109,7 +109,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:BemHohe;
 		rr:objectMap [
 			rml:reference "Bem Hohe";
 			rr:datatype xsd:string
@@ -117,7 +117,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:Hilfstritt;
 		rr:objectMap [
 			rml:reference "Hilfstritt";
 			rr:datatype xsd:string
@@ -125,7 +125,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:H-Verl;
 		rr:objectMap [
 			rml:reference "H-Verl";
 			rr:datatype xsd:string
@@ -134,7 +134,7 @@
 
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:BemH-Verlauf;
 		rr:objectMap [
 			rml:reference "Bem H-Verlauf";
 			rr:datatype xsd:string
@@ -142,7 +142,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:Material;
 		rr:objectMap [
 			rml:reference "Material";
 			rr:datatype xsd:string
@@ -150,7 +150,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:BemMaterial;
 		rr:objectMap [
 			rml:reference "Bem Material";
 			rr:datatype xsd:string
@@ -158,7 +158,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:Kantenkrone;
 		rr:objectMap [
 			rml:reference "Kantenkrone";
 			rr:datatype xsd:string
@@ -166,7 +166,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:BemKantenkrone;
 		rr:objectMap [
 			rml:reference "Bem Kantenkrone";
 			rr:datatype xsd:string
@@ -174,7 +174,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:Auftritt;
 		rr:objectMap [
 			rml:reference "Auftritt";
 			rr:datatype xsd:string
@@ -182,7 +182,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:BemAuftritt;
 		rr:objectMap [
 			rml:reference "Bem Auftritt";
 			rr:datatype xsd:string
@@ -190,7 +190,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:Fotos;
 		rr:objectMap [
 			rml:reference "Fotos";
 			rr:datatype xsd:int
@@ -206,7 +206,7 @@
 	];
 
 	rr:predicateObjectMap [
-    	rr:predicate gont:lv03_y;
+    	rr:predicate gont:lv95_y;
     	rr:objectMap [
       		rml:reference "y2" ;
       		rr:datatype xsd:float 
@@ -214,7 +214,7 @@
   	];
 
     rr:predicateObjectMap [
-    	rr:predicate gont:lv03_x;
+    	rr:predicate gont:lv95_x;
     	rr:objectMap [
       		rml:reference "x2" ;
       		rr:datatype xsd:float 

@@ -14,7 +14,7 @@
 @prefix gont: <https://gont.ch/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix qb: <http://purl.org/linked-data/cube#>.
-@prefix bafu: <http://example.org/> .
+@prefix transport: <http://schema.transport.swiss/> .
 
 
 <#Pollutant>
@@ -36,7 +36,7 @@
   	];
 
 	rr:predicateObjectMap [
-	    rr:predicate schema:name;
+	    rr:predicate transport:stationName;
 	    rr:objectMap [
 			rml:reference "stationsbezeichnung";
 			rr:datatype xsd:string
@@ -44,7 +44,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:validFrom;
 		rr:objectMap [
 			rml:reference "gueltig_von";
 			rr:datatype xsd:date
@@ -52,7 +52,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:validTo;
 		rr:objectMap [
 			rml:reference "gueltig_bis";
 			rr:datatype xsd:date
@@ -60,7 +60,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:knot;
 		rr:objectMap [
 			rml:reference "knoten";
 			rr:datatype xsd:string
@@ -68,7 +68,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:info;
 		rr:objectMap [
 			rml:reference "abfertigungs_info";
 			rr:datatype xsd:string
@@ -76,7 +76,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:geo;
+		rr:predicate transport:location;
 		rr:objectMap [
 			rml:reference "geopos";
 		]

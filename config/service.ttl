@@ -14,7 +14,7 @@
 @prefix gont: <https://gont.ch/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix qb: <http://purl.org/linked-data/cube#>.
-@prefix bafu: <http://example.org/> .
+@prefix transport: <http://schema.transport.swiss/> .
 
 
 <#Pollutant>
@@ -36,7 +36,7 @@
   	];
 
 	rr:predicateObjectMap [
-	    rr:predicate schema:name;
+	    rr:predicate transport:stationName;
 	    rr:objectMap [
 			rml:reference "stationsbezeichnung";
 			rr:datatype xsd:string
@@ -52,7 +52,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:periodFrom;
 		rr:objectMap [
 			rml:reference "periodevon";
 			rr:datatype xsd:date
@@ -60,7 +60,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:periodTo;
 		rr:objectMap [
 			rml:reference "periodebis";
 			rr:datatype xsd:date
@@ -68,7 +68,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:openingHours;
+		rr:predicate schema:hoursAvailable;
 		rr:objectMap [
 			rml:reference "von1";
 			rr:datatype xsd:dateTime
@@ -76,7 +76,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:openingHours;
+		rr:predicate schema:hoursAvailable;
 		rr:objectMap [
 			rml:reference "bis1";
 			rr:datatype xsd:dateTime
@@ -84,7 +84,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:openingHours;
+		rr:predicate schema:hoursAvailable;
 		rr:objectMap [
 			rml:reference "von2";
 			rr:datatype xsd:dateTime
@@ -92,7 +92,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:openingHours;
+		rr:predicate schema:hoursAvailable;
 		rr:objectMap [
 			rml:reference "bis2";
 			rr:datatype xsd:dateTime
@@ -100,7 +100,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:openingHours;
+		rr:predicate schema:hoursAvailable;
 		rr:objectMap [
 			rml:reference "von3";
 			rr:datatype xsd:dateTime
@@ -108,7 +108,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:openingHours;
+		rr:predicate schema:hoursAvailable;
 		rr:objectMap [
 			rml:reference "bis3";
 			rr:datatype xsd:dateTime
@@ -116,7 +116,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:Mo;
 		rr:objectMap [
 			rml:reference "Mo";
 			rr:datatype xsd:int
@@ -124,7 +124,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:Tu;
 		rr:objectMap [
 			rml:reference "Di";
 			rr:datatype xsd:int
@@ -132,7 +132,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:We;
 		rr:objectMap [
 			rml:reference "Mi";
 			rr:datatype xsd:int
@@ -140,7 +140,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:Th;
 		rr:objectMap [
 			rml:reference "Do";
 			rr:datatype xsd:int
@@ -148,7 +148,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:Fr;
 		rr:objectMap [
 			rml:reference "Fr";
 			rr:datatype xsd:int
@@ -156,7 +156,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:Sa;
 		rr:objectMap [
 			rml:reference "Sa";
 			rr:datatype xsd:int
@@ -164,7 +164,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:Su;
 		rr:objectMap [
 			rml:reference "So";
 			rr:datatype xsd:int
@@ -172,7 +172,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:openingPeriod;
 		rr:objectMap [
 			rml:reference "Oeffnungsdauer";
 			rr:datatype xsd:string
@@ -180,7 +180,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:openingPeriod;
 		rr:objectMap [
 			rml:reference "Dauer Mo-Fr";
 			rr:datatype xsd:string
@@ -188,7 +188,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:openingPeriod;
 		rr:objectMap [
 			rml:reference "Dauer Sa";
 			rr:datatype xsd:string
@@ -196,7 +196,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:openingPeriod;
 		rr:objectMap [
 			rml:reference "Dauer So";
 			rr:datatype xsd:string
@@ -212,7 +212,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:areaServed;
+		rr:predicate transport:location;
 		rr:objectMap [
 			rml:reference "geopos";
 		]
