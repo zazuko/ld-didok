@@ -1,3 +1,26 @@
 <div>
     <h3>{{world}}</h3>
+    <br>
+    <div id="showcase">
+        <table class="table table-hover">
+            <thead class="thead-inverse">
+                <tr>
+                    <th>Id</th>
+                    <th>Subject</th>
+                    <th>Label</th>
+                    <th>X</th>
+                    <th>Y</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="didok in data" style="cursor: pointer;">
+                    <th scope="row">{{didok.id.value}}</th>
+                    <td>{{didok.subject.value}}</td>
+                    <td>{{didok.label.value}}</td>
+                    <td>{{didok.x.value}}</td>
+                    <td>{{didok.y.value}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
