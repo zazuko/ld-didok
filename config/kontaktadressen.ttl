@@ -36,7 +36,7 @@
   	];
 
 	rr:predicateObjectMap [
-	    rr:predicate schema:name;
+	    rr:predicate transport:stationName;
 	    rr:objectMap [
 			rml:reference "stationsbezeichnung";
 			rr:datatype xsd:string
@@ -44,7 +44,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:service;
 		rr:objectMap [
 			rml:reference "service";
 			rr:datatype xsd:string
@@ -84,7 +84,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:Number;
 		rr:objectMap [
 			rml:reference "Nummer";
 			rr:datatype xsd:string

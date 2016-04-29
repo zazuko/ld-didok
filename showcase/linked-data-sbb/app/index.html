@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Linked Data SBB</title>
+    <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=1 user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <link rel="stylesheet" href="../libraries/tether/css/tether.min.css">
+    <link rel="stylesheet" href="../libraries/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../libraries/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="app.css">
+
+    <script src="../libraries/jquery/jquery.min.js"></script>
+    <script src="../libraries/tether/js/tether.min.js"></script>
+    <script src="../libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../libraries/angular/angular.min.js"></script>
+    <script src="../libraries/angular/angular-route.min.js"></script>
+    <script src="../libraries/angular/angular-resource.min.js"></script>
+    <script src="components/home/home.controller.js"></script>
+    <script src="components/showcase/showcase.controller.js"></script>
+    <script src="components/about/about.controller.js"></script>
+    <script src="components/imprint/imprint.controller.js"></script>
+
+    <script src="app.js"></script>
+
+</head>
+<body ng-app="linked-data">
+
+    <nav class="navbar navbar-dark navbar-full bg-faded ld-nav" ng-controller="NavController">
+        <div class="container" style="background-color: #C51416; padding: .6rem 1rem;">
+            <a class="navbar-brand" href="#"></a>
+            <ul class="nav navbar-nav">
+                <li class="nav-item" ng-class="{ active: isActive('/home')}">
+                    <a class="nav-link" href="#/home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" ng-class="{ active: isActive('/showcase')}">
+                    <a class="nav-link" href="#/showcase">Showcase</a>
+                </li>
+                <li class="nav-item" ng-class="{ active: isActive('/about')}">
+                    <a class="nav-link" href="#/about">About</a>
+                </li>
+                <li class="nav-item" ng-class="{ active: isActive('/imprint')}">
+                    <a class="nav-link" href="#/imprint">Imprint</a>
+                </li>
+            </ul>
+            <div class="pull-xs-right">
+                <a class="navbar-brand" href="https://data.sbb.ch" target="_blank">Linked Data SBB</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container page-row-expanded ld-main">
+        <div class="row">
+            <div class="col-md-12">
+                <div ng-view>
+                    Lade Anwendung...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron page-row ld-footer">
+        <div class="container footer ld-footer-nav">
+            <div class="row ld-footer-row">
+                <div class="col-xs-5">
+                    <p class="pull-left">© 2015 Linked Data SBB. All rights reserved</p>
+                </div>
+                <div class="col-xs-2" align="center">
+                    <a href="#">
+                        <img src="img/icon-white.png" alt="White Icon" height="30">
+                    </a>
+                </div>
+                <div class="col-xs-5" align="right">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#/home">Home</a></li>
+                        <li class="list-inline-item"><a href="#/showcase">Showcase</a></li>
+                        <li class="list-inline-item"><a href="#/about">About</a></li>
+                        <li class="list-inline-item"><a href="#/imprint">Imprint</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
