@@ -14,7 +14,7 @@
 @prefix gont: <https://gont.ch/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix qb: <http://purl.org/linked-data/cube#>.
-@prefix bafu: <http://example.org/> .
+@prefix transport: <http://schema.transport.swiss> .
 
 <#Pollutant>
 	rml:logicalSource [
@@ -28,7 +28,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:quantity;
+		rr:predicate transport:stationName;
 		rr:objectMap [
 			rml:reference "stationsbezeichnung";
 			rr:datatype xsd:string;
@@ -36,7 +36,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:name;
+		rr:predicate schema:quantity;
 		rr:objectMap [
 			rml:reference "parkrail_anzahl";
 			rr:datatype xsd:integer;
@@ -68,25 +68,31 @@
 		]
 	];
 
-	#TODO: openingHours?
+	#TODO: proposal:
+	#Split each pflichtig_zeit into a
+	#parkrail_pflichtig_zeit1_from &
+	#parkrail_pflichtig_zeit1_until
+	#then parse the existing hh.hh-hh.hh
+	#format into a start and end time that
+	#uses an ISO-Format.
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:obligationTime;
 		rr:objectMap [
 			rml:reference "parkrail_pflichtig_zeit1";
 			rr:datatype xsd:string;
 		]
 	];
-	#TODO: openingHours?
+
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:obligationTime;
 		rr:objectMap [
 			rml:reference "parkrail_pflichtig_zeit2";
 			rr:datatype xsd:string;
 		]
 	];
-	#TODO: openingHours?
+
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:obligationTime;
 		rr:objectMap [
 			rml:reference "parkrail_pflichtig_zeit3";
 			rr:datatype xsd:string;
@@ -102,7 +108,15 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate rdfs:comment;
+		rr:objectMap [
+			rml:reference "railtaxitext";
+			rr:rdfs:Datatype xsd:string;
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:comment;
 		rr:objectMap [
 			rml:reference "railtaxiinfo";
 			rr:rdfs:Datatype xsd:string;
@@ -118,7 +132,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate schema_quantity;
 		rr:objectMap [
 			rml:reference "mietvelo_anzahl";
 			rr:rdfs:Datatype xsd:integer;
@@ -126,7 +140,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate rdfs:comment;
 		rr:objectMap [
 			rml:reference "mietvelo_bemerkung";
 			rr:rdfs:Datatype xsd:string;
@@ -134,7 +148,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate rdfs:comment;
 		rr:objectMap [
 			rml:reference "veloparking_status_d";
 			rr:rdfs:Datatype xsd:string;
@@ -142,7 +156,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate rdfs:comment;
 		rr:objectMap [
 			rml:reference "veloparking_bemerkung_d";
 			rr:rdfs:Datatype xsd:string;
@@ -150,7 +164,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate transport:lockable;
 		rr:objectMap [
 			rml:reference "veloparking_abschliessbar";
 			rr:rdfs:Datatype xsd:integer;
@@ -158,7 +172,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate rdfs:comment;
 		rr:objectMap [
 			rml:reference "veloparking_abschliessbar_text";
 			rr:rdfs:Datatype xsd:string;
