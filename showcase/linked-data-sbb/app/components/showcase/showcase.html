@@ -13,7 +13,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="didok in data" style="cursor: pointer;">
+                <tr ng-repeat="didok in data" style="cursor: pointer;" ng-click="getDetail(didok.id.value)">
                     <th scope="row">{{didok.id.value}}</th>
                     <td>{{didok.subject.value}}</td>
                     <td>{{didok.label.value}}</td>
