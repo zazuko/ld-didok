@@ -1,26 +1,190 @@
 <div>
-    <h3>{{world}}</h3>
+    <h3>Showcase</h3>
     <br>
-    <div id="showcase">
-        <table class="table table-hover">
-            <thead class="thead-inverse">
+    <ul class="nav nav-tabs" role="tablist" id="showcaseNav">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" role="tab" href="#tabelle">Tabelle</a>
+        </li>
+        <li class="nav-item" ng-click="setKarte()">
+            <a class="nav-link" data-toggle="tab" role="tab" href="#karte">Karte</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" role="tab" href="#suchen">Suchen</a>
+        </li>
+        <li class="nav-item hidden">
+            <a class="nav-link" data-toggle="tab" role="tab" id="nav-detail" href="#detail">Detail</a>
+        </li>
+        <li class="nav-item hidden">
+            <a class="nav-link" data-toggle="tab" role="tab" id="nav-service" href="#service">Service</a>
+        </li>
+        <li class="nav-item hidden">
+            <a class="nav-link" data-toggle="tab" role="tab" id="nav-nebenbetrieb" href="#nebenbetrieb">Nebenbetrieb</a>
+        </li>
+    </ul>
+    <br>
+
+    <div class="tab-content" id="showcaseContent">
+
+        <!-------------------------------------------------- Showcase Tab ------------------------------------------------->
+        <div class="tab-pane fade active in" id="tabelle" role="tabpanel">
+            <div id="showcaseTabelle" infinite-scroll="increaseLimit()" infinite-scroll-distance="0" infinite-scroll-disabled="data.length <= limit">
+                <table class="table table-hover">
+                    <thead class="thead-inverse">
+                    <tr>
+                        <th>Id</th>
+                        <th>Label</th>
+                        <th>X</th>
+                        <th>Y</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="didok in data | limitTo : limit : begin" style="cursor: pointer;" ng-click="getDetail(didok.id.value)">
+                        <th scope="row">{{didok.id.value}}</th>
+                        <td>{{didok.name.value}}</td>
+                        <td>{{didok.x.value}}</td>
+                        <td>{{didok.y.value}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div ng-if="!data" align="center" style="margin-top: 150px;margin-bottom: 150px;">
+                    <h5>Laden ...</h5>
+            </div>
+        </div>
+
+        <!-------------------------------------------------- Karte Tab ------------------------------------------------->
+        <div class="tab-pane fade" id="karte" role="tabpanel">
+            <div ng-if="karte" style="box-shadow: 0px 0px 25px -9px black;">
+                <ui-gmap-google-map center='karte.center' zoom='karte.zoom'>
+                </ui-gmap-google-map>
+            </div>
+        </div>
+
+        <!-------------------------------------------------- Suchen Tab ------------------------------------------------->
+        <div class="tab-pane fade" id="suchen" role="tabpanel">
+            <input class="form-control" placeholder="Suchen">
+            <!--<input bs3-typeahead bs3-promise="data" bs3-displayText="name" bs3-afterSelect="alert('selected')" ng-model="value" />-->
+        </div>
+
+        <!-------------------------------------------------- Detail Tab ------------------------------------------------->
+        <div class="tab-pane fade" id="detail" role="tabpanel">
+            <div style="box-shadow: 0px 0px 25px -9px black;">
+                <ui-gmap-google-map center='map.center' zoom='map.zoom'>
+                    <ui-gmap-marker coords="marker.coords" idKey='marker.id'></ui-gmap-marker>
+                </ui-gmap-google-map>
+            </div>
+            <br>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>ID</td>
+                        <td>{{detail.id.value}}</td>
+                    </tr>
+                    <tr>
+                        <td>Subject</td>
+                        <td><a href="{{detail.subject.value}}">{{detail.subject.value}}</a></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td>{{detail.name.value}}</td>
+                    </tr>
+                    <tr>
+                        <td>Alternativ Name</td>
+                        <td>{{detail.alternateName.value}}</td>
+                    </tr>
+                    <tr>
+                        <td>Gemeinde</td>
+                        <td><a href="{{detail.municipality.value}}">{{detail.municipality.value}}</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+            <h4>Services an dieser Station:</h4>
+
+            <table class="table table-hover">
+                <thead class="thead-inverse">
+                    <tr>
+                        <th>Id</th>
+                        <th>Unternehmung</th>
+                        <th>Service</th>
+                        <th>Stationsbezeichnung</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="service in services" style="cursor: pointer;" ng-click="getServiceDetail(service.id.value)">
+                        <th scope="row">{{service.id.value}}</th>
+                        <td>{{service.provider.value}}</td>
+                        <td>{{service.service.value}}</td>
+                        <td>{{service.station.value}}</td>
+                    </tr>
+                    <tr style="text-align: center;" ng-hide="services.length">
+                        <td colspan="4">Keine Services gefunden</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+            <h4>Nebenbertriebe an dieser Station:</h4>
+
+            <table class="table table-hover">
+                <thead class="thead-inverse">
                 <tr>
                     <th>Id</th>
-                    <th>Subject</th>
-                    <th>Label</th>
-                    <th>X</th>
-                    <th>Y</th>
+                    <th>Nebenbetrieb</th>
+                    <th>Stationsbezeichnung</th>
                 </tr>
-            </thead>
-            <tbody>
-                <tr ng-repeat="didok in data" style="cursor: pointer;" ng-click="getDetail(didok.id.value)">
-                    <th scope="row">{{didok.id.value}}</th>
-                    <td>{{didok.subject.value}}</td>
-                    <td>{{didok.label.value}}</td>
-                    <td>{{didok.x.value}}</td>
-                    <td>{{didok.y.value}}</td>
+                </thead>
+                <tbody>
+                <tr ng-repeat="nebenbetrieb in nebenbetriebe" style="cursor: pointer;" ng-click="getNebenbetriebDetail(nebenbetrieb.id.value)">
+                    <th scope="row">{{nebenbetrieb.id.value}}</th>
+                    <td>{{nebenbetrieb.name.value}}</td>
+                    <td>{{nebenbetrieb.station.value}}</td>
                 </tr>
-            </tbody>
-        </table>
+                <tr style="text-align: center;" ng-hide="nebenbetriebe.length">
+                    <td colspan="3">Keine Nebenbetriebe gefunden</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <!-------------------------------------------------- Service Tab ------------------------------------------------->
+        <div class="tab-pane fade" id="service" role="tabpanel">
+            <div style="box-shadow: 0px 0px 25px -9px black;">
+                <!--<ui-gmap-google-map center='map.center' zoom='map.zoom'>
+                    <ui-gmap-marker coords="marker.coords" idKey='marker.id'></ui-gmap-marker>
+                </ui-gmap-google-map>-->
+            </div>
+            <br>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>ID</td>
+                        <td>Service Id</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-------------------------------------------------- Nebenbetrieb Tab ------------------------------------------------->
+        <div class="tab-pane fade" id="nebenbetrieb" role="tabpanel">
+            <div style="box-shadow: 0px 0px 25px -9px black;">
+                <!--<ui-gmap-google-map center='map.center' zoom='map.zoom'>
+                    <ui-gmap-marker coords="marker.coords" idKey='marker.id'></ui-gmap-marker>
+                </ui-gmap-google-map>-->
+            </div>
+            <br>
+            <table class="table">
+                <tbody>
+                <tr>
+                    <td>ID</td>
+                    <td>Nebenbetrieb Id</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
     </div>
 </div>

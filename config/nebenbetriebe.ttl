@@ -14,7 +14,7 @@
 @prefix gont: <https://gont.ch/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix qb: <http://purl.org/linked-data/cube#>.
-@prefix transport: <http://linked.transport.swiss/> .
+@prefix transport: <http://schema.transport.swiss/> .
 
 <#Pollutant>
 	rml:logicalSource [
@@ -23,12 +23,19 @@
 	];
 
 	rr:subjectMap [
-		rr:template "http://linked.transport.swiss/nebenbetriebe/{didok}";
+		rr:template "http://linked.transport.swiss/nebenbetriebe/{ID}";
 		rr:class schema:LocalBusiness;
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:name;
+    	rr:predicate gont:didok;
+    	rr:objectMap [
+      		rr:template "http://linked.transport.swiss/didok/{didok}"
+    	]
+  	];
+
+	rr:predicateObjectMap [
+		rr:predicate transport:stationName;
 		rr:objectMap [
 			rml:reference "stationsbezeichnung";
 			rr:datatype xsd:string;
@@ -38,7 +45,7 @@
 	rr:predicateObjectMap [
 		rr:predicate schema:name;
 		rr:objectMap [
-			rml:reference "nebenbetrieb";
+			rml:reference "Nebenbetrieb";
 			rr:datatype xsd:string;
 		]
 	];
@@ -77,9 +84,17 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:name;
+		rr:predicate transport:goAbk;
 		rr:objectMap [
 			rml:reference "GO-Abk";
 			rr:datatype xsd:string;
+		]
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate gont:id;
+		rr:objectMap [
+			rml:reference "ID";
+			rr:datatype xsd:int;
 		]
 	].

@@ -51,3 +51,9 @@ div.footer ul li a {
     font-size: 14px;
     font-weight: lighter;
 }
+
+.angular-google-map-container { height: 500px; }
+
+.hidden {
+    visibility: hidden;
+}

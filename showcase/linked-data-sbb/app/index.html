@@ -21,10 +21,15 @@
     <script src="../libraries/angular/angular.min.js"></script>
     <script src="../libraries/angular/angular-route.min.js"></script>
     <script src="../libraries/angular/angular-resource.min.js"></script>
+    <script src="../libraries/angular/lodash.min.js"></script>
+    <script src="../libraries/angular/angular-simple-logger.js"></script>
+    <script src="../libraries/angular/angular-google-maps.min.js"></script>
+    <script src="../libraries/angular/infinite-scroll.min.js"></script>
     <script src="components/home/home.controller.js"></script>
     <script src="components/showcase/showcase.controller.js"></script>
     <script src="components/about/about.controller.js"></script>
-    <script src="components/imprint/imprint.controller.js"></script>
+
+    <!--<script src='//maps.googleapis.com/maps/api/js?key=AIzaSyCmNEfudw_rMuqLY67W65m0-XsnprwFU_U'></script>-->
 
     <script src="app.js"></script>
 
@@ -43,9 +48,6 @@
                 </li>
                 <li class="nav-item" ng-class="{ active: isActive('/about')}">
                     <a class="nav-link" href="#/about">About</a>
-                </li>
-                <li class="nav-item" ng-class="{ active: isActive('/imprint')}">
-                    <a class="nav-link" href="#/imprint">Imprint</a>
                 </li>
             </ul>
             <div class="pull-xs-right">
@@ -80,7 +82,6 @@
                         <li class="list-inline-item"><a href="#/home">Home</a></li>
                         <li class="list-inline-item"><a href="#/showcase">Showcase</a></li>
                         <li class="list-inline-item"><a href="#/about">About</a></li>
-                        <li class="list-inline-item"><a href="#/imprint">Imprint</a></li>
                     </ul>
                 </div>
             </div>
