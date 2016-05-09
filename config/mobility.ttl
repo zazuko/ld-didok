@@ -68,15 +68,8 @@
 		]
 	];
 
-	#TODO: proposal:
-	#Split each pflichtig_zeit into a
-	#parkrail_pflichtig_zeit1_from &
-	#parkrail_pflichtig_zeit1_until
-	#then parse the existing hh.hh-hh.hh
-	#format into a start and end time that
-	#uses an ISO-Format.
 	rr:predicateObjectMap [
-		rr:predicate transport:obligationTime;
+		rr:predicate schema:openingHours;
 		rr:objectMap [
 			rml:reference "parkrail_pflichtig_zeit1";
 			rr:datatype xsd:string;
@@ -84,7 +77,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate transport:obligationTime;
+		rr:predicate schema:openingHours;
 		rr:objectMap [
 			rml:reference "parkrail_pflichtig_zeit2";
 			rr:datatype xsd:string;
@@ -92,7 +85,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate transport:obligationTime;
+		rr:predicate schema:openingHours;
 		rr:objectMap [
 			rml:reference "parkrail_pflichtig_zeit3";
 			rr:datatype xsd:string;
@@ -132,7 +125,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema_quantity;
+		rr:predicate schema:quantity;
 		rr:objectMap [
 			rml:reference "mietvelo_anzahl";
 			rr:rdfs:Datatype xsd:integer;
