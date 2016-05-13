@@ -6,11 +6,6 @@ angular.module('home', ['ngResource', 'ngMap'])
 
     .controller('HomeController', function ($scope, NgMap) {
 
-<<<<<<< HEAD
-        NgMap.getMap().then(function(map) {
-            $scope.map = map;
-        });
-=======
         $scope.world = "Home";
         $scope.wikiLinkRdf = "https://en.wikipedia.org/wiki/Resource_Description_Framework";
         $scope.wikiTextRdf = "Resource Description Framework (RDF)";
@@ -20,7 +15,10 @@ angular.module('home', ['ngResource', 'ngMap'])
 
         $scope.dataSbbLink = "https://data.sbb.ch";
         $scope.dataSbbText = "data.sbb.ch"
->>>>>>> 2bac64c5dd0139097102d92845924ae3ce240752
+
+        NgMap.getMap().then(function(map) {
+            $scope.map = map;
+        });
 
         $scope.karte = {
             zoom: 8,
