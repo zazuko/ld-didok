@@ -2,14 +2,30 @@
  * Created by UE61582 on 25.04.2016.
  */
 
-angular.module('showcase', ['ngResource', 'uiGmapgoogle-maps'])
+angular.module('showcase', ['ngResource', 'ngMap'])
 
-    .controller('ShowcaseController', function ($scope, $http, queryService, geoService) {
+    .controller('ShowcaseController', function ($scope, $http, queryService, geoService, NgMap) {
 
-        $('#showcaseNav a').click(function (e) {
-            e.preventDefault()
-            $(this).tab('show')
+        $("#showcaseNav a").click(function (e) {
+            e.preventDefault();
+            $(this).tab('show');
         });
+
+        $scope.allLoaded = false;
+
+        NgMap.getMap('karte').then(function(map) {
+            var center = {lat: 46.76314860125452, lng: 8.3880615234375};
+            map.setCenter(center);
+            $scope.karte = map;
+        });
+
+        $scope.displayName = function(item) {
+            return item.name.value;
+        };
+        $scope.afterSelect = function(item) {
+            console.log("afterSelect", item);
+            $scope.getDetail(item.id.value);
+        };
 
         $scope.limit = 100;
         $scope.begin = 0;
@@ -20,22 +36,31 @@ angular.module('showcase', ['ngResource', 'uiGmapgoogle-maps'])
 
         var url = queryService.getShowcaseData();
 
+        $scope.dynMarkers = [];
+
         $http({
             method: 'Get',
             url: url
         }).then(function successCallback(response) {
             var data = response.data.results.bindings;
-            data.forEach(function logArrayElements(element, index, array) {
+            data.forEach(function(element, index, array) {
                 var y = element.y.value.replace('.','');
                 var x = element.x.value.replace('.','');
                 element.lat = geoService.CHtoWGSlat(y, x);
                 element.lng = geoService.CHtoWGSlng(y, x);
+                var latLng = new google.maps.LatLng(element.lat, element.lng);
+                var marker = new google.maps.Marker({position:latLng, title: element.name.value, data: element.id.value});
+                marker.addListener('click', onMarkerClick);
+                $scope.dynMarkers.push(marker);
             });
+            $scope.markerClusterer = new MarkerClusterer($scope.karte, $scope.dynMarkers, {});
             $scope.data = data;
+            google.maps.event.trigger($scope.karte,'resize');
         });
 
-        $scope.setKarte = function() {
-            $scope.karte = { center: { latitude: 46.875213396722685, longitude: 8.29742431640625}, zoom: 8 };
+        var onMarkerClick = function() {
+            console.log("onMarkerClick", this);
+            $scope.getDetail(this.data);
         };
 
 
@@ -62,17 +87,19 @@ angular.module('showcase', ['ngResource', 'uiGmapgoogle-maps'])
                 data.lat = geoService.CHtoWGSlat(y, x);
                 data.lng = geoService.CHtoWGSlng(y, x);
 
-                $scope.marker = {
-                    id: data.id.value,
-                    coords: {
-                        latitude: data.lat,
-                        longitude: data.lng
-                    }
-                };
+                NgMap.getMap('map').then(function(map) {
+                    var center = {lat: data.lat, lng: data.lng};
+                    map.setCenter(center);
+                    $scope.map = map;
+
+                    new google.maps.Marker({
+                        map: $scope.map,
+                        position: {lat: data.lat, lng: data.lng},
+                        title: data.name.value
+                    });
+                });
 
                 $scope.detail = data;
-
-                $scope.map = { center: { latitude: data.lat, longitude: data.lng}, zoom: 13 };
             });
 
         };
@@ -111,6 +138,12 @@ angular.module('showcase', ['ngResource', 'uiGmapgoogle-maps'])
 
         var showServiceDetail = function(id) {
             var url = queryService.getServiceDetailQueryUrl(id);
+            $http({
+                method: 'Get',
+                url: url
+            }).then(function successCallback(response) {
+                $scope.service = response.data.results.bindings[0];
+            });
         };
 
         $scope.getNebenbetriebDetail = function(id) {
@@ -123,7 +156,47 @@ angular.module('showcase', ['ngResource', 'uiGmapgoogle-maps'])
 
         var showNebenbetriebDetail = function(id) {
             var url = queryService.getNebenbetriebDetailQueryUrl(id);
+
+            $http({
+                method: 'Get',
+                url: url
+            }).then(function successCallback(response) {
+                $scope.nebenbetrieb = response.data.results.bindings[0];
+            });
         };
+
+        $scope.loadAll = function(){
+            console.log("Started loading All");
+            $scope.loadAllLoading = true;
+
+            var url = queryService.getLoadAllData();
+
+            $http({
+                method: 'Get',
+                url: url
+            }).then(function successCallback(response) {
+                var data = response.data.results.bindings;
+                data.forEach(function(element, index, array) {
+                    var y = element.y.value.replace('.','');
+                    var x = element.x.value.replace('.','');
+                    element.lat = geoService.CHtoWGSlat(y, x);
+                    element.lng = geoService.CHtoWGSlng(y, x);
+                    var latLng = new google.maps.LatLng(element.lat, element.lng);
+                    var marker = new google.maps.Marker({position:latLng, title: element.name.value, data: element.id.value});
+                    marker.addListener('click', onMarkerClick);
+                    $scope.dynMarkers.push(marker);
+                    $scope.data.push(element);
+                });
+                $scope.markerClusterer = new MarkerClusterer($scope.karte, $scope.dynMarkers, {});
+
+                $scope.allLoaded = true;
+                console.log("Finished loading All");
+            });
+        };
+
+        $scope.setKarte = function() {
+            google.maps.event.trigger($scope.karte, 'resize');
+        }
 
     })
 
@@ -213,15 +286,25 @@ angular.module('showcase', ['ngResource', 'uiGmapgoogle-maps'])
 
             getServiceDetailQueryUrl: function(id) {
                 var query = prefix + "\
-                    SELECT ?id ?station ?service ?provider\
-                    WHERE {\
-                        ?s a schema:Service;\
-                        gont:didok <http://linked.transport.swiss/didok/"+ id +">;\
-                        gont:id ?id;\
-                        transport:stationName ?station;\
-                        schema:serviceType ?service;\
-                        schema:provider ?provider;\
-                    }";
+                SELECT *\
+                WHERE {\
+                    ?subject a schema:Service;\
+                    gont:id " + id + ";\
+                    gont:id ?id;\
+                    transport:stationName ?stationName;\
+                    schema:serviceType ?service;\
+                    schema:provider ?provider;\
+                    OPTIONAL { ?subject transport:periodFrom ?periodFrom; }\
+                    OPTIONAL { ?subject transport:periodTo ?periodTo; }\
+                    OPTIONAL { ?subject transport:openingPeriod ?openingPeriod; }\
+                    OPTIONAL { ?subject transport:Mo ?mo; }\
+                    OPTIONAL { ?subject transport:Tu ?di; }\
+                    OPTIONAL { ?subject transport:We ?mi; }\
+                    OPTIONAL { ?subject transport:Th ?do; }\
+                    OPTIONAL { ?subject transport:Fr ?fr; }\
+                    OPTIONAL { ?subject transport:Sa ?sa; }\
+                    OPTIONAL { ?subject transport:Su ?so; }\
+                }";
 
                 var queryUrl = getEncodedQueryUrl(query);
                 return queryUrl;
@@ -229,14 +312,32 @@ angular.module('showcase', ['ngResource', 'uiGmapgoogle-maps'])
 
             getNebenbetriebDetailQueryUrl: function(id) {
                 var query = prefix + "\
-                    SELECT ?id ?station ?name\
+                    SELECT *\
                     WHERE {\
-                        ?s a schema:LocalBusiness;\
-                        gont:didok <http://linked.transport.swiss/didok/"+ id +">;\
+                        ?subject a schema:LocalBusiness;\
+                        gont:id " + id + ";\
                         gont:id ?id;\
-                        transport:stationName ?station;\
+                        transport:stationName ?stationName;\
                         schema:name ?name;\
+                        OPTIONAL { ?subject schema:openingHours ?openingHours; }\
+                        OPTIONAL { ?subject rdfs:comment ?comment; }\
                     }";
+
+                var queryUrl = getEncodedQueryUrl(query);
+                return queryUrl;
+            },
+
+            getLoadAllData: function() {
+                var query = prefix + "\
+                    SELECT ?id ?name ?x ?y\
+                    WHERE {\
+                        ?subject a schema:CivicStructure;\
+                        rdfs:label ?name;\
+                        gont:id ?id;\
+                        gont:lv03_y ?y;\
+                        gont:lv03_x ?x;\
+                    }\
+                    OFFSET 10000";
 
                 var queryUrl = getEncodedQueryUrl(query);
                 return queryUrl;
