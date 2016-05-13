@@ -2,10 +2,10 @@
  * Created by UE61582 on 22.04.2016.
  */
 
-angular.module('linked-data', ['ngRoute', 'home', 'showcase', 'about', 'infinite-scroll'])
+angular.module('linked-data', ['ngRoute', 'home', 'showcase', 'about', 'infinite-scroll', 'bootstrap3-typeahead', 'ngMap'])
 
     .config(
-        function($routeProvider, uiGmapGoogleMapApiProvider) {
+        function($routeProvider) {
             $routeProvider.
                 when('/home', {
                     templateUrl: 'components/home/home.html',
@@ -23,12 +23,6 @@ angular.module('linked-data', ['ngRoute', 'home', 'showcase', 'about', 'infinite
                     redirectTo: '/home'
                 })
             ;
-
-            uiGmapGoogleMapApiProvider.configure({
-                key: 'AIzaSyCmNEfudw_rMuqLY67W65m0-XsnprwFU_U',
-                v: '3.21',
-                libraries: 'weather,geometry,visualization'
-            });
         }
     )
 

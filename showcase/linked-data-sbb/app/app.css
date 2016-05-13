@@ -52,8 +52,25 @@ div.footer ul li a {
     font-weight: lighter;
 }
 
-.angular-google-map-container { height: 500px; }
+.ng-map {
+    height: 500px;
+}
 
 .hidden {
     visibility: hidden;
+    display: none;
+}
+
+.typeahead {
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.45);
+}
+
+.typeahead li a.dropdown-item:hover{
+    background-color: #e91416;
+    color: white;
+}
+
+.typeahead li.active a.dropdown-item{
+    background-color: #e91416;
+    color: white;
 }

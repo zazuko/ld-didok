@@ -84,14 +84,6 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate transport:goAbk;
-		rr:objectMap [
-			rml:reference "GO-Abk";
-			rr:datatype xsd:string;
-		]
-	];
-
-	rr:predicateObjectMap [
 		rr:predicate gont:id;
 		rr:objectMap [
 			rml:reference "ID";
