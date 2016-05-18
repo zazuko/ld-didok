@@ -25,35 +25,35 @@
 
     <div class="tab-content" id="showcaseContent">
 
-        <!-------------------------------------------------- Showcase Tab ------------------------------------------------->
+        <!--================================================ Showcase Tab ===============================================-->
         <div class="tab-pane fade active in" id="tabelle" role="tabpanel">
             <div id="showcaseTabelle" infinite-scroll="increaseLimit()" infinite-scroll-distance="0" infinite-scroll-disabled="data.length <= limit">
                 <table class="table table-hover">
                     <thead class="thead-inverse">
-                    <tr>
-                        <th>Id</th>
-                        <th>Name</th>
-                        <th>X</th>
-                        <th>Y</th>
-                    </tr>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>X</th>
+                            <th>Y</th>
+                        </tr>
                     </thead>
                     <tbody>
-                    <tr ng-repeat="didok in data | limitTo : limit : begin" style="cursor: pointer;" ng-click="getDetail(didok.id.value)">
-                        <th scope="row">{{didok.id.value}}</th>
-                        <td>{{didok.name.value}}</td>
-                        <td>{{didok.x.value}}</td>
-                        <td>{{didok.y.value}}</td>
-                    </tr>
+                        <tr ng-repeat="didok in data | limitTo : limit : begin" style="cursor: pointer;" ng-click="getDetail(didok.id.value)">
+                            <th scope="row">{{didok.id.value}}</th>
+                            <td>{{didok.name.value}}</td>
+                            <td>{{didok.x.value}}</td>
+                            <td>{{didok.y.value}}</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
 
             <div ng-if="!data" align="center" style="margin-top: 150px;margin-bottom: 150px;">
-                    <h5>Laden ...</h5>
+                <h5>Laden ...</h5>
             </div>
         </div>
 
-        <!-------------------------------------------------- Karte Tab ------------------------------------------------->
+        <!--================================================ Karte Tab ===============================================-->
         <div class="tab-pane fade" id="karte" role="tabpanel">
             <div style="box-shadow: 8px 0 25px -15px black, -8px 0 25px -15px black; margin-left: -20px; margin-right: -20px;">
                 <ng-map id="karte" zoom="8" style="height: 700px;">
@@ -61,16 +61,16 @@
             </div>
         </div>
 
-        <!-------------------------------------------------- Suchen Tab ------------------------------------------------->
+        <!--================================================ Suchen Tab ===============================================-->
         <div class="tab-pane fade" id="suchen" role="tabpanel">
             <input type="text" class="form-control" bs3-typeahead bs3-promise="data" bs3-items="15" bs3-displayText="displayName" bs3-afterSelect="afterSelect" ng-model="value" />
         </div>
 
-        <!-------------------------------------------------- Detail Tab ------------------------------------------------->
+        <!--================================================ Detail Tab ===============================================-->
         <div class="tab-pane fade" id="detail" role="tabpanel">
             <div style="box-shadow: 8px 0 25px -15px black, -8px 0 25px -15px black; margin-left: -20px; margin-right: -20px;">
-                    <ng-map ng-if="karte" id="map" class="ng-map" zoom="13">
-                    </ng-map>
+                <ng-map ng-if="karte" id="map" class="ng-map" zoom="13">
+                </ng-map>
             </div>
             <br>
             <table class="table">
@@ -128,27 +128,27 @@
 
             <table class="table table-hover">
                 <thead class="thead-inverse">
-                <tr>
-                    <th>Id</th>
-                    <th>Nebenbetrieb</th>
-                    <th>Stationsbezeichnung</th>
-                </tr>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nebenbetrieb</th>
+                        <th>Stationsbezeichnung</th>
+                    </tr>
                 </thead>
                 <tbody>
-                <tr ng-repeat="nebenbetrieb in nebenbetriebe" style="cursor: pointer;" ng-click="getNebenbetriebDetail(nebenbetrieb.id.value)">
-                    <th scope="row">{{nebenbetrieb.id.value}}</th>
-                    <td>{{nebenbetrieb.name.value}}</td>
-                    <td>{{nebenbetrieb.station.value}}</td>
-                </tr>
-                <tr style="text-align: center;" ng-hide="nebenbetriebe.length">
-                    <td colspan="3">Keine Nebenbetriebe gefunden</td>
-                </tr>
+                    <tr ng-repeat="nebenbetrieb in nebenbetriebe" style="cursor: pointer;" ng-click="getNebenbetriebDetail(nebenbetrieb.id.value)">
+                        <th scope="row">{{nebenbetrieb.id.value}}</th>
+                        <td>{{nebenbetrieb.name.value}}</td>
+                        <td>{{nebenbetrieb.station.value}}</td>
+                    </tr>
+                    <tr style="text-align: center;" ng-hide="nebenbetriebe.length">
+                        <td colspan="3">Keine Nebenbetriebe gefunden</td>
+                    </tr>
                 </tbody>
             </table>
 
         </div>
 
-        <!-------------------------------------------------- Service Tab ------------------------------------------------->
+        <!--================================================ Service Tab ===============================================-->
         <div class="tab-pane fade" id="service" role="tabpanel">
             <div style="box-shadow: 8px 0 25px -15px black, -8px 0 25px -15px black; margin-left: -20px; margin-right: -20px;">
             </div>
@@ -203,7 +203,7 @@
             </table>
         </div>
 
-        <!-------------------------------------------------- Nebenbetrieb Tab ------------------------------------------------->
+        <!--================================================ Nebenbetrieb Tab ===============================================-->
         <div class="tab-pane fade" id="nebenbetrieb" role="tabpanel">
             <div style="box-shadow: 8px 0 25px -15px black, -8px 0 25px -15px black; margin-left: -20px; margin-right: -20px;">
             </div>
