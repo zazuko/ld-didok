@@ -1,0 +1,158 @@
+<html>
+
+<head>
+    <title>Force Directed Graph Test Page </title>
+    <style type="text/css">
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            color: rgb(0, 0, 0);
+        }
+
+        body {
+            background-color: rgb(17, 238, 179);
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .node {
+            stroke: rgb(0, 0, 0);
+            stroke-width: 1px;
+        }
+
+        .link {
+            stroke: rgba(0, 0, 0, 1);
+            stroke-width: 1px;
+        }
+
+        .label {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: lighter;
+        }
+
+        .material {
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        }
+
+        div#graph {
+            width: 100%;
+            margin-right: 18%;
+            height: 80%;
+            padding: 13px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        span#title {
+            transform: rotate(-90deg);
+            font-weight: bolder;
+            font-family: sans-serif;
+            color: rgb(255, 255, 255);
+            text-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            font-size: 120px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <span id='title'>
+        Graph
+    </span>
+    <br>
+
+    <!--this div contains the graph-->
+    <div id='graph' class="material">
+
+    </div>
+
+    <!--loading d3js-->
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <!--making it work-->
+    <script>
+        var width = document.getElementById('graph').offsetWidth,
+            height = document.getElementById('graph').offsetHeight
+
+        color = d3.scale.linear().domain([1, 6])
+            .interpolate(d3.interpolateHcl)
+            .range([d3.rgb("#FF0000"), d3.rgb('#11EEB3')]);
+
+        var force = d3.layout.force()
+            .charge(-500)
+            .linkDistance(150)
+            .size([width, height]);
+
+        var svg = d3.select("div#graph").append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        d3.json("rdf-graph.json", function(error, graph) {
+            if (error) throw error;
+
+            force
+                .nodes(graph.nodes)
+                .links(graph.links)
+                .start();
+
+            var link = svg.selectAll(".link")
+                .data(graph.links)
+                .enter().append("line")
+                .attr("class", "link")
+                .style("stroke-width", function(d) {
+                    return Math.sqrt(d.value);
+                })
+                .call(force.drag);
+
+            var node = svg.selectAll(".node")
+                .data(graph.nodes)
+                .enter().append("g")
+                .attr("class", "node")
+                .call(force.drag);
+
+            node.append("circle")
+                .attr("class", "node")
+                .attr("r", 5)
+                .style("fill", function(d) {
+                    console.log(node);
+                    return color(d.group);
+                });
+
+            node.append("text")
+                .attr("dx", 12)
+                .attr("dy", ".35em")
+                .attr("class", "label")
+                .text(function(d) {
+                    return d.name
+                })
+                .call(force.drag);
+
+            force.on("tick", function() {
+                link.attr("x1", function(d) {
+                        return d.source.x;
+                    })
+                    .attr("y1", function(d) {
+                        return d.source.y;
+                    })
+                    .attr("x2", function(d) {
+                        return d.target.x;
+                    })
+                    .attr("y2", function(d) {
+                        return d.target.y;
+                    });
+
+                node.attr("transform", function(d) {
+                    return "translate(" + d.x + "," + d.y + ")";
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
