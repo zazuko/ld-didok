@@ -1,242 +1,106 @@
 <div>
-    <h3>Showcase <button type="button" class="btn btn-secondary pull-right" ng-click="loadAll()" ng-hide="allLoaded">Load All <i ng-if="loadAllLoading" style="margin-right: -10px;" class="fa fa-circle-o-notch fa-spin fa-fw"></i></button></h3>
+    <h3>Showcase</h3>
     <br>
-    <ul class="nav nav-tabs" role="tablist" id="showcaseNav">
-        <li class="nav-item">
-            <a class="nav-link active" data-toggle="tab" role="tab" href="#tabelle">Tabelle</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" role="tab" href="#suchen">Suchen</a>
-        </li>
-        <li class="nav-item" ng-click="setKarte()">
-            <a class="nav-link" data-toggle="tab" role="tab" href="#karte">Karte</a>
-        </li>
-        <li class="nav-item hidden">
-            <a class="nav-link" data-toggle="tab" role="tab" id="nav-detail" href="#detail">Detail</a>
-        </li>
-        <li class="nav-item hidden">
-            <a class="nav-link" data-toggle="tab" role="tab" id="nav-service" href="#service">Service</a>
-        </li>
-        <li class="nav-item hidden">
-            <a class="nav-link" data-toggle="tab" role="tab" id="nav-nebenbetrieb" href="#nebenbetrieb">Nebenbetrieb</a>
-        </li>
-    </ul>
     <br>
 
     <div class="tab-content" id="showcaseContent">
 
-        <!--================================================ Showcase Tab ===============================================-->
-        <div class="tab-pane fade active in" id="tabelle" role="tabpanel">
-            <div id="showcaseTabelle" infinite-scroll="increaseLimit()" infinite-scroll-distance="0" infinite-scroll-disabled="data.length <= limit">
-                <table class="table table-hover">
-                    <thead class="thead-inverse">
-                        <tr>
-                            <th>Id</th>
-                            <th>Name</th>
-                            <th>X</th>
-                            <th>Y</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr ng-repeat="didok in data | limitTo : limit : begin" style="cursor: pointer;" ng-click="getDetail(didok.id.value)">
-                            <th scope="row">{{didok.id.value}}</th>
-                            <td>{{didok.name.value}}</td>
-                            <td>{{didok.x.value}}</td>
-                            <td>{{didok.y.value}}</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div ng-if="!data" align="center" style="margin-top: 150px;margin-bottom: 150px;">
-                <h5>Laden ...</h5>
-            </div>
-        </div>
-
-        <!--================================================ Karte Tab ===============================================-->
-        <div class="tab-pane fade" id="karte" role="tabpanel">
-            <div style="box-shadow: 8px 0 25px -15px black, -8px 0 25px -15px black; margin-left: -20px; margin-right: -20px;">
-                <ng-map id="karte" zoom="8" style="height: 700px;">
-                </ng-map>
-            </div>
-        </div>
-
-        <!--================================================ Suchen Tab ===============================================-->
-        <div class="tab-pane fade" id="suchen" role="tabpanel">
+        <div id="search">
             <input type="text" class="form-control" bs3-typeahead bs3-promise="data" bs3-items="15" bs3-displayText="displayName" bs3-afterSelect="afterSelect" ng-model="value" />
         </div>
 
-        <!--================================================ Detail Tab ===============================================-->
-        <div class="tab-pane fade" id="detail" role="tabpanel">
-            <div style="box-shadow: 8px 0 25px -15px black, -8px 0 25px -15px black; margin-left: -20px; margin-right: -20px;">
-                <ng-map ng-if="karte" id="map" class="ng-map" zoom="13">
-                </ng-map>
-            </div>
-            <br>
-            <table class="table">
-                <tbody>
-                    <tr>
-                        <td>ID</td>
-                        <td>{{detail.id.value}}</td>
-                    </tr>
-                    <tr>
-                        <td>Subject</td>
-                        <td><a href="{{detail.subject.value}}">{{detail.subject.value}}</a></td>
-                    </tr>
-                    <tr>
-                        <td>name</td>
-                        <td>{{detail.name.value}}</td>
-                    </tr>
-                    <tr>
-                        <td>Alternativ Name</td>
-                        <td>{{detail.alternateName.value}}</td>
-                    </tr>
-                    <tr>
-                        <td>Gemeinde</td>
-                        <td><a href="{{detail.municipality.value}}">{{detail.municipality.value}}</a></td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <br>
-            <h4>Services an dieser Station:</h4>
-
-            <table class="table table-hover">
-                <thead class="thead-inverse">
-                    <tr>
-                        <th>Id</th>
-                        <th>Unternehmung</th>
-                        <th>Service</th>
-                        <th>Stationsbezeichnung</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr ng-repeat="service in services" style="cursor: pointer;" ng-click="getServiceDetail(service.id.value)">
-                        <th scope="row">{{service.id.value}}</th>
-                        <td>{{service.provider.value}}</td>
-                        <td>{{service.service.value}}</td>
-                        <td>{{service.station.value}}</td>
-                    </tr>
-                    <tr style="text-align: center;" ng-hide="services.length">
-                        <td colspan="4">Keine Services gefunden</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <br>
-            <h4>Nebenbertriebe an dieser Station:</h4>
-
-            <table class="table table-hover">
-                <thead class="thead-inverse">
-                    <tr>
-                        <th>Id</th>
-                        <th>Nebenbetrieb</th>
-                        <th>Stationsbezeichnung</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr ng-repeat="nebenbetrieb in nebenbetriebe" style="cursor: pointer;" ng-click="getNebenbetriebDetail(nebenbetrieb.id.value)">
-                        <th scope="row">{{nebenbetrieb.id.value}}</th>
-                        <td>{{nebenbetrieb.name.value}}</td>
-                        <td>{{nebenbetrieb.station.value}}</td>
-                    </tr>
-                    <tr style="text-align: center;" ng-hide="nebenbetriebe.length">
-                        <td colspan="3">Keine Nebenbetriebe gefunden</td>
-                    </tr>
-                </tbody>
-            </table>
-
+        <div ng-if="!data" align="center" style="margin-top: 150px;margin-bottom: 150px;">
+            <h5>Laden ...</h5>
         </div>
 
-        <!--================================================ Service Tab ===============================================-->
-        <div class="tab-pane fade" id="service" role="tabpanel">
-            <div style="box-shadow: 8px 0 25px -15px black, -8px 0 25px -15px black; margin-left: -20px; margin-right: -20px;">
-            </div>
-            <br>
-            <table class="table">
-                <tbody>
-                    <tr>
-                        <td>ID</td>
-                        <td>{{service.id.value}}</td>
-                    </tr>
-                    <tr>
-                        <td>Subject</td>
-                        <td><a href="{{service.subject.value}}">{{service.subject.value}}</a></td>
-                    </tr>
-                    <tr>
-                        <td>Service</td>
-                        <td>{{service.service.value}}</td>
-                    </tr>
-                    <tr>
-                        <td>Station Name</td>
-                        <td>{{service.stationName.value}}</td>
-                    </tr>
-                    <tr>
-                        <td>Provider</td>
-                        <td>{{service.provider.value}}</td>
-                    </tr>
-                    <tr>
-                        <td>Periode von</td>
-                        <td>{{service.periodFrom.value}}</td>
-                    </tr>
-                    <tr>
-                        <td>Periode bis</td>
-                        <td>{{service.periodTo.value}}</td>
-                    </tr>
-                    <tr>
-                        <td>Öffnungsdauer</td>
-                        <td>{{service.openingPeriod.value}}</td>
-                    </tr>
-                    <tr>
-                        <td>Tage</td>
-                        <td>
-                            <span ng-show="service.mo.value == 1">Montag, </span>
-                            <span ng-show="service.di.value == 1">Dienstag, </span>
-                            <span ng-show="service.mi.value == 1">Mittwoch, </span>
-                            <span ng-show="service.do.value == 1">Donnerstag, </span>
-                            <span ng-show="service.fr.value == 1">Freitag, </span>
-                            <span ng-show="service.sa.value == 1">Samstag, </span>
-                            <span ng-show="service.so.value == 1">Sonntag</span>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <br>
+        <h4 ng-if="detail">linked.transport.swiss</h4>
+        <table class="table" ng-if="detail">
+            <tbody>
+                <tr>
+                    <td width="150px" >ID</td>
+                    <td><a href="{{detail.subject.value}}">{{detail.subject.value}}</a></td>
+                </tr>
+                <tr>
+                    <td>name</td>
+                    <td>{{detail.name.value}}</td>
+                </tr>
+                <tr>
+                    <td>Alternativ Name</td>
+                    <td>{{detail.alternateName.value}}</td>
+                </tr>
+                <tr>
+                    <td>Gemeinde</td>
+                    <td><a href="{{detail.municipality.value}}">{{detail.municipality.value}}</a></td>
+                </tr>
+            </tbody>
+        </table>
 
-        <!--================================================ Nebenbetrieb Tab ===============================================-->
-        <div class="tab-pane fade" id="nebenbetrieb" role="tabpanel">
-            <div style="box-shadow: 8px 0 25px -15px black, -8px 0 25px -15px black; margin-left: -20px; margin-right: -20px;">
-            </div>
-            <br>
-            <table class="table">
-                <tbody>
-                    <tr>
-                        <td>ID</td>
-                        <td>{{nebenbetrieb.id.value}}</td>
-                    </tr>
-                    <tr>
-                        <td>Subject</td>
-                        <td><a href="{{nebenbetrieb.subject.value}}">{{nebenbetrieb.subject.value}}</a></td>
-                    </tr>
-                    <tr>
-                        <td>Name</td>
-                        <td>{{nebenbetrieb.name.value}}</td>
-                    </tr>
-                    <tr>
-                        <td>Station Name</td>
-                        <td>{{nebenbetrieb.stationName.value}}</td>
-                    </tr>
-                    <tr>
-                        <td>Öffnungszeiten</td>
-                        <td>{{nebenbetrieb.openingHours.value}}</td>
-                    </tr>
-                    <tr>
-                        <td>Kommentar</td>
-                        <td>{{nebenbetrieb.comment.value}}</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <br>
+        <h4 ng-if="adminData">data.admin.ch</h4>
+        <table class="table" ng-if="adminData">
+            <tbody>
+                <tr>
+                    <td width="150px">ID</td>
+                    <td>{{adminData.id.value}}</td>
+                </tr>
+                <tr>
+                    <td>same As</td>
+                    <td><a href="{{adminData.sameAs.value}}">{{adminData.sameAs.value}}</a></td>
+                </tr>
+                <tr>
+                    <td>version</td>
+                    <td>
+                        <ul class="list-unstyled">
+                            <li ng-repeat="version in versionen">
+                                <a href="{{version.version.value}}">{{version.version.value}}</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <h4 ng-if="dbpediaData">dbpedia.org</h4>
+        <table class="table" ng-if="dbpediaData">
+            <tbody>
+                <tr>
+                    <td width="150px">ID</td>
+                    <td>{{dbpediaData.code.value}}</td>
+                </tr>
+                <tr>
+                    <td>Kanton</td>
+                    <td><a href="{{dbpediaData.canton.value}}">{{dbpediaData.canton.value}}</a></td>
+                </tr>
+                <tr>
+                    <td>Land</td>
+                    <td><a href="{{dbpediaData.country.value}}">{{dbpediaData.country.value}}</a></td>
+                </tr>
+                <tr>
+                    <td>Detail</td>
+                    <td>{{dbpediaData.abstract.value}}</td>
+                </tr>
+                <tr>
+                    <td>Postleitzahl</td>
+                    <td>{{dbpediaData.postalCode.value}}</td>
+                </tr>
+                <tr>
+                    <td>Webseite</td>
+                    <td><a href="{{dbpediaData.website.value}}">{{dbpediaData.website.value}}</a></td>
+                </tr>
+                <tr>
+                    <td>Nachbarn</td>
+                    <td>
+                        <ul class="list-unstyled">
+                            <li ng-repeat="neighbor in neighbors">
+                                <a href="{{neighbor.neighbor.value}}">{{neighbor.neighbor.value}}</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
     </div>
 </div>
