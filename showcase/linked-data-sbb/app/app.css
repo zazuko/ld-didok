@@ -86,3 +86,25 @@ button:focus {
 .hideMap {
     visibility: hidden;
 }
+
+.node {
+    stroke: rgb(0, 0, 0);
+    stroke-width: 1px;
+}
+
+.link {
+    stroke: rgba(0, 0, 0, 1);
+    stroke-width: 1px;
+}
+
+.label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+div#graph {
+    width: 100%;
+    height: 400px;
+    padding: 13px;
+    background-color: rgb(255, 255, 255);
+}

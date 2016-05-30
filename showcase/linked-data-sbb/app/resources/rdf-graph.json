@@ -20,15 +20,6 @@
     }, {
         "name": "dbpedia/resource",
         "group": 3
-    }, {
-        "name": "wiki-commons",
-        "group": 4
-    }, {
-        "name": "wikidata/entity",
-        "group": 5
-    }, {
-        "name": "linkedgeodata/triplify",
-        "group": 6
     }],
     "links": [{
         "source": 0,
@@ -53,22 +44,6 @@
     }, {
         "source": 5,
         "target": 6,
-        "value": 1
-    }, {
-        "source": 6,
-        "target": 7,
-        "value": 1
-    }, {
-        "source": 6,
-        "target": 8,
-        "value": 1
-    }, {
-        "source": 6,
-        "target": 9,
-        "value": 1
-    }, {
-        "source": 8,
-        "target": 9,
         "value": 1
     }]
 }

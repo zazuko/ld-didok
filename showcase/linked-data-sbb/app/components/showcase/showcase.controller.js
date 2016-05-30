@@ -67,7 +67,7 @@ angular.module('showcase', ['ngResource'])
                 $scope.dbpediaData = response.data.results.bindings[0];
                 $scope.neighbors = response.data.results.bindings;
             });
-        }
+        };
 
     })
 
