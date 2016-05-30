@@ -4,13 +4,12 @@
 
 angular.module('about', ['ngResource'])
 
-    .controller('AboutController', function ($scope, $resource, $routeParams) {
+.controller('AboutController', function($scope, $resource, $routeParams) {
 
-        $scope.world = "About";
+    $scope.world = "About";
 
-        $scope.function = function (index) {
-            //Do something
-        };
+    $scope.function = function(index) {
+        //Do something
+    };
 
-    })
-;
+});

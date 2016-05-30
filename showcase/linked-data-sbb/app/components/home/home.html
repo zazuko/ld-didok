@@ -18,9 +18,9 @@
             <p>How Many Station has a Canton? (click on one and you will get the number)</p>
             <ng-map zoom="{{karte.zoom}}" center="{{karte.lat}}, {{karte.lng}}" style="height: 700px;">
                 <map-data on-click="onClick()" set-style="{fillColor: 'grey', strokeWeight: 1}"
-                          on-mouseover="onMouseover()"
-                          on-mouseout="onMouseout()"
-                          load-geo-json="./components/showcase/swiss.json">
+                  on-mouseover="onMouseover()"
+                  on-mouseout="onMouseout()"
+                  load-geo-json="./components/showcase/swiss.json">
                 </map-data>
             </ng-map>
         </div>
