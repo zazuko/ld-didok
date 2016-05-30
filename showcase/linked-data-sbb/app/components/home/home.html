@@ -1,16 +1,21 @@
 <div>
     <div class="page-header">
         <h3>Home</h3>
-        <span>
-            <a href="{{wikiLinkRdf}}">{{wikiTextRdf}}</a>
-            <br>
-            <a href="{{wikiLinkLD}}">{{wikiTextLD}}</a>
-            <br>
-            <a href="{{dataSbbLink}}">{{dataSbbText}}</a>
-        </span>
+        <ul>
+            <li>
+                <a href="{{wikiLinkRdf}}">{{wikiTextRdf}}</a>
+            </li>
+            <li>
+                <a href="{{wikiLinkLD}}">{{wikiTextLD}}</a>
+            </li>
+            <li>
+                <a href="{{dataSbbLink}}">{{dataSbbText}}</a>
+            </li>
+        </ul>
     </div>
     <div class="row">
         <div class="col-lg-12">
+            <p>How Many Station has a Canton? (click on one and you will get the number)</p>
             <ng-map zoom="{{karte.zoom}}" center="{{karte.lat}}, {{karte.lng}}" style="height: 700px;">
                 <map-data on-click="onClick()" set-style="{fillColor: 'grey', strokeWeight: 1}"
                           on-mouseover="onMouseover()"
@@ -19,8 +24,11 @@
                 </map-data>
             </ng-map>
         </div>
-        <div class="col-lg-12" style="margin-top: 25px;">
-            <samp>{{geoType}} || {{name}}</samp>
+        <div class="col-lg-12" style="margin-top: 25px;" ng-if="countStation">
+            <samp>{{name}} has {{countStation}} public transport station!</samp>
+        </div>
+        <div class="col-lg-12" style="margin-top: 25px;" ng-if="!countStation">
+            <samp>{{laden}}</samp>
         </div>
     </div>
 </div>

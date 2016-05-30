@@ -74,3 +74,15 @@ div.footer ul li a {
     background-color: #e91416;
     color: white;
 }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none!important;
+    border-color: #888!important;
+}
+
+.hideMap {
+    visibility: hidden;
+}
