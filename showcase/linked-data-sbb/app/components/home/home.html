@@ -15,7 +15,7 @@
     </div>
     <div class="row">
         <div class="col-lg-12">
-            <p>How Many Station has a Canton? (click on one and you will get the number)</p>
+            <p>How many stations does a canton have? (click one and you will get the number)</p>
             <ng-map zoom="{{karte.zoom}}" center="{{karte.lat}}, {{karte.lng}}" style="height: 700px;">
                 <map-data on-click="onClick()" set-style="{fillColor: 'grey', strokeWeight: 1}"
                   on-mouseover="onMouseover()"
@@ -25,7 +25,7 @@
             </ng-map>
         </div>
         <div class="col-lg-12" style="margin-top: 25px;" ng-if="countStation">
-            <samp>{{name}} has {{countStation}} public transport station!</samp>
+            <samp>{{name}} has {{countStation}} public transport station(s)!</samp>
         </div>
         <div class="col-lg-12" style="margin-top: 25px;" ng-if="!countStation">
             <samp>{{laden}}</samp>
