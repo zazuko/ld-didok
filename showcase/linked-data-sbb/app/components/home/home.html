@@ -20,12 +20,12 @@
                 <map-data on-click="onClick()" set-style="{fillColor: 'grey', strokeWeight: 1}"
                   on-mouseover="onMouseover()"
                   on-mouseout="onMouseout()"
-                  load-geo-json="./components/showcase/swiss.json">
+                  load-geo-json="./resources/swiss.json">
                 </map-data>
             </ng-map>
         </div>
         <div class="col-lg-12" style="margin-top: 25px;" ng-if="countStation">
-            <samp>{{name}} has {{countStation}} public transport station(s)!</samp>
+            <samp>{{name}} has {{countStation}} public transport stations!</samp>
         </div>
         <div class="col-lg-12" style="margin-top: 25px;" ng-if="!countStation">
             <samp>{{laden}}</samp>

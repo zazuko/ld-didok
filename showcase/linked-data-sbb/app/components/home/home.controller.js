@@ -115,7 +115,7 @@ angular.module('home', ['ngResource', 'ngMap'])
             var clickedLat = event.latLng.lat();
             var clickedLng = event.latLng.lng();
 
-            var canton = "http://classifications.data.admin.ch/canton/" + event.feature.S;
+            var canton = "http://classifications.data.admin.ch/canton/" + event.feature.R;
 
             $scope.getCantonStation(canton);
         };

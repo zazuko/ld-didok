@@ -6,7 +6,7 @@
     <div class="tab-content" id="showcaseContent">
 
         <div id="search">
-            <input type="text" class="form-control" bs3-typeahead bs3-promise="data" bs3-items="15" bs3-displayText="displayName" bs3-afterSelect="afterSelect" ng-model="value" />
+            <input type="text" class="form-control" bs3-typeahead bs3-promise="data" bs3-items="15" bs3-displayText="displayName" bs3-afterSelect="afterSelect" ng-model="value" placeholder="Suche nach Haltestellen..."/>
         </div>
 
         <div ng-if="!data" align="center" style="margin-top: 150px;margin-bottom: 150px;">
@@ -14,7 +14,23 @@
         </div>
 
         <br>
-        <h4 ng-if="detail">linked.transport.swiss</h4>
+        <h4 ng-if="detail">linked.transport.swiss<span class="btn btn-link" data-toggle="collapse" data-target="#didokQuery">query</span></h4>
+        <div id="didokQuery" class="collapse">
+            <code class="myCode">
+                <a href="{{didokUrl}}" class="execQuery" target="_blank">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+                <pre>
+SELECT *
+WHERE {
+    <span style="color: #093c9a">?subject a schema:CivicStructure ;
+        gont:id <span style="color: #4d9a4d">{{didokID}}</span>, ?id ;
+        rdfs:label ?name ;
+        gont:municipality ?municipality ;
+    <span style="color: #bd4147">OPTIONAL {</span> ?subject schema:alternateName ?alternateName . <span style="color: #bd4147">}</span></span>
+}</pre>
+            </code>
+        </div>
         <table class="table" ng-if="detail">
             <tbody>
                 <tr>
@@ -33,11 +49,30 @@
                     <td>Gemeinde</td>
                     <td><a href="{{detail.municipality.value}}">{{detail.municipality.value}}</a></td>
                 </tr>
+                <tr>
+                    <td>Anderes</td>
+                    <td></td>
+                </tr>
             </tbody>
         </table>
 
         <br>
-        <h4 ng-if="adminData">data.admin.ch</h4>
+        <h4 ng-if="adminData">data.admin.ch<span class="btn btn-link" data-toggle="collapse" data-target="#adminQuery">query</span></h4>
+        <div id="adminQuery" class="collapse">
+            <code class="myCode">
+                <a href="{{adminUrl}}" class="execQuery" target="_blank">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+                <pre>
+SELECT DISTINCT *
+WHERE {
+    <span style="color: #093c9a">?sub a gont:Municipality ;
+        gont:id  <span style="color: #4d9a4d">{{adminAndDBpediaID}}</span>, ?id ;
+        owl:sameAs ?sameAs ;
+        gont:municipalityVersion ?version</span>
+}</pre>
+            </code>
+        </div>
         <table class="table" ng-if="adminData">
             <tbody>
                 <tr>
@@ -62,7 +97,27 @@
         </table>
 
         <br>
-        <h4 ng-if="dbpediaData">dbpedia.org</h4>
+        <h4 ng-if="dbpediaData">dbpedia.org<span class="btn btn-link" data-toggle="collapse" data-target="#dbpediaQuery">query</span></h4>
+        <div id="dbpediaQuery" class="collapse">
+            <code class="myCode">
+                <a href="{{dbpediaUrl}}" class="execQuery" target="_blank">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+                <pre>
+SELECT *
+WHERE {
+    <span style="color: #093c9a">?sub a dbo:Settlement ;
+        dbo:municipalityCode <span style="color: #4d9a4d">'{{adminAndDBpediaID}}'</span>, ?code ;
+        dbo:abstract ?abstract ;
+        dbo:country ?country ;
+        dbo:neighboringMunicipality ?neighbor ;
+        dbo:postalCode ?postalCode ;
+        foaf:homepage ?website
+    <span style="color: #bd4147">OPTIONAL {</span> ?sub dbo:canton ?canton . <span style="color: #bd4147">}</span>
+    <span style="color: #bd4147">FILTER (</span> langMatches(lang(?abstract),'de') <span style="color: #bd4147">)</span></span>
+}</pre>
+            </code>
+        </div>
         <table class="table" ng-if="dbpediaData">
             <tbody>
                 <tr>
@@ -124,7 +179,7 @@
                     .attr("width", width)
                     .attr("height", height);
 
-            d3.json("/app/resources/rdf-graph.json", function (error, graph) {
+            d3.json("resources/rdf-graph.json", function (error, graph) {
                 if (error) throw error;
 
                 force
@@ -151,7 +206,7 @@
                         .attr("class", "node")
                         .attr("r", 5)
                         .style("fill", function (d) {
-                            console.log(node);
+                            //console.log(node);
                             return color(d.group);
                         });
 

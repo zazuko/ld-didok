@@ -25,7 +25,9 @@ angular.module('showcase', ['ngResource'])
         });
 
         $scope.getDetail = function(id) {
-            var url = queryService.getDetailQueryUrl(id);
+            var url = queryService.getDetailQueryUrl(id, $scope);
+            $scope.didokUrl = url.replace("showcase/query", "dataset.html");
+            $scope.didokID = id;
             $http({
                 method: 'Get',
                 url: url
@@ -33,6 +35,7 @@ angular.module('showcase', ['ngResource'])
                 var data = response.data.results.bindings[0];
                 $scope.detail = data;
                 var id = $scope.detail.municipality.value.split("/").pop();
+                $scope.adminAndDBpediaID = id;
                 $scope.getAdminData(id);
                 $scope.getDBpediaData(id);
             });
@@ -40,6 +43,7 @@ angular.module('showcase', ['ngResource'])
 
         $scope.getAdminData = function(id) {
             var url = queryService.getAdminData(id);
+            $scope.adminUrl = url.replace("query?", "sparql/?");
             $http({
                 method: 'Get',
                 url: url
@@ -59,6 +63,7 @@ angular.module('showcase', ['ngResource'])
                 id = data + id;
             }
             var url = queryService.getDBpediaData(id);
+            $scope.dbpediaUrl = url.replace("sparql", "snorql/");
             $http({
                 method: 'Get',
                 url: url
@@ -78,15 +83,15 @@ angular.module('showcase', ['ngResource'])
         var dbpediaUrl = "http://dbpedia.org/sparql";
 
         var prefix = "\
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\
-PREFIX owl: <http://www.w3.org/2002/07/owl#>\
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>\
-prefix schema: <http://schema.org/>\
-prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
-prefix gont: <https://gont.ch/>\
-prefix transport: <http://schema.transport.swiss/>\
-prefix dbo: <http://dbpedia.org/ontology/>\
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n\
+prefix owl: <http://www.w3.org/2002/07/owl#>\n\
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>\n\
+prefix foaf: <http://xmlns.com/foaf/0.1/>\n\
+prefix schema: <http://schema.org/>\n\
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\
+prefix gont: <https://gont.ch/>\n\
+prefix transport: <http://schema.transport.swiss/>\n\
+prefix dbo: <http://dbpedia.org/ontology/>\n\
 prefix dbp: <http://dbpedia.org/property/>";
 
         var getEncodedQueryUrl = function(url, query) {
@@ -108,53 +113,53 @@ prefix dbp: <http://dbpedia.org/property/>";
                 return queryUrl;
             },
 
-            getDetailQueryUrl: function(id) {
-                var query = prefix + "\
-                    SELECT *\
-                    WHERE {\
-                        ?subject a schema:CivicStructure;\
-                        gont:id " + id + ";\
-                        gont:id ?id;\
-                        rdfs:label ?name;\
-                        gont:municipality ?municipality;\
-                        gont:lv03_x ?x;\
-                        gont:lv03_y ?y;\
-                        OPTIONAL {?subject schema:alternateName ?alternateName;}\
-                    }";
+            getDetailQueryUrl: function(id, $scope) {
+                var query = prefix + "\n\n\
+SELECT *\n\
+WHERE {\n\
+    ?subject a schema:CivicStructure;\n\
+        gont:id " + id + ";\n\
+        gont:id ?id;\n\
+        rdfs:label ?name;\n\
+        gont:municipality ?municipality;\n\
+        gont:lv03_x ?x;\n\
+        gont:lv03_y ?y;\n\
+    OPTIONAL {?subject schema:alternateName ?alternateName;}\n\
+}";
 
                 var queryUrl = getEncodedQueryUrl(localUrl, query);
                 return queryUrl;
             },
 
             getAdminData: function(id) {
-                var query = prefix + "\
-                SELECT DISTINCT *\
-                WHERE {\
-                    ?sub a gont:Municipality;\
-                        gont:id " + id +", ?id;\
-                        owl:sameAs ?sameAs;\
-                        gont:municipalityVersion ?version\
-                }";
+                var query = prefix + "\n\n\
+SELECT DISTINCT *\n\
+WHERE {\n\
+    ?sub a gont:Municipality;\n\
+        gont:id " + id +", ?id;\n\
+        owl:sameAs ?sameAs;\n\
+        gont:municipalityVersion ?version\n\
+}";
 
                 var queryUrl = getEncodedQueryUrl(adminUrl, query);
                 return queryUrl;
             },
 
             getDBpediaData: function(id) {
-                var query = prefix + "\
-                SELECT *\
-                WHERE {\
-                    ?sub a dbo:Settlement ;\
-                        dbo:municipalityCode '" + id + "' ;\
-                        dbo:municipalityCode ?code ;\
-                        dbo:abstract ?abstract ;\
-                        dbo:country ?country ;\
-                        dbo:neighboringMunicipality ?neighbor ;\
-                        dbo:postalCode ?postalCode ;\
-                        foaf:homepage ?website \
-                        OPTIONAL { ?sub dbo:canton ?canton . }\
-                        FILTER (langMatches(lang(?abstract),'de'))\
-                }";
+                var query = prefix + "\n\n\
+SELECT *\n\
+WHERE {\n\
+    ?sub a dbo:Settlement ;\n\
+        dbo:municipalityCode '" + id + "' ;\n\
+        dbo:municipalityCode ?code ;\n\
+        dbo:abstract ?abstract ;\n\
+        dbo:country ?country ;\n\
+        dbo:neighboringMunicipality ?neighbor ;\n\
+        dbo:postalCode ?postalCode ;\n\
+        foaf:homepage ?website \n\
+    OPTIONAL { ?sub dbo:canton ?canton . }\n\
+    FILTER (langMatches(lang(?abstract),'de'))\n\
+}";
 
                 var queryUrl = getEncodedQueryUrl(dbpediaUrl, query);
                 return queryUrl;
