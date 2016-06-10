@@ -49,12 +49,92 @@ WHERE {
                     <td>Gemeinde</td>
                     <td><a href="{{detail.municipality.value}}">{{detail.municipality.value}}</a></td>
                 </tr>
-                <tr>
-                    <td>Anderes</td>
-                    <td></td>
-                </tr>
             </tbody>
         </table>
+
+        <div class="row" ng-if="detail">
+
+            <div ng-if="!service && !nebenbetriebe && !gepaecke" class="col-md-12">
+                <p class="text-danger" style="margin-left: 15px;">Es hat an dieser Haltestelle keine Nebenbetrieb, Service oder Gepäcke!</p>
+            </div>
+
+            <div class="col-md-4" ng-if="service">
+                <div class="card">
+                    <div class="card-header" style="cursor: pointer" data-toggle="collapse" data-target="#service">
+                        Service
+                    </div>
+                    <div class="card-block collapse" id="service">
+                        <div class="card-code-link">
+                            <a href="{{serviceUrl}}" class="execQuery" target="_blank">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <pre>
+SELECT *
+WHERE {
+    <span style="color: #093c9a">?subject a schema:Service ;
+    	gont:didok <span style="color: #4d9a4d">&lt;{{detail.subject.value}}&gt;</span>, ?didok ;
+    	gont:id ?id ;
+    	transport:stationName ?stationName ;
+    	schema:serviceType ?serviceType ;
+        schema:provider ?provider ;
+    	transport:location ?geo</span>
+}</pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" ng-if="nebenbetriebe">
+                <div class="card">
+                    <div class="card-header" style="cursor: pointer" data-toggle="collapse" data-target="#nebenbetriebe">
+                        Nebenbetriebe
+                    </div>
+                    <div class="card-block collapse" id="nebenbetriebe">
+                        <div class="card-code-link">
+                            <a href="{{nebenbetriebeUrl}}" class="execQuery" target="_blank">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <pre>
+SELECT *
+WHERE {
+    <span style="color: #093c9a">?subject a schema:LocalBusiness;
+        gont:didok <span style="color: #4d9a4d">&lt;{{detail.subject.value}}&gt;</span>, ?didok ;
+    	gont:id ?id ;
+    	transport:stationName ?stationName ;
+        schema:name ?name ;
+    	schema:geo ?geo</span>
+}</pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" ng-if="gepaecke">
+                <div class="card">
+                    <div class="card-header" style="cursor: pointer" data-toggle="collapse" data-target="#gepäcke">
+                        Gepäcke
+                    </div>
+                    <div class="card-block collapse" id="gepäcke">
+                        <div class="card-code-link">
+                            <a href="{{gepaeckeUrl}}" class="execQuery" target="_blank">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                       <pre>
+SELECT *
+WHERE {
+    <span style="color: #093c9a">?subject a schema:CivicStructure ;
+    	gont:didok <span style="color: #4d9a4d">&lt;{{detail.subject.value}}&gt;</span>, ?didok ;
+    	gont:id ?id ;
+    	transport:stationName ?stationName ;
+    	transport:info ?info ;
+        transport:knot ?knot ;
+    	transport:location ?geo</span>
+}</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <br>
         <h4 ng-if="adminData">data.admin.ch<span class="btn btn-link" data-toggle="collapse" data-target="#adminQuery">query</span></h4>

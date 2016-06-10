@@ -122,7 +122,7 @@ div#graph {
     color: #bd4147;
 }
 
-.myCode .execQuery {
+.execQuery {
     position: absolute;
     right: 10px;
     top: 0px;
@@ -132,6 +132,25 @@ div#graph {
     transition: all 0.5s;
 }
 
-.myCode .execQuery:hover {
+.execQuery:hover, .execQuery:focus, .execQuery:active {
     color: #666;
+}
+
+.card .card-block {
+    padding: 0;
+}
+
+.card .card-header {
+    background-color: #fff;
+}
+
+.card .card-block pre {
+    margin-bottom: 0;
+    color: #bd4147;
+    background-color: #F7F7F9;
+    padding: 15px;
+}
+
+.card .card-code-link {
+    position: relative;
 }

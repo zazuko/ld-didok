@@ -19,7 +19,7 @@
         "group": 2
     }, {
         "name": "dbpedia/resource",
-        "group": 3
+        "group": 2
     }],
     "links": [{
         "source": 0,
@@ -42,7 +42,7 @@
         "target": 5,
         "value": 1
     }, {
-        "source": 5,
+        "source": 0,
         "target": 6,
         "value": 1
     }]

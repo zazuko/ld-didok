@@ -11,6 +11,9 @@ angular.module('showcase', ['ngResource'])
         };
 
         $scope.afterSelect = function(item) {
+            $scope.detail = null;
+            $scope.adminData = null;
+            $scope.dbpediaData = null;
             $scope.getDetail(item.id.value);
         };
 
@@ -36,6 +39,9 @@ angular.module('showcase', ['ngResource'])
                 $scope.detail = data;
                 var id = $scope.detail.municipality.value.split("/").pop();
                 $scope.adminAndDBpediaID = id;
+                $scope.getService(data.subject.value);
+                $scope.getNebenbetriebe(data.subject.value);
+                $scope.getGepaecke(data.subject.value);
                 $scope.getAdminData(id);
                 $scope.getDBpediaData(id);
             });
@@ -71,6 +77,43 @@ angular.module('showcase', ['ngResource'])
                 console.log("DBpedia data:", response.data.results.bindings);
                 $scope.dbpediaData = response.data.results.bindings[0];
                 $scope.neighbors = response.data.results.bindings;
+            });
+        };
+
+        $scope.getService = function(id) {
+
+            var url = queryService.getService(id);
+            $scope.serviceUrl = url.replace("showcase/query", "dataset.html");
+            $http({
+                method: 'Get',
+                url: url
+            }).then(function successCallback(response) {
+                console.log("Service: ", response);
+                $scope.service = response.data.results.bindings[0];
+            });
+        };
+
+        $scope.getNebenbetriebe = function(id) {
+            var url = queryService.getNebenbetriebe(id);
+            $scope.nebenbetriebeUrl = url.replace("showcase/query", "dataset.html");
+            $http({
+                method: 'Get',
+                url: url
+            }).then(function successCallback(response) {
+                console.log("Nebenbetriebe: ", response);
+                $scope.nebenbetriebe = response.data.results.bindings[0];
+            });
+        };
+
+        $scope.getGepaecke = function(id) {
+            var url = queryService.getGepaecke(id);
+            $scope.gepaeckeUrl = url.replace("showcase/query", "dataset.html");
+            $http({
+                method: 'Get',
+                url: url
+            }).then(function successCallback(response) {
+                console.log("Gepaecke: ", response);
+                $scope.gepaecke = response.data.results.bindings[0];
             });
         };
 
@@ -162,6 +205,56 @@ WHERE {\n\
 }";
 
                 var queryUrl = getEncodedQueryUrl(dbpediaUrl, query);
+                return queryUrl;
+            },
+
+            getService: function(id) {
+                var query = prefix + "\n\n\
+SELECT *\n\
+WHERE {\n\
+   ?subject a schema:Service ;\n\
+        gont:didok <" + id +">, ?didok ;\n\
+        gont:id ?id ;\n\
+        transport:stationName ?stationName ;\n\
+        schema:serviceType ?serviceType ;\n\
+        schema:provider ?provider ;\n\
+        transport:location ?geo\n\
+}";
+
+                var queryUrl = getEncodedQueryUrl(localUrl, query);
+                return queryUrl;
+            },
+
+            getNebenbetriebe: function(id) {
+                var query = prefix + "\n\n\
+SELECT *\n\
+WHERE {\n\
+    ?subject a schema:LocalBusiness;\n\
+        gont:didok <" + id + ">, ?didok ;\n\
+        gont:id ?id ;\n\
+        transport:stationName ?stationName ;\n\
+        schema:name ?name ;\n\
+        schema:geo ?geo\n\
+}";
+
+                var queryUrl = getEncodedQueryUrl(localUrl, query);
+                return queryUrl;
+            },
+
+            getGepaecke: function(id) {
+                var query = prefix + "\n\n\
+SELECT *\n\
+WHERE {\n\
+    ?subject a schema:CivicStructure ;\n\
+        gont:didok <" + id + ">, ?didok ;\n\
+        gont:id ?id ;\n\
+        transport:stationName ?stationName ;\n\
+        transport:info ?info ;\n\
+        transport:knot ?knot ;\n\
+        transport:location ?geo\n\
+}";
+
+                var queryUrl = getEncodedQueryUrl(localUrl, query);
                 return queryUrl;
             }
 
