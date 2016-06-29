@@ -14,7 +14,7 @@
 @prefix gont: <https://gont.ch/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix qb: <http://purl.org/linked-data/cube#>.
-@prefix transport: <http://schema.transport.swiss/> .
+@prefix transport: <http://schema.lod.transportopendata.swiss/> .
 
 
 <#Pollutant>
@@ -24,14 +24,14 @@
   	]; 
 
 	rr:subjectMap [
-    	rr:template "http://linked.transport.swiss/service/{ID}";
+    	rr:template "http://lod.transportopendata.swiss/service/{ID}";
 		rr:class schema:Service ;
 	];
 
 	rr:predicateObjectMap [
     	rr:predicate gont:didok;
     	rr:objectMap [
-      		rr:template "http://linked.transport.swiss/didok/{didok}"
+      		rr:template "http://lod.transportopendata.swiss/didok/{didok}"
     	]
   	];
 

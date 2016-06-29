@@ -24,7 +24,7 @@
   	]; 
 
 	rr:subjectMap [
-    	rr:template "http://linked.transport.swiss/perron/{FID}";
+    	rr:template "http://lod.transportopendata.swiss/perron/{FID}";
 		rr:class schema:CivicStructure ;
 	];
 

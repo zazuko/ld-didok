@@ -29,7 +29,8 @@ angular.module('showcase', ['ngResource'])
 
         $scope.getDetail = function(id) {
             var url = queryService.getDetailQueryUrl(id, $scope);
-            $scope.didokUrl = url.replace("showcase/query", "dataset.html");
+            //$scope.didokUrl = url.replace("showcase/query", "dataset.html");          // for localhost
+            $scope.didokUrl = url.replace("query", "dataset.html");
             $scope.didokID = id;
             $http({
                 method: 'Get',
@@ -83,7 +84,8 @@ angular.module('showcase', ['ngResource'])
         $scope.getService = function(id) {
 
             var url = queryService.getService(id);
-            $scope.serviceUrl = url.replace("showcase/query", "dataset.html");
+            //$scope.serviceUrl = url.replace("showcase/query", "dataset.html");        // for localhost
+            $scope.serviceUrl = url.replace("query", "dataset.html");
             $http({
                 method: 'Get',
                 url: url
@@ -95,7 +97,8 @@ angular.module('showcase', ['ngResource'])
 
         $scope.getNebenbetriebe = function(id) {
             var url = queryService.getNebenbetriebe(id);
-            $scope.nebenbetriebeUrl = url.replace("showcase/query", "dataset.html");
+            //$scope.nebenbetriebeUrl = url.replace("showcase/query", "dataset.html");  // for localhost
+            $scope.nebenbetriebeUrl = url.replace("query", "dataset.html");
             $http({
                 method: 'Get',
                 url: url
@@ -107,7 +110,8 @@ angular.module('showcase', ['ngResource'])
 
         $scope.getGepaecke = function(id) {
             var url = queryService.getGepaecke(id);
-            $scope.gepaeckeUrl = url.replace("showcase/query", "dataset.html");
+            //$scope.gepaeckeUrl = url.replace("showcase/query", "dataset.html");       // for localhost
+            $scope.gepaeckeUrl = url.replace("query", "dataset.html");
             $http({
                 method: 'Get',
                 url: url
@@ -121,7 +125,8 @@ angular.module('showcase', ['ngResource'])
 
     .factory('queryService', function() {
 
-        var localUrl = "http://localhost:3030/showcase/query";
+        //var localUrl = "http://localhost:3030/showcase/query";                        // for localhost
+        var localUrl = "http://lod.transportopendata.swiss/query";
         var adminUrl = "http://data.admin.ch/query";
         var dbpediaUrl = "http://dbpedia.org/sparql";
 

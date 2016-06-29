@@ -16,7 +16,8 @@ angular.module('home', ['ngResource', 'ngMap'])
                         gont:municipality ?mun\
                 }";
 
-        var url = "http://localhost:3030/showcase/query?query=" + encodeURIComponent(query) + "&format=json";
+        //var url = "http://localhost:3030/showcase/query?query=" + encodeURIComponent(query) + "&format=json";      // for localhost
+        var url = "http://lod.transportopendata.swiss/query?query=" + encodeURIComponent(query) + "&format=json";
 
         $http({
             method: 'Get',

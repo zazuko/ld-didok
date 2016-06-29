@@ -24,7 +24,7 @@
   	]; 
 
 	rr:subjectMap [
-    	rr:template "http://linked.transport.swiss/perronoberflaeche/{FID}";
+    	rr:template "http:/lod.transportopendata.swiss/perronoberflaeche/{FID}";
 		rr:class schema:CivicStructure ;
 	];
 

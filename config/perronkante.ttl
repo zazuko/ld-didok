@@ -14,7 +14,7 @@
 @prefix gont: <https://gont.ch/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix qb: <http://purl.org/linked-data/cube#>.
-@prefix transport: <http://schema.transport.swiss/> .
+@prefix transport: <http://schema.lod.transportopendata.swiss/> .
 
 
 <#Pollutant>
@@ -24,7 +24,7 @@
   	]; 
 
 	rr:subjectMap [
-    	rr:template "http://linked.transport.swiss/perronkante/{FID}";
+    	rr:template "http://lod.transportopendata.swiss/perronkante/{FID}";
 		rr:class schema:CivicStructure ;
 	];
 

@@ -24,7 +24,7 @@
   	]; 
 
 	rr:subjectMap [
-    	rr:template "http://linked.transport.swiss/rampe-treppe/{FID}";
+    	rr:template "http://lod.transportopendata.swiss/rampe-treppe/{FID}";
 		rr:class schema:CivicStructure ;
 	];
 
