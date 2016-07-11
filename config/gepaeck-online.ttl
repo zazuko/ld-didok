@@ -23,7 +23,7 @@
     	rml:referenceFormulation ql:CSV;
     	rml:source [
     		a csvw:Table;
-    		csvw:url "http://data.sbb.ch/explore/dataset/gepack/download/?format=csv&use_labels_for_header=true" ;
+    		csvw:url "https://data.sbb.ch/explore/dataset/gepack/download/?format=csv&use_labels_for_header=true" ;
         csvw:dialect [
         	a csvw:Dialect;
           csvw:delimiter ";";
@@ -36,8 +36,9 @@
   		]
   ]; 
 
+  # TODO Note this ID is most probably *not* a good idea, change it!
 	rr:subjectMap [
-    	rr:template "http://lod.transportopendata.swiss/gepaeck/{ID}";
+    	rr:template "http://lod.transportopendata.swiss/gepaeck/{dst-nr}";
 		rr:class schema:CivicStructure ;
 	];
 
