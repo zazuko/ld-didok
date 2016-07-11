@@ -9,63 +9,86 @@
 @prefix locn:    <http://www.w3.org/ns/locn#>.
 @prefix schema: <http://schema.org/>.
 @prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>.
+@prefix csvw: <http://www.w3.org/ns/csvw#>.
 @prefix gont: <https://gont.ch/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix ex: <http://example.org/>.
+@prefix dct: <http://purl.org/dc/terms/>.
 
 
 <#Didok>
   rml:logicalSource [
-    rml:source "input/didok.csv";
-    rml:referenceFormulation ql:CSV
+      rml:referenceFormulation ql:CSV;
+      rml:source [
+        a csvw:Table;
+        csvw:url "http://ktk.netlabs.org/misc/rdf/didok.csv" ;
+        csvw:dialect [
+          a csvw:Dialect;
+          csvw:delimiter ";";
+          #default
+          csvw:encoding "UTF-8"; 
+          csvw:header "1"^^xsd:boolean;
+          csvw:headerRowCount "1"^^xsd:nonNegativeInteger;
+          csvw:trim "1"^^xsd:boolean;
+        ]
+      ]
   ]; 
 
   rr:subjectMap [
-    rr:template "http://lod.transportopendata.swiss/didok/{Dst-Nr.}";
+    rr:template "http://lod.transportopendata.swiss/didok/{Nummer}";
     rr:class schema:CivicStructure ;
   ];
 
     rr:predicateObjectMap [
     rr:predicate rdfs:label;
     rr:objectMap [
-      rml:reference "Dst-Bezeichung offiziell";
+      rml:reference "Name";
     ]
   ] ;
 
     rr:predicateObjectMap [
     rr:predicate schema:alternateName;
     rr:objectMap [
-      rml:reference "Dst-Abk";
+      rml:reference "Abkuerzung";
     ]
   ] ;
 
     rr:predicateObjectMap [
-    rr:predicate gont:id;
+    rr:predicate dct:identifier;
     rr:objectMap [
-      rml:reference "Dst-Nr.";
+      rml:reference "Nummer";
       rr:datatype xsd:int 
     ]
   ] ;
 
-    rr:predicateObjectMap [
-    rr:predicate gont:lv03_y;
-    rr:objectMap [
-      rml:reference "KOORDY" ;
-      rr:datatype xsd:float 
-    ]
-  ] ;
+## No longer really necessary as we have lat/long now
+
+#    rr:predicateObjectMap [
+#    rr:predicate gont:lv03_y;
+#    rr:objectMap [
+#      rml:reference "y_Koord_Ost" ;
+#      rr:datatype xsd:int 
+#    ]
+#  ] ;#
+
+#    rr:predicateObjectMap [
+#    rr:predicate gont:lv03_x;
+#    rr:objectMap [
+#      rml:reference "x_Koord_Nord" ;
+#      rr:datatype xsd:int 
+#    ]
+#  ] ;
 
     rr:predicateObjectMap [
-    rr:predicate gont:lv03_x;
+    rr:predicate ex:latlong;
     rr:objectMap [
-      rml:reference "KOORDX" ;
-      rr:datatype xsd:float 
-    ]
+      rml:reference "geopos"     ]
   ] ;
 
     rr:predicateObjectMap [
     rr:predicate gont:municipality;
     rr:objectMap [
-      rr:template "http://classifications.data.admin.ch/municipality/{Gde-Nr}"
+      rr:template "http://classifications.data.admin.ch/municipality/{GdeNummer}"
     ]
   ] .
