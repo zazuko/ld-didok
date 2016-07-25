@@ -36,7 +36,7 @@
   ]; 
 
   rr:subjectMap [
-    rr:template "http://lod.transportopendata.swiss/didok/{Nummer}";
+    rr:template "http://lod.opentransportdata.swiss/didok/{Nummer}";
     rr:class schema:CivicStructure ;
   ];
 
