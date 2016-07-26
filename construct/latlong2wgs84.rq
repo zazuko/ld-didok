@@ -1,10 +1,13 @@
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX schema: <http://schema.org/>
-PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geo: <http://www.opengis.net/def/geosparql/> 
+prefix sf: <http://www.opengis.net/def/sf/> 
 
 CONSTRUCT {
-?station geo:lat ?lat ;
-    geo:long ?long .
+?station wgs84:lat ?lat ;
+    wgs84:long ?long ;
+    geo:geometry ?stationwkt .
 }
 WHERE {
   ?station a schema:CivicStructure ;
@@ -12,4 +15,6 @@ WHERE {
   
     BIND(strbefore(?latlong, ",") as ?lat) 
     BIND(replace(strafter(?latlong, ","),"^ +","") as ?long) 
+    BIND(STRDT(CONCAT("POINT(", ?lat, " ", ?long, ")"),sf:WktLiteral) as ?stationwkt) .
+
 }
