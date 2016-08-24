@@ -15,6 +15,7 @@
 @prefix qb: <http://purl.org/linked-data/cube#>.
 @prefix ex: <http://example.org/>.
 @prefix dct: <http://purl.org/dc/terms/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
 
 
 <#Didok>
@@ -90,5 +91,37 @@
     rr:predicate gont:municipality;
     rr:objectMap [
       rr:template "http://classifications.data.admin.ch/municipality/{GdeNummer}"
+    ]
+  ] .
+
+# Map the short name to the ID (mainly for SBB/CFF/FFS stops)
+
+<#Didok-Short>
+  rml:logicalSource [
+      rml:referenceFormulation ql:CSV;
+      rml:source [
+        a csvw:Table;
+        csvw:url "http://ktk.netlabs.org/misc/rdf/didok.csv" ;
+        csvw:dialect [
+          a csvw:Dialect;
+          csvw:delimiter ";";
+          #default
+          csvw:encoding "UTF-8"; 
+          csvw:header "1"^^xsd:boolean;
+          csvw:headerRowCount "1"^^xsd:nonNegativeInteger;
+          csvw:trim "1"^^xsd:boolean;
+        ]
+      ]
+  ]; 
+
+  rr:subjectMap [
+    rr:template "http://lod.opentransportdata.swiss/didok/{Abkuerzung}";
+  #  rr:class schema:CivicStructure ;
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicate owl:sameAs;
+    rr:objectMap [
+      rr:template "http://lod.opentransportdata.swiss/didok/{Nummer}"
     ]
   ] .
