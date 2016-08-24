@@ -68,7 +68,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:address;
+		rr:predicate schema:postOfficeBoxNumber;
 		rr:objectMap [
 			rml:reference "Postfach";
 			rr:datatype xsd:string
@@ -76,7 +76,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:address;
+		rr:predicate schema:streetAddress;
 		rr:objectMap [
 			rml:reference "Adresse";
 			rr:datatype xsd:string
@@ -92,7 +92,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:address;
+		rr:predicate schema:postalCode;
 		rr:objectMap [
 			rml:reference "PLZ";
 			rr:datatype xsd:string
@@ -100,7 +100,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:address;
+		rr:predicate schema:addressLocality;
 		rr:objectMap [
 			rml:reference "Ort";
 			rr:datatype xsd:string
@@ -108,7 +108,7 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate schema:address;
+		rr:predicate schema:addressCountry;
 		rr:objectMap [
 			rml:reference "Land";
 			rr:datatype xsd:string
