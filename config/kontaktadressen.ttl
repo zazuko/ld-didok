@@ -23,30 +23,15 @@
     	rml:source "input/kontaktadressen.csv";
     	rml:referenceFormulation ql:CSV;
   	]; 
-
+# for every service of a station we provide adress information
 	rr:subjectMap [
-    	rr:template "http://lod.transportopendata.swiss/contactaddress/{ID}";
+    	rr:template "http://lod.transportopendata.swiss/service/{service}/{didok}";
 		rr:class schema:LocalBusiness ;
 	];
 
-  # won't work yet as number is not properly normalized yet
-	rr:predicateObjectMap [
-    	rr:predicate gont:didok;
-    	rr:objectMap [
-      		rr:template "http://lod.transportopendata.swiss/didok/{didok}"
-    	]
-  	];
-
-  # Probably redundant, listed in the station itself
-	rr:predicateObjectMap [
-	    rr:predicate transport:stationName;
-	    rr:objectMap [
-			rml:reference "stationsbezeichnung";
-			rr:datatype xsd:string
-	    ]
-	];
-
-	# should be normalized (as own triples, preferrably via SKOS)
+  
+  
+	# should be normalized (as own triples, preferrably via SKOS) #################################
 	rr:predicateObjectMap [
 		rr:predicate transport:service;
 		rr:objectMap [
@@ -55,28 +40,13 @@
 		]
 	];
 
-  # needs to become proper lat/long
-	rr:predicateObjectMap [
-		rr:predicate schema:geo;
-		rr:objectMap [
-			rml:reference "geopos";
-		]
-	];
-
+# braucht es das wirklich oder kann ich das direkt an den Service machen. 
 	rr:predicateObjectMap [
     	rr:predicate gont:didok;
     	rr:objectMap [
       		rr:template "http://lod.transportopendata.swiss/contactaddress/{ID}#Address"
     	]
   	];
-
-	rr:predicateObjectMap [
-		rr:predicate dct:identifier;
-		rr:objectMap [
-			rml:reference "ID";
-			rr:datatype xsd:int
-		]
-	].
 
 
 <#ContactAddress>
@@ -153,13 +123,5 @@
 			rml:reference "Land";
 			rr:datatype xsd:string
 		]
-	];
-
-	rr:predicateObjectMap [
-		rr:predicate dct:identifier;
-		rr:objectMap [
-			rml:reference "ID";
-			rr:datatype xsd:int
-		]
-	].
+	]..
 

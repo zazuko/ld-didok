@@ -23,17 +23,10 @@
 	];
 
 	rr:subjectMap [
-		rr:template "http://lod.transportopendata.swiss/mobility/{didok}";
+		rr:template "http://lod.transportopendata.swiss/service/parkandrail/{didok}";
 		rr:class schema:CivicStructure;
 	];
 
-	rr:predicateObjectMap [
-		rr:predicate transport:stationName;
-		rr:objectMap [
-			rml:reference "stationsbezeichnung";
-			rr:datatype xsd:string;
-		]
-	];
 
 	rr:predicateObjectMap [
 		rr:predicate schema:quantity;
@@ -100,6 +93,16 @@
 		]
 	];
 
+	
+	
+	
+	
+	rr:subjectMap [
+		rr:template "http://lod.transportopendata.swiss/service/railtaxi/{didok}";
+		rr:class schema:CivicStructure;
+	];
+
+	
 	rr:predicateObjectMap [
 		rr:predicate rdfs:comment;
 		rr:objectMap [
@@ -116,11 +119,18 @@
 		]
 	];
 
+	
+rr:subjectMap [
+		rr:template "http://lod.transportopendata.swiss/service/rentabike/{didok}";
+		rr:class schema:CivicStructure;
+	];
+	
+#was wäre der Titel der Spalte hier: Bikecategorie?	
 	rr:predicateObjectMap [
 		rr:predicate rdfs:label;
 		rr:objectMap [
 			rml:reference "mietvelo_bezeichnung";
-			rr:rdfs:Datatype xsd:string;
+			rr:rdfs:Datatype xsd:int;
 		]
 	];
 
@@ -140,6 +150,13 @@
 		]
 	];
 
+	
+rr:subjectMap [
+		rr:template "http://lod.transportopendata.swiss/service/bikestation/{didok}";
+		rr:class schema:CivicStructure;
+	];
+	
+	
 	rr:predicateObjectMap [
 		rr:predicate rdfs:comment;
 		rr:objectMap [
@@ -172,17 +189,16 @@
 		]
 	];
 
+rr:subjectMap [
+		rr:template "http://lod.transportopendata.swiss/service/carsharing/{didok}";
+		rr:class schema:CivicStructure;
+	];
+	
+	
 	rr:predicateObjectMap [
 		rr:predicate schema:name;
 		rr:objectMap [
 			rml:reference "carsharing standort_bezeichnung";
 			rr:rdfs:Datatype xsd:string;
-		]
-	];
-
-	rr:predicateObjectMap [
-		rr:predicate schema:geo;
-		rr:objectMap [
-			rml:reference "geopos";
 		]
 	].

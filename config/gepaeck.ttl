@@ -27,24 +27,25 @@
     	rr:template "http://lod.transportopendata.swiss/gepaeck/{ID}";
 		rr:class schema:CivicStructure ;
 	];
-
+#in This file there are only information about luggage, so the ID will be the didok number
 	rr:predicateObjectMap [
     	rr:predicate gont:didok;
     	rr:objectMap [
-      		rr:template "http://lod.transportopendata.swiss/didok/{didok}"
+      		rr:template "http://lod.transportopendata.swiss/didok/service/luggage/{didok}"
     	]
   	];
 
-	rr:predicateObjectMap [
-	    rr:predicate transport:stationName;
-	    rr:objectMap [
-			rml:reference "stationsbezeichnung";
-			rr:datatype xsd:string
-	    ]
-	];
+	#delete this information, because it's redudant to the station
+#	rr:predicateObjectMap [
+#	    rr:predicate transport:stationName;
+#	    rr:objectMap [
+#			rml:reference "stationsbezeichnung";
+#			rr:datatype xsd:string
+#		    ]
+#	];
 
 	rr:predicateObjectMap [
-		rr:predicate transport:validFrom;
+		rr:predicate schema:validFrom;
 		rr:objectMap [
 			rml:reference "gueltig_von";
 			rr:datatype xsd:date
@@ -52,20 +53,20 @@
 	];
 
 	rr:predicateObjectMap [
-		rr:predicate transport:validTo;
+		rr:predicate schema:validTo;
 		rr:objectMap [
 			rml:reference "gueltig_bis";
 			rr:datatype xsd:date
 		]
 	];
-
-	rr:predicateObjectMap [
-		rr:predicate transport:knot;
-		rr:objectMap [
-			rml:reference "knoten";
-			rr:datatype xsd:string
-		]
-	];
+# I don't know what is the meaning, therefore ->delete
+#	rr:predicateObjectMap [
+#		rr:predicate transport:knot;
+#		rr:objectMap [
+#			rml:reference "knoten";
+#			rr:datatype xsd:string
+#		]
+#	];
 
 	rr:predicateObjectMap [
 		rr:predicate transport:info;
@@ -74,18 +75,4 @@
 			rr:datatype xsd:string
 		]
 	];
-
-	rr:predicateObjectMap [
-		rr:predicate transport:location;
-		rr:objectMap [
-			rml:reference "geopos";
-		]
-	];
-
-	rr:predicateObjectMap [
-		rr:predicate gont:id;
-		rr:objectMap [
-			rml:reference "ID";
-			rr:datatype xsd:int
-		]
-	].
+.

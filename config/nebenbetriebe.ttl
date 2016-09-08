@@ -23,7 +23,7 @@
 	];
 
 	rr:subjectMap [
-		rr:template "http://lod.transportopendata.swiss/nebenbetriebe/{ID}";
+		rr:template "http://lod.transportopendata.swiss/shop/{Nebenbetrieb}{didok}";
 		rr:class schema:LocalBusiness;
 	];
 
@@ -34,13 +34,6 @@
     	]
   	];
 
-	rr:predicateObjectMap [
-		rr:predicate transport:stationName;
-		rr:objectMap [
-			rml:reference "stationsbezeichnung";
-			rr:datatype xsd:string;
-		]
-	];
 
 	rr:predicateObjectMap [
 		rr:predicate schema:name;
@@ -63,30 +56,5 @@
 		rr:objectMap [
 			rml:reference "bemerkungen";
 			rr:datatype xsd:string;
-		]
-	];
-
-	#TODO: what the heck is this?
-	rr:predicateObjectMap [
-		rr:predicate rdfs:label;
-		rr:objectMap [
-			rml:reference "didokstr";
-			rr:datatype xsd:string;
-		]
-	];
-
-	rr:predicateObjectMap [
-		rr:predicate schema:geo;
-		rr:objectMap [
-			rml:reference "geopos";
-			rr:datatype xsd:string;
-		]
-	];
-
-	rr:predicateObjectMap [
-		rr:predicate gont:id;
-		rr:objectMap [
-			rml:reference "ID";
-			rr:datatype xsd:int;
 		]
 	].
