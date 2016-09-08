@@ -22,14 +22,13 @@
 	rml:logicalSource [
     	rml:source "input/kontaktadressen.csv";
     	rml:referenceFormulation ql:CSV;
-  	]; 
+  ]; 
+
 # for every service of a station we provide adress information
 	rr:subjectMap [
-    	rr:template "http://lod.transportopendata.swiss/service/{service}/{didok}";
+    rr:template "http://lod.transportopendata.swiss/service/{service}/{didok}";
 		rr:class schema:LocalBusiness ;
 	];
-
-  
   
 	# should be normalized (as own triples, preferrably via SKOS) #################################
 	rr:predicateObjectMap [
@@ -42,21 +41,21 @@
 
 # braucht es das wirklich oder kann ich das direkt an den Service machen. 
 	rr:predicateObjectMap [
-    	rr:predicate gont:didok;
-    	rr:objectMap [
-      		rr:template "http://lod.transportopendata.swiss/contactaddress/{ID}#Address"
-    	]
-  	];
+    rr:predicate gont:didok;
+    rr:objectMap [
+   		rr:template "http://lod.transportopendata.swiss/contactaddress/{ID}#Address"
+    ]
+  ].
 
 
 <#ContactAddress>
 	rml:logicalSource [
     	rml:source "input/kontaktadressen.csv";
     	rml:referenceFormulation ql:CSV;
-  	]; 
+  ]; 
 
 	rr:subjectMap [
-    	rr:template "http://lod.transportopendata.swiss/contactaddress/{ID}#Address";
+    rr:template "http://lod.transportopendata.swiss/contactaddress/{ID}#Address";
 		rr:class schema:PostalAddress ;
 	];
 
@@ -123,5 +122,5 @@
 			rml:reference "Land";
 			rr:datatype xsd:string
 		]
-	]..
+	].
 
