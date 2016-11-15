@@ -1,6 +1,6 @@
 # Linked Data DIDOK README [![Build Status](https://travis-ci.org/lindas-uc/ld-didok.svg?branch=master)](https://travis-ci.org/lindas-uc/ld-didok)
 
-This DIDOK Linked Data export is based on the Excel file found in `input`.
+This DIDOK Linked Data export is based on the CSV file found in `input`.
 
 It gets build by [RML-Mapper](https://github.com/zazukoians/RML-Mapper/).
 
