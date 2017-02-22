@@ -10,8 +10,6 @@ This is a first PoC version of an LD-Export. It will hopefully be gradually expa
 
 The Linked Data version provides a pretty simple mapping of the DIDOK tables. We do not include the name of the community but instead link to the URI of the appropriate municipality in the "Historisiertes Gemeindeverzeichnis", maintained by "Bundesamt für Statistik".
 
-The x/y values are LV03 x/y coordinates. If you want to get WGS84  lat/long values instead you might want to use the [Swisstopo API](http://www.swisstopo.admin.ch/internet/swisstopo/en/home/products/software/products/m2m/lv03towgs84.html). In a final Linked Data version this should surely be included by default.
-
 ## Accessing the data online
 
 Each URI used can be directly dereferenced by HTTP, for example this entry for [SBB Cargo](http://lod.opentransportdata.swiss/didok/8500011). You can request different RDF serializations for each resource, like Turtle, JSON-LD, RDF/XML etc.
@@ -28,7 +26,7 @@ The RML configuration is provided under The MIT License (MIT). I did not check t
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Zazuko GmbH
+Copyright (c) 2017 Zazuko GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
