@@ -12,6 +12,12 @@ The Linked Data version provides a pretty simple mapping of the DIDOK tables. We
 
 The x/y values are LV03 x/y coordinates. If you want to get WGS84  lat/long values instead you might want to use the [Swisstopo API](http://www.swisstopo.admin.ch/internet/swisstopo/en/home/products/software/products/m2m/lv03towgs84.html). In a final Linked Data version this should surely be included by default.
 
+## Accessing the data online
+
+Each URI used can be directly dereferenced by HTTP, for example this entry for [SBB Cargo](http://lod.opentransportdata.swiss/didok/8500011). You can request different RDF serializations for each resource, like Turtle, JSON-LD, RDF/XML etc.
+
+If you want to query the data you can use the LINDAS SPARQL endpoint at [lindas-data.ch/sparql](http://lindas-data.ch/sparql). You can find the data in the graph `http://lindas-data.ch/resource/ld-didok`. See this [YASGUI query](http://lod.opentransportdata.swiss/sparql/#query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0ASELECT+*+WHERE+%7B+GRAPH+%3Chttp%3A%2F%2Flindas-data.ch%2Fresource%2Fld-didok%3E+%7B%0A++%3Fsub+%3Fpred+%3Fobj+.%0A++%7D%0A%7D%0ALIMIT+10&contentTypeConstruct=text%2Fturtle&contentTypeSelect=application%2Fsparql-results%2Bjson&endpoint=http%3A%2F%2Flindas-data.ch%2Fsparql&requestMethod=POST&tabTitle=Query&outputFormat=table) as an example.
+
 # Author
 
 The export was created by Adrian Gschwend, adrian.gschwend@zazuko.com or http://twitter.com/linkedktk
