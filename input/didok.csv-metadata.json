@@ -1,0 +1,116 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "url": "didok.csv",
+  "dialect": {
+    "delimiter": ";"
+  },
+  "tableSchema": {
+    "aboutUrl": "http://lod.opentransportdata.swiss/didok/{didok85}",
+    "columns": [
+      {
+        "titles": "xtf_id",
+        "propertyUrl": "http://schema.org/alternateName"
+      },
+      {
+        "titles": "Nummer",
+        "suppressOutput": true
+      },
+      {
+        "titles": "Name",
+        "propertyUrl": "rdfs:label"
+      },
+      {
+        "titles": "Abkuerzung",
+        "propertyUrl": "http://schema.org/alternateName"
+      },
+      {
+        "titles": "DatenherrAbkuerzung",
+        "propertyUrl": "http://schema.org/alternateName"
+      },
+      {
+        "titles": "TUNummer",
+        "propertyUrl": "http://example.org/tunummer"
+
+      },
+      {
+        "titles": "TUAbkuerzung",
+        "propertyUrl": "http://example.org/tuabkuerzung"
+      },
+      {
+        "titles": "Betriebspunkttyp",
+        "propertyUrl": "http://example.org/betriebspunkttyp"
+      },
+      {
+        "titles": "Verkehrsmittel",
+        "propertyUrl": "http://example.org/verkehrsmittel"
+      },
+      {
+        "titles": "y_Koord_Ost",
+        "suppressOutput": true
+      },
+      {
+        "titles": "x_Koord_Nord",
+        "suppressOutput": true
+      },
+      {
+        "titles": "Hoehe",
+        "propertyUrl": "http://schema.org/elevation",
+        "datatype": "number"
+      },
+      {
+        "titles": "GdeNummer",
+        "propertyUrl": "https://gont.ch/municipality",
+        "valueUrl": "http://classifications.data.admin.ch/municipality/{GdeNummer}"
+      },
+      {
+        "titles": "GdeName",
+        "suppressOutput": true
+      },
+      {
+        "titles": "BeginnGueltigkeit",
+        "suppressOutput": true
+      },
+      {
+        "titles": "EndeGueltigkeit",
+        "suppressOutput": true
+      },
+      {
+        "titles": "BearbeitungsDatum",
+        "suppressOutput": true
+      },
+      {
+        "titles": "Stand",
+        "suppressOutput": true
+      },
+      {
+        "titles": "rUebergeordneteHaltestelle",
+        "propertyUrl": "http://example.org/rUebergeordneteHaltestelle"
+      },
+      {
+        "titles": "geopos",
+        "propertyUrl": "http://example.org/latlong"
+      },
+      {
+        "titles": "dst_abk",
+        "propertyUrl": "http://schema.org/alternateName"
+      },
+      {
+        "titles": "didok",
+        "suppressOutput": true
+      },
+      {
+        "titles": "didok85",
+        "propertyUrl": "http://purl.org/dc/terms/identifier"
+      },
+      {
+        "titles": "lod",
+        "suppressOutput": true
+      },
+      {
+        "virtual": true,
+        "propertyUrl": "rdf:type",
+        "valueUrl": "http://schema.org/CivicStructure"
+      }
+    ]
+  }
+}

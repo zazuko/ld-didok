@@ -4,6 +4,10 @@ This DIDOK Linked Data export is based on the CSV file found in `input`.
 
 It gets build by [RML-Mapper](https://github.com/zazukoians/RML-Mapper/).
 
+## Source
+
+The data is taken from the [SBB Open Data Portal](https://data.sbb.ch/), more specifically from the [DIDOK](https://data.sbb.ch/explore/dataset/didok-liste/information/) list. You can get the CSV directly from [this link](https://data.sbb.ch/explore/dataset/didok-liste/download/?format=csv&timezone=Europe/Berlin&use_labels_for_header=true).
+
 ## RDF Export
 
 This is a first PoC version of an LD-Export. It will hopefully be gradually expanded in the next months. So far only few triples are attached to the station and the namespace is not fixed yet.
