@@ -1,0 +1,48 @@
+@base <http://lod.opentransportdata.swiss/station/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Elevator> a schema:CivicStructure ;
+  rdfs:label "Lift"@de ;
+  rdfs:label "Elevator"@en .
+
+<AerialLift> a schema:CivicStructure ;
+  rdfs:label "Luftseilbahn"@de ;
+  rdfs:label "Aerial lift"@en .
+
+<Bus> a schema:CivicStructure ;
+  rdfs:subClassOf schema:BusStop ;
+  rdfs:label "Bus Station"@de ;
+  rdfs:label "Bus station"@en .
+
+<Ship> a schema:CivicStructure ;
+  rdfs:label "Schiff"@de ;
+  rdfs:label "Ship"@en .
+
+<Funicular> a schema:CivicStructure ;
+  rdfs:label "Standseilbahn"@de ;
+  rdfs:label "Funicular"@en ;
+  rdfs:label "Funiculaire"@fr ;
+  rdfs:label "Funicolare"@it .
+
+<Tram> a schema:CivicStructure ;
+  rdfs:label "Tram"@de-CH ;
+  rdfs:label "Straßenbahn"@de-DE ;
+  rdfs:label "Tram"@en ;
+  rdfs:label "Tram"@fr ;
+  rdfs:label "Tram"@it .
+
+<Train> a schema:CivicStructure ;
+  rdfs:subClassOf schema:TrainStation ;
+  rdfs:label "Zug"@de-CH ;
+  rdfs:label "Bahn"@de-DE .
+
+<Subway> a schema:CivicStructure ;
+  rdfs:subClassOf schema:SubwayStation ;
+  rdfs:label "Metro"@de ;
+  rdfs:label "Subway station"@en .
+
+<RackRailway> a schema:CivicStructure ;
+  rdfs:label "Zahnradbahn"@de ;
+  rdfs:label "Rack railway"@en .
+
