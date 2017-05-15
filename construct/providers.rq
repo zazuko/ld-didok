@@ -1,0 +1,20 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <http://schema.org/>
+PREFIX wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geo: <http://www.opengis.net/def/geosparql/> 
+prefix sf: <http://www.opengis.net/def/sf/> 
+
+INSERT { GRAPH <http://example.org/inference> {
+  ?station schema:provider ?providerUri .
+  
+  ?providerUri a schema:Organization ;
+    schema:alternateName ?tuabkuerzung ;
+    schema:identifier ?tunummer .
+}}
+WHERE { GRAPH <http://example.com/didok> {
+  ?station a schema:CivicStructure ;
+    <http://example.org/tunummer> ?tunummer ;
+    <http://example.org/tuabkuerzung> ?tuabkuerzung .
+  
+    BIND(URI(CONCAT("http://lod.opentransportdata.swiss/provider/", ENCODE_FOR_URI(?tunummer))) AS ?providerUri)
+}}
