@@ -4,12 +4,12 @@ PREFIX wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 PREFIX geo: <http://www.opengis.net/def/geosparql/> 
 prefix sf: <http://www.opengis.net/def/sf/> 
 
-CONSTRUCT {
+INSERT { GRAPH <http://example.org/inference> {
 ?station wgs84:lat ?lat ;
     wgs84:long ?long ;
     geo:geometry ?stationwkt .
-}
-WHERE {
+  }}
+WHERE { GRAPH <http://example.com/didok> {
   ?station a schema:CivicStructure ;
     <http://example.org/latlong> ?latlong .
   
@@ -17,4 +17,4 @@ WHERE {
     BIND(replace(strafter(?latlong, ","),"^ +","") as ?long) 
     BIND(STRDT(CONCAT("POINT(", ?lat, " ", ?long, ")"),sf:WktLiteral) as ?stationwkt) .
 
-}
+  }}

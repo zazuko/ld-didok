@@ -9,7 +9,7 @@
     "columns": [
       {
         "titles": "xtf_id",
-        "propertyUrl": "http://schema.org/alternateName"
+        "suppressOutput": true
       },
       {
         "titles": "Nummer",
