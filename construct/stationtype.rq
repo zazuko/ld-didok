@@ -1,0 +1,77 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <http://schema.org/>
+PREFIX wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geo: <http://www.opengis.net/def/geosparql/> 
+PREFIX sf: <http://www.opengis.net/def/sf/> 
+PREFIX stationtype: <http://lod.opentransportdata.swiss/stationtype/> 
+
+# In the end it will be a INSERT { GRAPH <https://linked.opendata.swiss/graph/FOT/didok-infer> {
+
+INSERT { GRAPH <https://linked.opendata.swiss/graph/FOT/didok-infer> {
+  ?sBus a stationtype:Bus .
+  
+  ?sElevator a stationtype:Elevator .
+  
+  ?sAerialLift a stationtype:AerialLift .
+  
+  ?sShip a stationtype:Ship .
+  
+  ?sFunicular a stationtype:Funicular .
+  
+  ?sTram a stationtype:Tram .
+
+  ?sTrain a stationtype:Train .
+  
+  ?sSubway a stationtype:Subway .
+  
+  ?sRackRailway a stationtype:RackRailway .
+
+
+}}
+WHERE { GRAPH <https://linked.opendata.swiss/graph/FOT/didok> {
+  {
+    
+      ?sBus a schema:CivicStructure ;
+      	<http://example.org/verkehrsmittel> ?bus .
+      FILTER (CONTAINS(LCASE(?bus), "bus"))
+   } UNION { 
+      ?sElevator a schema:CivicStructure ;
+      	<http://example.org/verkehrsmittel> ?elevator .
+      FILTER (CONTAINS(LCASE(?elevator), "aufzug"))
+       } UNION { 
+
+      ?sAerialLift a schema:CivicStructure ;
+      	<http://example.org/verkehrsmittel> ?aerialLift .
+      FILTER (CONTAINS(LCASE(?aerialLift), "luftseilbahn"))
+   } UNION { 
+
+      ?sShip a schema:CivicStructure ;
+      	<http://example.org/verkehrsmittel> ?ship .
+      FILTER (CONTAINS(LCASE(?ship), "schiff"))
+       } UNION { 
+
+      ?sFunicular a schema:CivicStructure ;
+      	<http://example.org/verkehrsmittel> ?funicular .
+      FILTER (CONTAINS(LCASE(?funicular), "standseilbahn"))
+       } UNION { 
+
+      ?sTram a schema:CivicStructure ;
+      	<http://example.org/verkehrsmittel> ?tram .
+      FILTER (CONTAINS(LCASE(?tram), "tram"))
+   } UNION { 
+
+      ?sTrain a schema:CivicStructure ;
+      	<http://example.org/verkehrsmittel> ?train .
+      FILTER (CONTAINS(LCASE(?train), "zug"))
+       } UNION { 
+
+      ?sSubway a schema:CivicStructure ;
+      	<http://example.org/verkehrsmittel> ?subway .
+      FILTER (CONTAINS(LCASE(?subway), "metro"))
+   } UNION { 
+
+      ?sRackRailway a schema:CivicStructure ;
+      	<http://example.org/verkehrsmittel> ?rackRailway .
+      FILTER (CONTAINS(LCASE(?rackRailway), "zahnradbahn"))} 
+    
+}}
