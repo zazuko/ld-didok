@@ -1,0 +1,7 @@
+DELETE { GRAPH <http://example.com/didok> {
+  ?s ?p ?o
+
+  }} WHERE { GRAPH <http://example.com/didok> {
+  ?s ?p ?o
+  FILTER isBlank(?s)
+}}

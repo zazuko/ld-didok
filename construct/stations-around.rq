@@ -1,0 +1,15 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <http://schema.org/>
+PREFIX wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+prefix sf: <http://www.opengis.net/def/sf/> 
+prefix geo: <http://www.opengis.net/def/geosparql/> 
+
+SELECT * 
+WHERE {
+  ?station a schema:CivicStructure ;
+  geo:geometry ?stopwkt .
+
+
+  FILTER (bif:st_intersects(?stopwkt, bif:st_point(47.14103, 7.23872), 500000))
+
+}
