@@ -1,0 +1,6 @@
+DELETE { GRAPH <http://example.com/didok> {
+  ?s <http://example.org/latlong> ?o
+
+  }} WHERE { GRAPH <http://example.com/didok> {
+?s <http://example.org/latlong> ?o
+}}
