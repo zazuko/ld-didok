@@ -1,0 +1,20 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX geor: <http://www.opengis.net/def/rule/geosparql/>
+PREFIX sf: <http://www.opengis.net/ont/sf#>
+
+
+SELECT ?label WHERE { GRAPH <https://linked.opendata.swiss/graph/FOT/didok> {
+
+  <http://lod.opentransportdata.swiss/didok/8593380> rdfs:label ?name ;
+    geo:hasGeometry ?feature .
+  
+  ?feature geo:asWKT ?wkt .
+  
+  ?otheruri geof:nearby (?feature 0.2 <http://qudt.org/vocab/unit#Kilometer>).
+  
+  ?other geo:hasGeometry ?otheruri ;
+   rdfs:label ?label 
+
+}}
