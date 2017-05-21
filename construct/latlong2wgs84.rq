@@ -1,20 +1,27 @@
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX schema: <http://schema.org/>
 PREFIX wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-PREFIX geo: <http://www.opengis.net/def/geosparql/> 
-prefix sf: <http://www.opengis.net/def/sf/> 
+PREFIX geo: <http://www.opengis.net/ont/geosparql#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 INSERT { GRAPH <http://example.org/inference> {
-?station wgs84:lat ?lat ;
+    
+  ?station wgs84:lat ?lat ;
     wgs84:long ?long ;
-    geo:geometry ?stationwkt .
-  }}
-WHERE { GRAPH <http://example.com/didok> {
-  ?station a schema:CivicStructure ;
-    <http://example.org/latlong> ?latlong .
-  
-    BIND(strbefore(?latlong, ",") as ?lat) 
-    BIND(replace(strafter(?latlong, ","),"^ +","") as ?long) 
-    BIND(STRDT(CONCAT("POINT(", ?lat, " ", ?long, ")"),sf:WktLiteral) as ?stationwkt) .
+    geo:hasGeometry ?geometry .
+    
+  ?geometry a geo:Geometry ;
+    geo:asWKT ?stationwkt .
 
-  }}
+}}
+WHERE { GRAPH <http://example.com/didok> {
+    
+    ?station a schema:CivicStructure ;
+      <http://example.org/latlong> ?latlong .
+  
+    BIND(STRDT(STRBEFORE(?latlong, ","), xsd:float) AS ?lat) 
+    BIND(STRDT(REPLACE(STRAFTER(?latlong, ","),"^ +",""), xsd:float) AS ?long) 
+    BIND(STRDT(CONCAT("POINT(", STR(?lat), " ", STR(?long), ")"), geo:wktLiteral) AS ?stationwkt) 
+    BIND(URI(CONCAT(STR(?station), "/geometry")) AS ?geometry)
+
+}}
