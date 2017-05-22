@@ -11,3 +11,9 @@ curl -n \
      -T target/didok-clean-inference.nt \
      -G https://lindasprd.netrics.ch:8443/lindas \
      --data-urlencode graph=https://linked.opendata.swiss/graph/FOT/didok
+curl -n \
+     -X POST \
+     -H Content-Type:text/turtle \
+     -T input/static.ttl \
+     -G https://lindasprd.netrics.ch:8443/lindas \
+     --data-urlencode graph=https://linked.opendata.swiss/graph/FOT/didok

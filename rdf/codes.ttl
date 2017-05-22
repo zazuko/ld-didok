@@ -1,0 +1,30 @@
+@base <http://gtfs.netlabs.org/id/platform/code/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema: <http://schema.org/> .
+@prefix sbb: <http://gtfs.netlabs.org/def/> .
+
+<1> a skos:Concept ;
+skos:prefLabel "Stufenlos integral und Treppenfrei"@de ;
+skos:notation 1 .
+
+<2> a skos:Concept ;
+skos:prefLabel "Stufenlos partiell und Treppenfrei"@de ;
+skos:notation 2 .
+
+<3> a skos:Concept ;
+skos:prefLabel "Stufenlos integral aber nicht Treppenfrei"@de ;
+skos:notation 3 .
+
+<4> a skos:Concept ;
+skos:prefLabel "Stufenlos partiell aber nicht Treppenfrei"@de ;
+skos:notation 4 .
+
+<5> a skos:Concept ;
+skos:prefLabel "Nicht Stufenlos aber Treppenfrei"@de ;
+skos:notation 5 .
+
+<6> a skos:Concept ;
+skos:prefLabel "Nicht Stufenlos und nicht Treppenfrei"@de ;
+skos:notation 6 .
