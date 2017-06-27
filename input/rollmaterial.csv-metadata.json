@@ -15,26 +15,35 @@
       },
       {
         "titles": "Fahrzeug-Typ",
-        "propertyUrl": "https://example.org/rollingstockType"
+        "propertyUrl": "http://example.org/rollingstockType"
       },
       {
         "titles": "Objekt",
         "propertyUrl": "http://purl.org/dc/terms/identifier"
       },
       {
-        "titles": "Baudatum Fahrzeug"
+        "titles": "Baudatum Fahrzeug",
+        "propertyUrl": "dc:date",
+        "datatype": {
+          "base": "date",
+          "format": "yyyy-MM-dd"
+        }
       },
       {
-        "titles": "Eigengewicht (Tara)"
+        "titles": "Eigengewicht (Tara)",
+        "propertyUrl": "http://example.org/tara"
       },
       {
         "titles": "Lärmarm"
       },
       {
-        "titles": "Abteile 1.Kl. Nichtraucher"
+        "titles": "Abteile 1.Kl. Nichtraucher",
+        "propertyUrl": "http://example.org/firstclassCompartment",
+        "datatype": "number"
       },
       {
-        "titles": "Abteile 2.Kl. Raucher"
+        "titles": "Abteile 2.Kl. Raucher",
+        "suppressOutput": true
       },
       {
         "titles": "Abteile 2.Kl. Nichtraucher"
@@ -236,6 +245,11 @@
       },
       {
         "titles": "Vmax betrieblich zugelassen"
+      },
+      {
+        "virtual": true,
+        "propertyUrl": "rdf:type",
+        "valueUrl": "http://example.org/RollingStock"
       }
     ]
   }
