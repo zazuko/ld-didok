@@ -1,0 +1,242 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "url": "rollmaterial.csv",
+  "dialect": {
+    "delimiter": ";"
+  },
+  "tableSchema": {
+    "aboutUrl": "http://lod.opentransportdata.swiss/rollingstock/{Objekt}",
+    "columns": [
+      {
+        "titles": "Fahrzeug-Art (Struktur)",
+        "name": "structure",
+        "propertyUrl": "https://example.org/rollingstockStructure",
+        "valueUrl": "http://lod.opentransportdata.swiss/rollingstock/structure/{structure}"
+      },
+      {
+        "titles": "Fahrzeug-Typ",
+        "propertyUrl": "https://example.org/rollingstockType"
+      },
+      {
+        "titles": "Objekt",
+        "propertyUrl": "http://purl.org/dc/terms/identifier"
+      },
+      {
+        "titles": "Baudatum Fahrzeug"
+      },
+      {
+        "titles": "Eigengewicht (Tara)"
+      },
+      {
+        "titles": "Lärmarm"
+      },
+      {
+        "titles": "Abteile 1.Kl. Nichtraucher"
+      },
+      {
+        "titles": "Abteile 2.Kl. Raucher"
+      },
+      {
+        "titles": "Abteile 2.Kl. Nichtraucher"
+      },
+      {
+        "titles": "Ansage -System/-Speicher"
+      },
+      {
+        "titles": "Anzahl Abteil-Langtische"
+      },
+      {
+        "titles": "Anzeigeblinkleuchte Durchsage"
+      },
+      {
+        "titles": "Audio-Anlage"
+      },
+      {
+        "titles": "Aussenanzeigen Front (KIS)"
+      },
+      {
+        "titles": "Aussenanzeigen Front (KIS) St"
+      },
+      {
+        "titles": "Aussenanzeigen Seite (KIS)"
+      },
+      {
+        "titles": "Aussenanzeigen Seite (KIS) St"
+      },
+      {
+        "titles": "Barstühle"
+      },
+      {
+        "titles": "Bartheke"
+      },
+      {
+        "titles": "Beistellstühle"
+      },
+      {
+        "titles": "Bildschirm (KIS)"
+      },
+      {
+        "titles": "Bildschirm (KIS) St"
+      },
+      {
+        "titles": "Bildschirm 2 (KIS) St"
+      },
+      {
+        "titles": "Dienst -Raum/-Abteil"
+      },
+      {
+        "titles": "Eigengewicht (Tara) Zug"
+      },
+      {
+        "titles": "Druckertüchtigt"
+      },
+      {
+        "titles": "El Anschluss 230 V Anzahl  UD"
+      },
+      {
+        "titles": "El Anschluss 230 V Anzahl (OD)"
+      },
+      {
+        "titles": "Fahrgastzähleinrichtung AFZ"
+      },
+      {
+        "titles": "FIS Fahrgastinformationssystem"
+      },
+      {
+        "titles": "Gepäckraum-Ladefläche"
+      },
+      {
+        "titles": "Gepäckträgerart"
+      },
+      {
+        "titles": "In-Train aussen"
+      },
+      {
+        "titles": "In-Train innen"
+      },
+      {
+        "titles": "In-Train-Versorgung"
+      },
+      {
+        "titles": "Innenanzeigen (Matrix, KIS)"
+      },
+      {
+        "titles": "Innenanzeigen (Matrix, KIS) St"
+      },
+      {
+        "titles": "Klappsitze total pro Zug"
+      },
+      {
+        "titles": "Komfortanlage Führerraum"
+      },
+      {
+        "titles": "Komfortanlage Gepäckabteil"
+      },
+      {
+        "titles": "Komfortanlage Passagierraum"
+      },
+      {
+        "titles": "Kundeninformationssystem KIS"
+      },
+      {
+        "titles": "Länge über Puffer (LüP)"
+      },
+      {
+        "titles": "Länge über Zug"
+      },
+      {
+        "titles": "Notsitze klappbar"
+      },
+      {
+        "titles": "Plätze Rollstühle NR/R Total"
+      },
+      {
+        "titles": "Plätze Rollstühle pro Zug"
+      },
+      {
+        "titles": "Restaurationsplätze WR"
+      },
+      {
+        "titles": "Restaurationsplätze WR pro Zug"
+      },
+      {
+        "titles": "Salon-Sofa"
+      },
+      {
+        "titles": "Sitzpl. 1.Kl. (AFZ)"
+      },
+      {
+        "titles": "Sitzpl. 1.Kl. Nichtraucher"
+      },
+      {
+        "titles": "Sitzpl. 2.Kl. (AFZ)"
+      },
+      {
+        "titles": "Sitzpl. 2.Kl. klappbar"
+      },
+      {
+        "titles": "Sitzpl. 2.Kl. Nichtraucher"
+      },
+      {
+        "titles": "Sitzplätze 1.Kl. NR Zug"
+      },
+      {
+        "titles": "Sitzplätze 1.Kl. Total  Zug"
+      },
+      {
+        "titles": "Sitzplätze 2.Kl. NR Zug"
+      },
+      {
+        "titles": "Sitzplätze 2.Kl. Total  Zug"
+      },
+      {
+        "titles": "Sitzplätze pro Wagen Total"
+      },
+      {
+        "titles": "Sitzplätze pro Zug Total"
+      },
+      {
+        "titles": "Sitzplätze Total (AFZ)"
+      },
+      {
+        "titles": "Sitzpl. 1.Kl. NR/R Total"
+      },
+      {
+        "titles": "Sitzpl. 2.Kl. NR/R Total"
+      },
+      {
+        "titles": "Sitzpl. Bestuhlungsart"
+      },
+      {
+        "titles": "Sitzplätze Business pro Wagen"
+      },
+      {
+        "titles": "Ski- & Snowboardhalter"
+      },
+      {
+        "titles": "Stehplätze auf Plattform"
+      },
+      {
+        "titles": "Velo-Spanngurt (Stehplatzzone)"
+      },
+      {
+        "titles": "Veloabteil"
+      },
+      {
+        "titles": "Velohaken"
+      },
+      {
+        "titles": "Veloplattform"
+      },
+      {
+        "titles": "Veloständer"
+      },
+      {
+        "titles": "Video/Audio-Anlage"
+      },
+      {
+        "titles": "Vmax betrieblich zugelassen"
+      }
+    ]
+  }
+}
