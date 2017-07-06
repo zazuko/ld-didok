@@ -2,5 +2,5 @@ DELETE { GRAPH <http://example.com/didok> {
   ?s <http://example.org/verkehrsmittel> ?o
 
   }} WHERE { GRAPH <http://example.com/didok> {
-?s <http://example.org/verkehrsmittel> ?o
+?s <http://example.org/verkehrsmittel> ?o   
 }}

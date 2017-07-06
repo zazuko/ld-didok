@@ -1,0 +1,21 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <http://schema.org/>
+PREFIX wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+INSERT { GRAPH <http://example.org/inference> {
+  
+  ?sameAsUri owl:sameAs ?station .
+  ?sameAsUriLCase owl:sameAs ?station .
+
+}}
+WHERE { GRAPH <http://example.com/didok> {
+    
+    ?station a schema:CivicStructure ;
+      schema:alternateName ?altname .
+    BIND(URI(CONCAT("http://lod.opentransportdata.swiss/didok/", ?altname)) AS ?sameAsUri)
+    BIND(URI(CONCAT("http://lod.opentransportdata.swiss/didok/", LCASE(?altname))) AS ?sameAsUriLCase)
+
+}}

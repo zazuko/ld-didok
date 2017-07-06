@@ -25,7 +25,7 @@
       },
       {
         "titles": "DatenherrAbkuerzung",
-        "propertyUrl": "http://schema.org/alternateName"
+        "propertyUrl": "http://example.org/dataOwner"
       },
       {
         "titles": "TUNummer",
@@ -92,7 +92,7 @@
       },
       {
         "titles": "dst_abk",
-        "propertyUrl": "http://schema.org/alternateName"
+        "suppressOutput": true
       },
       {
         "titles": "didok",
