@@ -1,6 +1,6 @@
 {
   "@context": "http://www.w3.org/ns/csvw",
-  "url": "didok.csv",
+  "url": "https://data.sbb.ch/explore/dataset/betriebspunkte-didok/download/?format=csv&timezone=Europe/Berlin&use_labels_for_header=true",
   "dialect": {
     "delimiter": ";"
   },
