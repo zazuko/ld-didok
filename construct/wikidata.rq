@@ -11,7 +11,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 INSERT { GRAPH <http://example.org/inference> {
 
-  ?station rdfs:seeAlso ?wdstation 
+  ?station owl:sameAs ?wdstation 
   
 }}
 WHERE {

@@ -11,6 +11,7 @@ sparqlu construct/providers.rq $FUSEKI_UPDATE
 sparqlu construct/latlong2wgs84.rq $FUSEKI_UPDATE
 sparqlu construct/stationtype.rq $FUSEKI_UPDATE
 sparqlu construct/sameAs.rq $FUSEKI_UPDATE
+sparqlu construct/wikidata.rq $FUSEKI_UPDATE
 
 # and after that cleanup
 
