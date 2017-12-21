@@ -8,10 +8,6 @@
     "aboutUrl": "http://lod.opentransportdata.swiss/didok/{didok85}",
     "columns": [
       {
-        "titles": "xtf_id",
-        "suppressOutput": true
-      },
-      {
         "titles": "Nummer",
         "suppressOutput": true
       },
@@ -24,10 +20,6 @@
         "propertyUrl": "http://schema.org/alternateName"
       },
       {
-        "titles": "DatenherrAbkuerzung",
-        "propertyUrl": "http://example.org/dataOwner"
-      },
-      {
         "titles": "TUNummer",
         "propertyUrl": "http://example.org/tunummer"
 
@@ -37,66 +29,28 @@
         "propertyUrl": "http://example.org/tuabkuerzung"
       },
       {
+        // Fehlt??
         "titles": "Betriebspunkttyp",
         "propertyUrl": "http://example.org/betriebspunkttyp"
       },
       {
+        // Fehlt?
         "titles": "Verkehrsmittel",
         "propertyUrl": "http://example.org/verkehrsmittel"
       },
       {
-        "titles": "y_Koord_Ost",
-        "suppressOutput": true
-      },
-      {
-        "titles": "x_Koord_Nord",
-        "suppressOutput": true
-      },
-      {
-        "titles": "Hoehe",
+        "titles": "KOORDZ",
         "propertyUrl": "http://schema.org/elevation",
         "datatype": "number"
       },
       {
-        "titles": "GdeNummer",
+        "titles": "abk_gemeinde",
         "propertyUrl": "https://gont.ch/municipality",
-        "valueUrl": "http://classifications.data.admin.ch/municipality/{GdeNummer}"
-      },
-      {
-        "titles": "GdeName",
-        "suppressOutput": true
-      },
-      {
-        "titles": "BeginnGueltigkeit",
-        "suppressOutput": true
-      },
-      {
-        "titles": "EndeGueltigkeit",
-        "suppressOutput": true
-      },
-      {
-        "titles": "BearbeitungsDatum",
-        "suppressOutput": true
-      },
-      {
-        "titles": "Stand",
-        "suppressOutput": true
-      },
-      {
-        "titles": "rUebergeordneteHaltestelle",
-        "propertyUrl": "http://example.org/rUebergeordneteHaltestelle"
+        "valueUrl": "http://classifications.data.admin.ch/municipality/{abk_gemeinde}"
       },
       {
         "titles": "geopos",
         "propertyUrl": "http://example.org/latlong"
-      },
-      {
-        "titles": "dst_abk",
-        "suppressOutput": true
-      },
-      {
-        "titles": "didok",
-        "suppressOutput": true
       },
       {
         "titles": "didok85",
@@ -104,6 +58,82 @@
       },
       {
         "titles": "lod",
+        "suppressOutput": true
+      },
+      {
+        "titles": "VPP",
+        "suppressOutput": true
+      },
+      {
+        "titles": "BP",
+        "suppressOutput": true
+      },
+      {
+        "titles": "VPG",
+        "suppressOutput": true
+      },
+      {
+        "titles": "VD",
+        "suppressOutput": true
+      },
+      {
+        "titles": "KOORDX",
+        "suppressOutput": true
+      },
+      {
+        "titles": "KOORDY",
+        "suppressOutput": true
+      },
+      {
+        "titles": "Dst-Bezeichnung lang",
+        "suppressOutput": true
+      },
+      {
+        "titles": "name_gemeinde",
+        "suppressOutput": true
+      },
+      {
+        "titles": "shape_gemeinde",
+        "suppressOutput": true
+      },
+      {
+        "titles": "what3word_de",
+        "suppressOutput": true
+      },
+      {
+        "titles": "what3word_en",
+        "suppressOutput": true
+      },
+      {
+        "titles": "what3word_fr",
+        "suppressOutput": true
+      },
+      {
+        "titles": "what3word_it",
+        "suppressOutput": true
+      },
+      {
+        "titles": "x",
+        "suppressOutput": true
+      },
+      {
+        "titles": "x0",
+        "suppressOutput": true
+      },
+      {
+        "titles": "x1",
+        "suppressOutput": true
+      },
+      {
+        "titles": "y",
+        "suppressOutput": true
+      },
+      {
+        "titles": "y0",
+        "suppressOutput": true
+      },
+      {
+        "titles": "y1",
         "suppressOutput": true
       },
       {
