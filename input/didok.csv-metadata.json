@@ -8,10 +8,6 @@
     "aboutUrl": "http://lod.opentransportdata.swiss/didok/{didok85}",
     "columns": [
       {
-        "titles": "Nummer",
-        "suppressOutput": true
-      },
-      {
         "titles": "Name",
         "propertyUrl": "rdfs:label"
       },
@@ -20,45 +16,16 @@
         "propertyUrl": "http://schema.org/alternateName"
       },
       {
-        "titles": "TUNummer",
-        "propertyUrl": "http://example.org/tunummer"
-
-      },
-      {
-        "titles": "TUAbkuerzung",
-        "propertyUrl": "http://example.org/tuabkuerzung"
-      },
-      {
-        // Fehlt??
-        "titles": "Betriebspunkttyp",
-        "propertyUrl": "http://example.org/betriebspunkttyp"
-      },
-      {
-        // Fehlt?
-        "titles": "Verkehrsmittel",
-        "propertyUrl": "http://example.org/verkehrsmittel"
-      },
-      {
-        "titles": "KOORDZ",
-        "propertyUrl": "http://schema.org/elevation",
-        "datatype": "number"
-      },
-      {
-        "titles": "abk_gemeinde",
-        "propertyUrl": "https://gont.ch/municipality",
-        "valueUrl": "http://classifications.data.admin.ch/municipality/{abk_gemeinde}"
-      },
-      {
         "titles": "geopos",
         "propertyUrl": "http://example.org/latlong"
       },
       {
-        "titles": "didok85",
-        "propertyUrl": "http://purl.org/dc/terms/identifier"
+        "titles": "Nummer",
+        "suppressOutput": true
       },
       {
-        "titles": "lod",
-        "suppressOutput": true
+        "titles": "didok85",
+        "propertyUrl": "http://purl.org/dc/terms/identifier"
       },
       {
         "titles": "VPP",
@@ -85,16 +52,49 @@
         "suppressOutput": true
       },
       {
+        "titles": "KOORDZ",
+        "propertyUrl": "http://schema.org/elevation",
+        "datatype": "number"
+      },
+      {
+        "titles": "lod",
+        "suppressOutput": true
+      },
+      {
         "titles": "Dst-Bezeichnung lang",
         "suppressOutput": true
+      },
+      {
+        "titles": "TUNummer",
+        "propertyUrl": "http://example.org/tunummer"
+
+      },
+      {
+        "titles": "TUAbkuerzung",
+        "propertyUrl": "http://example.org/tuabkuerzung"
       },
       {
         "titles": "name_gemeinde",
         "suppressOutput": true
       },
       {
+        "titles": "abk_gemeinde",
+        "propertyUrl": "https://gont.ch/municipality",
+        "valueUrl": "http://classifications.data.admin.ch/municipality/{abk_gemeinde}"
+      },
+      {
         "titles": "shape_gemeinde",
         "suppressOutput": true
+      },
+      {
+        // Fehlt??
+        "titles": "Betriebspunkttyp",
+        "propertyUrl": "http://example.org/betriebspunkttyp"
+      },
+      {
+        // Fehlt?
+        "titles": "Verkehrsmittel",
+        "propertyUrl": "http://example.org/verkehrsmittel"
       },
       {
         "titles": "what3word_de",
