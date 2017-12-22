@@ -7,9 +7,9 @@ variables:
   JVM_ARGS=-Xmx2g
   FUSEKI_HOST=fuseki
 
-services:
-  - stain/jena-fuseki
-  alias: fuseki
+#services:
+#  - stain/jena-fuseki
+#  alias: fuseki
 
 
 # stages
