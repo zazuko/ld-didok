@@ -1,6 +1,6 @@
 {
   "@context": "http://www.w3.org/ns/csvw",
-  "url": "rollmaterial.csv",
+  "url": "https://data.sbb.ch/explore/dataset/rollmaterial/download/?format=csv&timezone=Europe/Berlin&use_labels_for_header=true",
   "dialect": {
     "delimiter": ";"
   },
@@ -23,7 +23,7 @@
       },
       {
         "titles": "Baudatum Fahrzeug",
-        "propertyUrl": "dc:date",
+        "propertyUrl": "http://purl.org/dc/terms/date",
         "datatype": {
           "base": "date",
           "format": "yyyy-MM-dd"
@@ -34,7 +34,8 @@
         "propertyUrl": "http://example.org/tara"
       },
       {
-        "titles": "Lärmarm"
+        "titles": "Lärmarm",
+        "propertyUrl": "http://example.org/laermarm"
       },
       {
         "titles": "Abteile 1.Kl. Nichtraucher",
@@ -43,208 +44,275 @@
       },
       {
         "titles": "Abteile 2.Kl. Raucher",
-        "suppressOutput": true
+        "propertyUrl": "http://example.org/abteile2klraucher"
       },
       {
-        "titles": "Abteile 2.Kl. Nichtraucher"
+        "titles": "Abteile 2.Kl. Nichtraucher",
+        "propertyUrl": "http://example.org/abteile2klnichtraucher"
       },
       {
-        "titles": "Ansage -System/-Speicher"
+        "titles": "Ansage -System/-Speicher",
+        "propertyUrl": "http://example.org/ansagesystem"
       },
       {
-        "titles": "Anzahl Abteil-Langtische"
+        "titles": "Anzahl Abteil-Langtische",
+        "propertyUrl": "http://example.org/anzahlladetische"
       },
       {
-        "titles": "Anzeigeblinkleuchte Durchsage"
+        "titles": "Anzeigeblinkleuchte Durchsage",
+        "propertyUrl": "http://example.org/anzeigeblinkleuchte"
       },
       {
-        "titles": "Audio-Anlage"
+        "titles": "Audio-Anlage",
+        "propertyUrl": "http://example.org/audioanlage"
       },
       {
-        "titles": "Aussenanzeigen Front (KIS)"
+        "titles": "Aussenanzeigen Front (KIS)",
+        "propertyUrl": "http://example.org/aussenanzeigefront"
       },
       {
-        "titles": "Aussenanzeigen Front (KIS) St"
+        "titles": "Aussenanzeigen Front (KIS) St",
+        "propertyUrl": "http://example.org/aussenanzeigefrontst"
       },
       {
-        "titles": "Aussenanzeigen Seite (KIS)"
+        "titles": "Aussenanzeigen Seite (KIS)",
+        "propertyUrl": "http://example.org/aussenanzeigeseite"
       },
       {
-        "titles": "Aussenanzeigen Seite (KIS) St"
+        "titles": "Aussenanzeigen Seite (KIS) St",
+        "propertyUrl": "http://example.org/aussenanzeigeseitest"
       },
       {
-        "titles": "Barstühle"
+        "titles": "Barstühle",
+        "propertyUrl": "http://example.org/barstuehle"
       },
       {
-        "titles": "Bartheke"
+        "titles": "Bartheke",
+        "propertyUrl": "http://example.org/bartheke"
       },
       {
-        "titles": "Beistellstühle"
+        "titles": "Beistellstühle",
+        "propertyUrl": "http://example.org/beistellstuehle"
       },
       {
-        "titles": "Bildschirm (KIS)"
+        "titles": "Bildschirm (KIS)",
+        "propertyUrl": "http://example.org/bildschirm"
       },
       {
-        "titles": "Bildschirm (KIS) St"
+        "titles": "Bildschirm (KIS) St",
+        "propertyUrl": "http://example.org/bildschirmst"
       },
       {
-        "titles": "Bildschirm 2 (KIS) St"
+        "titles": "Bildschirm 2 (KIS) St",
+        "propertyUrl": "http://example.org/bildschirm2st"
       },
       {
-        "titles": "Dienst -Raum/-Abteil"
+        "titles": "Dienst -Raum/-Abteil",
+        "propertyUrl": "http://example.org/dienstraumabteil"
       },
       {
-        "titles": "Eigengewicht (Tara) Zug"
+        "titles": "Eigengewicht (Tara) Zug",
+        "propertyUrl": "http://example.org/eigengewichtzug"
       },
       {
-        "titles": "Druckertüchtigt"
+        "titles": "Druckertüchtigt",
+        "propertyUrl": "http://example.org/druckertuechtigt"
       },
       {
-        "titles": "El Anschluss 230 V Anzahl  UD"
+        "titles": "El Anschluss 230 V Anzahl  UD",
+        "propertyUrl": "http://example.org/el230ud"
       },
       {
-        "titles": "El Anschluss 230 V Anzahl (OD)"
+        "titles": "El Anschluss 230 V Anzahl (OD)",
+        "propertyUrl": "http://example.org/el230od"
       },
       {
-        "titles": "Fahrgastzähleinrichtung AFZ"
+        "titles": "Fahrgastzähleinrichtung AFZ",
+        "propertyUrl": "http://example.org/fahrgastzaehleinrichtung"
       },
       {
-        "titles": "FIS Fahrgastinformationssystem"
+        "titles": "FIS Fahrgastinformationssystem",
+        "propertyUrl": "http://example.org/fis"
       },
       {
-        "titles": "Gepäckraum-Ladefläche"
+        "titles": "Gepäckraum-Ladefläche",
+        "propertyUrl": "http://example.org/gepaeckladeflaeche"
       },
       {
-        "titles": "Gepäckträgerart"
+        "titles": "Gepäckträgerart",
+        "propertyUrl": "http://example.org/gepaeckart"
       },
       {
-        "titles": "In-Train aussen"
+        "titles": "In-Train aussen",
+        "propertyUrl": "http://example.org/intrainaussen"
       },
       {
-        "titles": "In-Train innen"
+        "titles": "In-Train innen",
+        "propertyUrl": "http://example.org/intraininnen"
       },
       {
-        "titles": "In-Train-Versorgung"
+        "titles": "In-Train-Versorgung",
+        "propertyUrl": "http://example.org/intrainversorgung"
       },
       {
-        "titles": "Innenanzeigen (Matrix, KIS)"
+        "titles": "Innenanzeigen (Matrix, KIS)",
+        "propertyUrl": "http://example.org/innenanzeigen"
       },
       {
-        "titles": "Innenanzeigen (Matrix, KIS) St"
+        "titles": "Innenanzeigen (Matrix, KIS) St",
+        "propertyUrl": "http://example.org/innenanzeigenst"
       },
       {
-        "titles": "Klappsitze total pro Zug"
+        "titles": "Klappsitze total pro Zug",
+        "propertyUrl": "http://example.org/klappsitzetotalzug"
       },
       {
-        "titles": "Komfortanlage Führerraum"
+        "titles": "Komfortanlage Führerraum",
+        "propertyUrl": "http://example.org/komfortanlagefuehrerraum"
       },
       {
-        "titles": "Komfortanlage Gepäckabteil"
+        "titles": "Komfortanlage Gepäckabteil",
+        "propertyUrl": "http://example.org/komfortanlagegepaeck"
       },
       {
-        "titles": "Komfortanlage Passagierraum"
+        "titles": "Komfortanlage Passagierraum",
+        "propertyUrl": "http://example.org/komfortanalagepassagierraum"
       },
       {
-        "titles": "Kundeninformationssystem KIS"
+        "titles": "Kundeninformationssystem KIS",
+        "propertyUrl": "http://example.org/kis"
       },
       {
-        "titles": "Länge über Puffer (LüP)"
+        "titles": "Länge über Puffer (LüP)",
+        "propertyUrl": "http://example.org/laengeueberpuffer"
       },
       {
-        "titles": "Länge über Zug"
+        "titles": "Länge über Zug",
+        "propertyUrl": "http://example.org/laengeueberzug"
       },
       {
-        "titles": "Notsitze klappbar"
+        "titles": "Notsitze klappbar",
+        "propertyUrl": "http://example.org/notsitzeklappbar"
       },
       {
-        "titles": "Plätze Rollstühle NR/R Total"
+        "titles": "Plätze Rollstühle NR/R Total",
+        "propertyUrl": "http://example.org/plaetzerollstuehletotal"
       },
       {
-        "titles": "Plätze Rollstühle pro Zug"
+        "titles": "Plätze Rollstühle pro Zug",
+        "propertyUrl": "http://example.org/plaetzerollstuehlezug"
       },
       {
-        "titles": "Restaurationsplätze WR"
+        "titles": "Restaurationsplätze WR",
+        "propertyUrl": "http://example.org/restaurationsplaetze"
       },
       {
-        "titles": "Restaurationsplätze WR pro Zug"
+        "titles": "Restaurationsplätze WR pro Zug",
+        "propertyUrl": "http://example.org/restaurationsplaetzezug"
       },
       {
-        "titles": "Salon-Sofa"
+        "titles": "Salon-Sofa",
+        "propertyUrl": "http://example.org/salonsofa"
       },
       {
-        "titles": "Sitzpl. 1.Kl. (AFZ)"
+        "titles": "Sitzpl. 1.Kl. (AFZ)",
+        "propertyUrl": "http://example.org/sitzplatz1klafz"
       },
       {
-        "titles": "Sitzpl. 1.Kl. Nichtraucher"
+        "titles": "Sitzpl. 1.Kl. Nichtraucher",
+        "propertyUrl": "http://example.org/sitzplatz1klnr"
       },
       {
-        "titles": "Sitzpl. 2.Kl. (AFZ)"
+        "titles": "Sitzpl. 2.Kl. (AFZ)",
+        "propertyUrl": "http://example.org/sitzplatz2klafz"
       },
       {
-        "titles": "Sitzpl. 2.Kl. klappbar"
+        "titles": "Sitzpl. 2.Kl. klappbar",
+        "propertyUrl": "http://example.org/sitzplatz2klklappbar"
       },
       {
-        "titles": "Sitzpl. 2.Kl. Nichtraucher"
+        "titles": "Sitzpl. 2.Kl. Nichtraucher",
+        "propertyUrl": "http://example.org/sitzplatz2klnr"
       },
       {
-        "titles": "Sitzplätze 1.Kl. NR Zug"
+        "titles": "Sitzplätze 1.Kl. NR Zug",
+        "propertyUrl": "http://example.org/sitzplatz1klnrzugtotal"
       },
       {
-        "titles": "Sitzplätze 1.Kl. Total  Zug"
+        "titles": "Sitzplätze 1.Kl. Total  Zug",
+        "propertyUrl": "http://example.org/sitzplatz1kltotalzug"
       },
       {
-        "titles": "Sitzplätze 2.Kl. NR Zug"
+        "titles": "Sitzplätze 2.Kl. NR Zug",
+        "propertyUrl": "http://example.org/sitzplatz2klnrzugtotal"
       },
       {
-        "titles": "Sitzplätze 2.Kl. Total  Zug"
+        "titles": "Sitzplätze 2.Kl. Total  Zug",
+        "propertyUrl": "http://example.org/sitzplatz2klzugtotal"
       },
       {
-        "titles": "Sitzplätze pro Wagen Total"
+        "titles": "Sitzplätze pro Wagen Total",
+        "propertyUrl": "http://example.org/sitzplatzwagentotal"
       },
       {
-        "titles": "Sitzplätze pro Zug Total"
+        "titles": "Sitzplätze pro Zug Total",
+        "propertyUrl": "http://example.org/sitzplatzzugtotal"
       },
       {
-        "titles": "Sitzplätze Total (AFZ)"
+        "titles": "Sitzplätze Total (AFZ)",
+        "propertyUrl": "http://example.org/sitzplatztotal"
       },
       {
-        "titles": "Sitzpl. 1.Kl. NR/R Total"
+        "titles": "Sitzpl. 1.Kl. NR/R Total",
+        "propertyUrl": "http://example.org/sitzplatz1kl"
       },
       {
-        "titles": "Sitzpl. 2.Kl. NR/R Total"
+        "titles": "Sitzpl. 2.Kl. NR/R Total",
+        "propertyUrl": "http://example.org/sitzplatz2kl"
       },
       {
-        "titles": "Sitzpl. Bestuhlungsart"
+        "titles": "Sitzpl. Bestuhlungsart",
+        "propertyUrl": "http://example.org/bestuhlungsart"
       },
       {
-        "titles": "Sitzplätze Business pro Wagen"
+        "titles": "Sitzplätze Business pro Wagen",
+        "propertyUrl": "http://example.org/sitzplatzbusiness"
       },
       {
-        "titles": "Ski- & Snowboardhalter"
+        "titles": "Ski- & Snowboardhalter",
+        "propertyUrl": "http://example.org/skisnowboard"
       },
       {
-        "titles": "Stehplätze auf Plattform"
+        "titles": "Stehplätze auf Plattform",
+        "propertyUrl": "http://example.org/stehplaetzeplattform"
       },
       {
-        "titles": "Velo-Spanngurt (Stehplatzzone)"
+        "titles": "Velo-Spanngurt (Stehplatzzone)",
+        "propertyUrl": "http://example.org/velospanngurt"
       },
       {
-        "titles": "Veloabteil"
+        "titles": "Veloabteil",
+        "propertyUrl": "http://example.org/veloabteil"
       },
       {
-        "titles": "Velohaken"
+        "titles": "Velohaken",
+        "propertyUrl": "http://example.org/velohaken"
       },
       {
-        "titles": "Veloplattform"
+        "titles": "Veloplattform",
+        "propertyUrl": "http://example.org/veloplattform"
       },
       {
-        "titles": "Veloständer"
+        "titles": "Veloständer",
+        "propertyUrl": "http://example.org/velostaender"
       },
       {
-        "titles": "Video/Audio-Anlage"
+        "titles": "Video/Audio-Anlage",
+        "propertyUrl": "http://example.org/videoaudio"
       },
       {
-        "titles": "Vmax betrieblich zugelassen"
+        "titles": "Vmax betrieblich zugelassen",
+        "propertyUrl": "http://example.org/vmax"
       },
       {
         "virtual": true,

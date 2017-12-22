@@ -87,16 +87,6 @@
         "suppressOutput": true
       },
       {
-        // Fehlt??
-        "titles": "Betriebspunkttyp",
-        "propertyUrl": "http://example.org/betriebspunkttyp"
-      },
-      {
-        // Fehlt?
-        "titles": "Verkehrsmittel",
-        "propertyUrl": "http://example.org/verkehrsmittel"
-      },
-      {
         "titles": "what3word_de",
         "suppressOutput": true
       },
@@ -110,30 +100,6 @@
       },
       {
         "titles": "what3word_it",
-        "suppressOutput": true
-      },
-      {
-        "titles": "x",
-        "suppressOutput": true
-      },
-      {
-        "titles": "x0",
-        "suppressOutput": true
-      },
-      {
-        "titles": "x1",
-        "suppressOutput": true
-      },
-      {
-        "titles": "y",
-        "suppressOutput": true
-      },
-      {
-        "titles": "y0",
-        "suppressOutput": true
-      },
-      {
-        "titles": "y1",
         "suppressOutput": true
       },
       {
