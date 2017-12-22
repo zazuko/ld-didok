@@ -3,9 +3,9 @@ before_script:
   - npm install
 
 variables:
-  ADMIN_PASSWORD=cinderella
-  JVM_ARGS=-Xmx2g
-  FUSEKI_HOST=fuseki
+  ADMIN_PASSWORD: cinderella
+  JVM_ARGS: -Xmx2g
+  FUSEKI_HOST: fuseki
 
 #services:
 #  - stain/jena-fuseki
