@@ -1,0 +1,13 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+
+<http://example.org/offers/offer1>     a schema:Offer ;
+    schema:description "Some parking offer I need to understand" ;
+    schema:name "Parking blabla" ;
+    schema:duration "P1M" ; # billingPeriod is available as well but assigned to Invoice class
+    schema:offers [
+        schema:price "2.00" ;
+        schema:priceCurrency "CHF"
+    ] .
+
+

@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+[]
+    <http://schema.org/aggregateRating> [
+        <http://schema.org/ratingValue> "3.5" ;
+        <http://schema.org/reviewCount> "11" ;
+        a <http://schema.org/AggregateRating>
+    ] ;
+    <http://schema.org/description> "0.7 cubic feet countertop microwave. Has six preset cooking categories and convenience features like Add-A-Minute and Child Lock." ;
+    <http://schema.org/name> "Kenmore White 17\" Microwave" ;
+    <http://schema.org/offers> [
+        <http://schema.org/availability> "http://schema.org/InStock" ;
+        <http://schema.org/price> "55.00" ;
+        <http://schema.org/priceCurrency> "USD" ;
+        a <http://schema.org/Offer>
+    ] ;
+    <http://schema.org/review> [
+        <http://schema.org/author> "Ellie" ;
+        <http://schema.org/datePublished> "2011-04-01"^^<http://schema.org/Date> ;
+        <http://schema.org/description> "The lamp burned out and now I have to replace it." ;
+        <http://schema.org/name> "Not a happy camper" ;
+        <http://schema.org/reviewRating> [
+            <http://schema.org/bestRating> "5" ;
+            <http://schema.org/ratingValue> "1" ;
+            <http://schema.org/worstRating> "1" ;
+            a <http://schema.org/Rating>
+        ] ;
+        a <http://schema.org/Review>
+    ], [
+        <http://schema.org/author> "Lucas" ;
+        <http://schema.org/datePublished> "2011-03-25"^^<http://schema.org/Date> ;
+        <http://schema.org/description> "Great microwave for the price. It is small and fits in my apartment." ;
+        <http://schema.org/name> "Value purchase" ;
+        <http://schema.org/reviewRating> [
+            <http://schema.org/bestRating> "5" ;
+            <http://schema.org/ratingValue> "4" ;
+            <http://schema.org/worstRating> "1" ;
+            a <http://schema.org/Rating>
+        ] ;
+        a <http://schema.org/Review>
+    ] ;
+    a <http://schema.org/Product> .
+

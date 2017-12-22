@@ -1,0 +1,144 @@
+@base <http://lod.opentransportdata.swiss/vocab/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema: <http://schema.org/> .
+
+<> a owl:Ontology;
+	owl:versionInfo "Created by SBB - Version 0.1"@en;
+	dc:title "SBB Onto"@en;
+	dc:description "Ontology for SBB related linked data"@en;
+	dc:description "Ontology für Linked Data der SBB"@de.
+
+<Rollingstock> a rdfs:Class, owl:Class;
+    skos:prefLabel "Rollingstock"@en ;
+    skos:prefLabel "Rollmaterial"@de .
+	
+<DailyTrainTrip> a rdfs:Class, owl:Class;
+    skos:prefLabel "Daily train trip"@en ;
+    skos:prefLabel "Zugfahrt Tag"@de ;
+	dc:description "Züge verkehren üblicherweise wiederkehrend und haben dann jeweils dieselbe Zugnummer. Die Klasse beschreibt die Fahrt eines Zuges an einem bestimmten Tag"@de.
+	
+<DailyTrainComposition> a rdfs:Class, owl:Class;
+    skos:prefLabel "Daily train composition"@en ;
+    skos:prefLabel "Formationsfahrt Tag"@de ;
+	dc:description "Ein Zug besteht aus einem oder mehreren Wagen / Triebzügen. Die Formation bezeichnet diese Wagen und ist gerichtet, dh. die Position 1 ist der vorderste Wagen in Fahrtrichtung. Ein Zug kann auf dem gesamten Zuglauf einerseits die Fahrtrichtung ändern oder an einem Bahnhof verstärkt (zusätzliche Wagen) oder geschwächt werden und erhält deshalb eine zusätzliche Formation. Die Formation kann sich in der Planung der Tage auch ändern, deshalb ist sie auch abhängig vom Betriebstag"@de.
+
+##############################################
+# muss das wirklich rein --> oder ist das selbstverständlich?	
+# müsste ja dann bei jeder Klasse rein oder ein freifliegendes werden
+# ich mach mal nicht bei jeder Klasse den Typ rein.
+
+<type> a rdf:Property ;
+    skos:prefLabel "Type of the tuple"@en ;
+    skos:prefLabel "Tupel typ"@de ;
+	rdfs:domain <Rollingstock>;
+    rdfs:range rdfs:string .
+##############################################
+
+
+
+<rollingStockIdentifier> a rdf:Property ;
+    skos:prefLabel "rolling stock identifier"@en ;
+	skos:prefLabel "Rollmaterialidentifikator"@de ;
+	skos:description "Identifier for the rolling stock"@en ;
+    skos:altLabel "Identifikationsnummer des Rollmaterial"@de ;
+	dc:description "Die Identifikationsnummer wird durch das Bundesamt für Verkehr vergeben und ist teilweise sprechend. Details unter http://www.lokifahrer.ch/Lukmanier/Rollmaterial/Bezeichnungen/Bez-Wagen-R.htm "@de;
+	rdfs:domain <Rollingstock>;
+    rdfs:range rdfs:string .	
+	
+
+<rollingStockNumber> a rdf:Property ;
+    skos:prefLabel "Rolling stock number"@en ;
+    skos:prefLabel "Rollmaterialnummer"@de ;
+    skos:description "Part of the identifier for the rolling stock"@en ;
+    skos:altLabel "Teil der Identifikationsnummer des Rollmaterial"@de ;
+	dc:description "Die Rollmaterialnummer ist ein Teil der Identifikation und kann in einzelnen Fällen helfen, da sie nummerisch ist und als einziger Teil der Identifikationsnummer immer vorkommt "@de;
+	rdfs:domain <Rollingstock>;
+    rdfs:range rdfs:integer .
+	
+<DailyTrainComposition> a rdf:Property ;
+    skos:prefLabel "DailyTrainComposition"@en ;
+    skos:prefLabel "Formationsfahrt Tag"@de ;
+	dc:description "Verknüpft den Formationsfahrt Tag mit den dazugehörigen Kompositionen "@de;
+	rdfs:domain <DailyTrainTrip>;
+    rdfs:range <DailyTrainComposition> .
+	
+<dayUnixTimeStamp> a rdf:Property ;
+    skos:prefLabel "Unix Timestamp"@en ;
+    skos:prefLabel "Unix Zeitstempel"@de ;
+	dc:description "Unix Zeitstempel mit Millisekunden des Betriebstages des Zuges"@de;
+	rdfs:domain <DailyTrainTrip>;
+    rdfs:range rdfs:integer .
+	
+<date> a rdf:Property ;
+    skos:prefLabel "Date"@en ;
+    skos:prefLabel "Betriebstag"@de ;
+	dc:description "Betriebstag des Zuges"@de;
+	rdfs:domain <DailyTrainTrip>;
+    rdfs:range rdfs:literal.
+
+<trainNumber> a rdf:Property ;
+    skos:prefLabel "train number"@en ;
+    skos:prefLabel "Zugnummer"@de ;
+	dc:description "Identifikation eines Zuges"@de;
+	rdfs:domain <DailyTrainTrip>;
+    rdfs:range rdfs:integer.	
+	
+<arrivalStation> a rdf:Property ;
+    skos:prefLabel "arrival station"@en ;
+    skos:prefLabel "Ankunftsbahnhof"@de ;
+	dc:description "Bahnhof an dem die Formationsfahrt endet"@de;
+	rdfs:domain <DailyTrainComposition>;
+    rdfs:range <http://lod.opentransportdata.swiss/stationtype/Train>.
+
+<departureStation> a rdf:Property ;
+    skos:prefLabel "departure station"@en ;
+    skos:prefLabel "Ausgangsbahnhof"@de ;
+	dc:description "Bahnhof an dem die Formationsfahrt beginnt"@de;
+	rdfs:domain <DailyTrainComposition>;
+    rdfs:range <http://lod.opentransportdata.swiss/stationtype/Train>.
+	
+<arrivalStationArrivalTime> a rdf:Property ;
+    skos:prefLabel "arrival Station arrival time"@en ;
+    skos:prefLabel "Ankunftszeit am Ankunftsbahnhof"@de ;
+	dc:description "Zeit an dem der Zug am Ankunftsbahnhof ankommt. "@de;
+	rdfs:domain <DailyTrainComposition>;
+    rdfs:range rdfs:date.
+	
+<arrivalStationDepartureTime> a rdf:Property ;
+    skos:prefLabel "arrival Station departure time"@en ;
+    skos:prefLabel "Abfahrtszeit am Ankunftsbahnhof"@de ;
+	dc:description "Zeit an dem der Zug am Ankunftsbahnhof wieder abfährt. Wenn der Zug dort endet, dann ist Ankunfts- und Abfahrtszeit identisch. "@de;
+	rdfs:domain <DailyTrainComposition>;
+    rdfs:range rdfs:date.
+	
+<departureTime> a rdf:Property ;
+    skos:prefLabel "departure Station departure time"@en ;
+    skos:prefLabel "Abfahrtszeit am Ausgangsbahnhof"@de ;
+	dc:description "Zeit an dem der Zug am Ausgangsbahnhof  abfährt.  "@de;
+	rdfs:domain <DailyTrainComposition>;
+    rdfs:range rdfs:date.
+	
+<arrivalTime> a rdf:Property ;
+    skos:prefLabel "Departure Station arrival time"@en ;
+    skos:prefLabel "Ankunftszeit am Ankunftsbahnhof"@de ;
+	dc:description "Zeit an dem der Zug am Ankunftsbahnhof angekommen ist. Wenn der Zug dort startet, dann ist Ankunfts- und Abfahrtszeit identisch. "@de;
+	rdfs:domain <DailyTrainComposition>;
+    rdfs:range rdfs:date.
+
+
+<dailyTrainCompositionRollingStock> a rdf:Property ;
+    skos:prefLabel "Rollingstock "@en ;
+    skos:prefLabel "Rollmaterial"@de ;
+	dc:description "Verknüpfung zum Rollmaterial "@de;
+	rdfs:domain <DailyTrainComposition>;
+    rdfs:range <Rollingstock>.
+	
+    

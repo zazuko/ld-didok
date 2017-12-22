@@ -1,0 +1,11 @@
+@base <http://example.org/offers/> .
+@prefix schema: <http://schema.org/>.
+
+<offer1>         a <http://schema.org/Offer> ;
+    <http://schema.org/description> "0.7 cubic feet countertop microwave. Has six preset cooking categories and convenience features like Add-A-Minute and Child Lock." ;
+    <http://schema.org/name> "Kenmore White 17\" Microwave" ;
+    <http://schema.org/offers> [
+        <http://schema.org/availability> "http://schema.org/InStock" ;
+        <http://schema.org/price> "55.00" ;
+        <http://schema.org/priceCurrency> "USD" 
+]

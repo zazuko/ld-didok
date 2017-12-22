@@ -3,3 +3,4 @@ lib
 output
 .DS_Store
 node_modules
+*.csv
