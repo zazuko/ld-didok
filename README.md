@@ -1,8 +1,6 @@
-# Linked Data DIDOK README [![Build Status](https://travis-ci.org/lindas-uc/ld-didok.svg?branch=master)](https://travis-ci.org/lindas-uc/ld-didok)
+# Swiss Public Transport Linked Data
 
-This DIDOK Linked Data export is based on the CSV file found in `input`.
-
-It gets build by [RML-Mapper](https://github.com/zazukoians/RML-Mapper/).
+This repository provides multiple datasets about public transport related information of Switzerland. It is built on data from 
 
 ## Source
 
