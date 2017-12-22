@@ -16,8 +16,8 @@
   },
   "scripts": {
     "clean": "rm -rf target/*",
-    "fetch-didok": "curl `node node_modules/json/lib/json.js url -f input/didok.csv-metadata.json` -o input/didok.csv",
-    "fetch-rollmaterial": "curl `node node_modules/json/lib/json.js url -f input/rollmaterial.csv-metadata.json` -o input/rollmaterial.csv",
+    "fetch-didok": "curl -s `node node_modules/json/lib/json.js url -f input/didok.csv-metadata.json` -o input/didok.csv",
+    "fetch-rollmaterial": "curl -s `node node_modules/json/lib/json.js url -f input/rollmaterial.csv-metadata.json` -o input/rollmaterial.csv",
     "convert": "mkdir -p target && node index.js",
     "clean-didok": "cat target/didok.nt | sed '/_:/d' | sed '/<file/d' > target/didok-clean.nt",
     "clean-rollmaterial": "cat target/rollmaterial.nt | sed '/_:/d' | sed '/<file/d' > target/rollmaterial-clean.nt",
