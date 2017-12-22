@@ -60,7 +60,7 @@ function convertXlsx (filename, sheet, metadata) {
 }
 
 const filenames = [
- // 'didok.csv',
+  'didok.csv',
   'rollmaterial.csv'
 ]
 

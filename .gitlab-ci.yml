@@ -1,0 +1,51 @@
+image: node:8.9
+before_script:
+  - npm install
+
+variables:
+  ADMIN_PASSWORD=cinderella
+  JVM_ARGS=-Xmx2g
+  FUSEKI_HOST=fuseki
+
+services:
+ - stain/jena-fuseki
+  alias: fuseki
+
+
+# stages
+stages:
+- fetch
+- convert
+- post
+
+# jobs
+
+fetch_didok_job:
+  stage: fetch
+  script:
+    - npm run fetch-didok
+  artifacts:
+    paths:
+      - input/didok.csv
+    expire_in: 30 minutes
+
+fetch_rollmaterial_job:
+  stage: fetch
+  script:
+    - npm run fetch-rollmaterial
+  artifacts:
+    paths:
+      - input/rollmaterial.csv
+    expire_in: 30 minutes
+
+convert_job:
+  stage: convert
+  script:
+    - npm run convert
+    - npm run clean-didok
+    - npm run clean-rollmaterial
+  artifacts:
+    paths:
+      - target/didok-clean.nt
+      - target/rollmaterial-clean.nt
+    expire_in: 1 hour
