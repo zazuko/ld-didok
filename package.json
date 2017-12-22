@@ -1,0 +1,28 @@
+{
+  "name": "ld-didok",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zazuko/ld-didok.git"
+  },
+  "dependencies": {
+    "barnard59": "git+https://github.com/zazuko/barnard59.git#master",
+    "json": "^9.0.6",
+    "npm-run-all": "^4.1.2"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "clean": "rm -rf target/*",
+    "fetch-didok": "curl `node node_modules/json/lib/json.js url -f input/didok.csv-metadata.json` -o input/didok.csv",
+    "fetch-rollmaterial": "curl `node node_modules/json/lib/json.js url -f input/rollmaterial.csv-metadata.json` -o input/rollmaterial.csv",
+    "convert": "mkdir -p target && node index.js",
+    "clean-didok": "cat target/didok.nt | sed '/_:/d' > target/didok-clean.nt",
+    "put-void": "./scripts/lindas-put-void.sh",
+    "post-hdb": "./scripts/lindas-post-hdb.sh",
+    "build": "npm-run-all clean get-hdb get-dimensions convert clean-dimensions clean-hdb put-void post-hdb post-dimensions",
+    "build-local": "npm-run-all clean get-hdb get-dimensions convert clean-dimensions clean-hdb"
+  }
+}
