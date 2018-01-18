@@ -21,9 +21,11 @@
     "convert": "mkdir -p target && node index.js",
     "clean-didok": "cat target/didok.nt | sed '/_:/d' | sed '/<file/d' > target/didok-clean.nt",
     "clean-rollmaterial": "cat target/rollmaterial.nt | sed '/_:/d' | sed '/<file/d' > target/rollmaterial-clean.nt",
-    "put-void": "./scripts/lindas-put-void.sh",
-    "post-hdb": "./scripts/lindas-post-hdb.sh",
-    "build": "npm-run-all clean get-hdb get-dimensions convert clean-dimensions clean-hdb put-void post-hdb post-dimensions",
-    "build-local": "npm-run-all clean get-hdb get-dimensions convert clean-dimensions clean-hdb"
+    "tdb-load": "tdbloader --loc=target/tdb_bernmobil target/didok-clean.nt target/rollmaterial-clean.nt",
+    "tdb-query": "./scripts/tdb-query.sh",
+    "tdb-dump": "./scripts/tdb-dump.sh",
+    "validate-riot": "riot --validate target/everything.nt",
+    "bernmobil-lindas-test": "env ENDPOINT=https://test.lindas-data.ch:8443/lindas ./scripts/lindas-put-everything.sh",
+    "build": "npm-run-all clean fetch-didok fetch-rollmaterial convert clean-didok clean-rollmaterial tdb-load tdb-query tdb-dump validate-riot"
   }
 }
