@@ -21,7 +21,7 @@ WHERE { GRAPH <http://example.com/didok> {
   
     BIND(STRDT(STRBEFORE(?latlong, ","), xsd:float) AS ?lat) 
     BIND(STRDT(REPLACE(STRAFTER(?latlong, ","),"^ +",""), xsd:float) AS ?long) 
-    BIND(STRDT(CONCAT("POINT(", STR(?lat), " ", STR(?long), ")"), geo:wktLiteral) AS ?stationwkt) 
+    BIND(STRDT(CONCAT("POINT(", STR(?long), " ", STR(?lat), ")"), geo:wktLiteral) AS ?stationwkt) 
     BIND(URI(CONCAT(STR(?station), "/geometry")) AS ?geometry)
 
 }}
