@@ -9,7 +9,7 @@
     "columns": [
       {
         "titles": "Name",
-        "propertyUrl": "rdfs:label"
+        "propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label"
       },
       {
         "titles": "Abkuerzung",
@@ -26,6 +26,10 @@
       {
         "titles": "didok85",
         "propertyUrl": "http://purl.org/dc/terms/identifier"
+      },
+      {
+        "titles": "Verkehrsmittel",
+        "propertyUrl": "http://example.org/verkehrsmittel"
       },
       {
         "titles": "VPP",
@@ -104,7 +108,7 @@
       },
       {
         "virtual": true,
-        "propertyUrl": "rdf:type",
+        "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
         "valueUrl": "http://schema.org/CivicStructure"
       }
     ]
