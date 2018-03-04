@@ -1,2 +1,2 @@
 #!/bin/sh
-tdbdump --loc target/tdb | sed '\#example.org#d' | rapper -i nquads -o ntriples  - http://example.org/base/ > target/everything.nt
+tdbdump --loc target/tdb | serdi -i nquads -o ntriples - | sed '\#example.org#d' > target/everything.nt
