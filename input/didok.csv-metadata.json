@@ -108,6 +108,11 @@
       },
       {
         "virtual": true,
+        "propertyUrl": "http://www.w3.org/2002/07/owl#sameAs",
+        "valueUrl": "https://ld.geo.admin.ch/transportation/stop/{didok85}"
+      },
+      {
+        "virtual": true,
         "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
         "valueUrl": "http://schema.org/CivicStructure"
       }

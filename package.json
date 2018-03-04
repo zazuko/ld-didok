@@ -20,12 +20,14 @@
     "convert": "mkdir -p target && node index.js",
     "clean-didok": "cat target/didok.nt | sed '/_:/d' | sed '/<file/d' > target/didok-clean.nt",
     "clean-rollmaterial": "cat target/rollmaterial.nt | sed '/_:/d' | sed '/<file/d' > target/rollmaterial-clean.nt",
-    "tdb-load": "tdbloader --loc=target/tdb --graph=http://example.com/didok target/didok-clean.nt target/rollmaterial-clean.nt",
+    "tdb-load": "tdbloader --loc=target/tdb --graph=http://example.com/didok target/void.ttl target/didok-clean.nt target/rollmaterial-clean.nt",
     "tdb-query": "./scripts/tdb-query.sh",
     "tdb-dump": "./scripts/tdb-dump.sh",
     "validate-riot": "riot --validate target/everything.nt",
-    "put-lindas-test": "env ENDPOINT=https://test.lindas-data.ch:8443/lindas ./scripts/lindas-put-everything.sh",
-    "build": "npm-run-all clean fetch-didok fetch-rollmaterial convert clean-didok clean-rollmaterial tdb-load tdb-query tdb-dump validate-riot",
-    "build-cache": "npm-run-all clean convert clean-didok clean-rollmaterial tdb-load tdb-query tdb-dump validate-riot"
+    "void-timestamp": "./scripts/void-timestamp.sh",
+    "put-everything-test": "env ENDPOINT=https://test.lindas-data.ch:8443/lindas ./scripts/lindas-put-everything.sh",
+    "put-everything-prod": "env ENDPOINT=https://lindas-data.ch:8443/lindas ./scripts/lindas-put-everything.sh",
+    "build": "npm-run-all clean fetch-didok fetch-rollmaterial convert clean-didok clean-rollmaterial void-timestamp tdb-load tdb-query tdb-dump validate-riot",
+    "build-cache": "npm-run-all clean convert clean-didok clean-rollmaterial void-timestamp tdb-load tdb-query tdb-dump validate-riot"
   }
 }

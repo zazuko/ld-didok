@@ -1,0 +1,60 @@
+@base <http://lod.opentransportdata.swiss/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix schema: <http://schema.org/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix duv: <http://www.w3.org/ns/duv#> .
+
+
+<.well-known/void> a void:DatasetDescription;
+    dcterms:title "Public transport stops of Switzerland"@en;
+    dcterms:creator <org/Zazuko>;
+    foaf:topic <dataset/betriebspunkte-didok> .
+##
+## Organizations
+##
+
+<org/Zazuko> a foaf:Organization, schema:Corporation;
+    rdfs:label "Zazuko GmbH";
+    foaf:homepage <http://www.zazuko.com/>
+    .
+
+<org/FOT> a foaf:Organization, schema:GovernmentOrganization;
+    rdfs:label "Bundesamt für Verkehr (BAV)"@de;
+    rdfs:label "Office fédéral des transports (OFT)"@fr;
+    rdfs:label "Ufficio federale dei trasporti (UFT)"@it;
+    rdfs:label "Federal Office of Transport (FOT)"@en;
+    foaf:homepage <https://www.bav.admin.ch/bav/de/home.html>
+    .
+
+##
+## Datasets
+##
+
+<dataset/betriebspunkte-didok> a void:Dataset, dcat:Dataset ;
+    dcterms:title "Liste der Haltestellen der Schweiz."@de;
+    dcterms:description "Liste der Haltestellen der Schweiz. Die Didok-Liste wird vom Bundesamt für Verkehr erstellt."@de;
+    dcterms:publisher <org/FOT>;
+    dcterms:creator <org/FOT> ;
+    dcterms:contributor <org/Zazuko> ;
+    dcterms:issued "%%DATEISSUED%%"^^xsd:date; # date of publication of the source
+    dcterms:created "%%DATECREATED%%"^^xsd:dateTime;
+    foaf:homepage <https://data.sbb.ch/explore/dataset/betriebspunkte-didok/> ;
+#    dcterms:modified "%%DATEMODIFIED%%"^^xsd:date;
+    doap:repository [
+        a doap:GitRepository ;
+        doap:browse <https://github.com/zazuko/ld-didok> ;
+        doap:location "git@github.com:zazuko/ld-didok.git" 
+    ] ;
+    void:sparqlEndpoint <http://lod.opentransportdata.swiss/query>;
+#    duv:hasUsage <dataset/meta-usage> ;
+.
