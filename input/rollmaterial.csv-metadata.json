@@ -77,11 +77,11 @@
       },
       {
         "titles": "Aussenanzeigen Seite (KIS)",
-        "propertyUrl": "http://example.org/aussenanzeigeseite"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/aussenanzeigen_seite_kis"
       },
       {
         "titles": "Aussenanzeigen Seite (KIS) St",
-        "propertyUrl": "http://example.org/aussenanzeigeseitest"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/aussenanzeigen_front_kis_st"
       },
       {
         "titles": "Barstühle",
@@ -197,11 +197,11 @@
       },
       {
         "titles": "Plätze Rollstühle NR/R Total",
-        "propertyUrl": "http://example.org/plaetzerollstuehletotal"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab//plaetzerollstuehle_total_nr_r"
       },
       {
         "titles": "Plätze Rollstühle pro Zug",
-        "propertyUrl": "http://example.org/plaetzerollstuehlezug"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab//plaetzerollstuehle_total_zug"
       },
       {
         "titles": "Restaurationsplätze WR",
@@ -257,7 +257,7 @@
       },
       {
         "titles": "Sitzplätze pro Zug Total",
-        "propertyUrl": "http://example.org/sitzplatzzugtotal"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzplatze_zug_Total"
       },
       {
         "titles": "Sitzplätze Total (AFZ)",
@@ -265,11 +265,11 @@
       },
       {
         "titles": "Sitzpl. 1.Kl. NR/R Total",
-        "propertyUrl": "http://example.org/sitzplatz1kl"
+        "propertyUrl": "sitzplatze_1_kl_total_zug"
       },
       {
         "titles": "Sitzpl. 2.Kl. NR/R Total",
-        "propertyUrl": "http://example.org/sitzplatz2kl"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzplatze_2_kl_total_zug"
       },
       {
         "titles": "Sitzpl. Bestuhlungsart",
