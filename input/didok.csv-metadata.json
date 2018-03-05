@@ -6,6 +6,7 @@
   },
   "tableSchema": {
     "aboutUrl": "http://lod.opentransportdata.swiss/didok/{didok85}",
+    "null":"undefined",
     "columns": [
       {
         "titles": "Name",

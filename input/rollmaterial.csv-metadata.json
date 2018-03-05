@@ -6,6 +6,7 @@
   },
   "tableSchema": {
     "aboutUrl": "http://lod.opentransportdata.swiss/rollingstock/{Objekt}",
+    "null":"undefined",
     "columns": [
       {
         "titles": "Fahrzeug-Art (Struktur)",

@@ -13,28 +13,21 @@ function convertCsvw (filename) {
         metadata: metadata
       }))
       .pipe(p.filter((quad) => {
-        return quad.predicate.value !== 'http://ld.stadt-zuerich.ch/statistics/property/XXX'
+        return quad.object.value !== 'undefined'
       }))
       .pipe(p.map((quad) => {
-        if (quad.predicate.value === 'http://ld.stadt-zuerich.ch/statistics/property/WERT') {
-          //const value = quad.object.value.split(' ').join('')
-          const value = quad.object.value.split(' ').join('')
+        const subject = quad.subject
+        const predicate = quad.predicate
+        const object = quad.object
+        let quads = []
 
-          var valnumber
-
-          // workaround to kick out all non-numbers
-          if(isNaN(parseFloat(value))) {
-            valnumber = 0
-          } else {
-            valnumber = parseFloat(value)
-
+        if (predicate.value === 'http://purl.org/dc/terms/identifier') {
+          if (object.value.length < 5) {
+            console.error('Wrong didok number: ' + predicate.value)
           }
-          
-          //return p.rdf.quad(quad.subject, quad.predicate, p.rdf.literal(value, quad.object.datatype))          
-          return p.rdf.quad(quad.subject, quad.predicate, p.rdf.literal(valnumber, quad.object.datatype))
-        } else {
-          return quad
         }
+
+        return p.rdf.quad(subject, predicate, object)
       }))
       .pipe(p.ntriples.serialize())
       .pipe(p.file.write(filenameOutput)))
@@ -60,7 +53,7 @@ function convertXlsx (filename, sheet, metadata) {
 }
 
 const filenames = [
-  'didok.csv',
+ // 'didok.csv',
   'rollmaterial.csv'
 ]
 
