@@ -10,20 +10,20 @@
       {
         "titles": "Fahrzeug-Art (Struktur)",
         "name": "structure",
-        "propertyUrl": "https://example.org/rollingstockStructure",
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/fahrzeug_art_struktur",
         "valueUrl": "http://lod.opentransportdata.swiss/rollingstock/structure/{structure}"
       },
       {
         "titles": "Fahrzeug-Typ",
-        "propertyUrl": "http://example.org/rollingstockType"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/fahrzeug_typ"
       },
       {
         "titles": "Objekt",
-        "propertyUrl": "http://purl.org/dc/terms/identifier"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/rollingstockidentifier"
       },
       {
         "titles": "Baudatum Fahrzeug",
-        "propertyUrl": "http://purl.org/dc/terms/date",
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/baudatum_fahrzeug",
         "datatype": {
           "base": "date",
           "format": "yyyy-MM-dd"
@@ -31,48 +31,48 @@
       },
       {
         "titles": "Eigengewicht (Tara)",
-        "propertyUrl": "http://example.org/tara"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/eigengewicht_tara"
       },
       {
         "titles": "Lärmarm",
-        "propertyUrl": "http://example.org/laermarm"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/larmarm"
       },
       {
         "titles": "Abteile 1.Kl. Nichtraucher",
-        "propertyUrl": "http://example.org/firstclassCompartment",
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/abteile_1_kl_nichtraucher",
         "datatype": "number"
       },
       {
         "titles": "Abteile 2.Kl. Raucher",
-        "propertyUrl": "http://example.org/abteile2klraucher"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/abteile_2_kl_raucher"
       },
       {
         "titles": "Abteile 2.Kl. Nichtraucher",
-        "propertyUrl": "http://example.org/abteile2klnichtraucher"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/abteile_2_kl_nichtraucher"
       },
       {
         "titles": "Ansage -System/-Speicher",
-        "propertyUrl": "http://example.org/ansagesystem"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/ansage_system_speicher"
       },
       {
         "titles": "Anzahl Abteil-Langtische",
-        "propertyUrl": "http://example.org/anzahlladetische"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/anzahl_abteil_langtische"
       },
       {
         "titles": "Anzeigeblinkleuchte Durchsage",
-        "propertyUrl": "http://example.org/anzeigeblinkleuchte"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/anzeigeblinkleuchte_durchsage"
       },
       {
         "titles": "Audio-Anlage",
-        "propertyUrl": "http://example.org/audioanlage"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/audio_anlage"
       },
       {
         "titles": "Aussenanzeigen Front (KIS)",
-        "propertyUrl": "http://example.org/aussenanzeigefront"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/aussenanzeigen_front_kis"
       },
       {
         "titles": "Aussenanzeigen Front (KIS) St",
-        "propertyUrl": "http://example.org/aussenanzeigefrontst"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/aussenanzeigen_front_kis_st"
       },
       {
         "titles": "Aussenanzeigen Seite (KIS)",
@@ -84,115 +84,115 @@
       },
       {
         "titles": "Barstühle",
-        "propertyUrl": "http://example.org/barstuehle"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/barstuhle"
       },
       {
         "titles": "Bartheke",
-        "propertyUrl": "http://example.org/bartheke"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/bartheke"
       },
       {
         "titles": "Beistellstühle",
-        "propertyUrl": "http://example.org/beistellstuehle"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/beistellstuhle"
       },
       {
         "titles": "Bildschirm (KIS)",
-        "propertyUrl": "http://example.org/bildschirm"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/bildschirm_kis"
       },
       {
         "titles": "Bildschirm (KIS) St",
-        "propertyUrl": "http://example.org/bildschirmst"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/bildschirm_kis_st"
       },
       {
         "titles": "Bildschirm 2 (KIS) St",
-        "propertyUrl": "http://example.org/bildschirm2st"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/bildschirm_2_kis_st"
       },
       {
         "titles": "Dienst -Raum/-Abteil",
-        "propertyUrl": "http://example.org/dienstraumabteil"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/dienst_raum_abteil"
       },
       {
         "titles": "Eigengewicht (Tara) Zug",
-        "propertyUrl": "http://example.org/eigengewichtzug"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/eigengewicht_tara_zug"
       },
       {
         "titles": "Druckertüchtigt",
-        "propertyUrl": "http://example.org/druckertuechtigt"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/druckertuchtigt"
       },
       {
         "titles": "El Anschluss 230 V Anzahl  UD",
-        "propertyUrl": "http://example.org/el230ud"
+        "propertyUrl": "hhttp://lod.opentransportdata.swiss/vocab/el_anschluss_230_v_anzahl_ud"
       },
       {
         "titles": "El Anschluss 230 V Anzahl (OD)",
-        "propertyUrl": "http://example.org/el230od"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/el_anschluss_230_v_anzahl_od"
       },
       {
         "titles": "Fahrgastzähleinrichtung AFZ",
-        "propertyUrl": "http://example.org/fahrgastzaehleinrichtung"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/fahrgastzahleinrichtung_afz"
       },
       {
         "titles": "FIS Fahrgastinformationssystem",
-        "propertyUrl": "http://example.org/fis"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/fis_fahrgastinformationssystem"
       },
       {
         "titles": "Gepäckraum-Ladefläche",
-        "propertyUrl": "http://example.org/gepaeckladeflaeche"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/gepackraum_ladeflache"
       },
       {
         "titles": "Gepäckträgerart",
-        "propertyUrl": "http://example.org/gepaeckart"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/gepacktragerart"
       },
       {
         "titles": "In-Train aussen",
-        "propertyUrl": "http://example.org/intrainaussen"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/in_train_aussen"
       },
       {
         "titles": "In-Train innen",
-        "propertyUrl": "http://example.org/intraininnen"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/in_train_innen"
       },
       {
         "titles": "In-Train-Versorgung",
-        "propertyUrl": "http://example.org/intrainversorgung"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/in_train_versorgung"
       },
       {
         "titles": "Innenanzeigen (Matrix, KIS)",
-        "propertyUrl": "http://example.org/innenanzeigen"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/innenanzeigen_matrix_kis"
       },
       {
         "titles": "Innenanzeigen (Matrix, KIS) St",
-        "propertyUrl": "http://example.org/innenanzeigenst"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/innenanzeigen_matrix_kis_st"
       },
       {
         "titles": "Klappsitze total pro Zug",
-        "propertyUrl": "http://example.org/klappsitzetotalzug"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/klappsitze_total_pro_zug"
       },
       {
         "titles": "Komfortanlage Führerraum",
-        "propertyUrl": "http://example.org/komfortanlagefuehrerraum"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/komfortanlage_fuhrerraum"
       },
       {
         "titles": "Komfortanlage Gepäckabteil",
-        "propertyUrl": "http://example.org/komfortanlagegepaeck"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/komfortanlage_gepackabteil"
       },
       {
         "titles": "Komfortanlage Passagierraum",
-        "propertyUrl": "http://example.org/komfortanalagepassagierraum"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/komfortanlage_passagierraum"
       },
       {
         "titles": "Kundeninformationssystem KIS",
-        "propertyUrl": "http://example.org/kis"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/kundeninformationssystem_kis"
       },
       {
         "titles": "Länge über Puffer (LüP)",
-        "propertyUrl": "http://example.org/laengeueberpuffer"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/lange_uber_puffer_lup"
       },
       {
         "titles": "Länge über Zug",
-        "propertyUrl": "http://example.org/laengeueberzug"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/lange_uber_zug"
       },
       {
         "titles": "Notsitze klappbar",
-        "propertyUrl": "http://example.org/notsitzeklappbar"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/notsitze_klappbar"
       },
       {
         "titles": "Plätze Rollstühle NR/R Total",
@@ -204,55 +204,55 @@
       },
       {
         "titles": "Restaurationsplätze WR",
-        "propertyUrl": "http://example.org/restaurationsplaetze"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/restaurationsplatze_wr"
       },
       {
         "titles": "Restaurationsplätze WR pro Zug",
-        "propertyUrl": "http://example.org/restaurationsplaetzezug"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/restaurationsplatze_wr_pro_zug"
       },
       {
         "titles": "Salon-Sofa",
-        "propertyUrl": "http://example.org/salonsofa"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/salon_sofa"
       },
       {
         "titles": "Sitzpl. 1.Kl. (AFZ)",
-        "propertyUrl": "http://example.org/sitzplatz1klafz"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzpl_1_kl_afz"
       },
       {
         "titles": "Sitzpl. 1.Kl. Nichtraucher",
-        "propertyUrl": "http://example.org/sitzplatz1klnr"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzpl_1_kl_nichtraucher"
       },
       {
         "titles": "Sitzpl. 2.Kl. (AFZ)",
-        "propertyUrl": "http://example.org/sitzplatz2klafz"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzpl_2_kl_afz"
       },
       {
         "titles": "Sitzpl. 2.Kl. klappbar",
-        "propertyUrl": "http://example.org/sitzplatz2klklappbar"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzpl_2_kl_klappbar"
       },
       {
         "titles": "Sitzpl. 2.Kl. Nichtraucher",
-        "propertyUrl": "http://example.org/sitzplatz2klnr"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzpl_2_kl_nichtraucher"
       },
       {
         "titles": "Sitzplätze 1.Kl. NR Zug",
-        "propertyUrl": "http://example.org/sitzplatz1klnrzugtotal"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzplatze_1_kl_nr_zug"
       },
       {
         "titles": "Sitzplätze 1.Kl. Total  Zug",
-        "propertyUrl": "http://example.org/sitzplatz1kltotalzug"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzplatze_1_kl_total_zug"
       },
       {
         "titles": "Sitzplätze 2.Kl. NR Zug",
-        "propertyUrl": "http://example.org/sitzplatz2klnrzugtotal"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzplatze_2_kl_nr_zug"
       },
       {
         "titles": "Sitzplätze 2.Kl. Total  Zug",
-        "propertyUrl": "http://example.org/sitzplatz2klzugtotal"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzplatze_2_kl_total_zug"
       },
       {
         "titles": "Sitzplätze pro Wagen Total",
-        "propertyUrl": "http://example.org/sitzplatzwagentotal"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzplatze_pro_wagen_total"
       },
       {
         "titles": "Sitzplätze pro Zug Total",
@@ -260,7 +260,7 @@
       },
       {
         "titles": "Sitzplätze Total (AFZ)",
-        "propertyUrl": "http://example.org/sitzplatztotal"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzplatze_total_afz"
       },
       {
         "titles": "Sitzpl. 1.Kl. NR/R Total",
@@ -272,52 +272,52 @@
       },
       {
         "titles": "Sitzpl. Bestuhlungsart",
-        "propertyUrl": "http://example.org/bestuhlungsart"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzpl_bestuhlungsart"
       },
       {
         "titles": "Sitzplätze Business pro Wagen",
-        "propertyUrl": "http://example.org/sitzplatzbusiness"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzplatze_business_pro_wagen"
       },
       {
         "titles": "Ski- & Snowboardhalter",
-        "propertyUrl": "http://example.org/skisnowboard"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/ski_snowboardhalter"
       },
       {
         "titles": "Stehplätze auf Plattform",
-        "propertyUrl": "http://example.org/stehplaetzeplattform"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/stehplatze_auf_plattform"
       },
       {
         "titles": "Velo-Spanngurt (Stehplatzzone)",
-        "propertyUrl": "http://example.org/velospanngurt"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/velo_spanngurt_stehplatzzone"
       },
       {
         "titles": "Veloabteil",
-        "propertyUrl": "http://example.org/veloabteil"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/veloabteil"
       },
       {
         "titles": "Velohaken",
-        "propertyUrl": "http://example.org/velohaken"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/velohaken"
       },
       {
         "titles": "Veloplattform",
-        "propertyUrl": "http://example.org/veloplattform"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/veloplattform"
       },
       {
         "titles": "Veloständer",
-        "propertyUrl": "http://example.org/velostaender"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/velostander"
       },
       {
         "titles": "Video/Audio-Anlage",
-        "propertyUrl": "http://example.org/videoaudio"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/video_audio_anlage"
       },
       {
         "titles": "Vmax betrieblich zugelassen",
-        "propertyUrl": "http://example.org/vmax"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/vmax_betrieblich_zugelassen"
       },
       {
         "virtual": true,
-        "propertyUrl": "rdf:type",
-        "valueUrl": "http://example.org/RollingStock"
+        "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "valueUrl": "http://lod.opentransportdata.swiss/vocab/RollingStock"
       }
     ]
   }
