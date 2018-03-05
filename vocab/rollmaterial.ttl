@@ -1,0 +1,564 @@
+@base <http://lod.opentransportdata.swiss/vocab/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<RollingStockSeatTyp>
+    a rdfs:Class, owl:Class ;
+    dc:description "Art und Weise wie die Stühle im Wagen angeordnet sind"@de ;
+    skos:prefLabel "Bestuhlsart (Struktur)"@de .
+
+<RollingStockTypStructure>
+    a rdfs:Class, owl:Class ;
+    dc:description "Dient der Gruppierung der Fahrzeuge, zB Loks 10, Triebzug 13, Steuerwagen 15, Triebwagen 17, Reisezugwagen 20 etc."@de ;
+    skos:prefLabel "Fahrzeug-Art (Struktur)"@de .
+
+<RollingStockTypStructure/10>
+    a rdf:Property ;
+    dc:description "Mit einem Antriebssystem ausgestattetes Schienenfahrzeug, das antriebslose Fahrzeuge bewegt, selbst aber in der Regel nicht für den Transport von Personen oder Gütern ausgerüstet ist."@de ;
+    skos:prefLabel "Lok"@de, "locomotiva"@it, "locomotive"@en, "locomotive"@fr .
+
+<RollingStockTypStructure/13>
+    a rdf:Property ;
+    skos:description "Fix zusammengesetzte Zugskompositionen mit Lok, Wagen und Steuerwagen, die vor- und rückwärts fahren können. Es ist deshalb kein Lokwechsel in Sackbahnhöfen notwendig (= Pendelverkehr)."@de ;
+    skos:prefLabel "Triebzug"@de .
+
+<RollingStockTypStructure/15>
+    a rdf:Property ;
+    skos:description "Reisezugwagen mit eingebautem Führerstand, von welchem aus die Fernsteuerung unbesetzter Triebfahrzeuge  möglich ist."@de ;
+    skos:prefLabel "Steuerwagen"@de .
+
+<RollingStockTypStructure/17>
+    a rdf:Property ;
+    skos:description "Der Triebwagen bezeichnet Eisenbahnfahrzeuge oder eine Gruppe von Eisenbahnfahrzeugen mit eigenem Antrieb, die anders als Lokomotiven nicht primär zum Befördern von angekuppelten Wagen dienen, sondern selbst Fahrgäste oder Fracht aufnehmen."@de ;
+    skos:prefLabel "Triebwagen"@de .
+
+<RollingStockTypStructure/20>
+    a rdf:Property ;
+    skos:description "Eisenbahnfahrzeug ohne eigenen Antrieb, das zur Beförderung von Personen eingesetzt wird."@de ;
+    skos:prefLabel "Triebwagen"@de .
+
+<RollingStockTypStructure/22>
+    a rdf:Property ;
+    skos:description "Spezialfahrzeug welches nicht dem planmässigen Personentransport dient"@de ;
+    skos:prefLabel "Spezialfahrzeug"@de .
+
+<RollingStockTypStructure/32>
+    a rdf:Property ;
+    skos:description "Rollmaterial für Lösch- und Rettungszwecke"@de ;
+    skos:prefLabel "Rettungsfahrzeug"@de .
+
+<RollingStockTypStructure/gemischt_normal-Flugzeug>
+    dc:description "immer zwei Sitze hintereinander."@de ;
+    a rdf:Property ;
+    skos:prefLabel "gemischt normal-Flugzeug"@de .
+
+<RollingStockTypStructure/lose>
+    dc:description "Die Stühle stehen lose im Wagen ."@de ;
+    a rdf:Property ;
+    skos:prefLabel "lose"@de .
+
+<RollingStockTypStructure/normal_Zick-Zack>
+    dc:description "immer zwei Sitze hintereinander."@de ;
+    a rdf:Property ;
+    skos:prefLabel "normal/Zick-Zack"@de .
+
+<RollingStockTypStructure/normal_vis-a-vis>
+    dc:description "in der 2. Klasse sind die je Sitze gegenüber, in der 1 Klasse auf der einen Seite des Ganges 2 Sitze gegenüber und auf der anderen Seite je ein Sitz."@de ;
+    a rdf:Property ;
+    skos:prefLabel "normal vis-à-vis"@de .
+
+<abteile_1_kl_nichtraucher>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl der Fensterachsen nach UIC"@de ;
+    skos:prefLabel "Abteile 1.Kl. Nichtraucher"@de .
+
+<abteile_2_kl_nichtraucher>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl der Fensterachsen nach UIC"@de ;
+    skos:prefLabel "Abteile 2.Kl. Nichtraucher"@de .
+
+<abteile_2_kl_raucher>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl der Fensterachsen nach UIC"@de ;
+    skos:prefLabel "Abteile 2.Kl. Raucher"@de .
+
+<ansage_system_speicher>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Was für eine Art von Lautsprecherdurchsage gibt es."@de ;
+    skos:prefLabel "Ansage -System/-Speicher"@de .
+
+<anzahl_abteil_langtische>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Langtische = Tische, die von der Wand bis zum Gang reichen"@de ;
+    skos:prefLabel "Anzahl Abteil-Langtische"@de .
+
+<anzeigeblinkleuchte_durchsage>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Blinksignal während einer Lautsprecher Durchsage"@de ;
+    skos:prefLabel "Anzeigeblinkleuchte Durchsage"@de .
+
+<audio_anlage>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "zB für Musikwiedergabe in Sonderzügen etc"@de ;
+    skos:prefLabel "Audio-Anlage"@de .
+
+<aussenanzeigen_front_kis>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Anzeige des Ziels stirnseitig"@de ;
+    skos:prefLabel "Aussenanzeigen Front (KIS)"@de .
+
+<aussenanzeigen_front_kis_st>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Anzahl der Anzeigen"@de ;
+    skos:prefLabel "Aussenanzeigen Front (KIS) St"@de .
+
+<barstuhle>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Sonderausstattung für Salonwagen"@de ;
+    skos:prefLabel "Barstühle"@de .
+
+<bartheke>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Sonderausstattung für Salonwagen"@de ;
+    skos:prefLabel "Bartheke"@de .
+
+<baudatum_fahrzeug>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range xsd:dateTime ;
+    skos:description "entspricht dem Abnahmedatum des Fahrzeuges."@de ;
+    skos:prefLabel "Baudatum Fahrzeug"@de .
+
+<beistellstuhle>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Sonderausstattung für Salonwagen"@de ;
+    skos:prefLabel "Beistellstühle"@de .
+
+<bildschirm_2_kis_st>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl der zweiten Bildschirme"@de ;
+    skos:prefLabel "Bildschirm 2 (KIS) St"@de .
+
+<bildschirm_kis>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Art der Bildschirme für das Kundeninformationssystem"@de ;
+    skos:prefLabel "Bildschirm (KIS)"@de .
+
+<bildschirm_kis_st>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl des ersten Bildschirm"@de ;
+    skos:prefLabel "Bildschirm (KIS) St"@de .
+
+<dienst_raum_abteil>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Existiert ein Abteil für das Dienstpersonal"@de ;
+    skos:prefLabel "Dienst -Raum/-Abteil"@de .
+
+<druckertuchtigt>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "verhindert zB den Knall beim Einfahren in einen Tunnel"@de ;
+    skos:prefLabel "Druckertüchtigt"@de .
+
+<eigengewicht_tara>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:decimal ;
+    skos:description "Gewicht des betriebstauglichen leeren Fahrzeuges."@de ;
+    skos:prefLabel "Eigengewicht (Tara)"@de .
+
+<eigengewicht_tara_zug>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Gewicht des betriebstauglichen leeren Zuges/Triebzuges"@de ;
+    skos:prefLabel "Eigengewicht (Tara) Zug"@de .
+
+<el_anschluss_230_v_anzahl_od>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Steckdosen im Oberdeck "@de ;
+    skos:prefLabel "El Anschluss 230 V Anzahl (OD)"@de .
+
+<el_anschluss_230_v_anzahl_ud>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Steckdosen im Unterdeck, bei einstöckigen Wagen sind die Steckdosen dem Unterdeck zugeordnet"@de ;
+    skos:prefLabel "El Anschluss 230 V Anzahl UD"@de .
+
+<fahrgastzahleinrichtung_afz>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Einrichtung zum Zählen der Fahrgäste. Wird für die Abrechnung mit dem Besteller (Kanton) verwendet."@de ;
+    skos:prefLabel "Fahrgastzähleinrichtung AFZ"@de .
+
+<fahrzeug_art_struktur>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:decimal ;
+    skos:description " Dient der Gruppierung der Fahrzeuge, zB Loks 10, Triebzug 13, Steuerwagen 15, Triebwagen 17, Reisezugwagen 20 etc."@de ;
+    skos:prefLabel "Fahrzeug-Art (Struktur)"@de .
+
+<fahrzeug_typ>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Er typisiert eine Baureihe des Rollmaterials. Der Fahrzeug-Typ wird in der Formation verwendet"@de ;
+    skos:prefLabel "Fahrzeug-Typ"@de .
+
+<fis_fahrgastinformationssystem>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Art des Fahrgastinformationssystem"@de ;
+    skos:prefLabel "FIS Fahrgastinformationssystem"@de .
+
+<gepackraum_ladeflache>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Gepäckraum Fläche in m2"@de ;
+    skos:prefLabel "Gepäckraum-Ladefläche"@de .
+
+<gepacktragerart>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Art des Gepäckträger -Längsträger, Gepäckträger über Sitzbank, Längsgepäckträger gemäss DIN5510"@de ;
+    skos:prefLabel "Gepäckträgerart"@de .
+
+<in_train_aussen>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Art und Weise der Kommunikationsanbindung gegen aussen (Mobilifunk-Netz)"@de ;
+    skos:prefLabel "In-Train aussen"@de .
+
+<in_train_innen>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Art und Weise der Kommunikationsanbindung innerhalb des Wagens"@de ;
+    skos:prefLabel "In-Train innen"@de .
+
+<in_train_versorgung>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Art In-Train Versorgung, -Strahlungskabel, -GSM 900"@de ;
+    skos:prefLabel "In-Train-Versorgung"@de .
+
+<innenanzeigen_matrix_kis>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Art der Innenanzeigen "@de ;
+    skos:prefLabel "Innenanzeigen (Matrix, KIS)"@de .
+
+<innenanzeigen_matrix_kis_st>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl der Innenanzeigen"@de ;
+    skos:prefLabel "Innenanzeigen (Matrix, KIS) St"@de .
+
+<klappsitze_total_pro_zug>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl der Klappsitze "@de ;
+    skos:prefLabel "Klappsitze total pro Zug"@de .
+
+<komfortanlage_fuhrerraum>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Klimatisierung des Führerstandes"@de ;
+    skos:prefLabel "Komfortanlage Führerraum"@de .
+
+<komfortanlage_gepackabteil>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Klimatisierung des Gepackraumes"@de ;
+    skos:prefLabel "Komfortanlage Gepäckabteil"@de .
+
+<komfortanlage_passagierraum>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Klimatisierung des Passagierraums"@de ;
+    skos:prefLabel "Komfortanlage Passagierraum"@de .
+
+<kundeninformationssystem_kis>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Art des Kundeninformationssystem vorhanden"@de ;
+    skos:prefLabel "Kundeninformationssystem KIS"@de .
+
+<lange_uber_puffer_lup>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Länge über Puffer – Gesamtlänge des Wagens"@de ;
+    skos:prefLabel "Länge über Puffer (LüP)"@de .
+
+<lange_uber_zug>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Länge über Zug"@de ;
+    skos:prefLabel "Länge über Zug"@de .
+
+<larmarm>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Wichtig für den Preis der Trasse. Diese ist abhängig davon, ob man einen tieferen oder höheren Preis bezahlen muss"@de ;
+    skos:prefLabel "Lärmarm"@de .
+
+<notsitze_klappbar>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Notsitze klappbar"@de ;
+    skos:prefLabel "Notsitze klappbar"@de .
+
+<restaurationsplatze_wr>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Restaurationsplätze Speisewagen"@de ;
+    skos:prefLabel "Restaurationsplätze WR"@de .
+
+<restaurationsplatze_wr_pro_zug>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Restaurationsplätze Speisewagen pro Zug"@de ;
+    skos:prefLabel "Restaurationsplätze WR pro Zug"@de .
+
+<rollingstockidentifier>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Fahrzeugnummer Identifikation des Rollmaterials. Ist so im Fahrzeugregister des BAV abgelegt"@de ;
+    skos:prefLabel "Objekt"@de .
+
+<salon_sofa>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Salon-Sofa"@de ;
+    skos:prefLabel "Salon-Sofa"@de .
+
+<sitzpl_1_kl_afz>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Sitzplätze 1.Klasse (AFZ)"@de ;
+    skos:prefLabel "Sitzpl. 1.Kl. (AFZ)"@de .
+
+<sitzpl_1_kl_nichtraucher>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Sitzplätze 1.Klasse Nichtraucher"@de ;
+    skos:prefLabel "Sitzpl. 1.Kl. Nichtraucher"@de .
+
+<sitzpl_1_kl_nr_r_total>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Sitzplätze 1.Kl. NR/R Total"@de ;
+    skos:prefLabel "Sitzpl. 1.Kl. NR/R Total"@de .
+
+<sitzpl_2_kl_afz>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Sitzplätze 2.Klasse (AFZ)"@de ;
+    skos:prefLabel "Sitzpl. 2.Kl. (AFZ)"@de .
+
+<sitzpl_2_kl_klappbar>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Sitzplätze 2.Klasse klappbar"@de ;
+    skos:prefLabel "Sitzpl. 2.Kl. klappbar"@de .
+
+<sitzpl_2_kl_nichtraucher>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Sitzplätze 2.Klasse Nichtraucher"@de ;
+    skos:prefLabel "Sitzpl. 2.Kl. Nichtraucher"@de .
+
+<sitzpl_2_kl_nr_r_total>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Sitzplätze 2.Kl. NR/R Total"@de ;
+    skos:prefLabel "Sitzpl. 2.Kl. NR/R Total"@de .
+
+<sitzpl_bestuhlungsart>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Art der Bestuhlung, -normal vis-à-vis, -gemischt Normal/Zickzack, -gemischt normal/Flugzeug"@de ;
+    skos:prefLabel "Sitzpl. Bestuhlungsart"@de .
+
+<sitzplatze_1_kl_nr_zug>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Sitzplätze 1.Klasse Nichtraucher im ganzen Zug"@de ;
+    skos:prefLabel "Sitzplätze 1.Kl. NR Zug"@de .
+
+<sitzplatze_1_kl_total_zug>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Sitzplätze 1.Klasse Total im ganzen Zug"@de ;
+    skos:prefLabel "Sitzplätze 1.Kl. Total Zug"@de .
+
+<sitzplatze_2_kl_nr_zug>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Sitzplätze 2. Klasse Nichtraucher im ganzen Zug"@de ;
+    skos:prefLabel "Sitzplätze 2.Kl. NR Zug"@de .
+
+<sitzplatze_2_kl_total_zug>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Sitzplätze in der 2. Klasse Total im ganzen Zug"@de ;
+    skos:prefLabel "Sitzplätze 2.Kl. Total Zug"@de .
+
+<sitzplatze_business_pro_wagen>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Anzahl der Sitzplätze Business pro Wagen"@de ;
+    skos:prefLabel "Sitzplätze Business pro Wagen"@de .
+
+<sitzplatze_pro_wagen_total>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Sitzplätze pro Wagen Total"@de ;
+    skos:prefLabel "Sitzplätze pro Wagen Total"@de .
+
+<sitzplatze_total_afz>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Sitzplätze Total (AFZ) - Verwendung für automatische Fahrgast Zählung"@de ;
+    skos:prefLabel "Sitzplätze Total (AFZ)"@de .
+
+<ski_snowboardhalter>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl der Ski- & Snowboardhalter"@de ;
+    skos:prefLabel "Ski- & Snowboardhalter"@de .
+
+<stehplatze_auf_plattform>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Stehplätze auf Plattform"@de ;
+    skos:prefLabel "Stehplätze auf Plattform"@de .
+
+<velo_spanngurt_stehplatzzone>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Velo-Spanngurte in der Stehplatzzone "@de ;
+    skos:prefLabel "Velo-Spanngurt (Stehplatzzone)"@de .
+
+<veloabteil>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Veloabteilung vorhanden"@de ;
+    skos:prefLabel "Veloabteil"@de .
+
+<velohaken>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl Velohaken"@de ;
+    skos:prefLabel "Velohaken"@de .
+
+<veloplattform>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Ist eine Veloplattform vorhanden"@de ;
+    skos:prefLabel "Veloplattform"@de .
+
+<velostander>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl der Veloständer"@de ;
+    skos:prefLabel "Veloständer"@de .
+
+<video_audio_anlage>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Art der Video/Audio Anlage"@de ;
+    skos:prefLabel "Video/Audio-Anlage"@de .
+
+<vmax_betrieblich_zugelassen>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "max. zugelassene Geschwindigkeit im Betrieb"@de ;
+    skos:prefLabel "Vmax betrieblich zugelassen"@de .
+
