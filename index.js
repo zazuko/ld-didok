@@ -34,30 +34,9 @@ function convertCsvw (filename) {
   })
 }
 
-function convertXlsx (filename, sheet, metadata) {
-  const filenameInput = 'input/' + filename
-  // const filenameMetadata = filenameInput + '-metadata.json'
-  const filenameMetadata = 'input/' + metadata
-  const filenameOutput = 'target/' + path.basename(filename, '.xlsx') + '.' + path.basename(metadata, '.csv-metadata.json') + '.nt'
-
-  return p.rdf.dataset().import(p.file.read(filenameMetadata).pipe(p.jsonld.parse())).then((metadata) => {
-    return p.run(p.file.read(filenameInput)
-      .pipe(p.csvw.xlsx.parse({
-        baseIRI: 'file://' + filename,
-        metadata: metadata,
-        sheet: sheet
-      }))
-      .pipe(p.ntriples.serialize())
-      .pipe(p.file.write(filenameOutput)))
-  })
-}
-
 const filenames = [
- // 'didok.csv',
+  'didok.csv',
   'rollmaterial.csv'
-]
-
-const xlsxSources = [
 ]
 
 p.run(() => {
@@ -67,12 +46,6 @@ p.run(() => {
     console.log('convert: ' + filename)
 
     return convertCsvw(filename)
-  })
-}).then(() => {
-  return p.Promise.serially(xlsxSources, (source) => {
-    console.log('convert: ' + source.filename + ' ' + source.sheet)
-
-    return convertXlsx(source.filename, source.sheet, source.metadata)
   })
 }).then(() => {
   console.log('done')
