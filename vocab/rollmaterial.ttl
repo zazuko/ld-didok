@@ -135,6 +135,20 @@
     skos:description "Anzahl der Anzeigen"@de ;
     skos:prefLabel "Aussenanzeigen Front (KIS) St"@de .
 
+<Aussenanzeigen_seite_kis>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Anzeige des Ziels an der Seite des Zuges"@de ;
+    skos:prefLabel "Aussenanzeigen Seite (KIS))"@de .
+
+<Aussenanzeigen_seite_kis_st>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Anzahl der Anzeigne des Ziels an der Seite des Zuges"@de ;
+    skos:prefLabel "Anzahl Aussenanzeigen Seite (KIS))"@de .      {
+        
 <barstuhle>
     a rdf:Property ;
     rdfs:domain <RollingStock> ;
@@ -365,6 +379,22 @@
     rdfs:range rdfs:integer ;
     skos:description "Anzahl Notsitze klappbar"@de ;
     skos:prefLabel "Notsitze klappbar"@de .
+   
+<plaetzerollstuehle_total_nr_r>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl der Rollstuhlplätze im Wagen"@de ;
+    skos:prefLabel "Anzahl Rollstuhlplätze NR/R"@de .
+        
+<plaetzerollstuehle_total_zug>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:integer ;
+    skos:description "Anzahl der Rollstuhlplätze im Zug"@de ;
+    skos:prefLabel "Anzahl Rollstuhlplätze Zug"@de .        
+        
+         
 
 <restaurationsplatze_wr>
     a rdf:Property ;
@@ -484,6 +514,14 @@
     rdfs:range rdfs:string ;
     skos:description "Anzahl der Sitzplätze Business pro Wagen"@de ;
     skos:prefLabel "Sitzplätze Business pro Wagen"@de .
+
+<sitzplatze_zug_total>
+    a rdf:Property ;
+    rdfs:domain <RollingStock> ;
+    rdfs:range rdfs:string ;
+    skos:description "Anzahl der Sitzplätze im Zug"@de ;
+    skos:prefLabel "Sitzplätze im Zug"@de .
+
 
 <sitzplatze_pro_wagen_total>
     a rdf:Property ;
