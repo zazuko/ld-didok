@@ -13,7 +13,7 @@ function convertCsvw (filename) {
         metadata: metadata
       }))
       .pipe(p.filter((quad) => {
-        return quad.object.value !== 'undefined'
+        return typeof quad.object.value !== 'undefined'
       }))
       .pipe(p.map((quad) => {
         const subject = quad.subject
