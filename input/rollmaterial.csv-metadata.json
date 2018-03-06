@@ -5,7 +5,7 @@
     "delimiter": ";"
   },
   "tableSchema": {
-    "aboutUrl": "http://lod.opentransportdata.swiss/rollingstock/{Objekt}",
+    "aboutUrl": "http://lod.opentransportdata.swiss/rollingStock/{Objekt}",
     "null":"undefined",
     "columns": [
       {
