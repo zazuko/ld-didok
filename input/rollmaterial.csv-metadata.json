@@ -197,11 +197,11 @@
       },
       {
         "titles": "Plätze Rollstühle NR/R Total",
-        "propertyUrl": "http://lod.opentransportdata.swiss/vocab//plaetzerollstuehle_total_nr_r"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/plaetzerollstuehle_total_nr_r"
       },
       {
         "titles": "Plätze Rollstühle pro Zug",
-        "propertyUrl": "http://lod.opentransportdata.swiss/vocab//plaetzerollstuehle_total_zug"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/plaetzerollstuehle_total_zug"
       },
       {
         "titles": "Restaurationsplätze WR",
