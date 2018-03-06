@@ -16,10 +16,15 @@ function convertCsvw (filename) {
         return typeof quad.object.value !== 'undefined'
       }))
       .pipe(p.map((quad) => {
-        const subject = quad.subject
-        const predicate = quad.predicate
-        const object = quad.object
+        let subject = quad.subject
+        let predicate = quad.predicate
+        let object = quad.object
         let quads = []
+
+        if (subject.termType === 'NamedNode' && subject.value.startsWith('http://lod.opentransportdata.swiss/rollingStock/')) {
+          const newUri = subject.value.replace(/(%20|-)/g, '/')
+          subject = p.rdf.namedNode(newUri)
+        }
 
         if (predicate.value === 'http://purl.org/dc/terms/identifier') {
           if (object.value.length < 5) {
