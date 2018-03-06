@@ -265,7 +265,7 @@
       },
       {
         "titles": "Sitzpl. 1.Kl. NR/R Total",
-        "propertyUrl": "sitzplatze_1_kl_total_zug"
+        "propertyUrl": "http://lod.opentransportdata.swiss/vocab/sitzplatze_1_kl_total_zug"
       },
       {
         "titles": "Sitzpl. 2.Kl. NR/R Total",

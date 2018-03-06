@@ -147,7 +147,7 @@
     rdfs:domain <RollingStock> ;
     rdfs:range rdfs:string ;
     skos:description "Anzahl der Anzeigne des Ziels an der Seite des Zuges"@de ;
-    skos:prefLabel "Anzahl Aussenanzeigen Seite (KIS))"@de .      {
+    skos:prefLabel "Anzahl Aussenanzeigen Seite (KIS)"@de .
         
 <barstuhle>
     a rdf:Property ;
