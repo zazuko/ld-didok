@@ -1,8 +1,8 @@
 {
   "@context": "http://www.w3.org/ns/csvw",
-  "url": "https://data.sbb.ch/explore/dataset/betriebspunkte-didok/download/?format=csv&timezone=Europe/Berlin&use_labels_for_header=true&fields=nummer,abkuerzung,tunummer,tuabkuerzung,bp,vpp,vpg,verkehrsmittel,namel,geopos,didok85,koordz,abk_gemeinde",
+  "url": "https://data.sbb.ch/api/v2/catalog/datasets/betriebspunkte-didok/exports/csv?delimiter=,&select=nummer,abkuerzung,tunummer,tuabkuerzung,bp,vpp,vpg,verkehrsmittel,namel,geopos,didok85,koordz,abk_gemeinde",
   "dialect": {
-    "delimiter": ";"
+    "delimiter": ","
   },
   "tableSchema": {
     "aboutUrl": "http://lod.opentransportdata.swiss/didok/{didok85}",
