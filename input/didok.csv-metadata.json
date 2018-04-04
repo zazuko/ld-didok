@@ -9,11 +9,11 @@
     "null":"undefined",
     "columns": [
       {
-        "titles": "Name",
+        "titles": "namel",
         "propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label"
       },
       {
-        "titles": "Abkuerzung",
+        "titles": "abkuerzung",
         "propertyUrl": "http://schema.org/alternateName"
       },
       {
@@ -21,7 +21,7 @@
         "propertyUrl": "http://example.org/latlong"
       },
       {
-        "titles": "Nummer",
+        "titles": "nummer",
         "suppressOutput": true
       },
       {
@@ -29,19 +29,19 @@
         "propertyUrl": "http://purl.org/dc/terms/identifier"
       },
       {
-        "titles": "Verkehrsmittel",
+        "titles": "verkehrsmittel",
         "propertyUrl": "http://example.org/verkehrsmittel"
       },
       {
-        "titles": "VPP",
+        "titles": "vpp",
         "suppressOutput": true
       },
       {
-        "titles": "BP",
+        "titles": "bp",
         "suppressOutput": true
       },
       {
-        "titles": "VPG",
+        "titles": "vpg",
         "suppressOutput": true
       },
       {
@@ -70,12 +70,12 @@
         "suppressOutput": true
       },
       {
-        "titles": "TUNummer",
+        "titles": "tunummer",
         "propertyUrl": "http://example.org/tunummer"
 
       },
       {
-        "titles": "TUAbkuerzung",
+        "titles": "tuabkuerzung",
         "propertyUrl": "http://example.org/tuabkuerzung"
       },
       {
