@@ -14,7 +14,7 @@ INSERT { GRAPH <http://example.org/inference> {
   ?station owl:sameAs ?wdstation 
   
 }}
-WHERE {
+WHERE { GRAPH <http://example.com/didok> {
  
     # Todo does that only get train stations right now?
     SERVICE <https://query.wikidata.org/sparql> {
@@ -28,4 +28,4 @@ WHERE {
     ?station a schema:CivicStructure ;
         dct:identifier ?didok .
   
-}
+}}
