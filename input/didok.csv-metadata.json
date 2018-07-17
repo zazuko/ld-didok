@@ -1,6 +1,6 @@
 {
   "@context": "http://www.w3.org/ns/csvw",
-  "url": "https://data.sbb.ch/api/v2/catalog/datasets/betriebspunkte-didok/exports/csv?delimiter=,&select=nummer,abkuerzung,tunummer,tuabkuerzung,bp,vpp,vpg,verkehrsmittel,namel,geopos,didok85,koordz,abk_gemeinde",
+  "url": "https://data.sbb.ch/api/v2/catalog/datasets/betriebspunkte-didok/exports/csv?delimiter=,&select=nummer,abkuerzung,tunummer,tuabkuerzung,bp,vpp,vpg,verkehrsmittel,namel,geopos,didok85,koordz,gdenummer",
   "dialect": {
     "delimiter": ","
   },
