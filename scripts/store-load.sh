@@ -1,0 +1,3 @@
+echo https://gitlab.zazuko.com/alod/alod-data/-/jobs/$CI_JOB_ID/artifacts/download?private_token=$ARTIFACTS_DOWNLOAD_TOKEN
+#curl -n -X POST -u zazuko:$STORE_PASSWORD --data timeout=1000000  --data-urlencode update="CLEAR GRAPH <http://data.alod.ch/graph/bar> " https://test.lindas-data.ch:8443/alod/update
+#curl -n -X POST -u zazuko:$STORE_PASSWORD --data timeout=1000000  --data-urlencode update="LOAD <https://sos-ch-dk-2.exo.io/zazuko-ingress/alod/everything.nt.gz> INTO GRAPH <http://data.alod.ch/graph/bar>" https://test.lindas-data.ch:8443/alod/update
