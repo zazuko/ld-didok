@@ -27,7 +27,7 @@
     "void-timestamp": "./scripts/void-timestamp.sh",
     "put-everything-test": "env ENDPOINT=https://test.lindas-data.ch:8443/lindas ./scripts/lindas-put-everything.sh",
     "put-everything-prod": "env ENDPOINT=https://lindas-data.ch:8443/lindas ./scripts/lindas-put-everything.sh",
-    "store-load": "./scripts/store-load.sh",
+    "store-s3": "./scripts/store-s3.sh",
     "build": "npm-run-all clean fetch-didok fetch-rollmaterial convert clean-didok clean-rollmaterial void-timestamp tdb-load tdb-query tdb-dump validate-riot",
     "build-cache": "npm-run-all clean convert clean-didok clean-rollmaterial void-timestamp tdb-load tdb-query tdb-dump validate-riot"
   }
