@@ -63,7 +63,7 @@ validate_riot_job:
     - npm run validate-riot
   artifacts:
     paths:
-      - target/everything.nt
+      - target/everything.nt.gz
     expire_in: 1 day
 
 post_test_job:
@@ -73,3 +73,4 @@ post_test_job:
 #    - develop
   script:
     - npm run store-load
+    
