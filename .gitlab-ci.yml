@@ -38,10 +38,12 @@ convert_job:
     - npm run convert
     - npm run clean-didok
     - npm run clean-rollmaterial
+    - npm run void-timestamp
   artifacts:
     paths:
       - target/didok-clean.nt
       - target/rollmaterial-clean.nt
+      - target/void.ttl
     expire_in: 1 hour
 
 staging_tdb_job:
