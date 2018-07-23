@@ -1,6 +1,6 @@
 image: zazukoians/node-java-jena
 before_script:
-  - scripts/bootstrap.sh
+#  - scripts/bootstrap.sh
   - npm install
 
 
@@ -70,4 +70,4 @@ post_test_job:
 #    - tags
 #    - develop
   script:
-    - npm run didok-lindas-test
+    - npm run store-load
