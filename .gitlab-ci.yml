@@ -54,7 +54,7 @@ staging_tdb_job:
     - npm run tdb-dump
   artifacts:
     paths:
-      - target/everything.nt
+      - target/everything.nt.gz
     expire_in: 1 day
 
 validate_riot_job:
