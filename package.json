@@ -23,7 +23,7 @@
     "tdb-load": "tdbloader --loc=target/tdb --graph=http://example.com/didok vocab/rollmaterial.ttl input/static.ttl target/void.ttl target/didok-clean.nt target/rollmaterial-clean.nt",
     "tdb-query": "./scripts/tdb-query.sh",
     "tdb-dump": "./scripts/tdb-dump.sh",
-    "validate-riot": "riot --validate target/everything.nt && gzip target/everything.nt",
+    "validate-riot": "riot --validate target/everything.nt.gz",
     "void-timestamp": "./scripts/void-timestamp.sh",
     "put-everything-test": "env ENDPOINT=https://test.lindas-data.ch:8443/lindas ./scripts/lindas-put-everything.sh",
     "put-everything-prod": "env ENDPOINT=https://lindas-data.ch:8443/lindas ./scripts/lindas-put-everything.sh",
