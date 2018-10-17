@@ -8,6 +8,7 @@
     "url": "git@github.com:zazuko/ld-didok.git"
   },
   "dependencies": {
+    "@rmlio/yarrrml-parser": "^0.2.1",
     "barnard59": "git+https://github.com/zazuko/barnard59.git#master",
     "json": "^9.0.6",
     "npm-run-all": "^4.1.2"
@@ -17,7 +18,9 @@
     "clean": "rm -rf target/*",
     "fetch-didok": "curl -s `node node_modules/json/lib/json.js url -f input/didok.csv-metadata.json` -o input/didok.csv",
     "fetch-rollmaterial": "curl -s `node node_modules/json/lib/json.js url -f input/rollmaterial.csv-metadata.json` -o input/rollmaterial.csv",
+    "fetch-carml": "mkdir -p tmp/lib && curl -L https://github.com/netage/carml-cli/releases/download/cli-0.0.4/cli-0.0.4-SNAPSHOT-jar-with-dependencies.jar -o tmp/lib/carml-cli.jar",
     "convert": "mkdir -p target && node index.js",
+    "convert-place": "mkdir -p target && java -jar tmp/lib/carml-cli.jar -i input/shops.xml -m config/place.ttl -of ntriples -o target/place.nt",
     "clean-didok": "cat target/didok.nt | sed '/_:/d' | sed '/<file/d' > target/didok-clean.nt",
     "clean-rollmaterial": "cat target/rollmaterial.nt | sed '/_:/d' | sed '/<file/d' > target/rollmaterial-clean.nt",
     "tdb-load": "tdbloader --loc=target/tdb --graph=http://example.com/didok vocab/rollmaterial.ttl input/static.ttl target/void.ttl target/didok-clean.nt target/rollmaterial-clean.nt",
