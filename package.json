@@ -30,7 +30,8 @@
     "void-timestamp": "./scripts/void-timestamp.sh",
     "put-everything-test": "env ENDPOINT=https://test.lindas-data.ch:8443/lindas ./scripts/lindas-put-everything.sh",
     "put-everything-prod": "env ENDPOINT=https://lindas-data.ch:8443/lindas ./scripts/lindas-put-everything.sh",
-    "store-s3": "./scripts/store-s3.sh",
+    "didok-integ-s3": "ENDPOINT=http://data.zazuko.com/lindas STORE_USER=$STORE_USER_INTEG STORE_PASSWORD=$STORE_PASSWORD_INTEG ./scripts/store-s3.sh",
+    "didok-prod-s3": "ENDPOINT=https://lindas-data.ch:8443/lindas STORE_USER=$STORE_USER_PROD STORE_PASSWORD=$STORE_PASSWORD_PROD ./scripts/store-s3.sh",
     "build": "npm-run-all clean fetch-didok fetch-rollmaterial convert clean-didok clean-rollmaterial void-timestamp tdb-load tdb-query tdb-dump validate-riot",
     "build-cache": "npm-run-all clean convert clean-didok clean-rollmaterial void-timestamp tdb-load tdb-query tdb-dump validate-riot"
   }
