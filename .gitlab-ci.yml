@@ -72,4 +72,4 @@ post_test_job:
 #    - tags
 #    - develop
   script:
-    - npm run didok-integ-s3
+    - npm run didok-prod-s3
