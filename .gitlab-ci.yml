@@ -18,9 +18,11 @@ fetch_didok_job:
   stage: fetch
   script:
     - npm run fetch-didok
+    - npm run fetch-shops
   artifacts:
     paths:
       - input/didok.csv
+      - input/shops.xml
     expire_in: 30 minutes
 
 fetch_rollmaterial_job:
