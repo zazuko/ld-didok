@@ -9,7 +9,7 @@
     "null":"undefined",
     "columns": [
       {
-        "titles": "namel",
+        "titles": "dst_bezeichnung_offiziell",
         "propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label"
       },
       {
