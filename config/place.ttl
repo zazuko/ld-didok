@@ -1,5 +1,6 @@
 @base  <http://mapping.example.com/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
@@ -10,7 +11,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix schema: <http://schema.org/> .
 
-<#PlaceMapping> a rr:TriplesMap ;
+<#Place> a rr:TriplesMap ;
   rml:logicalSource [
     rml:source [
       a carml:Stream ;
@@ -20,7 +21,7 @@
   ] ;
 
   rr:subjectMap [
-    rr:template "https://lod.opentransportdata.swiss/place/{ibnr}/{url_identifier}" ;
+    rr:template "http://lod.opentransportdata.swiss/place/{ibnr}/{url_identifier}" ;
     rr:class schema:Place ;
     rr:termType rr:IRI 
   ] ;
@@ -33,6 +34,13 @@
   ];
 
   rr:predicateObjectMap [
+		rr:predicate schema:description;
+		rr:objectMap [
+			rml:reference "description";	
+		];
+  ];
+
+  rr:predicateObjectMap [
 		rr:predicate schema:containedInPlace;
 		rr:objectMap [
 			rr:template "http://lod.opentransportdata.swiss/didok/{ibnr}";
@@ -40,12 +48,51 @@
 		];
   ];
 
+ rr:predicateObjectMap [
+		rr:predicate schema:openingHours;
+		rr:objectMap [
+			carml:multiReference  "./openhour_container/openhour/time";	
+       rr:datatype xsd:string ;
+		];
+ ];
+
   rr:predicateObjectMap [
 		rr:predicate schema:logo;
 		rr:objectMap [
 			rr:template "http://www.example.org/{logo_svg}";
       rr:termType rr:IRI 
 		];
-  ] .
+  ] ;
+.
+
+<#GeoCoordinates> a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source [
+      a carml:Stream ;
+    ] ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "/root/services/service/geo" 
+  ] ;
+
+  rr:subjectMap [
+    rr:template "http://lod.opentransportdata.swiss/place/{ibnr}/{url_identifier}#geo" ;
+    rr:class schema:Place ;
+    rr:termType rr:IRI 
+  ] ;
 
 
+ rr:predicateObjectMap [
+		rr:predicate schema:latitude;
+		rr:objectMap [
+			rml:reference  './meta[@itemprop="latitude"]/@content';	
+		];
+ ];
+
+ rr:predicateObjectMap [
+		rr:predicate schema:longitude;
+		rr:objectMap [
+			rml:reference  './meta[@itemprop="longitude"]/@content';	
+		];
+ ];
+
+.
