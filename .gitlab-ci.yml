@@ -36,6 +36,8 @@ convert_job:
   stage: convert
   script:
     - npm run convert
+    - npm run fetch-carml
+    - npm run convert-place
     - npm run clean-didok
     - npm run clean-rollmaterial
     - npm run void-timestamp
@@ -44,6 +46,7 @@ convert_job:
       - target/didok-clean.nt
       - target/rollmaterial-clean.nt
       - target/void.ttl
+      - target/place.nt
     expire_in: 1 hour
 
 staging_tdb_job:
