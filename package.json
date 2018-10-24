@@ -18,7 +18,7 @@
     "clean": "rm -rf target/*",
     "fetch-didok": "curl -s `node node_modules/json/lib/json.js url -f input/didok.csv-metadata.json` -o input/didok.csv",
     "fetch-rollmaterial": "curl -s `node node_modules/json/lib/json.js url -f input/rollmaterial.csv-metadata.json` -o input/rollmaterial.csv",
-    "fetch-shops": "curl -s http://ktk.netlabs.org/misc/rdf/shops.xml -o input/shops.xml",
+    "fetch-shops": "curl -s  -u $SHOPUSER:$SHOPPASSWORD https://stations.sbb.cartaro-enterprise.com/de/api/export/services.xml -o input/shops.xml",
     "fetch-carml": "mkdir -p tmp/lib && curl -L https://github.com/netage/carml-cli/releases/download/cli-0.0.5/cli-0.0.5-SNAPSHOT-jar-with-dependencies.jar -o tmp/lib/carml-cli.jar",
     "convert": "mkdir -p target && node index.js",
     "convert-place": "mkdir -p target && java -jar tmp/lib/carml-cli.jar -i input/shops.xml -m config/place.ttl -of nt -o target/place.nt",
