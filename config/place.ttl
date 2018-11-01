@@ -63,6 +63,14 @@
       rr:termType rr:IRI 
 		];
   ] ;
+
+  rr:predicateObjectMap [
+		rr:predicate schema:geo;
+		rr:objectMap [
+			rr:template "http://lod.opentransportdata.swiss/place/{ibnr}/{url_identifier}#geo" ;
+      rr:termType rr:IRI 
+		];
+  ] ;
 .
 
 <#GeoCoordinates> a rr:TriplesMap ;
@@ -71,12 +79,12 @@
       a carml:Stream ;
     ] ;
     rml:referenceFormulation ql:XPath ;
-    rml:iterator "/root/services/service/geo" 
+    rml:iterator "/root/services/service" 
   ] ;
 
   rr:subjectMap [
     rr:template "http://lod.opentransportdata.swiss/place/{ibnr}/{url_identifier}#geo" ;
-    rr:class schema:Place ;
+    rr:class schema:GeoCoordinates ;
     rr:termType rr:IRI 
   ] ;
 
@@ -84,14 +92,14 @@
  rr:predicateObjectMap [
 		rr:predicate schema:latitude;
 		rr:objectMap [
-			rml:reference  './meta[@itemprop="latitude"]/@content';	
+			rml:reference  './geo/meta[@itemprop="latitude"]/@content';	
 		];
  ];
 
  rr:predicateObjectMap [
 		rr:predicate schema:longitude;
 		rr:objectMap [
-			rml:reference  './meta[@itemprop="longitude"]/@content';	
+			rml:reference  './geo/meta[@itemprop="longitude"]/@content';	
 		];
  ];
 
