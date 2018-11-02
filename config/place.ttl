@@ -92,7 +92,8 @@
   rr:predicateObjectMap [
 		rr:predicate schema:url;
 		rr:objectMap [
-			rml:reference "./contactinformation/website";	
+			rml:reference "./contactinformation/website";
+      rr:termType rr:IRI 
 		];
  ];
 
