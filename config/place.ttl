@@ -54,7 +54,7 @@
 		rr:predicate schema:openingHours;
 		rr:objectMap [
 			carml:multiReference  "./openhour_container/openhour/time";	
-       rr:datatype xsd:string ;
+      rr:datatype xsd:string ;
 		];
  ];
 
@@ -77,30 +77,55 @@
  rr:predicateObjectMap [
 		rr:predicate schema:telephone;
 		rr:objectMap [
-			carml:multiReference  "./contactinformation/telephone";	
+			carml:multiReference "./contactinformation/telephone";	
 		];
  ];
 
  rr:predicateObjectMap [
 		rr:predicate schema:email;
 		rr:objectMap [
-			carml:multiReference  "./contactinformation/mail";	
+			rml:reference "./contactinformation/mail";	
 		];
  ];
 
   rr:predicateObjectMap [
 		rr:predicate schema:url;
 		rr:objectMap [
-			carml:multiReference  "./contactinformation/website";	
+			rml:reference "./contactinformation/website";	
 		];
  ];
 
   rr:predicateObjectMap [
 		rr:predicate sbb:floor;
 		rr:objectMap [
-			carml:multiReference  "floor";	
+			rml:reference "floor";	
 		];
  ];
+
+  rr:predicateObjectMap [
+    rr:predicate sbb:payment ;
+    rr:objectMap [
+      carml:multiTemplate "http://lod.opentransportdata.swiss/place/payment/{./payment_container/payment/payment_id}" ;
+      rr:termType rr:IRI ;
+    ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate sbb:category ;
+    rr:objectMap [
+      carml:multiTemplate "http://lod.opentransportdata.swiss/place/category/{./category}" ;
+      rr:termType rr:IRI ;
+    ] ;
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate sbb:subcategory ;
+    rr:objectMap [
+      carml:multiTemplate "http://lod.opentransportdata.swiss/place/subcategory/{./subcategory_container/subcategory}" ;
+      rr:termType rr:IRI ;
+    ] ;
+  ] ;
+
 .
 
 <#GeoCoordinates> a rr:TriplesMap ;
