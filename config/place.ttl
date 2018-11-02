@@ -11,7 +11,8 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix sbb: <http://example.org/> .
+@prefix sbb: <http://lod.opentransportdata.swiss/vocab/> .
+@prefix ex: <http://example.org/> .
 
 <#Place> a rr:TriplesMap ;
   rml:logicalSource [
@@ -103,15 +104,15 @@
  ];
 
   rr:predicateObjectMap [
-    rr:predicate sbb:payment ;
+    rr:predicate schema:acceptedPaymentMethod ;
     rr:objectMap [
-      carml:multiTemplate "http://lod.opentransportdata.swiss/place/payment/{./payment_container/payment/payment_id}" ;
+      carml:multiTemplate "http://lod.opentransportdata.swiss/place/paymentMethod/{./payment_container/payment/payment_id}" ;
       rr:termType rr:IRI ;
     ] ;
   ] ;
 
   rr:predicateObjectMap [
-    rr:predicate sbb:category ;
+    rr:predicate ex:category ; # this should probably only be accessible via schema:category
     rr:objectMap [
       carml:multiTemplate "http://lod.opentransportdata.swiss/place/category/{./category}" ;
       rr:termType rr:IRI ;
@@ -119,13 +120,12 @@
   ] ;
 
   rr:predicateObjectMap [
-    rr:predicate sbb:subcategory ;
+    rr:predicate schema:category ;
     rr:objectMap [
       carml:multiTemplate "http://lod.opentransportdata.swiss/place/subcategory/{./subcategory_container/subcategory}" ;
       rr:termType rr:IRI ;
     ] ;
   ] ;
-
 .
 
 <#GeoCoordinates> a rr:TriplesMap ;
@@ -142,7 +142,6 @@
     rr:class schema:GeoCoordinates ;
     rr:termType rr:IRI 
   ] ;
-
 
  rr:predicateObjectMap [
 		rr:predicate schema:latitude;
@@ -229,20 +228,13 @@
   ] ;
   
   rr:subjectMap [
-    rr:template "http://lod.opentransportdata.swiss/place/payment/{@id}" ;
-    rr:class skos:Concept ;
+    rr:template "http://lod.opentransportdata.swiss/place/paymentMethod/{@id}" ;
+    rr:class schema:PaymentMethod ;
     rr:termType rr:IRI 
   ] ;
 
  rr:predicateObjectMap [
-		rr:predicate skos:inScheme;
-		rr:objectMap [
-			rr:constant  "http://lod.opentransportdata.swiss/place/scheme/Payment";
-		];
-];
-
- rr:predicateObjectMap [
-		rr:predicate rdfs:label;
+		rr:predicate schema:name;
 		rr:objectMap [
 			rml:reference  'text()';	
 		];
