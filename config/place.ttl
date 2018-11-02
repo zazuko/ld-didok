@@ -162,4 +162,64 @@
 			rml:reference  'text()';	
 		];
 ];
- .
+.
+
+<#Subcategory> a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source [
+      a carml:Stream ;
+    ] ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "/root/lookup_container/subcategory/subcategory_id" 
+  ] ;
+  
+  rr:subjectMap [
+    rr:template "http://lod.opentransportdata.swiss/place/subcategory/{@id}" ;
+    rr:class skos:Concept ;
+    rr:termType rr:IRI 
+  ] ;
+
+ rr:predicateObjectMap [
+		rr:predicate skos:inScheme;
+		rr:objectMap [
+			rr:constant  "http://lod.opentransportdata.swiss/place/scheme/Subcategory";
+		];
+];
+
+ rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference  'text()';	
+		];
+];
+.
+
+<#Payment> a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source [
+      a carml:Stream ;
+    ] ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "/root/lookup_container/payment/payment_id" 
+  ] ;
+  
+  rr:subjectMap [
+    rr:template "http://lod.opentransportdata.swiss/place/payment/{@id}" ;
+    rr:class skos:Concept ;
+    rr:termType rr:IRI 
+  ] ;
+
+ rr:predicateObjectMap [
+		rr:predicate skos:inScheme;
+		rr:objectMap [
+			rr:constant  "http://lod.opentransportdata.swiss/place/scheme/Payment";
+		];
+];
+
+ rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference  'text()';	
+		];
+];
+.
