@@ -10,6 +10,8 @@
 @prefix carml: <http://carml.taxonic.com/carml/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sbb: <http://example.org/> .
 
 <#Place> a rr:TriplesMap ;
   rml:logicalSource [
@@ -71,6 +73,34 @@
       rr:termType rr:IRI 
 		];
   ] ;
+
+ rr:predicateObjectMap [
+		rr:predicate schema:telephone;
+		rr:objectMap [
+			carml:multiReference  "./contactinformation/telephone";	
+		];
+ ];
+
+ rr:predicateObjectMap [
+		rr:predicate schema:email;
+		rr:objectMap [
+			carml:multiReference  "./contactinformation/mail";	
+		];
+ ];
+
+  rr:predicateObjectMap [
+		rr:predicate schema:url;
+		rr:objectMap [
+			carml:multiReference  "./contactinformation/website";	
+		];
+ ];
+
+  rr:predicateObjectMap [
+		rr:predicate sbb:floor;
+		rr:objectMap [
+			carml:multiReference  "floor";	
+		];
+ ];
 .
 
 <#GeoCoordinates> a rr:TriplesMap ;
@@ -102,5 +132,34 @@
 			rml:reference  './geo/meta[@itemprop="longitude"]/@content';	
 		];
  ];
-
 .
+
+<#Category> a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source [
+      a carml:Stream ;
+    ] ;
+    rml:referenceFormulation ql:XPath ;
+    rml:iterator "/root/lookup_container/category/category_id" 
+  ] ;
+  
+  rr:subjectMap [
+    rr:template "http://lod.opentransportdata.swiss/place/category/{@id}" ;
+    rr:class skos:Concept ;
+    rr:termType rr:IRI 
+  ] ;
+
+ rr:predicateObjectMap [
+		rr:predicate skos:inScheme;
+		rr:objectMap [
+			rr:constant  "http://lod.opentransportdata.swiss/place/scheme/Category";
+		];
+];
+
+ rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [
+			rml:reference  'text()';	
+		];
+];
+ .
