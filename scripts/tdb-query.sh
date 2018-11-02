@@ -2,6 +2,7 @@
 # some INSERTs
 tdbupdate --loc=target/tdb --update=construct/providers.rq
 tdbupdate --loc=target/tdb --update=construct/latlong2wgs84.rq
+tdbupdate --loc=target/tdb --update=construct/schema_latlong2wkt.rq
 tdbupdate --loc=target/tdb --update=construct/stationtype.rq
 tdbupdate --loc=target/tdb --update=construct/sameAs.rq
 tdbupdate --loc=target/tdb --update=construct/wikidata.rq

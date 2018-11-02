@@ -1,0 +1,23 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <http://schema.org/>
+PREFIX wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+INSERT { GRAPH <http://example.org/inference> {
+  ?place geo:hasGeometry ?geometry .
+    
+  ?geometry a geo:Geometry ;
+    geo:asWKT ?pointWkt .
+
+}}
+WHERE { GRAPH <http://example.com/didok> {
+    
+    ?place a schema:Place ;
+      schema:geo/schema:latitude ?lat ;
+      schema:geo/schema:longitude ?long .
+  
+    BIND(STRDT(CONCAT("POINT(", STR(?long), " ", STR(?lat), ")"), geo:wktLiteral) AS ?pointWkt) 
+    BIND(URI(CONCAT(STR(?place), "/geometry")) AS ?geometry)
+
+}}
