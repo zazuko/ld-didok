@@ -1,0 +1,17 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <http://schema.org/>
+PREFIX wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+INSERT { GRAPH <http://example.org/inference> {
+  ?place schema:paymentAccepted ?paymentAccepted .
+}
+WHERE {
+  SELECT ?place (GROUP_CONCAT(?method ;separator=', ') AS ?paymentAccepted ) WHERE {
+    SELECT ?place ?method WHERE { GRAPH <http://example.com/didok> {
+      ?place a schema:Place ;
+        schema:acceptedPaymentMethod/schema:name ?method .
+    }} ORDER BY ?place ?method
+  } GROUP BY ?place
+}

@@ -6,6 +6,7 @@ tdbupdate --loc=target/tdb --update=construct/schema_latlong2wkt.rq
 tdbupdate --loc=target/tdb --update=construct/stationtype.rq
 tdbupdate --loc=target/tdb --update=construct/sameAs.rq
 tdbupdate --loc=target/tdb --update=construct/wikidata.rq
+tdbupdate --loc=target/tdb --update=construct/paymentAccepted.rq
 
 # and after that cleanup
 tdbupdate --loc=target/tdb --update=construct/delete-betriebspunkttyp.rq
