@@ -6,7 +6,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 INSERT { GRAPH <http://example.org/inference> {
   ?place schema:paymentAccepted ?paymentAccepted .
-}
+}}
 WHERE {
   SELECT ?place (GROUP_CONCAT(?method ;separator=', ') AS ?paymentAccepted ) WHERE {
     SELECT ?place ?method WHERE { GRAPH <http://example.com/didok> {
