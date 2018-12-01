@@ -24,7 +24,7 @@
   ] ;
 
   rr:subjectMap [
-    rr:template "http://lod.opentransportdata.swiss/place/{ibnr}/{url_identifier}" ;
+    rr:template "https://lod.opentransportdata.swiss/place/{ibnr}/{url_identifier}" ;
     rr:class schema:Place ;
     rr:termType rr:IRI 
   ] ;
@@ -70,7 +70,7 @@
   rr:predicateObjectMap [
 		rr:predicate schema:geo;
 		rr:objectMap [
-			rr:template "http://lod.opentransportdata.swiss/place/{ibnr}/{url_identifier}#geo" ;
+			rr:template "https://lod.opentransportdata.swiss/place/{ibnr}/{url_identifier}#geo" ;
       rr:termType rr:IRI 
 		];
   ] ;
@@ -107,7 +107,7 @@
   rr:predicateObjectMap [
     rr:predicate schema:acceptedPaymentMethod ;
     rr:objectMap [
-      carml:multiTemplate "http://lod.opentransportdata.swiss/place/paymentMethod/{./payment_container/payment/payment_id}" ;
+      carml:multiTemplate "https://lod.opentransportdata.swiss/place/paymentMethod/{./payment_container/payment/payment_id}" ;
       rr:termType rr:IRI ;
     ] ;
   ] ;
@@ -115,7 +115,7 @@
   rr:predicateObjectMap [
     rr:predicate ex:category ; # this should probably only be accessible via schema:category
     rr:objectMap [
-      carml:multiTemplate "http://lod.opentransportdata.swiss/place/category/{./category}" ;
+      carml:multiTemplate "https://lod.opentransportdata.swiss/place/category/{./category}" ;
       rr:termType rr:IRI ;
     ] ;
   ] ;
@@ -123,7 +123,7 @@
   rr:predicateObjectMap [
     rr:predicate schema:category ;
     rr:objectMap [
-      carml:multiTemplate "http://lod.opentransportdata.swiss/place/subcategory/{./subcategory_container/subcategory}" ;
+      carml:multiTemplate "https://lod.opentransportdata.swiss/place/subcategory/{./subcategory_container/subcategory}" ;
       rr:termType rr:IRI ;
     ] ;
   ] ;
@@ -139,7 +139,7 @@
   ] ;
 
   rr:subjectMap [
-    rr:template "http://lod.opentransportdata.swiss/place/{ibnr}/{url_identifier}#geo" ;
+    rr:template "https://lod.opentransportdata.swiss/place/{ibnr}/{url_identifier}#geo" ;
     rr:class schema:GeoCoordinates ;
     rr:termType rr:IRI 
   ] ;
@@ -169,7 +169,7 @@
   ] ;
   
   rr:subjectMap [
-    rr:template "http://lod.opentransportdata.swiss/place/category/{@id}" ;
+    rr:template "https://lod.opentransportdata.swiss/place/category/{@id}" ;
     rr:class skos:Concept ;
     rr:termType rr:IRI 
   ] ;
@@ -177,7 +177,7 @@
  rr:predicateObjectMap [
 		rr:predicate skos:inScheme;
 		rr:objectMap [
-			rr:constant  "http://lod.opentransportdata.swiss/place/scheme/Category";
+			rr:constant  "https://lod.opentransportdata.swiss/place/scheme/Category";
 		];
 ];
 
@@ -199,7 +199,7 @@
   ] ;
   
   rr:subjectMap [
-    rr:template "http://lod.opentransportdata.swiss/place/subcategory/{@id}" ;
+    rr:template "https://lod.opentransportdata.swiss/place/subcategory/{@id}" ;
     rr:class skos:Concept ;
     rr:termType rr:IRI 
   ] ;
@@ -207,7 +207,7 @@
  rr:predicateObjectMap [
 		rr:predicate skos:inScheme;
 		rr:objectMap [
-			rr:constant  "http://lod.opentransportdata.swiss/place/scheme/Subcategory";
+			rr:constant  "https://lod.opentransportdata.swiss/place/scheme/Subcategory";
 		];
 ];
 
@@ -229,7 +229,7 @@
   ] ;
   
   rr:subjectMap [
-    rr:template "http://lod.opentransportdata.swiss/place/paymentMethod/{@id}" ;
+    rr:template "https://lod.opentransportdata.swiss/place/paymentMethod/{@id}" ;
     rr:class schema:PaymentMethod ;
     rr:termType rr:IRI 
   ] ;
