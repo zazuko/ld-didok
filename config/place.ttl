@@ -127,7 +127,6 @@
       rr:termType rr:IRI ;
     ] ;
   ] ;
-.
 
   rr:predicateObjectMap [
     rr:predicate schema:category ;
